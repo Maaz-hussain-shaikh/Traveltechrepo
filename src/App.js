@@ -1,24 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import Bloge from './component/Blog/Bloge';
+import Tripdetails from './component/MainPage-com/Tripdetails';
+import Navbar from "./Navbar"
+import './Css/App.css';
+import './Css/responcive.css'
+import "./index.css"
+import { Route, Routes } from 'react-router-dom';
+import Footer from './Footer';
+import Mainpage from './component/MainPage-com/Mainpage';
+import Corporate from './component/Corporate-com/Corporate';
+import Franchise from './component/Farnchise-com/Franchise';
+import Travelesm from './component/Travel essential-com/Travelesm';
+import About from './component/About/About';
+import Community from './component/Community/Community';
+import Artist from './component/Blog/Artist';
+import Blogeroute from './component/Blog/Blogeroute';
+import Destination from './component/Destination/Destination';
+import Loader from './Loader';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+      <Navbar/>
+   
+      <Routes>
+        <Route exact path='/' element={<Mainpage/>} />
+        <Route exact path='/Corporate' element={<Corporate/>} />
+        <Route exact path='/About' element={<About/>} />
+        <Route exact path='/Community' element={<Community/>} />
+        <Route exact path='/Franchise' element={<Franchise/>} />
+        <Route exact path='/Travelshop' element={<Travelesm/>} />
+        <Route exact path='/Destinations/:name' element={<Destination/>} />
+        <Route path='/Details/:info' element={<Tripdetails/>} />
+        <Route exact path='/Bloge' element={<Bloge/>} />
+        <Route exact path='/Blog/:content' element={<Blogeroute/>} />
+        <Route exact path='/Artist' element={<Artist/>} />
+        
+       
+      </Routes>
+      <Footer/>
+
+    </>
   );
 }
 
