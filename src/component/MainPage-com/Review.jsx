@@ -9,34 +9,34 @@ import { reviewdata } from "../../Data/CardDetails";
     {reviewdata.slice(0, showCount).map((elem,index)=>{
           return(<>
           
-          <div class="ReviewCard_reviewCardBody__gWHEa mt-4 jCihag">
+          <div className="ReviewCard_reviewCardBody__gWHEa mt-4 jCihag">
         
-        <div class="ReviewCard_reviewCardItem__MhXzk ReviewCard_reviewHead__j8w1I ">
-          <div class="ReviewCard_leftSection__SdWRu ">
+        <div className="ReviewCard_reviewCardItem__MhXzk ReviewCard_reviewHead__j8w1I ">
+          <div className="ReviewCard_leftSection__SdWRu ">
 
-            <div class="ReviewCard_reviewMeta__ThBxo"><div class="ReviewCard_reviewerName__Xc68P">{reviewdata[index].name}</div>
-              <div class="ReviewCard_reviewTimestamp__y0_Fr">Reviewed: {reviewdata[index].tripdate}</div>
+            <div className="ReviewCard_reviewMeta__ThBxo"><div className="ReviewCard_reviewerName__Xc68P">{reviewdata[index].name}</div>
+              <div className="ReviewCard_reviewTimestamp__y0_Fr">Reviewed: {reviewdata[index].tripdate}</div>
             </div>
           </div>
-          <div class="ReviewCard_rightSection___2gjc">
+          <div className="ReviewCard_rightSection___2gjc">
             <span>5.0/5</span>
           </div>
         </div>
-        <div class="ReviewCard_reviewCardItem__MhXzk ReviewCard_productDetail__lheBe">
-          <span>Booked:<span class="uppercase tracking-wide font-semibold text-gray-700 sm:text-sm">  {reviewdata[index].tripname}</span>
+        <div className="ReviewCard_reviewCardItem__MhXzk ReviewCard_productDetail__lheBe">
+          <span>Booked:<span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-sm">  {reviewdata[index].tripname}</span>
           </span>
         </div>
-        <div class="text-lg">{reviewdata[index].comment}
+        <div className="text-lg">{reviewdata[index].comment}
           
         </div>
 
         <div className="flex grid grid-col-2 gap-3 grid-cols-3 sm:grid-cols-6">
-          <img class="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img class="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img class="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img class="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img class="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img class="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
+          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
+          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
+          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
+          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
+          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
+          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
         </div>
 
       </div>

@@ -39,7 +39,7 @@ setsharing("Triple")
 
 
                 <button className="flex items-center bg-accent text-text p-3 text-sm rounded-lg leading-none border hover:text-accent hover:bg-text active:bg-dark focus:outline-none transition ease-in-out duration-100 " onClick={toggleDropdown}>
-                  <i class="fa-solid fa-xmark" ></i>
+                  <i className="fa-solid fa-xmark" ></i>
                 </button>
 
 
@@ -62,9 +62,9 @@ setsharing("Triple")
                     <i className="fa-solid fa-circle-dot"></i>
                     <span className="font-medium">{props.drop}</span>
                   </div>
-                  <span class="inline-flex items-center rounded-md bg-accent bg-gray-100` px-2 mt-4 py-1 mr-1 text-xs font-medium text-orange-600 ring-1 ring-inset ring-orange-600/20"  onClick={()=>{setfunc("Double")}}><i class="fa-solid fa-user-group"></i> Double</span>
-                  <span class="inline-flex items-center rounded-md bg-accent bg-gray-100` px-2 py-1  text-xs mr-1 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={()=>{setfunc("Triple")}}><i class="fa-solid fa-users"></i>Triple</span>
-                  <span class="inline-flex items-center rounded-md bg-accent bg-gray-100` px-2 py-1 text-xs mr-1 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={()=>{setfunc("Quad")}}><i class="fa-solid fa-user-plus"></i>Quad</span>
+                  <span className="inline-flex items-center rounded-md bg-accent bg-gray-100` px-2 mt-4 py-1 mr-1 text-xs font-medium text-orange-600 ring-1 ring-inset ring-orange-600/20"  onClick={()=>{setfunc("Double")}}><i className="fa-solid fa-user-group"></i> Double</span>
+                  <span className="inline-flex items-center rounded-md bg-accent bg-gray-100` px-2 py-1  text-xs mr-1 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={()=>{setfunc("Triple")}}><i className="fa-solid fa-users"></i>Triple</span>
+                  <span className="inline-flex items-center rounded-md bg-accent bg-gray-100` px-2 py-1 text-xs mr-1 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={()=>{setfunc("Quad")}}><i className="fa-solid fa-user-plus"></i>Quad</span>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ setsharing("Triple")
           <div className="flex items-center justify-between  border-accent bg-light px-4 py-2 pointer-events-auto">
             <div className="flex flex-col text-text">
               <div className="flex items-center space-x-2">
-              <i class="fa-solid fa-users-line"></i>
+              <i className="fa-solid fa-users-line"></i>
                 <span className="font-medium text-sm">On {sharing} sharing basis</span>
               </div>
               <span className="font-bold"><strong className="text-orange">₹ {price}</strong></span>

@@ -40,7 +40,7 @@ setsharing("Triple")
                   <span className="text-3xl font-bold ">₹ {price}</span>
 
                 </span>
-                <span class="  text-sm mr-2 font-medium text-orange-600 ">On {sharing} sharing basis</span>
+                <span className="  text-sm mr-2 font-medium text-orange-600 ">On {sharing} sharing basis</span>
                 <div className="mt-4">
                   <div className="flex items-center space-x-2">
                     <i className="fa-solid fa-circle-dot"></i><span className="font-medium">{props.pickup}</span>
@@ -55,9 +55,9 @@ setsharing("Triple")
                     <i className="fa-solid fa-circle-dot"></i>
                     <span className="font-medium">{props.drop}</span>
                   </div>
-                  <span class="inline-flex items-center rounded-md bg-accent bg-white px-2 mt-4 py-2 mr-2 text-sm font-medium text-orange-600 ring-1 ring-inset ring-orange-600/20 cursor-pointer" onClick={()=>{setfunc("Double")}}><i class="fa-solid fa-user-group mr-1"></i> Double</span>
-                  <span class="inline-flex items-center rounded-md bg-accent bg-white  px-3 py-2  text-sm mr-2 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20 cursor-pointer" onClick={()=>{setfunc("Triple")}}><i class="fa-solid fa-users mr-1"></i>Triple</span>
-                  <span class="inline-flex items-center rounded-md bg-accent bg-white  px-3 py-2 text-sm mr-2 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20 cursor-pointer" onClick={()=>{setfunc("Quad")}}><i class="fa-solid fa-user-plus mr-1"></i>Quad</span>
+                  <span className="inline-flex items-center rounded-md bg-accent bg-white px-2 mt-4 py-2 mr-2 text-sm font-medium text-orange-600 ring-1 ring-inset ring-orange-600/20 cursor-pointer" onClick={()=>{setfunc("Double")}}><i className="fa-solid fa-user-group mr-1"></i> Double</span>
+                  <span className="inline-flex items-center rounded-md bg-accent bg-white  px-3 py-2  text-sm mr-2 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20 cursor-pointer" onClick={()=>{setfunc("Triple")}}><i className="fa-solid fa-users mr-1"></i>Triple</span>
+                  <span className="inline-flex items-center rounded-md bg-accent bg-white  px-3 py-2 text-sm mr-2 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20 cursor-pointer" onClick={()=>{setfunc("Quad")}}><i className="fa-solid fa-user-plus mr-1"></i>Quad</span>
                 </div>
 
                 <button className="flex items-center justify-start rounded-lg font-medium leading-none bg-orange active:border-orange text-white hover:text-orange-600 hover:bg-black active:bg-gray-200 active:text-orange-600 py-4 px-6 text-lg border focus:outline-none transition ease-in-out duration-100 disabled:cursor-not-allowed disabled:bg-accent disabled:text-subtitle mt-4" type="button">

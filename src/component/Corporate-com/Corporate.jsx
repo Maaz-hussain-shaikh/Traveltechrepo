@@ -7,7 +7,7 @@ const Corporate = () => {
   return (
     <>
 
-      <section class="max-w-screen-xl w-full mx-auto">
+      <section className="max-w-screen-xl w-full mx-auto">
         <div className="flex flex-wrap sm:flex-no-wrap">
           <div className="w-full sm:w-2/3 ">
             <img
@@ -31,7 +31,7 @@ const Corporate = () => {
                   </label>
                   <div className="w-full gap-10px relative flex items-center">
                     <div className="sc-1697e5a4-1 gUJNjz">
-                      <i class="fa-solid fa-user" style={{ marginTop: "15px", marginLeft: "7px" }}></i>
+                      <i className="fa-solid fa-user" style={{ marginTop: "15px", marginLeft: "7px" }}></i>
                     </div>
                     <input
                       type="text"
@@ -50,7 +50,7 @@ const Corporate = () => {
                   </label>
                   <div className="w-full gap-10px relative flex items-center">
                     <div className="sc-1697e5a4-1 gUJNjz">
-                      <i class="fa-solid fa-envelope" style={{ marginTop: "15px", marginLeft: "7px" }}></i>
+                      <i className="fa-solid fa-envelope" style={{ marginTop: "15px", marginLeft: "7px" }}></i>
                     </div>
                     <input
                       type="email"
@@ -69,7 +69,7 @@ const Corporate = () => {
                   </label>
                   <div className="w-full gap-10px relative flex items-center">
                     <div className="sc-1697e5a4-1 gUJNjz">
-                      <i class="fa-solid fa-phone" style={{ marginTop: "15px", marginLeft: "7px" }}></i>
+                      <i className="fa-solid fa-phone" style={{ marginTop: "15px", marginLeft: "7px" }}></i>
                     </div>
                     <input
                       type="tel"
@@ -81,7 +81,7 @@ const Corporate = () => {
                   </div>
                 </div>
               </div>
-              <button class="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
+              <button className="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
                 I'm Interested!
               </button>
             </form>

@@ -8,7 +8,7 @@ import Worrior from '../MainPage-com/Worrior'
 const About = () => {
   return (
     <>
-      <section class="max-w-screen-xl w-full mx-auto">
+      <section className="max-w-screen-xl w-full mx-auto">
 
 
         <section className="max-w-screen-xl w-full mx-auto relative grid gap-10 px-6 pt-8 sm:px-0 z-1 lg:grid-cols-2">

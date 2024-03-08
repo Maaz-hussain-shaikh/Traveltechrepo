@@ -49,9 +49,9 @@ export default function Tripcard({ title, data }) {
     <>
 
       <div className="card__container">
-        <div class="jCihag LaSZC">
-          <i class="fa-solid fa-arrow-right text-lg" style={{ transform: "rotate(180deg)" }} onClick={() => slider?.current?.slickPrev()}> </i>
-          <i class="fa-solid fa-arrow-right text-lg" onClick={() => slider?.current?.slickNext()}> </i>
+        <div className="jCihag LaSZC">
+          <i className="fa-solid fa-arrow-right text-lg" style={{ transform: "rotate(180deg)" }} onClick={() => slider?.current?.slickPrev()}> </i>
+          <i className="fa-solid fa-arrow-right text-lg" onClick={() => slider?.current?.slickNext()}> </i>
 
         </div>
 
@@ -94,9 +94,9 @@ export default function Tripcard({ title, data }) {
 
         </Slider>
 
-        <div class="jCihag second-arrow">
-          <i class="fa-solid fa-arrow-right text-lg" style={{ transform: "rotate(180deg)" }} onClick={() => slider?.current?.slickPrev()}> </i>
-          <i class="fa-solid fa-arrow-right text-lg" onClick={() => slider?.current?.slickNext()}> </i>
+        <div className="jCihag second-arrow">
+          <i className="fa-solid fa-arrow-right text-lg" style={{ transform: "rotate(180deg)" }} onClick={() => slider?.current?.slickPrev()}> </i>
+          <i className="fa-solid fa-arrow-right text-lg" onClick={() => slider?.current?.slickNext()}> </i>
 
         </div>
 

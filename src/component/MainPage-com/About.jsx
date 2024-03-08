@@ -15,16 +15,16 @@ const About = () => {
 
     return (
         <>
-            <div class="jCihag mb-4" >
-                <div class="max-w-screen-xl w-full mx-auto">
-                    <div class="flex items-stretch w-full flex-col sm:flex-row">
-                        <div class="w-full h-72 sm:h-auto sm:w-1/2 bg-cover bg-no-repeat bg-center" style={imgstyle} >
+            <div className="jCihag mb-4" >
+                <div className="max-w-screen-xl w-full mx-auto">
+                    <div className="flex items-stretch w-full flex-col sm:flex-row">
+                        <div className="w-full h-72 sm:h-auto sm:w-1/2 bg-cover bg-no-repeat bg-center" style={imgstyle} >
                         </div>
-                        <div class="w-full sm:w-1/2 flex flex-col py-8 sm:py-24 sm:pl-8 px-4 sm:px-0">
-                            <span class="uppercase tracking-wide font-semibold text-gray-700 sm:text-lg">List Your Property for Leasing</span>
-                            <h2 class="text-2xl sm:text-4xl font-bold">Great rental deals, zero hassles</h2>
-                            <p class="mt-2 sm:text-lg">Get competitive rental rates for your property without the hassle of engaging in daily operations and management. Lease the property to an exploring entrepreneur and benefit from a stable income.</p>
-                            <button class="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
+                        <div className="w-full sm:w-1/2 flex flex-col py-8 sm:py-24 sm:pl-8 px-4 sm:px-0">
+                            <span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-lg">List Your Property for Leasing</span>
+                            <h2 className="text-2xl sm:text-4xl font-bold">Great rental deals, zero hassles</h2>
+                            <p className="mt-2 sm:text-lg">Get competitive rental rates for your property without the hassle of engaging in daily operations and management. Lease the property to an exploring entrepreneur and benefit from a stable income.</p>
+                            <button className="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
                                 I'm Interested!
                             </button>
                         </div>

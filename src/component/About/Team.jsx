@@ -33,37 +33,37 @@ const Team = () => {
           <div className=" mt-4 max-w-2xl rounded-lg ring-1 ring-gray-200 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
             <div className="p-8 sm:p-10 lg:flex-auto ">
 
-              <figcaption class="" onMouseEnter={() => handleHover('images/CEOsimg/Ceo.jpg','Salman Shaikh',"Founder & CEO")}
+              <figcaption className="" onMouseEnter={() => handleHover('images/CEOsimg/Ceo.jpg','Salman Shaikh',"Founder & CEO")}
                 onClick={() => handleClick('images/CEOsimg/Ceo.jpg','Salman Shaikh',"Founder & CEO")}>
-                <img class="mx-auto h-10 w-10 rounded-full" src="images\CEOsimg\Ceo.jpg" alt="" />
-                <div class="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div class="font-semibold text-gray-900">Salman Shaikh</div>
-                  <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+                <img className="mx-auto h-10 w-10 rounded-full" src="images\CEOsimg\Ceo.jpg" alt="" />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-gray-900">Salman Shaikh</div>
+                  <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" className="fill-gray-900">
                     <circle cx="1" cy="1" r="1" />
                   </svg>
-                  <div class="text-gray-600">Founder & CEO of Travel Tech</div>
+                  <div className="text-gray-600">Founder & CEO of Travel Tech</div>
                 </div>
               </figcaption>
-              <figcaption class="mt-10" onMouseEnter={() => handleHover('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80','Farhan Shaikh',"Co-Founder & Salse Head")}
+              <figcaption className="mt-10" onMouseEnter={() => handleHover('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80','Farhan Shaikh',"Co-Founder & Salse Head")}
                 onClick={() => handleClick('https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80','Farhan Shaikh',"Co-Founder & Salse Head")}>
-                <img class="mx-auto h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
-                <div class="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div class="font-semibold text-gray-900">Farhan Shaikh</div>
-                  <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+                <img className="mx-auto h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-gray-900">Farhan Shaikh</div>
+                  <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" className="fill-gray-900">
                     <circle cx="1" cy="1" r="1" />
                   </svg>
-                  <div class="text-gray-600">Co-funder of Travel Tech</div>
+                  <div className="text-gray-600">Co-funder of Travel Tech</div>
                 </div>
               </figcaption>
-              <figcaption class="mt-10" onMouseEnter={() => handleHover('images/CEOsimg/Cto.jpg','Maaz Hussain',"CTO & Sales Head")}
+              <figcaption className="mt-10" onMouseEnter={() => handleHover('images/CEOsimg/Cto.jpg','Maaz Hussain',"CTO & Sales Head")}
                 onClick={() => handleClick('images/CEOsimg/Cto.jpg','Maaz Hussain',"CTO & Sales Head")}>
-                <img class="mx-auto h-10 w-10 rounded-full" src="images/CEOsimg/Cto.jpg" alt="" />
-                <div class="mt-4 flex items-center justify-center space-x-3 text-base">
-                  <div class="font-semibold text-gray-900">Maaz Hussain</div>
-                  <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+                <img className="mx-auto h-10 w-10 rounded-full" src="images/CEOsimg/Cto.jpg" alt="" />
+                <div className="mt-4 flex items-center justify-center space-x-3 text-base">
+                  <div className="font-semibold text-gray-900">Maaz Hussain</div>
+                  <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" className="fill-gray-900">
                     <circle cx="1" cy="1" r="1" />
                   </svg>
-                  <div class="text-gray-600">CTO & Sales Head </div>
+                  <div className="text-gray-600">CTO & Sales Head </div>
                 </div>
               </figcaption>
 
@@ -76,12 +76,12 @@ const Team = () => {
                     src={currentimg}
                     className="h-full w-full object-cover rounded-lg object-center" alt="CEOs"
                   />
-                  <div class="mt-2 flex items-center justify-center space-x-3 text-base">
-                    <div class="font-semibold text-gray-900">{currenname}</div>
-                    <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" class="fill-gray-900">
+                  <div className="mt-2 flex items-center justify-center space-x-3 text-base">
+                    <div className="font-semibold text-gray-900">{currenname}</div>
+                    <svg viewBox="0 0 2 2" width="3" height="3" aria-hidden="true" className="fill-gray-900">
                       <circle cx="1" cy="1" r="1" />
                     </svg>
-                    <div class="text-gray-600">{post}</div>
+                    <div className="text-gray-600">{post}</div>
                   </div>
                 </div>
               </div>

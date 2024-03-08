@@ -24,14 +24,14 @@ const Triphistory = () => {
                             </div>
                             <div className="flex items-center justify-between flex-col w-full mt-6 sm:flex-row">
                                 
-                                <div class="sc-bc080d9d-5 iyAsbr">
-                <div class="dGGiAq">
+                                <div className="sc-bc080d9d-5 iyAsbr">
+                <div className="dGGiAq">
 
-                    <i class="fa-solid fa-location-dot"></i>
-                    <div class="fediun"><h4 class="text-white text-sm">Location</h4><p class="text-sm text-white font-semibold">Japan</p></div></div><div class="dGGiAq">
-                    <i class="fa-regular fa-user"></i>
-                    <div class="fediun"><h4 class="text-white text-sm">No. of People</h4>
-                        <p class="text-sm text-white font-semibold">200+ Peoples</p>
+                    <i className="fa-solid fa-location-dot"></i>
+                    <div className="fediun"><h4 className="text-white text-sm">Location</h4><p className="text-sm text-white font-semibold">Japan</p></div></div><div className="dGGiAq">
+                    <i className="fa-regular fa-user"></i>
+                    <div className="fediun"><h4 className="text-white text-sm">No. of People</h4>
+                        <p className="text-sm text-white font-semibold">200+ Peoples</p>
                     </div>
                 </div>
             </div>
