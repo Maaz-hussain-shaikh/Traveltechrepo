@@ -1,4 +1,7 @@
 /* ============================hidden navbar================================= */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 .hidden-bar{
   display: none;
 }

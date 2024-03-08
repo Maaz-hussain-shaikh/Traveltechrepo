@@ -8,7 +8,7 @@ function Tripbutton() {
   return (
     <>
 
-      <h1 className="mt-4 text-2xl font-black text-orange-600 sm:text-4xl"><span className="jCihag"><span>| </span>{heading}</span></h1>
+      <h1 className="mt-4 text-2xl font-black text-orange-600 font-bold sm:text-4xl"><span className="jCihag"><span>| </span>{heading}</span></h1>
 
       <div className="nearby-destinations__destinations-bar jCihag">
         <span className="nearby-destinations__destinations-bar-item rounded-lg" onClick={() => { update("Group Departures") }}>Group Departures</span>
