@@ -13,7 +13,7 @@ const Tripinformation = (props) => {
   const updateParentState = () => {
     setshow(!show);
   };
-  const { name, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ } = props.Data;
+  const { name, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ ,imgurl} = props.Data;
   return (
     <>
 
@@ -24,12 +24,12 @@ const Tripinformation = (props) => {
               <section class="relative w-full h-full shadow-md ">
                 <div class="grid grid-cols-2 grid-rows-2 gap-1 sm:rounded-lg overflow-hidden w-full h-full" onClick={() => { setshow(!show) }}>
                   <div class="w-full h-full row-span-1 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
-                    <img src="https://img.cdn.zostel.com/zostel/gallery/images/SAReimRtRpeYxcwZL8vFqw/zostel-alleppey-20221008133041.jpg?w=1280" alt="Zostel Alleppey" class="object-cover object-center w-full h-full" /></div><div class="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
-                    <img src="https://img.cdn.zostel.com/zostel/gallery/images/LEZzomqOSqaKSwTTUro54Q/zostel-alleppey-20221008133126.jpg?w=1280" alt="Zostel Alleppey" class="object-cover object-center w-full h-full" />
+                    <img src={imgurl[0].imgurl1} alt="destination" class="object-cover object-center w-full h-full" /></div><div class="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
+                    <img src={imgurl[0].imgurl2} alt="destination" class="object-cover object-center w-full h-full" />
                   </div>
                   <div class="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
-                    <button class="absolute bottom-0 right-0 flex items-center p-4 m-4 mr-12 rounded-lg bg-light hover:bg-accent"><i class="mr-2 material-icons">image</i> View all</button>
-                    <img src="https://img.cdn.zostel.com/zostel/gallery/images/Gbh02XezR4G76ChVBSLyOg/zostel-alleppey-20240301100222.jpg?w=1280" alt="Zostel Alleppey" class="object-cover object-center w-full h-full" />
+                    <button class="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent"> View all</button>
+                    <img src={imgurl[0].imgurl3} alt="destination" class="object-cover object-center w-full h-full" />
                   </div>
                 </div>
               </section>
