@@ -16,8 +16,8 @@ function Costomercare() {
                     </div>
                   </div>
                   <div className="col-7 col-md-7 col-lg-6 m-auto px-md-5 text-md-center p-3 inboubtsbox">
-                    <h4 className=" mb-1.5 text-2xl sm:text-4xl font-bold">In doubt? Can't decide? </h4>
-                    <p className="t-content mb-1">Don't hesitate &amp; hand over your queries to our travel experts and let them assist you with their authentic traveling insights.</p>
+                    <h4 className=" mb-1.5 text-2xl sm:text-4xl font-bold">Lost in Wanderlust? </h4>
+                    <p className="t-content mb-1">Don't hesitate &amp; Hit the Button Below and Let's Find Your Perfect Adventure!</p>
                     <a type="button" data-bs-toggle="modal" data-bs-target="#callBackForm" aria-current="page" className="reachus active" href="/">Reach out to us</a>
                   </div>
                 </div>

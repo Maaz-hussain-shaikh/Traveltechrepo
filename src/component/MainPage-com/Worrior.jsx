@@ -41,7 +41,7 @@ const Worrior = () => {
                 erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris
                 semper sed amet vitae sed turpis id.
               </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              <ul className="mt-8 space-y-8 text-gray-600">
                 
                 
                 <li className="flex gap-x-3">

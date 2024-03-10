@@ -133,13 +133,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className="fixed bottom-24 right-8 z-30 lg:block">
-
-                <Link target="_blank" className="my-4 block rounded-full bg-green-100 p-3" href="https://wa.me/8982001240?text=Hi Travel tech! I am interested in Fixed departure Tours.">
-                    <i className="fa-brands fa-whatsapp" style={{ fontSize: "22px" }}></i>
-                </Link>
-
-            </div>
+          
 
         </>
     );

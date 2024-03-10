@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./mainpage.css"
 
-import Adsection from './Adsection'
+import Ranking from './Ranking'
 
 
 
 const Header = () => {
+  const [selectedTab, setSelectedTab] = useState('all');
+
+  const handleTabChange = (value) => {
+    setSelectedTab(value);
+  };
   return (
+
     <>
       <div className="max-w-screen-xl w-full mx-auto mttop  h-98 sm:h-144 ">
         <div className="relative w-full h-full ">
@@ -21,51 +27,103 @@ const Header = () => {
 
 
 
-      <section className="bg-orange  max-w-4xl mx-auto mttop -mt-32 relative z-30 rounded-lg">
-        <section className="max-w-screen-xl w-full mx-auto py-12 px-2">
-          <section className="w-full grid gap-1 grid-cols-2 sm:grid-cols-5">
-            <div className="flex flex-col items-center">
-              <div className="flex items-baseline">
-              <i className="fa-solid fa-person-walking-luggage text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
-                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white font-bold">75+</span>
+
+      <section className="max-w-screen-xl w-full mx-auto flex flex-col items-center flex-shrink-0 w-full  ">
+        <div className="flex flex-col items-center w-full max-w-5xl px-4 scroll-hidden sm:hidden">
+
+
+          <div className="flex dsb flex-col w-full items-center sm:items-end sm:flex-row  rounded-b-lg sm:p-8  border-t-2 shadow-lg">
+
+            <div className="flex items-end w-full sm:w-1/3 sm:mr-2 flex-shrink-0  relative -mt-16 sm:mt-0">
+
+              <div className="grid flex-no-wrap w-full grid-cols-2 grid-rows-3 overflow-auto rounded-t-lg  sm:hidden">
+                <label className=" w-full sm:w-auto flex items-center justify-center cursor-pointer col-span-2 border-b-2 bg-orange-600">
+
+
+
+                  <div className=" flex-shrink-1 relative z-2 text-white text-center mr-4">
+
+                    <div className="flex items-baseline">
+                      <i className="fa-solid fa-icons  font-black text-white mr-2 "></i>
+                      <span className=" font-bold font-black text-white">20k+
+                      </span>
+                    </div>
+                    <span className="text-white text-sm font-semibold ">Community</span>
+                  </div>
+                  <div className=" flex-shrink-1 relative z-2 text-white mr-4 text-center">
+
+                    <div className="flex items-baseline">
+                      <i className="fa-regular fa-thumbs-up  font-black text-white mr-1 "></i>
+                      <span className=" font-bold font-black text-white">4.5/5
+                      </span>
+                    </div>
+                    <span className="text-white text-sm font-semibold ">Rating</span>
+                  </div>
+                  <div className=" flex-shrink-1 relative z-2 text-white mr-4 text-center">
+
+                    <div className="flex items-baseline ">
+                      <i className="fa-solid fa-person-walking-luggage  font-black text-white mr-1 "></i>
+                      <span className=" font-bold font-black text-white">100k+
+                      </span>
+                    </div>
+                    <span className="text-white text-sm  font-semibold ">User</span>
+                  </div>
+
+                  <div className=" flex-shrink-1 relative z-2 text-white  text-center">
+
+                    <div className="flex items-baseline">
+                      <i className="fa-solid fa-map-location-dot  font-black text-white mr-2 "></i>
+                      <span className=" font-bold font-black text-white">25+
+                      </span>
+                    </div>
+                    <span className="text-white text-sm font-semibold ">Destination</span>
+                  </div>
+
+
+
+
+
+                  <input type="radio" name="tab" className="hidden" value="all" checked={selectedTab === 'all'} onChange={() => handleTabChange('all')} />
+
+                </label>
+                <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-2 border-b-2 border-r-2">
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Group Trips</span>
+                  <input type="radio" name="tab" className="hidden" value="hostel" checked={selectedTab === 'hostel'} onChange={() => handleTabChange('hostel')} />
+                  <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
+                </label>
+                <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-2 border-b-2 border-r-2">
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Global Trips</span>
+                  <input type="radio" name="tab" className="hidden" value="plus" checked={selectedTab === 'plus'} onChange={() => handleTabChange('plus')} />
+                  <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
+                </label>
+                <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-3 border-r-2">
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Honymoon Trips</span>
+                  <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'} onChange={() => handleTabChange('homes')} />
+                  <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
+                </label>
+                <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-3 border-r-2">
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Plan your <br />Own Trip</span>
+                  <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'} onChange={() => handleTabChange('homes')} />
+                  <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
+                </label>
               </div>
-              <span className="text-white sm:text-lg font-semibold mt-4">Hostels &amp; Homes</span>
+
             </div>
-            <div className="flex flex-col items-center">
-              <div className="flex items-baseline">
-              <i className="fa-solid fa-map-location-dot text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
-                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white font-bold">25+</span>
-              </div>
-              <span className="text-white sm:text-lg font-semibold mt-4">Regions Unlocked</span>
-            </div>
-            <div className="flex flex-col items-center mt-8 sm:mt-0">
-              <div className="flex items-baseline">
-              <i className="fa-solid fa-person-walking-luggage text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
-                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-bold font-black text-white">100<span className="text-2xl sm:text-4xl">k+</span>
-                </span>
-              </div>
-              <span className="text-white sm:text-lg font-semibold mt-3">Travellers Hosted</span>
-            </div>
-            <div className="flex flex-col items-center mt-8 sm:mt-0">
-              <div className="flex items-baseline"><i className="fa-regular fa-thumbs-up text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
-                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white font-bold">4.5<span className="text-2xl">/5</span>
-                </span>
-              </div>
-              <span className="text-white sm:text-lg font-semibold mt-4">Average Rating</span>
-            </div>
-            <div className="flex flex-col items-center mt-8 sm:mt-0 col-span-2 sm:col-span-1">
-              <div className="flex items-baseline">
-              <i className="fa-solid fa-icons text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
-                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white font-bold">20k+</span>
-              </div>
-              <span className="text-white sm:text-lg font-semibold mt-4">Social Community</span>
-            </div>
-          </section>
-        </section>
-        
+
+          </div>
+        </div>
       </section>
-      <Adsection imgsrc="images/Firstpageimgs/Adtemp.png"/>
-      
+
+
+
+
+
+      <div className="mob-hide">
+
+        <Ranking />
+      </div>
+     
+
     </>
   )
 }

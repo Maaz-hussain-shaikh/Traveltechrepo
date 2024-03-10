@@ -17,13 +17,11 @@ const Corporate = () => {
             />
           </div>
           <div className="flex flex-col w-full p-4 bg-gray-100 rounded-lg shadow-md sm:w-1/3 h-content">
-            <p className="mb-2 text-xl font-bold">BECOME A ZOSTELER</p>
+            <p className="mb-2 text-xl font-bold">Elevate Your Corporate Travel!</p>
             <p>
-              brand-new MICE Tourism.
-              Say bye to those boring boardroom gatherings and say hello
-              to an era where business meets adventure.
+              We understand the importance of seamless corporate travel arrangements and the value of fostering strong partnerships
             </p>
-            <form >
+            <form className='mt-2'>
               <div className="max-h-100px">
                 <div className="kpOaoh">
                   <label htmlFor="name" className="fhucTq">
@@ -96,25 +94,36 @@ const Corporate = () => {
             <div className="foUrhR jCihag">
               <div className="dwReTq">
                 <div className="gFyKbD">
-                  <h2 className="kbkTjD">
-                    <span>Ditch</span> <span>the</span> <span className='text-orange' style={{ fontSize: "50px" }}>Boring</span>{' '}
-                    <span style={{ fontWeight: 700 }}>Business</span>{' '}
-                    <span style={{ fontWeight: 700 }} >Trips!</span>
+                  <h2 className="kbkTjD text-4xl">
+                    <span className='text-orange' style={{ fontSize: "25px" }}>Make Every Trip an Adventure!</span><br />
+                    <span style={{ fontWeight: 500 }}>Redefine Corporate</span>
+                    <span style={{ fontWeight: 500 }} >Trips!</span>
                   </h2>
                 </div>
                 <div className="sc-ca1c3a09-7 hYjroz">
-                  Rewrite Your Corporate Trip Story with Us!
+                  Empower Your Employees with Unforgettable Experiences
                 </div>
                 <div className="iiqXBP">
                   <div className="dJHiPQ">
                     <div className="jqSoxA">
                       <p>
-                        Give your Corporate Trips a much-needed change and add a
-                        dash of adventure with WanderOn’s brand-new MICE Tourism.
-                        Say bye to those boring boardroom gatherings and say hello
-                        to an era where business meets adventure.
+                        Welcome to Travel tech, where we offer unique opportunities for corporate and college trips. Regardless of whether you're a company owner, teacher, student, or employee, you can partner with us to earn while providing amazing travel experiences. Let us handle all the management aspects, including bookings and travel tech, while you focus on organizing the trip.
                       </p>
 
+                      <strong>Benefits of Partnering with Us:</strong><br /><br />
+                      <strong>Open to All: </strong>
+                      <p>You don't need to own a company or be a teacher to organize a trip. Anyone, including students, employees, CEOs, and more, can join us.</p><br />
+                      <strong>Earn Money Easily</strong><br />
+                      <p>Partnering with us allows you to earn effortlessly. We offer special B2B rates to corporate partners, ensuring profitability without much effort on your part.</p>
+                      <strong>Full Support:</strong><br />
+                      <p> Our dedicated team provides comprehensive support, handling all aspects of management. From bookings to travel tech, we've got you covered.</p><br /><br />
+                      <strong>Flexible Options:</strong><br />
+                      <p>We offer flexible trip options tailored to your needs. Whether it's a corporate retreat or a college excursion, we customize the trip to suit your requirements.</p><br /><br />
+                      <strong>
+                      No Hassle Management:
+                      </strong><br />
+                      <p>With us, you don't have to worry about the intricacies of trip management. We take care of everything, leaving you free to focus on organizing a memorable trip.</p>
+                      
                     </div>
                     <span className="SDmkW">Read More...</span>
                   </div>
@@ -174,7 +183,7 @@ const Corporate = () => {
         </section>
 
       </section>
-      <Qualitycorporate/>
+      <Qualitycorporate />
       <Triphistory />
       <Review />
 

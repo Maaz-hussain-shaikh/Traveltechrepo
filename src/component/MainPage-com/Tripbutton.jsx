@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import Tripcard from './Tripcard'
-
 import {Cardfirst} from "../../Data/CardDetails"
+
 function Tripbutton() {
   const [heading, update] = useState("Group Departures");
-  const [current, upcard] = useState(Cardfirst)
+  const [current, upcard] = useState(Cardfirst);
+  
   return (
     <>
 

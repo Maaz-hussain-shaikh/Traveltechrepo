@@ -13,36 +13,72 @@ const Tripinformation = (props) => {
   const updateParentState = () => {
     setshow(!show);
   };
-  const { name, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ ,imgurl} = props.Data;
+  const { name, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl } = props.Data;
   return (
     <>
 
       {
-        show ? <><Imgcomponent updateParentState={updateParentState} imgurl={imgurl[0]}/>
+        show ? <><Imgcomponent updateParentState={updateParentState} imgurl={imgurl[0]} />
         </> : <>
-        <section className="max-w-screen-xl w-full mx-auto  h-96 sm:h-120 sm:block moblie" >
-              <section className="relative w-full h-full shadow-md ">
-                <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:rounded-lg overflow-hidden w-full h-full" onClick={() => { setshow(!show) }}>
-                  <div className="w-full h-full row-span-1 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
-                    <img src={imgurl[0].imgurl1} alt="destination" className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
-                    <img src={imgurl[0].imgurl2} alt="destination" className="object-cover object-center w-full h-full" />
-                  </div>
-                  <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
-                    <button className="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent"> View all</button>
-                    <img src={imgurl[0].imgurl3} alt="destination" className="object-cover object-center w-full h-full" />
-                  </div>
+
+          <section className="max-w-screen-xl w-full mx-auto mttop h-98 sm:h-144 sm:block hidden">
+            <section className="relative w-full h-full shadow-md">
+              <div className="grid grid-cols-4 grid-rows-3 gap-1 sm:rounded-lg overflow-hidden w-full h-full">
+                <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img
+                    src={imgurl[0].imgurl1}
+                    className="object-cover object-center w-full h-full"
+                  />
                 </div>
-              </section>
+                <div className="w-full h-full row-span-3 col-span-3  fade-expand-appear-done fade-expand-enter-done">
+                  <img
+                    src={imgurl[0].imgurl2}
+                    alt="Destination"
+                    className="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img
+                    src={imgurl[0].imgurl3}
+                    alt="Destination"
+                    className="object-cover object-center w-full h-full"
+                  />
+                </div>
+                <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img
+                    src={imgurl[0].imgurl4}
+                    alt="destination"
+                    className="object-cover object-center w-full h-full"
+                  />
+                </div>
+
+              </div>
+              <button className="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent" onClick={() => { setshow(!show) }}> View all</button>
             </section>
+          </section>
+
+          <section className="max-w-screen-xl w-full mx-auto  h-96 sm:h-120  sm:hidden" >
+            <section className="relative w-full h-full shadow-md ">
+              <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:rounded-lg overflow-hidden w-full h-full" >
+                <div className="w-full h-full row-span-1 col-span-2  fade-expand-appear-done fade-expand-enter-done">
+                  <img src={imgurl[0].imgurl1} alt="destination" className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img src={imgurl[0].imgurl2} alt="destination" className="object-cover object-center w-full h-full" />
+
+                </div>
+                <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <button className="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent" onClick={() => { setshow(!show) }}> View all</button>
+                  <img src={imgurl[0].imgurl3} alt="destination" className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl2} alt="destination" className="object-cover object-center w-full h-full" />
+                </div>
+              </div>
+            </section>
+          </section>
+
+
+
+
+
           <div className="max-w-screen-xl w-full mx-auto px-4 sm:px-0">
-
-            
-
-
-
-
-
-
             <div className="flex relative flex-col pt-2 sm:flex-row">
               <div className="flex-shrink-0 w-full sm:w-2/3 sm:mr-4 sm:mb-4">
                 <Brief name={name} brief={brief} />

@@ -54,40 +54,40 @@ const Cardfirst = {
 
 const destinationard = {
     "Kashmir":{
-        url: "images/tripcard/1.jpg",
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_7.png",
         href: "/Destinations/Kashmir",
         details:Kashmir
     },
-    "Manali": {
-        url: "images/tripcard/2.jpg",
-        href: "/Destinations/Manali",
+    "Himachal": {
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_3.png",
+        href: "/Destinations/Himachal",
        
     },
-    "Pushkar":{
-        url: "images/tripcard/4.jpg",
-        href: "/Destinations/Pushkar",
+    "Ladakh":{
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_2.png",
+        href: "/Destinations/Ladakh",
         
     },
-    "Udaipur":{
-        url: "images/tripcard/5.jpg",
-        href: "/Destinations/Udaipur",
+    "Uttrakhand":{
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_6.png",
+        href: "/Destinations/Uttrakhand",
         
     },
-    "Jaisalmer":{
-        url: "images/tripcard/6.jpg",
-        href: "/Destinations/Jaisalmer"
-    },
-    "Pachmrahi":{
-        url: "images/tripcard/7.jpg",
-        href: "/Destinations/Pachmarhi",
+    "Rajasthan":{
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_4.png",
+        href: "/Destinations/Rajasthan"
     },
     "Kerala":{
-        url: "images/tripcard/8.jpg",
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_5.png",
         href: "/Destinations/Kerala",
+    },
+    "Lonavala":{
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_1.png",
+        href: "/Destinations/Lonavala",
         
     },
     "Goa":{
-        url: "images/tripcard/9.jpg",
+        url: "images/tripcard/Destinationimgs/Maincard/Destination_9.png",
         href: "/Destinations/Goa",
         
     },

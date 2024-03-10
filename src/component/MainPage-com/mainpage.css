@@ -273,7 +273,7 @@ nav h5{
   scrollbar-width: none;
 }
 .nearby-destinations__destinations-bar {
-  justify-content: start;
+  justify-content: flex-start;
 }
 .nearby-destinations__destinations-bar-item:hover {
   color: #ff5300;

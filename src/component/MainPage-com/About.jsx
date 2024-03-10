@@ -1,11 +1,8 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+
 
 const About = () => {
 
-    const link = useNavigate();
-    const [pose, uppose] = useState(false)
     const imgstyle = {
         background: `url('images/img-8.png')`,
         backgroundPosition: "center center",
@@ -21,11 +18,11 @@ const About = () => {
                         <div className="w-full h-72 sm:h-auto sm:w-1/2 bg-cover bg-no-repeat bg-center" style={imgstyle} >
                         </div>
                         <div className="w-full sm:w-1/2 flex flex-col py-8 sm:py-24 sm:pl-8 px-4 sm:px-0">
-                            <span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-lg">List Your Property for Leasing</span>
-                            <h2 className="text-2xl sm:text-4xl font-bold">Great rental deals, zero hassles</h2>
-                            <p className="mt-2 sm:text-lg">Get competitive rental rates for your property without the hassle of engaging in daily operations and management. Lease the property to an exploring entrepreneur and benefit from a stable income.</p>
+                            <span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-lg">Discover the Magic: </span>
+                            <h2 className="text-2xl sm:text-3xl font-bold">Join Our Vibrant Community!</h2>
+                            <p className="mt-2 sm:text-lg">Welcome to the heart of Travel tech. Our community is where adventure begins and friendships flourish. Whether you're a solo traveler or part of a group, our trips offer the perfect blend of luxury and affordability. Connect with fellow adventurers, enjoy fantastic group experiences, and empower local artists to shine. Safety is our priority, ensuring peace of mind for all travelers, including solo and female explorers. Join us on a journey of discovery and create memories that last a lifetime.</p>
                             <button className="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
-                                I'm Interested!
+                               Join Us!
                             </button>
                         </div>
                     </div>
@@ -41,36 +38,36 @@ const About = () => {
           <div className="grid grid-cols-4 grid-rows-3 gap-1 sm:rounded-lg overflow-hidden w-full h-full">
             <div className="w-full h-full row-span-2 col-span-2  hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="https://img.cdn.zostel.com/zostel/gallery/images/EyqdDHwRRxinzsxBQYvowA/zostel-plus-nainital-naina-range-20230119040821.jpg?w=1280"
-                alt="Zostel Plus Nainital (Naina Range)"
+                src="images\staticimg\staticimg1.jpg"
+                alt="big group1"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="https://img.cdn.zostel.com/zostel/gallery/images/N99eNkUBTLWvpxTgaIexPg/zostel-plus-nainital-naina-range-20230119040835.jpg?w=1280"
-                alt="Zostel Plus Nainital (Naina Range)"
+                src="images/staticimg/staticimg9.jpg"
+                alt="About"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="https://img.cdn.zostel.com/zostel/gallery/images/jhJYiKtiTh-adKWUubDQDw/zostel-plus-nainital-naina-range-20230119040854.jpg?w=1280"
-                alt="Zostel Plus Nainital (Naina Range)"
+                src="images/staticimg/staticimg1.jpg"
+                alt="About"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="https://img.cdn.zostel.com/zostel/gallery/images/Yb_vv0IEQJSpT7Hng4i8zA/zostel-plus-nainital-naina-range-20230119042139.jpg?w=1280"
-                alt="Zostel Plus Nainital (Naina Range)"
+                src="images\staticimg\staticimg9.jpg"
+                alt="About"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="https://img.cdn.zostel.com/zostel/gallery/images/Yb_vv0IEQJSpT7Hng4i8zA/zostel-plus-nainital-naina-range-20230119042139.jpg?w=1280"
-                alt="Zostel Plus Nainital (Naina Range)"
+                src="images\staticimg\staticimg8.jpg"
+                alt="About"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
