@@ -1,4 +1,4 @@
-const Kashmir = [
+const  Kashmir_trips = [
     {
         name: "kashmir 3N and 4 days trip",
         dec: "kashmir 3N and 4 days trip",
@@ -31,4 +31,4 @@ const Kashmir = [
 
 
 ]
-export default Kashmir;
+export default  Kashmir_trips;

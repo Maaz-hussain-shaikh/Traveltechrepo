@@ -1,20 +1,16 @@
 import React from 'react';
 import Itdropcom from './Itdropcom';
 
-const Itdropdown = (porps) => {
+const Itdropdown = (props) => {
   return (
     <>
       <div className="flex flex-col mt-6 space-y-6">
-        {
-          porps.info.map((item,index)=>{
-            return(<Itdropcom Day={index} Schedule={porps.info[index].Schedule} Heading={porps.info[index].Heading}/> )
-
-          })
-        }
-               
+        {props.info.map((item, index) => (
+          <Itdropcom key={index} Day={index} Schedule={item.Schedule} Heading={item.Heading} />
+        ))}
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Itdropdown
+export default Itdropdown;

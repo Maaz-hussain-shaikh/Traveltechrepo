@@ -1,61 +1,48 @@
 import React, { useState } from "react";
 import { reviewdata } from "../../Data/CardDetails";
 
- const Review = () => {
+const Review = () => {
   const [showCount, setShowCount] = useState(2);
-  return (
-    
-    <>
-    {reviewdata.slice(0, showCount).map((elem,index)=>{
-          return(<>
-          
-          <div className="ReviewCard_reviewCardBody__gWHEa mt-4 jCihag">
-        
-        <div className="ReviewCard_reviewCardItem__MhXzk ReviewCard_reviewHead__j8w1I ">
-          <div className="ReviewCard_leftSection__SdWRu ">
 
-            <div className="ReviewCard_reviewMeta__ThBxo"><div className="ReviewCard_reviewerName__Xc68P">{reviewdata[index].name}</div>
-              <div className="ReviewCard_reviewTimestamp__y0_Fr">Reviewed: {reviewdata[index].tripdate}</div>
+  return (
+    <>
+      {reviewdata.slice(0, showCount).map((review, index) => (
+        <div key={index} className="ReviewCard_reviewCardBody__gWHEa mt-4 ">
+          <div className="ReviewCard_reviewCardItem__MhXzk ReviewCard_reviewHead__j8w1I">
+            <div className="ReviewCard_leftSection__SdWRu">
+              <div className="ReviewCard_reviewMeta__ThBxo">
+                <div className="ReviewCard_reviewerName__Xc68P">{review.name}</div>
+                <div className="ReviewCard_reviewTimestamp__y0_Fr">Reviewed: {review.tripdate}</div>
+              </div>
+            </div>
+            <div className="ReviewCard_rightSection___2gjc">
+              <span>5.0/5</span>
             </div>
           </div>
-          <div className="ReviewCard_rightSection___2gjc">
-            <span>5.0/5</span>
+          <div className="ReviewCard_reviewCardItem__MhXzk ReviewCard_productDetail__lheBe">
+            <span>Booked:<span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-sm">{review.tripname}</span></span>
+          </div>
+          <div className="text-sm sm:text-lg">{review.comment}</div>
+          <div className="flex grid grid-cols-3 gap-3 sm:grid-cols-6">
+            {review.imgsrc.map((image, imgIndex) => (
+              <img
+                key={imgIndex}
+                className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle"
+                src={image.url}
+                alt="Review"
+              />
+            ))}
           </div>
         </div>
-        <div className="ReviewCard_reviewCardItem__MhXzk ReviewCard_productDetail__lheBe">
-          <span>Booked:<span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-sm">  {reviewdata[index].tripname}</span>
-          </span>
-        </div>
-        <div className="text-lg">{reviewdata[index].comment}
-          
-        </div>
-
-        <div className="flex grid grid-col-2 gap-3 grid-cols-3 sm:grid-cols-6">
-          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-          <img className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle" src="https://img.cdn.zostel.com/zostel/gallery/images/VFvd-Qq7Q92zkhbjE2ufYA/karnatakas-metropolitan-city-with-its-grand_3lJVBIb.jpg?h=400" alt="Bangalore" />
-        </div>
-
+      ))}
+      <div className="nearby-destinations__destinations-bar mt-4">
+        <span className="nearby-destinations__destinations-bar-item rounded-lg mx-auto" onClick={() => { setShowCount(showCount + 2) }}>See more</span>
+        {showCount > 2 ? (
+          <span className="nearby-destinations__destinations-bar-item rounded-lg mx-auto" onClick={() => { setShowCount(2) }}>See less</span>
+        ) : null}
       </div>
-          
-          </>)
-        })}
-        <div className="nearby-destinations__destinations-bar mt-4">
-        <span className="nearby-destinations__destinations-bar-item rounded-lg mx-auto" onClick={()=>{setShowCount(showCount+2)}} >See more</span>{
-          showCount>2?<><span className="nearby-destinations__destinations-bar-item rounded-lg mx-auto" onClick={()=>{setShowCount(2)}} >See less</span></>:<></>
-        }
-        
-       
-   
-
-
-      </div>
-      
     </>
-
   );
 }
+
 export default Review;

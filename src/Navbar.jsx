@@ -23,7 +23,7 @@ const tripdata = [{
 
 
 const Navbar = () => {
-    const logo = "images/traveltech logo.png"
+    const [logo] = useState("images/traveltech logo.png")
     const [showtrip, upshowtrip] = useState(false)
     const [mobileOff, update] = useState(true);
     const Navigate = useNavigate();

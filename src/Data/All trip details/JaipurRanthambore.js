@@ -1,14 +1,15 @@
 const JaipurRanthambore = {
     name: "Jaipur With Ranthambore National park",
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Jaipur/Destination_1.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Jaipur/Destination_2.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Jaipur/Destination_3.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Jaipur/Destination_4.png",
+        imgurl5: "/images/tripcard/Destinationimgs/Jaipur/Destination_5.png",
+        imgurl6: "/images/tripcard/Destinationimgs/Jaipur/Destination_6.png",
+        
     }],
-    brief: `Hello Travel Trekkers,
-
-    After completing over 50 successful Safar-e-Rajasthan trips, we are thrilled to present our newly crafted itinerary to Jaipur with Ranthambore National Park. This itinerary has been meticulously handpicked to offer the perfect balance between city exploration and wildlife encounters.
+    brief: `Hello Travel Trekkers,After completing over 50 successful Safar-e-Rajasthan trips, we are thrilled to present our newly crafted itinerary to Jaipur with Ranthambore National Park. This itinerary has been meticulously handpicked to offer the perfect balance between city exploration and wildlife encounters.
     
     Begin your journey in Jaipur, known for its old-world charm and the iconic pink hues that adorn the cityscape. Receive blessings from Khatushyam Ji and delve into the rich culture and heritage that Jaipur has to offer.
     
@@ -17,9 +18,39 @@ const JaipurRanthambore = {
     Immerse yourself in Rajasthani culture, indulge in delicious local cuisine, and explore vibrant markets in Jaipur. This trip guarantees an extraordinary blend of history, culture, and wildlife, ensuring an unforgettable adventure through Rajasthan."
     `,
     duration: "3N-4D",
-    Quadprice:"3999/-PP",
-    Tripleprice:"4500/PP",
-    Doubleprice:"5000/PP",
+    note:"We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
+    duration: "3N-4D",
+    Quadprice: "5499/-PP",
+    Tripleprice: "6499/PP",
+    Doubleprice: "6999/PP",
+    Batches: [
+        { 
+            id: 1, 
+            date: 'Batch-1 (21st to 24th) Mar' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (28th to 31st Mar)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (4th to 7th Apr)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (11th to 14th Apr)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (18th to 21st Apr)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (25th to 28th Apr)' 
+        },
+        
+
+    ],
     pickup: "Indore/Ratlam/Jaipur",
     drop: "Indore/Ratlam/Jaipur",
     it: [{

@@ -1,5 +1,4 @@
 import React from 'react'
-import Quality from './Whoweare'
 import Whoweare from './Whoweare'
 import Unique from './Unique'
 import Team from './Team'
@@ -14,11 +13,11 @@ const About = () => {
         <section className="max-w-screen-xl w-full mx-auto relative grid gap-10 px-6 pt-8 sm:px-0 z-1 lg:grid-cols-2">
           <div className="flex items-center justify-center">
             <div className="px-3">
-              <img className="object-cover w-40 h-40 rounded shadow-lg animate-pulse sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="https://cdn.zostel.com/branding/merch/backpack/IMG_5345.jpeg" alt="" />
+              <img className="object-cover w-40 h-40 rounded shadow-lg animate-pulse sm:h-64 xl:h-80 sm:w-64 xl:w-80" src="images\staticimg\logophoto.jpg" alt="" />
             </div>
             <div className="flex flex-col items-end px-3">
-              <img className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56" src="https://cdn.zostel.com/branding/merch/zostel-merch-3.jpg" alt="" />
-              <img className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="https://cdn.zostel.com/branding/merch/backpack/IMG_5344.jpeg" alt="" />
+              <img className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56" src="images\staticimg\fisrttrip.jpg" alt="" />
+              <img className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40" src="images\staticimg\page2.jpg" alt="" />
             </div>
 
           </div>

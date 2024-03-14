@@ -1,17 +1,67 @@
-const Manali = 
+const Manali =
 {
     name: "Manali-Kasol-lahulvally",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.jpg",
-        imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_2.jpg",
-        imgurl3: "/images/tripcard/Destinationimgs/Manali/Destination_1.jpg",
-        imgurl4: "/images/tripcard/Destinationimgs/Manali/Destination_4.jpg",
+        imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_2.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Manali/Destination_1.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Manali/Destination_4.png",
+        imgurl5: "/images/tripcard/Destinationimgs/Manali/Destination_5.png",
+        imgurl6: "/images/tripcard/Destinationimgs/Manali/Destination_6.png",
+        imgurl7: "/images/tripcard/Destinationimgs/Manali/Destination_8.png",
+        imgurl8: "/images/tripcard/Destinationimgs/Manali/Destination_9.png",
+        imgurl9: "/images/tripcard/Destinationimgs/Manali/Destination_10.png",
+        imgurl10: "/images/tripcard/Destinationimgs/Manali/Destination_11.png",
+        imgurl11: "/images/tripcard/Destinationimgs/Manali/Destination_12.png",
+        
+        
+        imgurl15: "/images/tripcard/Destinationimgs/Manali/Destination_15.png",
+        imgurl16: "/images/tripcard/Destinationimgs/Manali/Destination_16.png",
+        imgurl17: "/images/tripcard/Destinationimgs/Manali/Destination_17.png",
+        imgurl18: "/images/tripcard/Destinationimgs/Manali/Destination_18.png",
+        imgurl19: "/images/tripcard/Destinationimgs/Manali/Destination_19.png",
+        imgurl20: "/images/tripcard/Destinationimgs/Manali/Destination_20.png",
+        imgurl22: "/images/tripcard/Destinationimgs/Manali/Destination_22.png",
+        imgurl23: "/images/tripcard/Destinationimgs/Manali/Destination_23.png",
+        imgurl24: "/images/tripcard/Destinationimgs/Manali/Destination_24.png",
+        imgurl25: "/images/tripcard/Destinationimgs/Manali/Destination_25.png",
+        imgurl26: "/images/tripcard/Destinationimgs/Manali/Destination_26.png",
+        imgurl27: "/images/tripcard/Destinationimgs/Manali/Destination_27.png",
+        imgurl28: "/images/tripcard/Destinationimgs/Manali/Destination_28.png",
+        imgurl29: "/images/tripcard/Destinationimgs/Manali/Destination_29.png",
+        imgurl30: "/images/tripcard/Destinationimgs/Manali/Destination_30.png",
+        imgurl32: "/images/tripcard/Destinationimgs/Manali/Destination_32.png",
+        imgurl33: "/images/tripcard/Destinationimgs/Manali/Destination_33.png",
+        imgurl34: "/images/tripcard/Destinationimgs/Manali/Destination_34.png",
+        imgurl35: "/images/tripcard/Destinationimgs/Manali/Destination_35.png",
+        imgurl36: "/images/tripcard/Destinationimgs/Manali/Destination_36.png",
+        imgurl37: "/images/tripcard/Destinationimgs/Manali/Destination_37.png",
+
+
     }],
     brief: `Explore Romantic Himachal with TravelTech! Embark on a journey of love and adventure amidst the enchanting landscapes of Himachal Pradesh. Immerse yourself in the serene beauty of snow-capped mountains,lush deodar forests, and blooming wildflowers,while the Beas River flows gently by. Experience the charm of the pretty hill-station of Manali as you stroll along the iconic Mall Road, with the majestic Mall Road Manali in the backdrop and breathtaking views of the valley ahead.Marvel at the beauty of Solang Valley and indulge in a tour of the historic Viceregal Lodge, as you uncover the hidden gems of this picturesque region. Discover the unexplored beauty of Manali's treehouses, offering panoramic views of the lush green jungles and towering mountains from a lofty altitude of 10,500 ft. Let the tranquility of the surroundings and the floating clouds outside your treehouse enhance your romantic getaway. Travel to Manali through winding mountain roads, with awe-inspiring snowy peaks towering in the distance, creating a mesmerizing backdrop for your journey. Explore the wonders of Sissu Atal Tunnel and embark on the Chalal trek with Kasol and Manikaran, where you can soak in the natural beauty and spiritual vibes of these enchanting destinations. End your day with riverside camping fun, where you can unwind by the river and enjoy the serene ambiance under the starlit sky. Ignite the spark of romance as you immerse yourselves in the spiritual essence of Manali, where love resonates in every corner, making it the perfect destination for celebrating your milestones with your soulmate. Travel with TravelTech, your trusted companion in organizing over 1000 trips for various groups, including strangers and corporates. Let us make your romantic getaway an unforgettable experience!`,
+    note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "6N-7D",
-    Quadprice:"3999/-PP",
-    Tripleprice:"4500/PP",
-    Doubleprice:"5000/PP",
+    Quadprice: "7999/-PP",
+    Tripleprice: "8999/PP",
+    Doubleprice: "9499/PP",
+    Batches: [
+        { id: 1, date: 'Batch-1 (21st to 27th) Mar' },
+        {id: 2,date: 'Batch-2 (28th Mar to 3rd Apr)'},
+        {id: 3,date: 'Batch-3 (4th to 10th Apr)'},
+        {id: 4,date: 'Batch-4 (11th to 17th Apr)'},
+        {id: 5,date: 'Batch-5 (18th to 24th Apr)'},
+        {id: 6,date: 'Batch-6 (25th Apr to 1st May)'},
+        {id: 7, date: 'Batch-7 (2nd to 8th May)'},
+        {id: 8,date: 'Batch-8 (9th to 15th May)'},
+        {id: 9,date: 'Batch-9 (16th to 22nd May)'},
+        {id: 10,date: 'Batch-10 (23rd to 29th May)'},
+        {id: 11,date: 'Batch-11 (30th May to 5th Jun)'},
+        {id: 12,date: 'Batch-12 (6th to 12th Jun)'},
+        {id: 13,date: 'Batch-13 (13th to 19th Jun)'},
+        {id: 14,date: 'Batch-14 (20th to 26th Jun)'}
+
+    ],
     pickup: "Indore/Bhopal/Maharastra/Delhi",
     drop: "Indore/Bhopal/Maharastra/Delhi",
     it: [{
@@ -20,7 +70,7 @@ const Manali =
 
             { Scheduledetails: "Meet and greet the representative at the pre-decided location." },
             { Scheduledetails: "Departure from Indore/Bhopal/Maharastra by Given Timings" },
-            { Scheduledetails: "Overnight journey to Delhi (for travelers who join from Indore/Bhopal/Ahmedabad/Jaipur/Maharashtra)."},
+            { Scheduledetails: "Overnight journey to Delhi (for travelers who join from Indore/Bhopal/Ahmedabad/Jaipur/Maharashtra)." },
 
 
         ],
@@ -38,7 +88,7 @@ const Manali =
 
     },
     {
-        Heading: "Sightseeing at Manali | A Township Nestled in the Picturesque Beas River Valley",
+        Heading: "Sightseeing at Manali| Explore local beauty",
         Schedule: [
 
 
@@ -46,7 +96,7 @@ const Manali =
             { Scheduledetails: "Upon arrival in Manali, you will be transferred to your pre-booked hotel." },
             { Scheduledetails: "Complete the check-in formalities and take some time to relax." },
             { Scheduledetails: "Your first stop will be the mystical Hadimba Devi Temple, often referred to as the heart of Manali, nestled amidst the beautiful Deodar trees. Afterward, visit the Manu Temple and Van Vihar." },
-            { Scheduledetails: "Later in the evening, you have the freedom to explore the Mall Road, where you can visit some of the best cafes in Manali or enjoy a shopping spree. While at Mall Road, we will also visit the Tibetan Monastery and Van Vihar."},
+            { Scheduledetails: "Later in the evening, you have the freedom to explore the Mall Road, where you can visit some of the best cafes in Manali or enjoy a shopping spree. While at Mall Road, we will also visit the Tibetan Monastery and Van Vihar." },
             { Scheduledetails: "In the evening,return to the hotel to enjoy a bonfire and other group bonding activities, followed by a delicious dinner." },
             { Scheduledetails: "Overnight stay in Manali." }
 
@@ -58,7 +108,7 @@ const Manali =
         Heading: "Excursion to Solang Valley | A Paradise for Adventure Enthusiasts",
         Schedule: [
 
-            { Scheduledetails: "Wake up and treat your taste buds with a yummy breakfast."},
+            { Scheduledetails: "Wake up and treat your taste buds with a yummy breakfast." },
             { Scheduledetails: "Today you will be heading out for your Solang Valley tour, sometimes also called “Snow Valley”, which is a haven for adventure enthusiasts and nature lovers." },
             { Scheduledetails: "Proceed for an excursion to the picturesque Solang Valley, known for hosting various winter adventure sports and admired for its beauty." },
             { Scheduledetails: "This mesmerizing snow valley offers adventure activities such as snowboarding, snow fight, paragliding, and zorbing for you to try your hands on." },
@@ -85,7 +135,7 @@ const Manali =
 
     },
     {
-        Heading: "excursion to manikaran | Take a Holy Dip in the Hot Sulphur Springs| Departure",
+        Heading: "Take a Holy Dip in the Hot Sulphur Springs in manikaran| Departure",
         Schedule: [
 
             { Scheduledetails: "After an early morning breakfast, check out from the hotel and head towards Manikaran." },
@@ -99,9 +149,11 @@ const Manali =
     {
         Heading: "good bye to the mountains | reach home",
         Schedule: [
-            { Scheduledetails: "Goodbye to the mountains.Travelers joining from Indore, Bhopal, Ahmedabad, Maharashtra, Jaipur will depart from their destination by train at the given timings by trip captains.Drop to your home with lots of memories flavored with the essence of Himachal and many unbreakable bonds with strangers and friends. Now, you can call yourself a #traveltrekker and join India's fastest-growing community on Instagram, WhatsApp, and Facebook. Keep traveling with us as our motto says, 'work-travel-repeat'." }
-
-
+            { Scheduledetails: "Farewell to the Mountains" },
+            { Scheduledetails: "Travelers from Indore, Bhopal, Ahmedabad, Maharashtra, Jaipur will depart from their destinations by train at the given timings, led by Trip Captains." },
+            { Scheduledetails: "Return home with cherished memories flavored with the essence of Himachal and unbreakable bonds with strangers and friends." },
+            { Scheduledetails: "Embrace the title of #Traveltrekker and join India's fastest-growing community on Instagram, WhatsApp, and Facebook." },
+            { Scheduledetails: "Keep traveling with us, following our motto: 'Work-Travel-Repeat'." }
         ]
 
 
@@ -133,7 +185,7 @@ const Manali =
             name: "Natural Calamities",
             inc: `If Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of small 4x4. Either wait till clearing or Pay for the extra service.or Any cost arising due to natural calamities.`
         },
-     
+
         {
             name: "Room Heater",
             inc: "Room heater charges are extra and it's not included in any of our packages. If you need one you can directly contact Hotel reception."
@@ -155,10 +207,15 @@ const Manali =
             inc: '5% Tax'
         },
         {
+            name: "Warning",
+            inc: 'NOTE-We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",'
+        },
+
+        {
             name: "Personal Expenses",
             inc: 'Any personal expenses.'
         },
-    
+
     ],
     thingstotake: [{
         name: "Shoes",
@@ -302,10 +359,8 @@ const Manali =
     {
         key: "cancellationPolicy0to30Days",
         description: "If cancellations are made within 0-30 days before the trip's start date, 100% of the total tour cost will be charged as cancellation fees."
-    },   {
-        question: "Can the trip be customised?",
-        answer: "Yes this itinarary can be customise For Further Queries Connect with Our team."
     },
+
     {
         key: "activityCancellationDueToUnforeseenConditions",
         description: "In case of unforeseen weather conditions or government restrictions, certain activities may be canceled, and in such cases, the operator will try his best to provide an alternate feasible activity. However, no refund will be provided for the same."
@@ -331,7 +386,7 @@ const Manali =
         question: "What is the age group for this trip?",
         answer: "We strongly encourage individuals aged 18-35 years to participate in our trips.."
     },
-  
+
     {
         question: "How can I get in touch with the people who have already booked the trip?",
         answer: "Prior to the day of the trip, we will establish a WhatsApp group that will include all travelers, trip curators, and your Trip Captain."

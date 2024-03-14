@@ -1,36 +1,31 @@
-import React, { useState,useEffect } from 'react';
-
-import { Cardfirst } from '../../Data/CardDetails';
+import React, { useState, useEffect } from 'react';
+import { Maindetailsdata } from '../../Data/CardDetails';
 import Tripinformation from "../MainPage-com/Tripinformation";
 import { useParams } from 'react-router-dom';
 import Loader from '../../Loader';
 
-const Tripdetails = () => {  
-  const {info} = useParams();
-  
+const Tripdetails = () => {
+  const { info } = useParams();
   const [selectedTrip, setSelectedTrip] = useState(null);
-    
-  useEffect(() => {   
-   setSelectedTrip(info); 
-   window.scrollTo(0, 0);  
-   }, [info]); 
-    
+
+  useEffect(() => {
+    setSelectedTrip(info);
+    window.scrollTo(0, 0);
+  }, [info]);
+
   return (
     <>
-    {selectedTrip ? (
-        Cardfirst[selectedTrip]?.info ? (
-          <Tripinformation Data={Cardfirst[selectedTrip].info} />
-         
+      {selectedTrip ? (
+        Maindetailsdata[selectedTrip]?.info ? (
+          <Tripinformation Data={Maindetailsdata[selectedTrip].info} />
         ) : (
-          <>Something is worng in your pdf file or routing code please check</>
+          <>Something is wrong in your pdf file or routing code. Please check.</>
         )
       ) : (
-        <Loader/>
+        <Loader />
       )}
- 
-     
-     
     </>
   );
 };
-export default Tripdetails
+
+export default Tripdetails;

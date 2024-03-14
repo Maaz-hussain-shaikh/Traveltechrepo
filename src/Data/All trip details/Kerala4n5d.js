@@ -1,14 +1,32 @@
 const Kerala = {
     name: `Kerala"The God's Own Country"`,
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Kerala/image_5.jpg",
+        imgurl2: "/images/tripcard/Destinationimgs/Kerala/image_2.jpg",
+        imgurl3: "/images/tripcard/Destinationimgs/Kerala/image_3.jpg",
+        imgurl4: "/images/tripcard/Destinationimgs/Kerala/image_4.jpg",
+        imgurl5: "/images/tripcard/Destinationimgs/Kerala/image_1.jpg",
+        imgurl6: "/images/tripcard/Destinationimgs/Kerala/image_6.jpg",
+        imgurl7: "/images/tripcard/Destinationimgs/Kerala/image_7.jpg",
+        imgurl8: "/images/tripcard/Destinationimgs/Kerala/image_8.jpg",
+        imgurl9: "/images/tripcard/Destinationimgs/Kerala/image_9.jpg",
+        imgurl10: "/images/tripcard/Destinationimgs/Kerala/image_10.jpg",
+        imgurl11: "/images/tripcard/Destinationimgs/Kerala/image_11.jpg",
+        imgurl12: "/images/tripcard/Destinationimgs/Kerala/image_12.jpg",
+        
     }],
     brief: `"Experience the enchanting beauty of Kerala, a state that captivates the hearts and minds of travelers long after their visit. With its palm-lined beaches, intricate backwaters, and the majestic Western Ghats, Kerala is truly a treasure trove of natural wonders. Explore the lush tea, coffee, and spice plantations nestled in the mountains, encounter diverse wildlife in national parks like Eravikulam and Periyar, and immerse yourself in the serene ambiance of Alappuzha's backwaters. Discover the breathtaking landscapes of Munnar, home to attractions like Eravikulam National Park and the Lakkam Waterfalls. Don't miss the awe-inspiring experience of Periyar Wildlife Sanctuary in Thekkady. Join us on a journey with strangers and uncover the diverse essence of Kerala like never before!"`,
     duration: "4N-5D",
-    price: "16499/-PP",
+    Quadprice: "13999/-PP",
+    Tripleprice: "14999/PP",
+    Doubleprice: "16499/PP",
+    Batches: [
+        { 
+            id: 1, 
+            date: 'Costomize my trip' 
+        }
+
+    ],
     pickup: "Kochi",
     drop: "Kochi",
     it: [{

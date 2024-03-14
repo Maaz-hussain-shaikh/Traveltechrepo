@@ -13,7 +13,7 @@ const Tripinformation = (props) => {
   const updateParentState = () => {
     setshow(!show);
   };
-  const { name, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl } = props.Data;
+  const { name,Batches,note, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl } = props.Data;
   return (
     <>
 
@@ -26,7 +26,7 @@ const Tripinformation = (props) => {
               <div className="grid grid-cols-4 grid-rows-3 gap-1 sm:rounded-lg overflow-hidden w-full h-full">
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
-                    src={imgurl[0].imgurl1}
+                    src={imgurl[0].imgurl1} alt="hh"
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
@@ -109,13 +109,13 @@ const Tripinformation = (props) => {
                     <span className="font-medium text-text">Frequently asked questions</span>
                   </div>
                   {
-                    FAQ.map((item, index) => <Faq question={FAQ[index].question} answar={FAQ[index].answer} />)
+                    FAQ.map((item, index) => <Faq key={index} question={FAQ[index].question} answar={FAQ[index].answer} />)
                   }
 
                 </div>
               </div>
-              <Pricechart Quadprice={Quadprice} Tripleprice={Tripleprice} Doubleprice={Doubleprice} duration={duration} pickup={pickup} drop={drop} />
-              <Responcivedetails Quadprice={Quadprice} Tripleprice={Tripleprice} Doubleprice={Doubleprice} duration={duration} pickup={pickup} drop={drop} />
+              <Pricechart note={note} Batches={Batches} nameoftrip={name} Quadprice={Quadprice} Tripleprice={Tripleprice} Doubleprice={Doubleprice} duration={duration} pickup={pickup} drop={drop} />
+              <Responcivedetails Batches={Batches} Quadprice={Quadprice} nameoftrip={name} Tripleprice={Tripleprice} Doubleprice={Doubleprice} duration={duration} pickup={pickup} drop={drop} />
             </div>
 
 

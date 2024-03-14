@@ -1,25 +1,60 @@
 const Jodhpur = {
     name: "Jodhpur & Jaisalmer",
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/jaisalmer/Destination_11.png",
+        imgurl2: "/images/tripcard/Destinationimgs/jaisalmer/Destination_12.png",
+        imgurl3: "/images/tripcard/Destinationimgs/jaisalmer/Destination_13.png",
+        imgurl4: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
+        imgurl6: "/images/tripcard/Destinationimgs/jaisalmer/Destination_6.png",
+      
+        imgurl8: "/images/tripcard/Destinationimgs/jaisalmer/Destination_8.png",
+        imgurl9: "/images/tripcard/Destinationimgs/jaisalmer/Destination_9.png",
+        imgurl10: "/images/tripcard/Destinationimgs/jaisalmer/Destination_10.png",
+        imgurl11: "/images/tripcard/Destinationimgs/jaisalmer/Destination_11.png",
+        
+        imgurl13: "/images/tripcard/Destinationimgs/jaisalmer/Destination_13.png",
+        imgurl14: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
+        
     }],
-    brief: `Hello Travel Trekkers,
-
-    Embark on a journey of crafted elegance and grandeur through the royal land of Rajasthan with our exclusive 5-day tour package - Safar-e-Rajasthan. This trip promises a beautiful and romantic experience infused with a royal ambiance.
+    brief: `Hello Travel Trekkers,Embark on a journey of crafted elegance and grandeur through the royal land of Rajasthan with our exclusive 5-day tour package - Safar-e-Rajasthan. This trip promises a beautiful and romantic experience infused with a royal ambiance.
     
-    Jaisalmer, the jewel of Mewar, Rajasthan, awaits your exploration. It's a royal tourist destination renowned for its rich history, vibrant culture, and stunning architecture, perfectly blended with adventures awaiting to be discovered.
+    Jaisalmer, the jewel of Mewar, Rajasthan, awaits your exploration. It's a royal tourist destination renowned for its rich history, vibrant culture, and stunning architecture, perfectly blended with adventures awaiting to be discovered.During this panoramic Safar-e-Rajasthan trip, we will delve into the royal heritage at Mehrangarh Fort and Umaid Bhavan Palace, chase the mesmerizing sunset at Gadisar Lake, and behold the majestic fort view at Jaisalmer. Additionally, we'll visit Instagram-worthy spots like Patwo/Salim Singh Ki Haveli and explore the intriguing village of Kuldhara. 
     
-    During this panoramic Safar-e-Rajasthan trip, we will delve into the royal heritage at Mehrangarh Fort and Umaid Bhavan Palace, chase the mesmerizing sunset at Gadisar Lake, and behold the majestic fort view at Jaisalmer. Additionally, we'll visit Instagram-worthy spots like Patwo/Salim Singh Ki Haveli and explore the intriguing village of Kuldhara. 
-    
-    The adventure continues with experiences such as desert safari, camel safari, bonfire music night, and much more!
-    
-    Don't miss out on this unforgettable journey. Book your spot now and indulge in the beauty and splendor of Rajasthan with us!
+    The adventure continues with experiences such as desert safari, camel safari, bonfire music night, and much more! Don't miss out on this unforgettable journey. Book your spot now and indulge in the beauty and splendor of Rajasthan with us!
     `,
+    note:"We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "3N-4D",
-    price: "5999/-PP",
+    Quadprice: "5999/-PP",
+    Tripleprice: "6999/PP",
+    Doubleprice: "7499/PP",
+    Batches: [
+        { 
+            id: 1, 
+            date: 'Batch-1 (21st to 24th) Mar' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (28th to 31st Mar)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (4th to 7th Apr)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (11th to 14th Apr)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (18th to 21st Apr)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (25th to 28th Apr)' 
+        },
+        
+
+    ],
     pickup: "Indore/Ratlam/Jodhpur",
     drop: "Indore/Ratlam/Jodhpur",
     it: [{
@@ -28,8 +63,8 @@ const Jodhpur = {
                 { Scheduledetails: "Groups meet up. Interaction And introduction." },
                 { Scheduledetails: "Departure for Jodhpur at 6 a.m. from base locations." },
                 { Scheduledetails: "Enjoy The over-day journey of Jodhpur via train." },
-                { Scheduledetails: "Reach Jodhpur in the evening, take dinner, and have an overnight stay at a hotel." },
-                { Scheduledetails: "Have a delicious dinner and overnight stay at the hotel." }
+                { Scheduledetails: "Reach Jodhpur in the evening, Have a delicious dinner and overnight stay at the hotel" },
+             
             ],
                         
     },
@@ -39,9 +74,9 @@ const Jodhpur = {
             
                 { Scheduledetails: "Start your day with a healthy breakfast and begin your journey." },
                 { Scheduledetails: "Visit Mehrangarh Fort, Jaswant Thada, and Umaid Bhavan Palace, etc. We will explore as much as possible according to the availability of time." },
-                { Scheduledetails: "Transfer to Jaisalmer (4 Hrs) sand dunes and be welcomed with Rajasthani culture and drinks." },
-                { Scheduledetails: "Enjoy folk dance, Bonfire, and Rajasthani dance with a bonfire accompanied by chai and coffee." },
-                { Scheduledetails: "Indulge in a Royal Rajasthani dinner and enjoy an overnight stay at luxury tents at the dunes." }
+                { Scheduledetails: "Transfer to Jaisalmer (4:30 Hrs) sand dunes and be welcomed with Rajasthani culture and drinks." },
+                { Scheduledetails: "Enjoy folk dance with a bonfire accompanied by chai and coffee." },
+                { Scheduledetails: "Indulge in a Royal Rajasthani dinner and enjoy an overnight stay at Swiss tents at the dunes." }
         ],
 
     },
@@ -49,7 +84,7 @@ const Jodhpur = {
         Heading: "Dune Bashing & Jaisalmer sightseeing ",
         Schedule: [
             
-                { Scheduledetails: "Enjoy the early morning healthy breakfast waiting for you." },
+                { Scheduledetails: "Wake-up at early morning healthy breakfast waiting for you." },
                 { Scheduledetails: "Get ready for an adventure at the sand dunes. Enjoy the Desert safari & Camel safari at sand dunes, then come back & check out from the tents." },
                 { Scheduledetails: "Start the journey to Jaisalmer. Enroute, we will explore the most haunted village, Kuldhara, and then head towards the Golden City." },
                 { Scheduledetails: "Visit Jaisalmer famous spots like Jaisalmer Fort, Gadisar Lake, Patwo ki Haweli, Salim Singh ki Haweli, etc." },

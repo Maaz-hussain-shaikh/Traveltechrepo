@@ -1,23 +1,73 @@
 const Udaipur = {
     name: "Udaipur & Bahubali hills",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Udaipur/Image_5.jpg",
-        imgurl2: "/images/tripcard/Destinationimgs/Udaipur/Image_12.jpg",
-        imgurl3: "/images/tripcard/Destinationimgs/Udaipur/Image_10.jpg",
-        imgurl4: "/images/tripcard/Destinationimgs/Udaipur/Image_1.jpg",
-        imgurl5: "/images/tripcard/Destinationimgs/Udaipur/Image_2.jpg",
-        imgurl6: "/images/tripcard/Destinationimgs/Udaipur/Image_3.jpg",
-        imgurl7: "/images/tripcard/Destinationimgs/Udaipur/Image_4.jpg",
-        imgurl8: "/images/tripcard/Destinationimgs/Udaipur/Image_5.jpg",
-        imgurl9: "/images/tripcard/Destinationimgs/Udaipur/Image_6.jpg",
-        imgurl10: "/images/tripcard/Destinationimgs/Udaipur/Image_7.jpg",
-        imgurl11: "/images/tripcard/Destinationimgs/Udaipur/Image_8.jpg",
-        imgurl12: "/images/tripcard/Destinationimgs/Udaipur/Image_9.jpg",
-        imgurl13: "/images/tripcard/Destinationimgs/Udaipur/Image_10.jpg",
+        imgurl1: "/images/tripcard/Destinationimgs/Udaipur/Destination_19.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Udaipur/Destination_12.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Udaipur/Destination_3.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Udaipur/Destination_4.png",
+        imgurl5: "/images/tripcard/Destinationimgs/Udaipur/Destination_5.png",
+        imgurl6: "/images/tripcard/Destinationimgs/Udaipur/Destination_6.png",
+        imgurl7: "/images/tripcard/Destinationimgs/Udaipur/Destination_7.png",
+        imgurl8: "/images/tripcard/Destinationimgs/Udaipur/Destination_8.png",
+        imgurl9: "/images/tripcard/Destinationimgs/Udaipur/Destination_9.png",
+        imgurl10: "/images/tripcard/Destinationimgs/Udaipur/Destination_10.png",
+        imgurl11: "/images/tripcard/Destinationimgs/Udaipur/Destination_11.png",
+        imgurl12: "/images/tripcard/Destinationimgs/Udaipur/Destination_12.png",
+        imgurl13: "/images/tripcard/Destinationimgs/Udaipur/Destination_13.png",
+        imgurl14: "/images/tripcard/Destinationimgs/Udaipur/Destination_14.png",
+        imgurl15: "/images/tripcard/Destinationimgs/Udaipur/Destination_15.png",
+        imgurl16: "/images/tripcard/Destinationimgs/Udaipur/Destination_16.png",
+        imgurl17: "/images/tripcard/Destinationimgs/Udaipur/Destination_17.png",
+        imgurl18: "/images/tripcard/Destinationimgs/Udaipur/Destination_18.png",
+        imgurl19: "/images/tripcard/Destinationimgs/Udaipur/Destination_1.png",
+        imgurl20: "/images/tripcard/Destinationimgs/Udaipur/Destination_20.png",
+        imgurl21: "/images/tripcard/Destinationimgs/Udaipur/Destination_21.png",
+        imgurl22: "/images/tripcard/Destinationimgs/Udaipur/Destination_22.png",
+        imgurl23: "/images/tripcard/Destinationimgs/Udaipur/Destination_23.png",
+        imgurl24: "/images/tripcard/Destinationimgs/Udaipur/Destination_24.png",
+        imgurl25: "/images/tripcard/Destinationimgs/Udaipur/Destination_25.png",
+        imgurl26: "/images/tripcard/Destinationimgs/Udaipur/Destination_26.png",
+        imgurl27: "/images/tripcard/Destinationimgs/Udaipur/Destination_27.png",
+        imgurl28: "/images/tripcard/Destinationimgs/Udaipur/Destination_28.png",
+        imgurl29: "/images/tripcard/Destinationimgs/Udaipur/Destination_29.png",
+
     }],
-    brief: "Hello travelers, explore the crafted elegance and grandeur of Rajasthan with this 5-day tour package of Safar-e-Rajasthan. This trip offers a beautiful and romantic experience with a royal ambiance. Udaipur is the beautiful city of Mewar, Rajasthan, and a royal tourist destination for travelers who love history, culture, architecture, and adventure. In this exclusive panorama of Udaipur trip, we will explore the royal heritage at the City Palace, chase the sunset at Fateh Sagar Lake, witness the beauty of Lake Pichola, visit Saheliyo ki Bari, Dudh Talai, Gangaur Ghat, Udaipur market, enjoy speed boating, visit Jagdish Temple, Moti Magri, Sajjangarh Fort, Bahubali Hills, Badi Lake, etc.",
+    brief: "Hello travelers, explore the crafted elegance and grandeur of Rajasthan with this 4-day tour package of Safar-e-Rajasthan. This trip offers a beautiful and romantic experience with a royal ambiance. Udaipur is the beautiful city of Mewar, Rajasthan, and a royal tourist destination for travelers who love history, culture, architecture, and adventure. In this exclusive panorama of Udaipur trip, we will explore the royal heritage at the City Palace, chase the sunset at Fateh Sagar Lake, witness the beauty of Lake Pichola, visit Saheliyo ki Bari, Dudh Talai, Gangaur Ghat, Udaipur market, enjoy speed boating, visit Jagdish Temple, Moti Magri, Sajjangarh Fort, Bahubali Hills, Badi Lake, etc.",
     duration: "3N-4D",
-    price: "3999/-PP",
+    note: "",
+    duration: "3N-2D",
+    Quadprice: "4499/-PP",
+    Tripleprice: "4999/PP",
+    Doubleprice: "5499/PP",
+    Batches: [
+       
+        { 
+            id: 1, 
+            date: 'Batch-1 (22nd to 25th) Mar' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (29th Mar to 1st Apr)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (5th to 8th Apr)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (12th to 15th Apr)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (19th to 22nd Apr)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (26th to 29th Apr)' 
+        },
+        
+
+    ],
     pickup: "Indore/Ratlam/Udaipur/Delhi",
     drop: "Indore/Ratlam/Udaipur/Delhi",
     it: [{

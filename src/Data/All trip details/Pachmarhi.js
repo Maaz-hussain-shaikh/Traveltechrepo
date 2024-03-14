@@ -1,14 +1,93 @@
 const Pachmarhi = {
     name: `paachmarhi"The Queen of satpura"`,
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_2.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_18.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_7.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_3.png",
+        imgurl5: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_24.png",
+        imgurl6: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_6.png",
+        imgurl7: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_35.png",
+        imgurl8: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_8.png",
+        imgurl9: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_9.png",
+        imgurl10: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_10.png",
+        imgurl11: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_11.png",
+        imgurl12: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_12.png",
+        imgurl13: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_13.png",
+        imgurl14: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_14.png",
+        imgurl15: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_15.png",
+        imgurl16: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_16.png",
+        imgurl17: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_17.png",
+        imgurl18: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_18.png",
+        imgurl19: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_19.png",
+        imgurl20: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_20.png",
+        imgurl21: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_21.png",
     }],
     brief: `Embark on an enchanting group trip to Pachmarhi, lovingly known as The "Queen of Satpura", with Travel Tech as your trusted companion. This picturesque destination, nestled within the Satpura Range in central India, promises a breathtaking journey through lush forests, serene waterfalls, and awe-inspiring viewpoints. We take care of all the details, ensuring a seamless and enjoyable experience for you and your fellow travellers. The adventure begins with a lively pool party with DJ at our resort, setting the tone for relaxation and camaraderie. A gypsy safari into the wilds of Satpura offers thrilling encounters with diverse wildlife and the region's natural beauty. As the sun sets, our music night under the starlit sky provides the perfect backdrop for dancing, live performances of group members, group games, and creating cherished memories. Throughout your stay, you'll have the chance to partake in a variety of activities, from nature walks to sightseeing excursions, visiting iconic spots like Bee Fall, Dhoopgarh, Jata Shankar, and the beautiful trek of Chouragarh Mahadev. Let us lead you on this captivating journey to Pachmarhi, where The "Queen of Satpura" is ready to steal your heart, and you can focus on making unforgettable memories.`,
     duration: "3N-4D",
-    price: "4999/-PP",
+    note:"Pool party and Gypsy will be subject to availability.",
+    
+    Quadprice: "4999/-PP",
+    Tripleprice: "5499/PP",
+    Doubleprice: "5999/PP",
+    Batches: [
+    { 
+        id: 1, 
+        date: 'Batch-1 (22nd to 25th) Mar' 
+    },
+    { 
+        id: 2, 
+        date: 'Batch-2 (29th Mar to 1st Apr)' 
+    },
+    { 
+        id: 3, 
+        date: 'Batch-3 (5th to 8th Apr)' 
+    },
+    { 
+        id: 4, 
+        date: 'Batch-4 (12th to 15th Apr)' 
+    },
+    { 
+        id: 5, 
+        date: 'Batch-5 (19th to 22nd Apr)' 
+    },
+    { 
+        id: 6, 
+        date: 'Batch-6 (26th to 29th Apr)' 
+    },
+    { 
+        id: 7, 
+        date: 'Batch-7 (3rd to 6th May)' 
+    },
+    { 
+        id: 8, 
+        date: 'Batch-8 (10th to 13th May)' 
+    },
+    { 
+        id: 9, 
+        date: 'Batch-9 (17th to 20th May)' 
+    },
+    { 
+        id: 10, 
+        date: 'Batch-10 (24th to 27th May)' 
+    },
+    { 
+        id: 11, 
+        date: 'Batch-11 (31st May to 3rd Jun)' 
+    },
+    { 
+        id: 12, 
+        date: 'Batch-12 (7th to 10th Jun)' 
+    },
+    { 
+        id: 13, 
+        date: 'Batch-13 (14th to 17th Jun)' 
+    },
+    { 
+        id: 14, 
+        date: 'Batch-14 (21st to 24th Jun)' 
+    }
+    ],
     pickup: "Indore/Bhopal/Pipariya",
     drop: "Indore/Bhopal/Pipariya",
     it: [{
@@ -23,9 +102,9 @@ const Pachmarhi = {
         ],
     },
     {
-        Heading: "Arrival at Pachmarhi | Satpura exploration with Choragarh Trek",
+        Heading: "Arrival at Pachmarhi | Satpura exploration ",
         Schedule: [
-            { scheduledetails: `Wake up to a new day of adventure in the "Queen of Satpura.` },
+            { Scheduledetails: `Wake up to a new day of adventure in the "Queen of Satpura".` },
             { Scheduledetails: `Enjoy a hearty breakfast to fuel up for the day ahead.Enjoy pool party"` },
             { Scheduledetails: `Complete Check-in Process (early check-in will be subject to availability) and Get ready for sightseeing"` },
             { Scheduledetails: "Embark on a thrilling trek to Choragarh Mahadev(Optional Only if time permits), Bada Mahadev, and Gupt Mahadev followed by visits to Green Valley and Pachmarhi Lake." },
@@ -146,10 +225,6 @@ const Pachmarhi = {
     {
         key: "narcoticsPolicy",
         description: "Travel Tech and its organizers strictly prohibit the utilization of any narcotics and banned substances during the tours and will not be responsible for any adversities due to the same."
-    },
-    {
-        key: "ticketBookingDisclaimer",
-        description: "We are not a ticket booking agent. Train seats will be provided as provided by IRCTC (RAC/Waiting/Confirm)."
     },
     {
         key: "accommodationBasis",

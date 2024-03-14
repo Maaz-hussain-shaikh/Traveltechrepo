@@ -1,5 +1,5 @@
 import {React,useEffect,useState } from 'react'
-import { destinationard } from '../../Data/CardDetails'
+import { Maindetailsdata } from '../../Data/CardDetails'
 import Destinationtrips from './Destinationtrips'
 import { useParams} from 'react-router-dom'
 import Loader from '../../Loader'
@@ -19,12 +19,12 @@ const Destination = () => {
       <div className="flex grid grid-cols-1 gap-4 my-8 sm:grid-cols-3">
 
       {selectedTrip ? (
-        destinationard[selectedTrip]?.details ? (
+        Maindetailsdata[selectedTrip]?.more ? (
          
-          <>{destinationard[selectedTrip].details.map((elem,index)=>{
+          <>{Maindetailsdata[selectedTrip].more.map((elem,index)=>{
             
             return(<>
-            <Destinationtrips image={destinationard[selectedTrip].details[index].imgurl} title={destinationard[selectedTrip].details[index].name} description={destinationard[selectedTrip].details[index].dec} startingPrice={destinationard[selectedTrip].details[index].Price} btn={destinationard[selectedTrip].details[index].btn}/>
+            <Destinationtrips image={Maindetailsdata[selectedTrip].more[index].imgurl} title={Maindetailsdata[selectedTrip].more[index].name} description={Maindetailsdata[selectedTrip].more[index].dec} startingPrice={Maindetailsdata[selectedTrip].more[index].Price} btn={Maindetailsdata[selectedTrip].more[index].btn}/>
             </>)
           })}</>
          

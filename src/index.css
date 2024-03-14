@@ -332,7 +332,7 @@ a {
   padding: 20px;
   
  margin: auto;
- width: 78%;
+ width: 90vw;
   min-height: 100px;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
@@ -453,7 +453,7 @@ a {
   aspect-ratio: 513 / 309;
   flex-shrink: 0;
   border-radius: 6px;
-  background: url(https://images.wanderon.in/mice-images-collection/Bali-group?updatedAt=1701843132618) center center / cover, no-repeat lightgray;
+  background: url('D:\reacttut\travel\public\images\staticimg\Udaipur maaz.png') center center / cover, no-repeat lightgray;
   background-position: center center;
 }
 
