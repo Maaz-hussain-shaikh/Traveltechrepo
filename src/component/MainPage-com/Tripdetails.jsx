@@ -3,6 +3,7 @@ import { Maindetailsdata } from '../../Data/CardDetails';
 import Tripinformation from "../MainPage-com/Tripinformation";
 import { useParams } from 'react-router-dom';
 import Loader from '../../Loader';
+import Underconstruction from "../../Underconstruction"
 
 const Tripdetails = () => {
   const { info } = useParams();
@@ -19,7 +20,7 @@ const Tripdetails = () => {
         Maindetailsdata[selectedTrip]?.info ? (
           <Tripinformation Data={Maindetailsdata[selectedTrip].info} />
         ) : (
-          <>Something is wrong in your pdf file or routing code. Please check.</>
+      <><Underconstruction/></>
         )
       ) : (
         <Loader />

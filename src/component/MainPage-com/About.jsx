@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
 
   const imgstyle = {
-    background: `url('images/img-8.png')`,
+    background: `url('images/staticimg/person logo.jpg')`,
     backgroundPosition: "center center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -15,7 +15,7 @@ const About = () => {
       <div className="jCihag mb-4" >
         <div className="max-w-screen-xl w-full mx-auto">
           <div className="flex items-stretch w-full flex-col sm:flex-row">
-            <div className="w-full h-72 sm:h-auto sm:w-1/2 bg-cover bg-no-repeat bg-center" style={imgstyle} >
+            <div className="w-full h-72 sm:h-auto rounded-lg sm:w-1/2 bg-cover bg-no-repeat bg-center" style={imgstyle} >
             </div>
             <div className="w-full sm:w-1/2 flex flex-col py-8 sm:py-24 sm:pl-8 px-4 sm:px-0">
               <span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-lg">Discover the Magic: </span>
@@ -45,7 +45,7 @@ const About = () => {
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75">
               <img
-                src="images/staticimg/Kasmir1.jpg"
+                src="images/staticimg/Kasmir1-min.jpg"
                 alt="About"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
@@ -59,7 +59,7 @@ const About = () => {
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75">
               <img
-                src="images/staticimg/Kashmirgroup.jpg"
+                src="images/staticimg/Kashmirgroup-min.jpg"
                 alt="About"
                 className="object-cover object-center w-full h-full rounded-lg"
               />

@@ -1,4 +1,4 @@
-import Bloge from './component/Blog/Bloge';
+
 import Tripdetails from './component/MainPage-com/Tripdetails';
 import Navbar from "./Navbar"
 import './Css/App.css';
@@ -9,13 +9,12 @@ import Footer from './Footer';
 import Mainpage from './component/MainPage-com/Mainpage';
 import Corporate from './component/Corporate-com/Corporate';
 import Franchise from './component/Farnchise-com/Franchise';
-import Travelesm from './component/Travel essential-com/Travelesm';
 import About from './component/About/About';
 import Community from './component/Community/Community';
-import Artist from './component/Blog/Artist';
 import Blogeroute from './component/Blog/Blogeroute';
 import Destination from './component/Destination/Destination';
-import Loader from './Loader';
+import Underconstruction from './Underconstruction';
+
 
 
 function App() {
@@ -30,12 +29,13 @@ function App() {
         <Route exact path='/About' element={<About/>} />
         <Route exact path='/Community' element={<Community/>} />
         <Route exact path='/Franchise' element={<Franchise/>} />
-        <Route exact path='/Travelshop' element={<Travelesm/>} />
+        <Route exact path='/Travelshop' element={<Underconstruction/>} />
         <Route exact path='/Destinations/:name' element={<Destination/>} />
         <Route path='/Details/:info' element={<Tripdetails/>} />
-        <Route exact path='/Bloge' element={<Bloge/>} />
+        <Route exact path='/Bloge' element={<Underconstruction/>} />
         <Route exact path='/Blog/:content' element={<Blogeroute/>} />
-        <Route exact path='/Artist' element={<Artist/>} />
+        <Route exact path='/Artist' element={<Underconstruction/>} />
+        <Route exact path='/ourGroup' element={<Underconstruction/>} />
         
        
       </Routes>

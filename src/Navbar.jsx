@@ -5,19 +5,29 @@ import Packnav from "./Packnav";
 
 const tripdata = [{
     name: 'Pachmarhi',
-    url: "/Pachmarhi"
+    url: "Details/Pachmarhi"
 },
 {
     name: 'Udaipur',
-    url: "/Udaipurtrip"
+    url: "Details/Udaipur"
 },
 {
-    name: 'manali',
-    url: "/manali"
+    name: 'Manali',
+    url: "Details/Manali"
 },
 {
-    name: 'kashmir',
-    url: "/Kashmir"
+    name: 'Kashmir',
+    url: "Details/Kashmir"
+},
+{
+    name: 'Goa',
+    url: "Details/Goa"
+},{
+    name: 'Ladhakh',
+    url: "Details/leh_6day"
+},{
+    name: 'Kerala',
+    url: "Details/Kerala"
 },
 ]
 
