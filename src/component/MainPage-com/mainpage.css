@@ -1,87 +1,9 @@
 
-  .section__intro {
-    background-position: center center;
-    padding-bottom: 30px;
-    height: 100vh;
-  }
   .mobile{
     display: none;
   }
 
-.herohead {
-  color: white;
-  text-align: center;
-}
-.contentWrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 0px;
-}
-.links li a{
-  color: white;
- 
-}
-nav h5{
-  color: white;
- 
-}
-.herohead h1 {
 
-  font-weight: 500;
-  font-size: 80px;
-}
-
-.section__intro {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  background: url("D:\reacttut\Clinzzo\craft\public\imges\homepage-banner.jpg"), rgba(0, 0, 0, 0.4);
-  background-size: cover !important;
-  background-blend-mode: saturation;
-}
-
-.slider-box {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #fff;
-  height: 35vh;
-  width: 100%;
-  display: flex;
-  flex: 0 0 auto;
-  overflow-y: hidden;
-
-}
-
-.slider-con {
-  display: flex;
-  gap: 10px;
-  overflow-y: hidden;
-  margin-right: -20px;
-  margin-left: -20px;
-
-
-}
-
-.slider-con img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-
-}
-
-.slider-main-box {
-  display: flex;
-  border-radius: 10px;
-  margin-bottom: 25px;
-  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px #cbced1;
-  overflow-y: hidden;
-  margin-right: -20px;
-  margin-left: -20px;
-
-}
 
 .slider-main-box::-webkit-scrollbar {
   display: none;
