@@ -453,7 +453,7 @@ a {
   aspect-ratio: 513 / 309;
   flex-shrink: 0;
   border-radius: 6px;
-  background: url('D:\reacttut\travel\public\images\staticimg\Udaipur maaz.png') center center / cover, no-repeat lightgray;
+  background: url('/public/images/staticimg/Udaipur\ maaz.png') center center / cover, no-repeat lightgray;
   background-position: center center;
 }
 
