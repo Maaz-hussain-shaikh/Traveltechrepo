@@ -15,7 +15,7 @@ const Destination = () => {
    }, [name]); 
   return (
     <>
-      <section className="max-w-screen-xl w-full mx-auto"><img src="https://img.cdn.zostel.com/blog_photo/20240203075810-makm-photography-u0irC_UnbOk-unsplash_1.jpg" alt="inside-the-blue-city-of-india" className="object-cover object-center w-full rounded-b-lg shadow-md sm:rounded-t-lg h-108 sm:h-144 2xl:192" />
+      <section className="max-w-screen-xl w-full mx-auto"><img src="/images/staticimg/page2.jpg" alt="inside-the-blue-city-of-india" className="object-cover object-center w-full rounded-b-lg shadow-md sm:rounded-t-lg h-108 sm:h-144 2xl:192" />
       <div className="flex grid grid-cols-1 gap-4 my-8 sm:grid-cols-3">
 
       {selectedTrip ? (

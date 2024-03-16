@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Destinationtrips = ({ image, title, description, startingPrice,btn }) => {
-    const locate=useNavigate();
+    
   return (
     <>
        <section className="w-full">
