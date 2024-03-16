@@ -1,29 +1,31 @@
-
+import React from 'react';
 import Tripdetails from './component/MainPage-com/Tripdetails';
 import Navbar from "./Navbar"
 import './Css/App.css';
 import './Css/responcive.css'
 import "./index.css"
+import { Suspense, lazy } from 'react';
+import Loader from './Loader';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './Footer';
 import Mainpage from './component/MainPage-com/Mainpage';
-import Corporate from './component/Corporate-com/Corporate';
-import Franchise from './component/Farnchise-com/Franchise';
-import About from './component/About/About';
-import Community from './component/Community/Community';
-import Blogeroute from './component/Blog/Blogeroute';
-import Destination from './component/Destination/Destination';
-import Underconstruction from './Underconstruction';
+const Franchise = lazy(() => import('./component/Farnchise-com/Franchise'));
+const About = lazy(() => import('./component/About/About'));
+const Community = lazy(() => import('./component/Community/Community'));
+const Blogeroute = lazy(() => import('./component/Blog/Blogeroute'));
+const Destination = lazy(() => import('./component/Destination/Destination'));
+const Underconstruction = lazy(() => import('./Underconstruction'));
 
 
+const Corporate= React.lazy(()=>import('./component/Corporate-com/Corporate'))
 
 function App() {
   return (
     <>
       
       <Navbar/>
-   
-      <Routes>
+   <Suspense fallback={<Loader/>}>
+   <Routes>
         <Route exact path='/' element={<Mainpage/>} />
         <Route exact path='/Corporate' element={<Corporate/>} />
         <Route exact path='/About' element={<About/>} />
@@ -39,6 +41,8 @@ function App() {
         
        
       </Routes>
+   </Suspense>
+      
       <Footer/>
 
     </>

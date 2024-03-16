@@ -8,7 +8,11 @@ import Faq from '../information-com/Faq'
 import Pricechart from '../information-com/Pricechart'
 import Thingstoknow from '../information-com/Thingstoknow'
 import Responcivedetails from './Responcivedetails'
+
+
+
 const Tripinformation = (props) => {
+  
   const [show, setshow] = useState(false);
   const updateParentState = () => {
     setshow(!show);
@@ -28,26 +32,27 @@ const Tripinformation = (props) => {
                   <img
                     src={imgurl[0].imgurl1} alt="hh"
                     className="object-cover object-center w-full h-full"
+                    loading='lazy'
                   />
                 </div>
                 <div className="w-full h-full row-span-3 col-span-3  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl2}
-                    alt="Destination"
+                    alt="Destination" loading='lazy' 
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl3}
-                    alt="Destination"
+                    alt="Destination" loading='lazy' 
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl4}
-                    alt="destination"
+                    alt="destination" loading='lazy' 
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
@@ -61,14 +66,14 @@ const Tripinformation = (props) => {
             <section className="relative w-full h-full shadow-md ">
               <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:rounded-lg overflow-hidden w-full h-full" >
                 <div className="w-full h-full row-span-1 col-span-2  fade-expand-appear-done fade-expand-enter-done">
-                  <img src={imgurl[0].imgurl1} alt="destination" className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
-                  <img src={imgurl[0].imgurl2} alt="destination" className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl1} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" />
 
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <button className="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent" onClick={() => { setshow(!show) }}> View all</button>
-                  <img src={imgurl[0].imgurl3} alt="destination" className="object-cover object-center w-full h-full" />
-                  <img src={imgurl[0].imgurl2} alt="destination" className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl3} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" />
                 </div>
               </div>
             </section>

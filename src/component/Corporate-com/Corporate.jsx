@@ -179,28 +179,28 @@ if(txt==="less"){
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
                 src="images\staticimg\pachmarhigroup.jpg"
-                alt="pic"
+                alt="pic" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
                 src="images\staticimg\person logo.jpg"
-                alt="pic"
+                alt="pic" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
                 src="images\staticimg\pachmarhigroup.jpg"
-                alt="pic"
+                alt="pic" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="images\staticimg\Love.jpg"
-                alt="pic"
+                src="images\staticimg\Love-min.jpg"
+                alt="Love-min" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
