@@ -17,7 +17,7 @@ const JaipurRanthambore = {
     
     Immerse yourself in Rajasthani culture, indulge in delicious local cuisine, and explore vibrant markets in Jaipur. This trip guarantees an extraordinary blend of history, culture, and wildlife, ensuring an unforgettable adventure through Rajasthan."
     `,
-    duration: "3N-4D",
+   
     note:"We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "3N-4D",
     Quadprice: "5499/-PP",

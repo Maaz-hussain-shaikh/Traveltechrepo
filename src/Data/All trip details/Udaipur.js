@@ -33,7 +33,7 @@ const Udaipur = {
 
     }],
     brief: "Hello travelers, explore the crafted elegance and grandeur of Rajasthan with this 4-day tour package of Safar-e-Rajasthan. This trip offers a beautiful and romantic experience with a royal ambiance. Udaipur is the beautiful city of Mewar, Rajasthan, and a royal tourist destination for travelers who love history, culture, architecture, and adventure. In this exclusive panorama of Udaipur trip, we will explore the royal heritage at the City Palace, chase the sunset at Fateh Sagar Lake, witness the beauty of Lake Pichola, visit Saheliyo ki Bari, Dudh Talai, Gangaur Ghat, Udaipur market, enjoy speed boating, visit Jagdish Temple, Moti Magri, Sajjangarh Fort, Bahubali Hills, Badi Lake, etc.",
-    duration: "3N-4D",
+   
     note: "",
     duration: "3N-2D",
     Quadprice: "4499/-PP",
