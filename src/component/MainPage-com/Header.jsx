@@ -18,7 +18,7 @@ const Header = () => {
         <div className="relative w-full h-full ">
           <div className="grid grid-cols-4 grid-rows-3 gap-1 rounded-lg overflow-hidden w-full h-full">
             <div className="w-full h-full row-span-3 col-span-6  fade-expand-appear-done fade-expand-enter-done">
-              <img src="images\home-bg-1.jpg" alt="Tawang city" className="object-cover object-center w-full rounded-b-lg shadow-md sm:rounded-t-lg h-108 sm:h-144 2xl:192" />
+              <img src="images\home-bg-1.jpg" alt="first" className="object-cover object-center w-full rounded-b-lg shadow-md sm:rounded-t-lg h-108 sm:h-144 2xl:192" fetchpriority="high" />
             </div>
 
           </div>

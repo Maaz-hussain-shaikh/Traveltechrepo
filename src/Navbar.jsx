@@ -66,7 +66,7 @@ const Navbar = () => {
     return (
         <>
             <header className="header sticky">
-                <Link to="/" className="logo"> <img src={logo} alt="main logo" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
+                <Link to="/" className="logo"> <img src={logo} alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
                 <nav className="navbar">
                     <div id="nav-close" className="fas fa-times"></div>
                     {<Packnav name="Packages" url={tripdata} />}
