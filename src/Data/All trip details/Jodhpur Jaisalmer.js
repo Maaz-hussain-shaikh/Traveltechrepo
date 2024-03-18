@@ -5,15 +5,7 @@ const Jodhpur = {
         imgurl2: "/images/tripcard/Destinationimgs/jaisalmer/Destination_12.png",
         imgurl3: "/images/tripcard/Destinationimgs/jaisalmer/Destination_13.png",
         imgurl4: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
-        imgurl6: "/images/tripcard/Destinationimgs/jaisalmer/Destination_6.png",
-      
-        imgurl8: "/images/tripcard/Destinationimgs/jaisalmer/Destination_8.png",
-        imgurl9: "/images/tripcard/Destinationimgs/jaisalmer/Destination_9.png",
-        imgurl10: "/images/tripcard/Destinationimgs/jaisalmer/Destination_10.png",
-        imgurl11: "/images/tripcard/Destinationimgs/jaisalmer/Destination_11.png",
-        
-        imgurl13: "/images/tripcard/Destinationimgs/jaisalmer/Destination_13.png",
-        imgurl14: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
+       
         
     }],
     brief: `Hello Travel Trekkers,Embark on a journey of crafted elegance and grandeur through the royal land of Rajasthan with our exclusive 5-day tour package - Safar-e-Rajasthan. This trip promises a beautiful and romantic experience infused with a royal ambiance.

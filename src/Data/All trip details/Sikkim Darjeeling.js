@@ -5,10 +5,7 @@ const Sikkimdarjeeling = {
         imgurl2: "/images/tripcard/Destinationimgs/Darjeeling/Destination_3.png",
         imgurl3: "/images/tripcard/Destinationimgs/Darjeeling/Destination_6.png",
         imgurl4: "/images/tripcard/Destinationimgs/Darjeeling/Destination_4.png",
-        imgurl5: "/images/tripcard/Destinationimgs/Darjeeling/Destination_5.png",
-        imgurl6: "/images/tripcard/Destinationimgs/Darjeeling/Destination_2.png",
-        imgurl7: "/images/tripcard/Destinationimgs/Darjeeling/Destination_7.png",
-        imgurl8: "/images/tripcard/Destinationimgs/Darjeeling/Destination_8.png",
+        
         
     }],
     brief: `

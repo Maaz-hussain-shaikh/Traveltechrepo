@@ -5,19 +5,7 @@ const Kashmir = {
         imgurl2: "/images/tripcard/Destinationimgs/Kashmir/Destination_19.png",
         imgurl3: "/images/tripcard/Destinationimgs/Kashmir/Destination_6.png",
         imgurl4: "/images/tripcard/Destinationimgs/Kashmir/Destination_7.png",
-        imgurl5: "/images/tripcard/Destinationimgs/Kashmir/Destination_5.png",
-        imgurl6: "/images/tripcard/Destinationimgs/Kashmir/Destination_11.png",
-        imgurl7: "/images/tripcard/Destinationimgs/Kashmir/Destination_18.png",
-        imgurl8: "/images/tripcard/Destinationimgs/Kashmir/Destination_8.png",
-        imgurl9: "/images/tripcard/Destinationimgs/Kashmir/Destination_9.png",
-        imgurl10: "/images/tripcard/Destinationimgs/Kashmir/Destination_10.png",
-        imgurl11: "/images/tripcard/Destinationimgs/Kashmir/Destination_2.png",
-        imgurl12: "/images/tripcard/Destinationimgs/Kashmir/Destination_12.png",
-        imgurl13: "/images/tripcard/Destinationimgs/Kashmir/Destination_13.png",
-        imgurl14: "/images/tripcard/Destinationimgs/Kashmir/Destination_14.png",
-        imgurl15: "/images/tripcard/Destinationimgs/Kashmir/Destination_15.png",
-        imgurl16: "/images/tripcard/Destinationimgs/Kashmir/Destination_16.png",
-        imgurl17: "/images/tripcard/Destinationimgs/Kashmir/Destination_17.png",
+       
     }],
     brief: `Kashmir is a region located in the northernmost part of the Indian subcontinent, bordered by Pakistan, India, and China. The region is known for its stunning natural beauty, including snow-capped mountains, sparkling lakes, lush valleys, and rolling meadows.
     The Kashmir Valley is the most famous tourist destination in the region, with attractions like the Dal Lake, Mughal Gardens, and Shankaracharya Temple. The valley is also known for its traditional houseboats, or shikaras, which offer a unique and peaceful way to explore the surrounding waterways.

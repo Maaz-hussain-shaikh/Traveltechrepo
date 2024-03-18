@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import React, {  useEffect, useState } from 'react'
+import { Link, useLocation} from 'react-router-dom';
 
 const Packnav = (props) => {
-
+    const locate=useLocation();
     const [isOpen, setIsOpen] = useState(false);
-
+   useEffect(()=>{setIsOpen(false)},[locate])
     const handleToggle = () => {
         setIsOpen(!isOpen);
     };
@@ -15,7 +15,7 @@ const Packnav = (props) => {
                     <div className="flex flex-col items-center justify-center cursor-pointer" onClick={() => { handleToggle() }}>
                         <i className="fa-solid fa-location-dot" style={{ fontSize: "19px" }}></i>
                         <div className="flex flex-row items-center justify-center cursor-pointer">
-                        <i className="fa-solid fa-angle-down" style={{transform:isOpen?"rotate(180deg)":"", marginRight: "5px" ,marginTop:"6px",fontSize:"13px"}}></i>
+                            <i className="fa-solid fa-angle-down" style={{ transform: isOpen ? "rotate(180deg)" : "", marginRight: "5px", marginTop: "6px", fontSize: "13px" }}></i>
                             <p className="mt-1 text-sm font-semibold hover:text-orange-600">{props.name}</p>
                         </div>
                     </div>
@@ -23,11 +23,11 @@ const Packnav = (props) => {
                 {isOpen && (
                     <div className="absolute z-10 w-48 mt-14 origin-top-right bg-white rounded-md shadow-lg right-15 ">
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                            {props.url.map((elm,index) => {
+                            {props.url.map((elm, index) => {
                                 return (
-                                    <Link to={props.url[index].url} className="block py-2 mx-4 text-sm text-gray-700 " role="menuitem">{props.url[index].name}</Link>
+                                    <Link key={`mylinl${index}`} to={props.url[index].url} className="block py-2 mx-4 text-sm text-gray-700 " role="menuitem" >{props.url[index].name}</Link>
                                 )
-                            })}                    
+                            })}
                         </div>
                     </div>
                 )}

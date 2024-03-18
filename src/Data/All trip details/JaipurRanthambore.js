@@ -5,8 +5,7 @@ const JaipurRanthambore = {
         imgurl2: "/images/tripcard/Destinationimgs/Jaipur/Destination_2.png",
         imgurl3: "/images/tripcard/Destinationimgs/Jaipur/Destination_3.png",
         imgurl4: "/images/tripcard/Destinationimgs/Jaipur/Destination_4.png",
-        imgurl5: "/images/tripcard/Destinationimgs/Jaipur/Destination_5.png",
-        imgurl6: "/images/tripcard/Destinationimgs/Jaipur/Destination_6.png",
+       
         
     }],
     brief: `Hello Travel Trekkers,After completing over 50 successful Safar-e-Rajasthan trips, we are thrilled to present our newly crafted itinerary to Jaipur with Ranthambore National Park. This itinerary has been meticulously handpicked to offer the perfect balance between city exploration and wildlife encounters.

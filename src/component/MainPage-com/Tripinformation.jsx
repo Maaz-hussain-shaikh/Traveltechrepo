@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../../Css/information.css'
 import Brief from '../information-com/Brief'
-import Imgcomponent from '../information-com/Imgcomponent'
 import Itdropdown from '../information-com/Itdropdown'
 import Policies from '../information-com/Policies'
 import Faq from '../information-com/Faq'
@@ -12,18 +11,11 @@ import Responcivedetails from './Responcivedetails'
 
 
 const Tripinformation = (props) => {
-  
-  const [show, setshow] = useState(false);
-  const updateParentState = () => {
-    setshow(!show);
-  };
-  const { name,Batches,note, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl } = props.Data;
+
+
+  const { name, Batches, note, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl } = props.Data;
   return (
     <>
-
-      {
-        show ? <><Imgcomponent updateParentState={updateParentState} imgurl={imgurl[0]} />
-        </> : <>
 
           <section className="max-w-screen-xl w-full mx-auto mttop h-98 sm:h-144 sm:block hidden">
             <section className="relative w-full h-full shadow-md">
@@ -38,27 +30,27 @@ const Tripinformation = (props) => {
                 <div className="w-full h-full row-span-3 col-span-3  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl2}
-                    alt="Destination" loading='lazy' 
+                    alt="Destination" loading='lazy'
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl3}
-                    alt="Destination" loading='lazy' 
+                    alt="Destination" loading='lazy'
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl4}
-                    alt="destination" loading='lazy' 
+                    alt="destination" loading='lazy'
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
 
               </div>
-              <button className="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent" onClick={() => { setshow(!show) }}> View all</button>
+             
             </section>
           </section>
 
@@ -66,14 +58,14 @@ const Tripinformation = (props) => {
             <section className="relative w-full h-full shadow-md ">
               <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:rounded-lg overflow-hidden w-full h-full" >
                 <div className="w-full h-full row-span-1 col-span-2  fade-expand-appear-done fade-expand-enter-done">
-                  <img src={imgurl[0].imgurl1} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
-                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl1} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" />
 
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
-                  <button className="absolute bottom-0 right-0 flex items-center p-3 m-4 mr-12 rounded-lg bg-light hover:bg-accent" onClick={() => { setshow(!show) }}> View all</button>
-                  <img src={imgurl[0].imgurl3} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" />
-                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy'  className="object-cover object-center w-full h-full" />
+                 
+                  <img src={imgurl[0].imgurl3} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" />
                 </div>
               </div>
             </section>
@@ -124,8 +116,9 @@ const Tripinformation = (props) => {
             </div>
 
 
-          </div></>
-      }
+          </div>
+         
+ 
 
 
     </>

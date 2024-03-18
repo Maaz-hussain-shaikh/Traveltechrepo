@@ -39,7 +39,7 @@ function App() {
         <Route exact path='/Artist' element={<Underconstruction/>} />
         <Route exact path='/ourGroup' element={<Underconstruction/>} />
         
-       
+        
       </Routes>
    </Suspense>
       

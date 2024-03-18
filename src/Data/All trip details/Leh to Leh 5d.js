@@ -5,9 +5,7 @@ const Ladakh6daystrip = {
         imgurl2: "/images/tripcard/Destinationimgs/Leh/Destination_7.png",
         imgurl3: "/images/tripcard/Destinationimgs/Leh/Destination_3.png",
         imgurl4: "/images/tripcard/Destinationimgs/Leh/Destination_4.png",
-        imgurl5: "/images/tripcard/Destinationimgs/Leh/Destination_5.png",
-        imgurl6: "/images/tripcard/Destinationimgs/Leh/Destination_6.png",
-        imgurl7: "/images/tripcard/Destinationimgs/Leh/Destination_2.png",
+        
         
     }],
     brief: `Nestled in the remote Himalayas of northern India, Ladakh beckons with its awe-inspiring landscapes, offering a perfect setting for a Adventures getaway. Surrounded by towering peaks, turquoise lakes, and ancient monasteries, this mystical region captivates with its rugged beauty and serene ambiance.

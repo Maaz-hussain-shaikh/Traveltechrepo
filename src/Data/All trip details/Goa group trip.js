@@ -2,15 +2,10 @@ const Goagroup = {
     name: "The Queen of beaches Goa",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Goa/Destination_5.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Goa/Destination_7.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Goa/Destination_10.png",
         imgurl3: "/images/tripcard/Destinationimgs/Goa/Destination_9.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Goa/Destination_10.png",
-        imgurl5: "/images/tripcard/Destinationimgs/Goa/Destination_1.png",
-        imgurl6: "/images/tripcard/Destinationimgs/Goa/Destination_6.png",
-        imgurl7: "/images/tripcard/Destinationimgs/Goa/Destination_2.png",
-        imgurl8: "/images/tripcard/Destinationimgs/Goa/Destination_8.png",
-        imgurl9: "/images/tripcard/Destinationimgs/Goa/Destination_9.png",
-        imgurl10: "/images/tripcard/Destinationimgs/Goa/Destination_4.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Goa/Destination_11.png",
+        
 
     }],
     brief: `A Goa trip with TravelTech promises an amazing adventure through the stunning landscapes of this coastal gem. From the minute you arrive in Goa, TravelTech ensures a smooth ride, guiding you through beautiful beaches, historic sites, and cultural spots that make this place special. With TravelTech's well-planned trips, you can visit famous places like the Basilica of Bom Jesus and Fort Aguada, chill out on beaches like Baga and Calangute, and dive into Goan culture at local markets and spice farms. Plus, TravelTech adds even more fun to your trip with spontaneous dance parties and lively music, where you'll find yourself dancing with new friends and creating memories to cherish forever. Whether you're after adventure, relaxation, or a bit of both, TravelTech designs a Goa trip that suits you perfectly, making sure every moment is full of joy, discovery, and unforgettable experiences.

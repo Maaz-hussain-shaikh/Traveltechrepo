@@ -1,10 +1,10 @@
 const Kedarnath = {
     name: "Kedarnath ",
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Kedarnath/Destination_2.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Kedarnath/Destination_1.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Kedarnath/Destination_3.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Kedarnath/Destination_4.png",
     }],
     brief: `"Get ready for an exciting journey through the breathtaking trails of the Kedarnath Trek with TravelTech. This challenging trek offers an unforgettable experience amidst the majestic Himalayas. As you ascend, traverse through lush meadows and admire panoramic views of snow-capped peaks like Kedar Dome and Bhairavnath. Along the trek, marvel at the scenic vistas of the Mandakini River.
 

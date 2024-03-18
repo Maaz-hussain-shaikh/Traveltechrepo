@@ -5,9 +5,7 @@ const Andaman = {
         imgurl2: "/images/tripcard/Destinationimgs/Andaman/Destination_2.png",
         imgurl3: "/images/tripcard/Destinationimgs/Andaman/Destination_3.png",
         imgurl4: "/images/tripcard/Destinationimgs/Andaman/Destination_4.png",
-        imgurl5: "/images/tripcard/Destinationimgs/Andaman/Destination_5.png",
-        imgurl6: "/images/tripcard/Destinationimgs/Andaman/Destination_6.png",
-        imgurl7: "/images/tripcard/Destinationimgs/Andaman/Destination_7.png",
+        
         
     }],
     brief: ` Embarking on an Andaman Honeymoon trip with TravelTech promises a romantic and unforgettable journey through the stunning archipelago of islands nestled in the Bay of Bengal. From the moment you step foot in Andaman, TravelTech ensures a seamless and enchanting experience, guiding you through pristine beaches, azure waters, and lush tropical landscapes that set the perfect backdrop for your romantic getaway. With TravelTech's expertly crafted itineraries, you'll have the opportunity to explore iconic sites such as Radhanagar Beach, Elephant Beach, and Cellular Jail, where you can immerse yourselves in the rich history and natural beauty of the islands. What's more, TravelTech adds an extra touch of romance to your honeymoon with candlelit dinners on secluded beaches, private sunset cruises, and indulgent spa treatments where you can relax and rejuvenate together. Whether you're seeking adventure, relaxation, or intimate moments, TravelTech curates an Andaman Honeymoon trip tailored to your desires, ensuring every moment is filled with love, joy, and cherished memories that you'll treasure for a lifetime.  
