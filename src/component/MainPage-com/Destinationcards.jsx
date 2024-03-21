@@ -32,7 +32,7 @@ const Destinationcards = () => {
 
       <div className="jCihag">
         <div className="kwYMGm">
-          <h2 className="dlvSJV text-2xl font-black text-orange-600 sm:text-4xl">Explore The Hottest Destinations</h2>
+          <h2 className="dlvSJV text-2xl font-black text-orange-600 font-bold sm:text-4xl">Explore The Hottest Destinations</h2>
           <div className="lhCcFM text-text">Trending this Month</div>
         </div>
 
