@@ -1,5 +1,5 @@
 const Pachmarhi = {
-    name: `paachmarhi"The Queen of satpura"`,
+    name: `pachmarhi"The Queen of satpura"`,
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_2.png",
         imgurl2: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_18.png",

@@ -23,7 +23,7 @@ const tripdata = [{
     name: 'Goa',
     url: "Details/Goa"
 },{
-    name: 'Ladhakh',
+    name: 'Ladakh',
     url: "Details/leh_6day"
 },{
     name: 'Kerala',
@@ -72,7 +72,7 @@ const Navbar = () => {
                     <div id="nav-close" className="fas fa-times"></div>
                     {<Packnav name="Packages" url={tripdata} />}
                     {<Navlinks name='Corporate Tours' url='/Corporate' icon="fa-solid fa-laptop" />}
-                    {<Navlinks name='About' url='/About' icon="fa-solid fa-paperclip" />}
+                    {<Navlinks name='About us' url='/About' icon="fa-solid fa-paperclip" />}
                     {<Dropnav name='Community' />}
                     {<Navlinks name='Franchise' url='/Franchise' icon="fa-solid fa-briefcase" />}
                     {<Navlinks name='Travel Essentials' url='/Travelshop' icon="fa-solid fa-bag-shopping" />}

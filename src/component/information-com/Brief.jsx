@@ -9,7 +9,7 @@ const Brief = (props) => {
 
   return (
     <div className="flex flex-col w-full">
-      <h1 className="mt-2 mb-4 text-2xl font-black text-orange-600 sm:text-4xl">
+      <h1 className="mt-2 mb-4 text-2xl font-black text-orange-600 font-bold sm:text-4xl">
         <span className="">{props.name}</span>
       </h1>
       <div>

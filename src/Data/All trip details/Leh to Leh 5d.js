@@ -17,7 +17,7 @@ const Ladakh6daystrip = {
     Indulge in Ladakh's rich culinary heritage, savoring traditional Ladakhi delicacies like Thukpa, Momos, and Apricot Jam, infused with flavors that reflect the region's cultural diversity and heritage.
     
     Despite its remote location and rugged terrain, Ladakh remains a haven for lovers, offering a sanctuary of natural beauty, adventure, and cultural immersion. Let your love soar amidst the grandeur of Ladakh's landscapes, forging memories that will last a lifetime`,
-    duration: "4N-5D",
+    duration: "5N-6D",
     note:"",
     Quadprice: "17499/-PP",
     Tripleprice: "19999/PP",
@@ -117,23 +117,13 @@ const Ladakh6daystrip = {
     },
 
     ],
-    exclusion: [{
-        name: "Expenses",
-        inc: 'All entry tickets/Guide services for , sightseeing, & Entry fee( pony ride,gondola ride,horse ride etc)'
-    },
-
-    {
-        name: "Transport",
-        inc: 'local taxi to be hired by the guest due to taxi union issue after tanmarg AT GULMARG & Aru Vally Betab Vally and Chandanwadi at Pahalgam &  Gagangir At sonmarg.'
-    },
+    exclusion: [
+   
     {
         name: "Meals",
         inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
     },
-    {
-        name: "Honeymoon kit",
-        inc: 'Honeymoon kit (bed decoration with candle light dinner) on extra cost.'
-    },
+   
     {
         name: "Priority High",
         inc: 'Anything not mentioned in the inclusion.'
