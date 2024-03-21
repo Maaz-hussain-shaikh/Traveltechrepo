@@ -6,10 +6,20 @@ import Ranking from './Ranking'
 
 
 const Header = () => {
-  const [selectedTab, setSelectedTab] = useState('all');
+  const [selectedTab, setSelectedTab] = useState('plus');
 
   const handleTabChange = (value) => {
     setSelectedTab(value);
+  if (value==="Group"){
+    window.scrollTo(0, 400);
+
+  }if (value==="Honymoon"){
+    window.scrollTo(0, 2100);
+  }if (value==="Own"){
+    window.scrollTo(0, 1000);
+  }else{
+
+  }
   };
   return (
 
@@ -83,12 +93,12 @@ const Header = () => {
 
 
 
-                  <input type="radio" name="tab" className="hidden" value="all" checked={selectedTab === 'all'} onChange={() => handleTabChange('all')} />
+                 
 
                 </label>
                 <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-2 border-b-2 border-r-2">
-                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Group Trips</span>
-                  <input type="radio" name="tab" className="hidden" value="hostel" checked={selectedTab === 'hostel'} onChange={() => handleTabChange('hostel')} />
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700" onClick={() => handleTabChange('Group')}>Group Trips</span>
+                  <input type="radio" name="tab" className="hidden" value="hostel" checked="hostel" onChange={() => handleTabChange('hostel')} />
                   <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
                 </label>
                 <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-2 border-b-2 border-r-2">
@@ -97,13 +107,13 @@ const Header = () => {
                   <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
                 </label>
                 <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-3 border-r-2">
-                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Honymoon Trips</span>
-                  <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'} onChange={() => handleTabChange('homes')} />
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700" onClick={() => handleTabChange('Honymoon')}>Honymoon Trips</span>
+                  <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'}  />
                   <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
                 </label>
                 <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-3 border-r-2">
-                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700">Plan your <br />Own Trip</span>
-                  <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'} onChange={() => handleTabChange('homes')} />
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700" onClick={() => handleTabChange('Own')}>Plan your <br />Own Trip</span>
+                  <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'}  />
                   <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
                 </label>
               </div>

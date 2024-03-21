@@ -59,7 +59,7 @@ const Navbar = () => {
             <li className="flex flex-col text-dark  cursor-pointer" onClick={() => { Navigate(props.url); update(!mobileOff); }}>
                 <div to={props.url} className="-mx-3 block  rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                    <i className={props.icon} style={{ fontSize: "21px", marginRight: "10px" }}></i><span className="text-orange-600">{props.name}</span>
+                    <i className={props.icon} style={{ fontSize: "21px", marginRight: "10px" }}></i><span className="">{props.name}</span>
                 </div>
             </li>
         </>)
@@ -67,7 +67,7 @@ const Navbar = () => {
     return (
         <>
             <header className="header sticky">
-                <Link to="/" className="logo"> <img src={logo} alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
+                <Link to="/" className="logo text-sm"> <img src={logo} alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
                 <nav className="navbar">
                     <div id="nav-close" className="fas fa-times"></div>
                     {<Packnav name="Packages" url={tripdata} />}
@@ -133,9 +133,8 @@ const Navbar = () => {
 
                             <div className="py-6">
                                 <Link
-                                    to="/"
-                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                                >
+                                    to="https://wa.me/+91 8982001240?text=Hey travel tech I want to book upcoming trip with you"
+                                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7   bg-orange-600">
                                     WhatsApp us
                                 </Link>
                             </div>
