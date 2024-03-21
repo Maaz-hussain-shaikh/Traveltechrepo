@@ -125,7 +125,7 @@ const Navbar = () => {
                                 }
 
                                 {<NavlinksBar name='Corporate Tours' url='/Corporate' icon="fa-solid fa-laptop" />}
-                                {<NavlinksBar name='About' url='/About' icon="fa-solid fa-paperclip" />}
+                                {<NavlinksBar name='About us' url='/About' icon="fa-solid fa-paperclip" />}
 
                                 {<NavlinksBar name='Franchise' url='/Franchise' icon="fa-solid fa-briefcase" />}
                                 {<NavlinksBar name='Travel Essentials' url='/Travelshop' icon="fa-solid fa-bag-shopping" />}

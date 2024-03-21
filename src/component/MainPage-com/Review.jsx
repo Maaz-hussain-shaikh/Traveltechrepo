@@ -23,16 +23,7 @@ const Review = () => {
             <span>Booked:<span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-sm">{review.tripname}</span></span>
           </div>
           <div className="text-sm sm:text-lg">{review.comment}</div>
-          <div className="flex grid grid-cols-3 gap-3 sm:grid-cols-6">
-            {review.imgsrc.map((image, imgIndex) => (
-              <img
-                key={imgIndex}
-                className="object-cover w-24 h-24 rounded-lg sm:w-36 sm:h-36 bg-subtitle"
-                src={image.url}
-                alt="Review"
-              />
-            ))}
-          </div>
+          
         </div>
       ))}
       <div className="nearby-destinations__destinations-bar mt-4">
