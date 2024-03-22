@@ -7,8 +7,8 @@ const Unique = () => {
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           
-          <p className="mt-5  text-center sm:text-2xl  text-2xl  font-bold tracking-tight text-orange-600 sm:text-4xl">
-          What Makes Us Dieferent?
+          <p className="mt-5  text-center sm:text-2xl  text-2xl  font-bold tracking-tight  sm:text-4xl">
+          What Makes Us <span className='text-orange-600'>Different ?</span>
           </p>
           
         </div>

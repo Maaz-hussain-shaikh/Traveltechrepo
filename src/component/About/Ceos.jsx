@@ -5,7 +5,7 @@ const Ceos = () => {
     const [currenname, setCurrentname] = useState({
         name:"Salman Shaikh",
         position:"CEO",
-        url:"images/CEOsimg/Ceo.jpg",
+        url:"images/CEOsimg/Ceo.png",
 
     });
     
@@ -20,7 +20,7 @@ const Ceos = () => {
         <>
             <div className="bg-white mt-20">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-3xl text-orange-600 font-bold tracking-tight text-gray-900 sm:text-4xl">Who make this community</h2>
+                    <h2 className="text-center sm:text-2xl  text-2xl  font-bold tracking-tight  sm:text-4xl">Who make this <span className='text-orange-600'>community</span> </h2>
 
                 </div>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-center items-center lg:flex-row">
@@ -29,7 +29,7 @@ const Ceos = () => {
                         <div className="rounded-lg text-center lg:flex lg:flex-col lg:justify-center lg:py-16">
                             <div className="mx-auto max-w-xs">
 
-                                <img src={currenname.url} className="h-full w-full object-cover rounded-lg object-center" alt="CEO" />
+                                <img src={currenname.url} className="h-full mt-4 w-full object-cover rounded-lg object-center" alt="CEO" />
                                 <div className="mt-2 flex items-center justify-center space-x-3 text-base">
                                     <div className="mt-2 flex items-center justify-center space-x-3 text-base">
                                         <div className="font-semibold text-gray-900">{currenname.name}</div>
@@ -47,31 +47,31 @@ const Ceos = () => {
 
                     <div className="max-w-2xl mx-auto justify-center lg:ml-6">
 
-                        <ul className="grid grid-cols-3  ">
-                            <li onMouseEnter={() => handleHover('images/CEOsimg/Ceo.jpg', 'Salman Shaikh', "Founder & CEO")}
-                                onClick={() => handleClick('images/CEOsimg/Ceo.jpg', 'Salman Shaikh', "Founder & CEO")}>
+                        <ul className="grid grid-cols-3 mt-4 ">
+                            <li onMouseEnter={() => handleHover('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO")}
+                                onClick={() => handleClick('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO")}>
                                 <div className="flex flex-col items-center justify-center">
-                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Ceo.jpg" alt="Ceo" />
+                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Ceo.png" alt="Ceo" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Salman Shaikh</h3>
                                         <p className="text-sm font-semibold leading-6 text-orange-600">CEO</p>
                                     </div>
                                 </div>
                             </li>
-                            <li onMouseEnter={() => handleHover('images/CEOsimg/farhan.jpg', 'Farhan Shaikh', "Co-Founder & Salse Head")}
-                                onClick={() => handleClick('images/CEOsimg/farhan.jpg', 'Farhan Shaikh', "Co-Founder & Salse Head")}>
+                            <li onMouseEnter={() => handleHover('images/CEOsimg/farhan.png', 'Farhan Shaikh', "Co-Founder & Salse Head")}
+                                onClick={() => handleClick('images/CEOsimg/farhan.png', 'Farhan Shaikh', "Co-Founder & Salse Head")}>
                                 <div className="flex flex-col items-center justify-center">
-                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/farhan.jpg" alt="" />
+                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/farhan.png" alt="" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Farhan Shaikh</h3>
                                         <p className="text-sm font-semibold leading-6 text-orange-600">COO</p>
                                     </div>
                                 </div>
                             </li>
-                            <li onMouseEnter={() => handleHover('images/CEOsimg/Cto.jpg', 'Maaz Hussain', "CTO & Sales Head")}
-                                onClick={() => handleClick('images/CEOsimg/Cto.jpg', 'Maaz Hussain', "CTO & Sales Head")}>
+                            <li onMouseEnter={() => handleHover('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO & Sales Head")}
+                                onClick={() => handleClick('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO & Sales Head")}>
                                 <div className="flex flex-col items-center justify-center">
-                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Cto.jpg" alt="" />
+                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Cto.png" alt="" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Maaz Hussain </h3>
                                         <p className="text-sm font-semibold leading-6 text-orange-600">CTO</p>
@@ -80,7 +80,7 @@ const Ceos = () => {
                             </li>
                         </ul>
 
-                        <p className="mt-6 text-lg leading-8 text-gray-600 text-center">
+                        <p className="mt-6 text-sm sm:text-lg leading-2 text-gray-600 text-center">
                             Each captain undergoes rigorous training to ensure they're equipped with the expertise and enthusiasm needed to make every trip truly memorable. Let our talented trip captains transform your travels into cherished memories.
                         </p>
                     </div>

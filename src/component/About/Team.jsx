@@ -3,13 +3,12 @@ import Ceos from './Ceos';
 
 const peopleData = [
   { name: 'Dhrva saxena', imageUrl: 'images/CEOsimg/Captain dhru.jpg', role: 'Trip Captain' },
-  { name: 'Umema khan', imageUrl: 'images/CEOsimg/Captain1.jpg', role: 'Trip Captain' },
+  { name: 'Rose', imageUrl: 'images/CEOsimg/Captain1.jpg', role: 'Sales Head' },
   { name: 'Jayesh', imageUrl: 'images/CEOsimg/Jayesh.jpg', role: 'Trip Captain' },
   { name: 'Mehul Jain', imageUrl: 'images/CEOsimg/Mehul.jpg', role: 'Trip Captain' },
   { name: 'Jay', imageUrl: 'images/CEOsimg/Jay.jpg', role: 'Trip Captain' },
   { name: 'Samir Khan ', imageUrl: 'images/CEOsimg/dr samir.jpg', role: 'Trip Captain' },
-  { name: 'Fardeen Shaikh', imageUrl: 'images/CEOsimg/Fardeen.jpg', role: 'Trip Captain' },
-
+ 
 
 
 ]
@@ -26,8 +25,8 @@ const Team = () => {
       <div className="bg-white mt-20">
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-orange-600 sm:text-4xl">Meet our Captain</h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <h2 className="text-center sm:text-2xl  text-2xl  font-bold tracking-tight  sm:text-4xl">Meet our <span className='text-orange-600'>Team</span></h2>
+            <p className="mt-6 text-sm sm:text-lg leading-2 text-gray-600">
               Each caption undergoes rigorous training to ensure they're equipped with the expertise and enthusiasm needed to make every trip truly memorable.
               let our talented trip captions transform your travels into cherished memories.
             </p>
