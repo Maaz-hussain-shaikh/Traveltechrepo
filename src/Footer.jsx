@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="azDuO dlSUAt jCihag mt-4">
 
                 <div className="hdwgFu">
-
+                <a href="https://www.instagram.com/traveltech__/" target="_blank" rel="noopener noreferrer">
                     <li className="flex flex-col py-2 sm:py-0 px-2  text-dark">
                         <div className="flex items-center justify-between w-full px-2 py-2 font-semibold sm:px-0 sm:py-0 hover:text-orange focus:outline-none focus:text-orange" href="/zostel">
                             <div className="flex flex-col items-center justify-center cursor-pointer">
@@ -28,7 +28,8 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li></a>
+                    <a href="https://www.facebook.com/Traveltechindia0/" target="_blank" rel="noopener noreferrer">
                     <li className="flex flex-col py-2 sm:py-0 px-2  text-dark">
                         <div className="flex items-center justify-between w-full px-2 py-2 font-semibold sm:px-0 sm:py-0 hover:text-orange focus:outline-none focus:text-orange" href="/zostel">
                             <div className="flex flex-col items-center justify-center cursor-pointer">
@@ -39,6 +40,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </li>
+                    </a>
                     <a href="https://www.youtube.com/@Traveltechindia" target="_blank" rel="noopener noreferrer">
                     <li className="flex flex-col py-2 sm:py-0 px-2  text-dark">
                         <div className="flex items-center justify-between w-full px-2 py-2 font-semibold sm:px-0 sm:py-0 hover:text-orange focus:outline-none focus:text-orange" href="/zostel">

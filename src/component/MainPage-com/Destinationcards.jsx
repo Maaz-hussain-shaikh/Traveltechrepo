@@ -6,34 +6,38 @@ import { NavLink } from "react-router-dom";
 
 
 const Destinationcards = () => {
+  const handleCall = () => {
+    window.open('tel:+918982001240', '_self');
+  };
 
   return (
     <>
-      <div className="tour-hidden-utility">
-        <div className="tour-enquiry-card rounded-lg">
+      <div className="tour-hidden-utility ">
+        <div className="tour-enquiry-card  rounded-lg">
           <div className="enquiry-image">
             <img src="images/Firstpageimgs/Groupadimg.png" alt="description" id="people-image" />
           </div>
           <div className="tour-enquiry-content">
             <div className="enquiry-content">
-              <div className="font-bold text-lg">
-                <span>Bigger Group? Get special offers upto 50% off!</span>
+              <div className="font-bold text-lg ">
+                <span>Calling All Bargain Hunters! Dive into Incredible Savings with Up <span className="text-orange-600">to 50% Off -</span>  Join the Party!</span>
               </div>
-              <div className="font-medium text-text">
-                <span>We create unforgettable adventures, customised for your group.</span>
-              </div>
+              
             </div>
           </div>
-          <div className="tour-enquiry-call">
-            <button name="button" type="button" id="enquiry-call" className="rounded-lg font-medium">Get a Callback</button>
-          </div>
+          
+           
+            <div className="tour-enquiry-call">
+            <button name="button" type="button" id="enquiry-call" className="rounded-lg font-medium" onClick={handleCall}>Call us</button></div>
+           
+          
         </div>
       </div>
 
       <div className="jCihag">
-        <div className="kwYMGm">
-          <h2 className="dlvSJV text-2xl font-black text-orange-600 font-bold sm:text-4xl">Explore The Hottest Destinations</h2>
-          <div className="lhCcFM text-text">Trending this Month</div>
+        <div className="kwYMGm ">
+          <h2 className="dlvSJV text-2xl font-black  font-bold text-center sm:text-4xl">Discover the <span className="text-orange-600">Trendiest</span> Travel Spots</h2>
+          
         </div>
 
         <div style={{ transform: "translateX(-0%)" }} className="iNvskg">

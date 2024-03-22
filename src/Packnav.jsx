@@ -4,7 +4,7 @@ import { Link, useLocation} from 'react-router-dom';
 const Packnav = (props) => {
     const locate=useLocation();
     const [isOpen, setIsOpen] = useState(false);
-   useEffect(()=>{setIsOpen(false)},[locate])
+   useEffect(()=>{setIsOpen(false); window.scrollTo(0,0);},[locate])
     const handleToggle = () => {
         setIsOpen(!isOpen);
     };

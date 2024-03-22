@@ -16,6 +16,9 @@
   .mttop{
     width: 90%;
   }
+  .enquiry-content{
+    margin-top: 12px !important;
+  }
   /* ======================corporate=============== */
   .dwReTq {
     flex-direction: column !important;

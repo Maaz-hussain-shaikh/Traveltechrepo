@@ -18,8 +18,8 @@ const About = () => {
             <div className="w-full h-72 sm:h-auto rounded-lg sm:w-1/2 bg-cover bg-no-repeat bg-center" style={imgstyle} >
             </div>
             <div className="w-full sm:w-1/2 flex flex-col py-8 sm:py-24 sm:pl-8 px-4 sm:px-0">
-              <span className="uppercase tracking-wide font-semibold text-gray-700 sm:text-lg">Discover the Magic: </span>
-              <h2 className="text-2xl sm:text-3xl font-bold">Join Our Vibrant Community!</h2>
+              <span className="uppercase tracking-wide font-semibold  text-gray-700 sm:text-lg">Discover the Magic: </span>
+              <h2 className="text-2xl sm:text-3xl font-bold">Join Our Vibrant <span className="text-orange-600">Community!</span></h2>
               <p className="mt-2 sm:text-lg">Welcome to the heart of Travel tech. Our community is where adventure begins and friendships flourish. Whether you're a solo traveler or part of a group, our trips offer the perfect blend of luxury and affordability. Connect with fellow adventurers, enjoy fantastic group experiences, and empower local artists to shine. Safety is our priority, ensuring peace of mind for all travelers, including solo and female explorers. Join us on a journey of discovery and create memories that last a lifetime.</p>
               <button className="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
                 Join Us!

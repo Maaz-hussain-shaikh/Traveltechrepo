@@ -1,5 +1,14 @@
 import React from 'react';
 function Costomercare() {
+   const phoneNumber = '+918871658568';
+    const message = 'Hey Travel tech I want to Schedule my Trip'; 
+  
+    // Encode phone number and message for URL
+    const encodedPhoneNumber = encodeURIComponent(phoneNumber);
+    const encodedMessage = encodeURIComponent(message);
+  
+    
+    const whatsappLink = `https://wa.me/${encodedPhoneNumber}?text=${encodedMessage}`;
   return (
     <>
       <div className="reach-out ">
@@ -16,9 +25,9 @@ function Costomercare() {
                     </div>
                   </div>
                   <div className="col-7 col-md-7 col-lg-6 m-auto px-md-5 text-md-center p-3 inboubtsbox">
-                    <h4 className=" mb-1.5 text-2xl sm:text-4xl font-bold">Lost in Wanderlust? </h4>
+                    <h4 className=" mb-1.5 text-2xl sm:text-4xl font-bold">Lost in <span className="text-orange-600">Wanderlust?</span>  </h4>
                     <p className="t-content mb-1">Don't hesitate &amp; Hit the Button Below and Let's Find Your Perfect Adventure!</p>
-                    <a type="button" data-bs-toggle="modal" data-bs-target="#callBackForm" aria-current="page" className="reachus active" href="/">Reach out to us</a>
+                    <a type="button" aria-current="page" className="reachus active" href={whatsappLink} target="_blank" rel="noopener noreferrer">Reach out to us</a>
                   </div>
                 </div>
               </div>
