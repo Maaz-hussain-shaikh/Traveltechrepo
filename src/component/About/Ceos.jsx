@@ -1,20 +1,24 @@
 import React, { useState } from 'react'
 
 const Ceos = () => {
+    const Salman="Salman is a visionary travelpreneur with an experience of leading more than 200 community trips. He’s fond of all kinds of voyages, He can hold a conversation around business, human values and almost everything one can think of. The man knows how to get down to work and party, equally well."
+    const Farhan="With a wealth of experience leading outdoor excursions on over 50+ trips, Farhan is the driving force behind the seamless operation of all our group departures! As the leader of our most critical initiatives, Farhan single-handedly manages the logistics and operations of our adventures."
+    const Maaz="Meet Our Chief Technology Officer Maaz, the powerhouse behind our technical innovations and the maestro of adventure! With a keen eye for problem-solving and a thirst for excitement, Maaz seamlessly blends technology and exploration. Whether he's crafting groundbreaking solutions or embracing the thrill of adventure, Maaz brings boundless energy and expertise to every endeavor"
     
     const [currenname, setCurrentname] = useState({
         name:"Salman Shaikh",
         position:"CEO",
         url:"images/CEOsimg/Ceo.png",
+        intro:Salman
 
     });
     
-    const handleHover = (newImage, name, post) => {       
-        setCurrentname({name:name,url:newImage,position:post});        
+    const handleHover = (newImage, name, post,intro) => {       
+        setCurrentname({name:name,url:newImage,position:post,intro:intro});        
     };
 
-    const handleClick = (newImage, name, post) => {
-        setCurrentname({name:name,url:newImage,position:post});
+    const handleClick = (newImage, name, post,intro) => {
+        setCurrentname({name:name,url:newImage,position:post,intro:intro});
     };
     return (
         <>
@@ -48,28 +52,28 @@ const Ceos = () => {
                     <div className="max-w-2xl mx-auto justify-center lg:ml-6">
 
                         <ul className="grid grid-cols-3 mt-4 ">
-                            <li onMouseEnter={() => handleHover('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO")}
-                                onClick={() => handleClick('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO")}>
+                            <li onMouseEnter={() => handleHover('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO",Salman)}
+                                onClick={() => handleClick('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO",Salman)}>
                                 <div className="flex flex-col items-center justify-center">
                                     <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Ceo.png" alt="Ceo" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Salman Shaikh</h3>
-                                        <p className="text-sm font-semibold leading-6 text-orange-600">CEO</p>
+                                        <p className="text-sm font-semibold leading-6 text-orange-600">Founder & CEO</p>
                                     </div>
                                 </div>
                             </li>
-                            <li onMouseEnter={() => handleHover('images/CEOsimg/farhan.png', 'Farhan Shaikh', "Co-Founder & Salse Head")}
-                                onClick={() => handleClick('images/CEOsimg/farhan.png', 'Farhan Shaikh', "Co-Founder & Salse Head")}>
+                            <li onMouseEnter={() => handleHover('images/CEOsimg/farhan.png', 'Farhan Shaikh', "Co-Founder",Farhan)}
+                                onClick={() => handleClick('images/CEOsimg/farhan.png', 'Farhan Shaikh', "Co-Founder",Farhan)}>
                                 <div className="flex flex-col items-center justify-center">
                                     <img className="h-10 w-10 rounded-full" src="images/CEOsimg/farhan.png" alt="" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Farhan Shaikh</h3>
-                                        <p className="text-sm font-semibold leading-6 text-orange-600">COO</p>
+                                        <p className="text-sm font-semibold leading-6 text-orange-600">CO-founder</p>
                                     </div>
                                 </div>
                             </li>
-                            <li onMouseEnter={() => handleHover('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO & Sales Head")}
-                                onClick={() => handleClick('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO & Sales Head")}>
+                            <li onMouseEnter={() => handleHover('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO ",Maaz)}
+                                onClick={() => handleClick('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO ",Maaz)}>
                                 <div className="flex flex-col items-center justify-center">
                                     <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Cto.png" alt="" />
                                     <div className="mt-2 text-center">
@@ -81,7 +85,7 @@ const Ceos = () => {
                         </ul>
 
                         <p className="mt-6 text-sm sm:text-lg leading-2 text-gray-600 text-center">
-                            Each captain undergoes rigorous training to ensure they're equipped with the expertise and enthusiasm needed to make every trip truly memorable. Let our talented trip captains transform your travels into cherished memories.
+                        {currenname.intro}
                         </p>
                     </div>
                 </div>

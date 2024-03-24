@@ -23,7 +23,7 @@ const Dropnav = (props) => {
                 {isOpen && (
                     <div className="absolute z-10 w-48 mt-14 origin-top-right bg-white rounded-md shadow-lg right-15 ">
                         <div className="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                            <Link to="/Bloge" className="block py-2 mx-4 text-sm text-orange-600 " role="menuitem"><i className="fa-solid fa-blog" style={{marginRight:"12px"}}></i> Bloge</Link>
+                            <Link to="/Bloge" className="block py-2 mx-4 text-sm text-orange-600 " role="menuitem"><i className="fa-solid fa-blog" style={{marginRight:"12px"}}></i> Blog</Link>
                             <Link to="/Artist" className="block py-2  mx-4  text-sm text-orange-600 " role="menuitem"><i className="fa-solid fa-guitar" style={{marginRight:"12px"}}></i>For Artist</Link>
                             <Link to="/ourGroup" className="block py-2  mx-4  text-sm text-orange-600 " role="menuitem"> <i className="fa-solid fa-handshake" style={{marginRight:"12px"}}></i>join</Link>
                         </div>

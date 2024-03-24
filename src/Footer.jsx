@@ -82,3 +82,9 @@ const Footer = () => {
 
 }
 export default Footer;
+
+
+
+
+// C:\Program Files\MongoDB\Server\7.0\data\
+// C:\Program Files\MongoDB\Server\7.0\log\

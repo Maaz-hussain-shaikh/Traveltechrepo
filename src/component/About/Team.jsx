@@ -2,7 +2,7 @@ import React from 'react'
 import Ceos from './Ceos';
 
 const peopleData = [
-  { name: 'Dhrva saxena', imageUrl: 'images/CEOsimg/Captain dhru.jpg', role: 'Trip Captain' },
+  { name: 'Druva saxena', imageUrl: 'images/CEOsimg/Captain dhru.jpg', role: 'Trip Captain' },
   { name: 'Rose', imageUrl: 'images/CEOsimg/Captain1.jpg', role: 'Sales Head' },
   { name: 'Jayesh', imageUrl: 'images/CEOsimg/Jayesh.jpg', role: 'Trip Captain' },
   { name: 'Mehul Jain', imageUrl: 'images/CEOsimg/Mehul.jpg', role: 'Trip Captain' },

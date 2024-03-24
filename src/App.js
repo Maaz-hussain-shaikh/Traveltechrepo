@@ -15,8 +15,6 @@ const Community = lazy(() => import('./component/Community/Community'));
 const Blogeroute = lazy(() => import('./component/Blog/Blogeroute'));
 const Destination = lazy(() => import('./component/Destination/Destination'));
 const Underconstruction = lazy(() => import('./Underconstruction'));
-
-
 const Corporate= React.lazy(()=>import('./component/Corporate-com/Corporate'))
 
 function App() {
