@@ -24,7 +24,7 @@ const Ceos = () => {
         <>
             <div className="bg-white mt-20">
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-center sm:text-2xl  text-2xl  font-bold tracking-tight  sm:text-4xl">Who make this <span className='text-orange-600'>community</span> </h2>
+                    <h2 className="text-center sm:text-2xl  text-2xl  font-bold tracking-tight  sm:text-4xl">Who make this <span className='text-orange-600'>Community</span> </h2>
 
                 </div>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col justify-center items-center lg:flex-row">
