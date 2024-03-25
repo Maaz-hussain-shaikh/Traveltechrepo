@@ -16,7 +16,7 @@ import { Kedarnath } from "./All trip details/Kedarnath group trip 7days"
 
 const Maindetailsdata = {
     "Manali": {info: Manali},
-    "Kashmir": {info: Kashmir},
+    "Kashmir": {info: Kashmir,more:Kashmir_trips},
     "Pachmarhi": {info: Pachmarhi},
     "Udaipur": {info: Udaipur},
     "Jaipur Ranthambore": {info: JaipurRanthambore},
@@ -86,7 +86,7 @@ const Cardfirst = {
 const destinationard = {
     "Kashmir": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_7.png",
-        href: "/Details/Kashmir",
+        href: "/Destinations/Kashmir",
       
     },
     "Himachal": {
@@ -130,56 +130,56 @@ const destinationard = {
 //   ==============================================Honymoon destination slider===============================
 const Honymooncards = {
     "Andaman": {
-        imgurl: "images/tripcard/Honymoontrip/Andaman.png",
+        imgurl: "/images/tripcard/Honymoontrip/Andaman.png",
         iturl: "/Details/Andaman",
         Price: "5500",
     },
     
     "Sikkim": {
-        imgurl: "images/tripcard/Honymoontrip/Darjeeling.png",
+        imgurl: "/images/tripcard/Honymoontrip/Darjeeling.png",
         iturl: "Details/Sikkim darjeeling",
         Price: "3000",
 
     },
     "Goa": {
-        imgurl: "images/tripcard/Honymoontrip/Goa.png",
+        imgurl: "/images/tripcard/Honymoontrip/Goa.png",
         iturl: "Details/Goa",
         Price: "3000",
 
     },
     "Himachal": {
-        imgurl: "images/tripcard/Honymoontrip/Himachal.png",
+        imgurl: "/images/tripcard/Honymoontrip/Himachal.png",
         iturl: "Details/Manali",
         Price: "3000",
 
     },
     "Kashmir": {
-        imgurl: "images/tripcard/Honymoontrip/Kashmir.png",
+        imgurl: "/images/tripcard/Honymoontrip/Kashmir.png",
         iturl: "Details/Kashmir",
         Price: "3000",
 
     },
     "Kerala": {
-        imgurl: "images/tripcard/Honymoontrip/Kerala.png",
+        imgurl: "/images/tripcard/Honymoontrip/Kerala.png",
         iturl: "Details/Kerala",
         Price: "3000",
 
     },
     "Maldives": {
-        imgurl: "images/tripcard/Honymoontrip/Maldives.png",
+        imgurl: "/images/tripcard/Honymoontrip/Maldives.png",
         iturl: "Details/Maldives",
         Price: "3000",
 
     },
     "Meghalaya": {
-        imgurl: "images/tripcard/Honymoontrip/Meghalaya.png",
+        imgurl: "/images/tripcard/Honymoontrip/Meghalaya.png",
         iturl: "Details/Meghalaya",
         Price: "3000",
 
     },
-    "Rajisthan": {
-        imgurl: "images/tripcard/Honymoontrip/Rajisthan.png",
-        iturl: "Details/Rajisthan",
+    "Rajasthan": {
+        imgurl: "/images/tripcard/Honymoontrip/Rajisthan.png",
+        iturl: "Details/Rajasthan",
         Price: "3000",
 
     },

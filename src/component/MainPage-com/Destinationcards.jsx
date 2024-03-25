@@ -20,9 +20,10 @@ const Destinationcards = () => {
           <div className="tour-enquiry-content">
             <div className="enquiry-content">
               <div className="font-bold text-lg ">
-                <span>Calling All Bargain Hunters! Dive into Incredible Savings with Up <span className="text-orange-600">to 50% Off -</span>  Join the Party!</span>
+                <span>Unlock up to <span className="text-orange-600">to 50% Off -</span> Excusive Discounts for larger groups  </span>
+                
               </div>
-              
+              <p>We create unforgetable adventure,Customised for your Group trip</p>
             </div>
           </div>
           
@@ -36,7 +37,8 @@ const Destinationcards = () => {
 
       <div className="jCihag">
         <div className="kwYMGm ">
-          <h2 className="dlvSJV text-2xl font-black  font-bold text-center sm:text-4xl">Discover the <span className="text-orange-600">Trendiest</span> Travel Spots</h2>
+
+        <div class="DividerWithHeading_bannerSubHeading__YJQl7 false "><div class="DividerWithHeading_subheadingDivider__s7Yq5"></div><h2 className="dlvSJV text-2xl font-black  font-bold text-center sm:text-4xl">Discover the <span className="text-orange-600">Trendiest</span> Travel Spots</h2><div class="DividerWithHeading_subheadingDivider__s7Yq5 DividerWithHeading_subheadingDividerFlip__0r76_"></div></div>       
           
         </div>
 

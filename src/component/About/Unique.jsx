@@ -20,7 +20,7 @@ const Unique = () => {
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-white shadow-lg">
                   <i className="fa-solid fa-user-secret text-orange-600"></i>
                   </div>
-                  <h1>no third party mess</h1>
+                  <h1>No third party mess</h1>
                 </dt>
                 <dd className="mt-2 text-base text-sm leading-5 text-gray-600">100 present in-house operations for all trips! no third parties involved hence no fishy claims!</dd>
               </div>

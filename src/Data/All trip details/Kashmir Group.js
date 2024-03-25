@@ -2,7 +2,7 @@ const Kashmir = {
     name: "Fitoor-E-Kashmir",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Kashmir/Destination_14.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Kashmir/Destination_19.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Kashmir/Kashmirtrip.png",
         imgurl3: "/images/tripcard/Destinationimgs/Kashmir/Destination_6.png",
         imgurl4: "/images/tripcard/Destinationimgs/Kashmir/Destination_7.png",
        
@@ -35,8 +35,8 @@ const Kashmir = {
 
     ],
     
-    pickup: "Indore/Bhopal/Jammmu/Delhi",
-    drop: "Indore/Bhopal/Jammmu/Delhi",
+    pickup: "Indore/Bhopal/Jammu/Delhi",
+    drop: "Indore/Bhopal/Jammu/Delhi",
     it: [{
         Heading: "Departure from Indore",
         Schedule: [

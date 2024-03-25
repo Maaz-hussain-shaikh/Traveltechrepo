@@ -29,10 +29,10 @@ const Triphistory = () => {
                                         <div className="dGGiAq">
 
                                             <i className="fa-solid fa-location-dot"></i>
-                                            <div className="fediun"><h4 className="text-white text-sm">Location</h4><p className="text-sm text-white font-semibold">Japan</p></div></div><div className="dGGiAq">
+                                            <div className="fediun"><h4 className="text-white text-sm">Location</h4><p className="text-sm text-white font-semibold">Kashmir</p></div></div><div className="dGGiAq">
                                             <i className="fa-regular fa-user"></i>
                                             <div className="fediun"><h4 className="text-white text-sm">No. of People</h4>
-                                                <p className="text-sm text-white font-semibold">200+ Peoples</p>
+                                                <p className="text-sm text-white font-semibold">45+ Peoples</p>
                                             </div>
                                         </div>
                                     </div>
