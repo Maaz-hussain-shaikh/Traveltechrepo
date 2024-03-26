@@ -82,79 +82,96 @@ const Meghalaya = {
     
     
 
-    
-inclusion: [{
-    name: "Trip Captain",
-    inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
-},
-{
-    name: "Accommodation",
-    inc: 'Accommodation on asharing basis(2N Shillong, 2N Cherrapunji, 1N Dawki)'
-},
-{
-    name: "Meals",
-    inc: 'A total of 5 meals (5 breakfasts). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
-},
-{
-    name: "Traveler",
-    inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Sumo. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-},
-
-],
-    exclusion: [{
-        name: "Expenses",
-        inc: 'All entry tickets/Guide services for , sightseeing, & Entry fee.'
-    },
-    {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
-    },
-    {
-        name: "Transport",
-        inc: "Nathula-pass will be Available on permit on extra Cost"
-    },
-   
-    {
-        name: "Honeymoon kit",
-        inc: 'Honeymoon kit (bed decoration with candle light dinner) on extra cost.'
-    },
-    {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
-    },
-    {
-        name: "Personal Expenses",
-        inc: 'Any personal expenses.'
-    },
-    {
-        name: "Natural Calamities",
-        inc: 'During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
-    },
-    ],
-        thingstotake: [{
-            name: "Shoes",
-            inc: 'trekking boots, flip-flops, and sneakers'
-        },
-        {
-            name: "Moisturizer",
-            inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
-        },
-        {
-            name: "Hiking",
-            inc: 'Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves.'
-        },
-        {
-            name: "Umbrella",
-            inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
-        },
-        {
-            name: "Essentials",
-            inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
-        },
-        {
-            name: "First Aid Kit",
-            inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
-        },
+        inclusion: [
+            {
+                "icon": "Trip_Captain",
+                "name": "Trip Captain",
+                "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
+            },
+            {
+                "icon": "Accommodation",
+                "name": "Accommodation",
+                "inc": "Accommodation on asharing basis(2N Shillong, 2N Cherrapunji, 1N Dawki)"
+            },
+            {
+                "icon": "Meals",
+                "name": "Meals",
+                "inc": "A total of 5 meals (5 breakfasts). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+            },
+            {
+                "icon": "Traveler",
+                "name": "Traveler",
+                "inc": "Everyday commute by a Non Ac tempo traveler/Sedan/Sumo. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+            }
+        ],
+        exclusion: [
+            {
+                "icon": "Personal_Expenses",
+                "name": "Expenses",
+                "inc": "All entry tickets/Guide services for , sightseeing, & Entry fee."
+            },
+            {
+                "icon": "Meals",
+                "name": "Meals",
+                "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+            },
+            {
+                "icon": "Transport",
+                "name": "Transport",
+                "inc": "Nathula-pass will be Available on permit on extra Cost"
+            },
+            {
+                "icon": "Honeymoon_Kit",
+                "name": "Honeymoon kit",
+                "inc": "Honeymoon kit (bed decoration with candle light dinner) on extra cost."
+            },
+            {
+                "icon": "Priority_High",
+                "name": "Priority High",
+                "inc": "Anything not mentioned in the inclusion."
+            },
+            {
+                "icon": "Personal_Expenses",
+                "name": "Personal Expenses",
+                "inc": "Any personal expenses."
+            },
+            {
+                "icon": "Natural_Calamities",
+                "name": "Natural Calamities",
+                "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+            }
+        ],
+        thingstotake: [
+            {
+                "icon": "Shoes",
+                "name": "Shoes",
+                "inc": "trekking boots, flip-flops, and sneakers"
+            },
+            {
+                "icon": "Moisturizer",
+                "name": "Moisturizer",
+                "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+            },
+            {
+                "icon": "Hiking",
+                "name": "Hiking",
+                "inc": "Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves."
+            },
+            {
+                "icon": "Umbrella",
+                "name": "Umbrella",
+                "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+            },
+            {
+                "icon": "Essentials",
+                "name": "Essentials",
+                "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+            },
+            {
+                "icon": "First_Aid_Kit",
+                "name": "First Aid Kit",
+                "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+            }
         ],
             Genterms: [{
                 key: "refundPolicy",

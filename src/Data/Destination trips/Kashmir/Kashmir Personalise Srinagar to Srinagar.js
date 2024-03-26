@@ -1,10 +1,11 @@
-const KashmirHoneymoon = {
+const Kashmir4n5d = {
     name: "Fitoor-E-Kashmir",
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Kashmir/Destination_14.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Kashmir/Kashmirtrip.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Kashmir/Destination_6.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Kashmir/Destination_7.png",
+       
     }],
     brief: `Discover Romantic Kashmir: A Haven for Lovebirds
 
@@ -18,19 +19,28 @@ const KashmirHoneymoon = {
     
     Despite occasional challenges stemming from regional disputes, Kashmir remains an idyllic haven for lovers, offering a sanctuary of natural beauty, adventure, and cultural immersion. Let love blossom amidst the splendor of Kashmir's landscapes, creating cherished memories that will last a lifetime..
     `,
+    note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "4N-5D",
-    price: "13499/-PP",
+    Quadprice: "13499/-PP",
+    Tripleprice: "17999/PP",
+    Doubleprice: "18999/PP",
+    Batches: [
+        { 
+            id: 1, 
+            date: 'Costomize my trip' 
+        }
+
+
+    ],
+    
     pickup: "Srinagar",
     drop: "Srinagar",
     it: [{
-        Heading: "Srinagar to Pahalgam | A Quiet Little Town Adorned with a blanket of Pine Trees and Crystal-Clear Rivers",
+        Heading: "Srinagar to Pahalgam | Day at Leisure",
         Schedule: [
-            { Scheduledetails: "Wake up to a fabulous view of the snow-capped mountains, enjoy a hearty breakfast, and check out from the hotel." },
-            { Scheduledetails: "Proceed towards Pahalgam, also known as the Valley of Shepherds." },
-            { Scheduledetails: "Explore the beautiful Aru Valley. Aru Valley is a small village famous for its scenic beauty and offers various adventure activities." },
-            { Scheduledetails: "Proceed towards one of the most popular tourist destinations, the Betaab Valley, which offers stunning views of the Lidder River surrounded by heavenly natural charm." },
-            { Scheduledetails: "Further, you will be visiting Chandanwari, famous for its snow bridge and the starting point of the holy Amarnath Yatra." },
-            { Scheduledetails: "After a day full of beautiful sightseeing and thrilling adventures, head towards Srinagar. Overnight stay in Srinagar." }
+            { Scheduledetails: "Reach srinagar airport in the morning and transfer to Pahalgam (1-1.5 hrs). You'll be transferred to your hotel with care and convenience, complete the check-in process, and relax in the hotel." },
+            { Scheduledetails: "If time allows during the journey, we may make a stop to explore nearby attractions." },
+            { Scheduledetails: "Have a delicious dinner and overnight stay at the hotel." }
 
 
         ]
@@ -94,76 +104,96 @@ const KashmirHoneymoon = {
     },
 
     ],
-    inclusion: [{
-        name: "Trip Captain",
-        inc: 'Driver as cum guide And Virtual trip captain'
-    },
-    {
-        name: "Accommodation",
-        inc: 'Accommodation on a quad-sharing basis(1N Pahalgam, 2N srinagar, 1N Houseboat)'
-    },
-    {
-        name: "Meals",
-        inc: 'A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
-    },
-    {
-        name: "Traveler",
-        inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
-    {
-        name: "Shikara Ride",
-        inc: 'Shikara Ride 1 hrs Complimentry'
-    },
+    "inclusion": [
+        {
+            "name": "Trip_Captain",
+            "icon": "Trip_Captain",
+            "inc": "Driver as cum guide And Virtual trip captain"
+        },
+        {
+            "name": "Accommodation",
+            "icon": "Accommodation",
+            "inc": "Accommodation on sharing basis(1N Pahalgam, 2N srinagar, 1N Houseboat)"
+        },
+        {
+            "name": "Meals",
+            "icon": "Meals",
+            "inc": "A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+        },
+        {
+            "name": "Traveler",
+            "icon": "Traveler",
+            "inc": "Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+        },
+        {
+            "name": "Shikara Ride",
+            "icon": "Shikara_Ride",
+            "inc": "Shikara Ride 1 hrs Complimentry"
+        }
     ],
-    exclusion: [{
-        name: "Expenses",
-        inc: 'All entry tickets/Guide services for , sightseeing, & Entry fee.'
-    },
-    {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
-    },
-    {
-        name: "Honeymoon kit",
-        inc: 'Honeymoon kit (bed decoration with candle light dinner) on extra cost.'
-    },
-    {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
-    },
-    {
-        name: "Personal Expenses",
-        inc: 'Any personal expenses.'
-    },
-    {
-        name: "Natural Calamities",
-        inc: 'During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
-    },
+    "exclusion": [
+        {
+            "name": "Expenses",
+            "icon": "Personal_Expenses",
+            "inc": "All entry tickets/Guide services for , sightseeing, & Entry fee."
+        },
+        {
+            "name": "Meals",
+            "icon": "Meals",
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+        },
+        {
+            "name": "Honeymoon kit",
+            "icon": "Honeymoon_Kit",
+            "inc": "Honeymoon kit (bed decoration with candle light dinner) on extra cost."
+        },
+        {
+            "name": "Priority High",
+            "icon": "Priority_High",
+            "inc": "Anything not mentioned in the inclusion."
+        },
+        {
+            "name": "Personal Expenses",
+            "icon": "Personal_Expenses",
+            "inc": "Any personal expenses."
+        },
+        {
+            "name": "Natural Calamities",
+            "icon": "Natural_Calamities",
+            "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+        }
     ],
-    thingstotake: [{
-        name: "Shoes",
-        inc: 'trekking boots, flip-flops, and sneakers'
-    },
-    {
-        name: "Moisturizer",
-        inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
-    },
-    {
-        name: "Hiking",
-        inc: 'Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves.'
-    },
-    {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
-    },
-    {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
-    },
-    {
-        name: "First Aid Kit",
-        inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
-    },
+    "thingstotake": [
+        {
+            "name": "Shoes",
+            "icon": "Shoes",
+            "inc": "trekking boots, flip-flops, and sneakers"
+        },
+        {
+            "name": "Moisturizer",
+            "icon": "Moisturizer",
+            "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+        },
+        {
+            "name": "Hiking",
+            "icon": "Hiking",
+            "inc": "Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves."
+        },
+        {
+            "name": "Umbrella",
+            "icon": "Umbrella",
+            "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        },
+        {
+            "name": "Essentials",
+            "icon": "Essentials",
+            "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+        },
+        {
+            "name": "First Aid Kit",
+            "icon": "First_Aid_Kit",
+            "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+        }
     ],
     Genterms: [{
         key: "refundPolicy",
@@ -309,4 +339,4 @@ const KashmirHoneymoon = {
     ],
 };
 
-export {KashmirHoneymoon};
+export {Kashmir4n5d};

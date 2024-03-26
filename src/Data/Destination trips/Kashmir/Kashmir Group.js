@@ -124,93 +124,77 @@ const Kashmir = {
     },
     ],
     inclusion: [{
-        "name": "Trip Captain",
-        "icon": "Trip_Captain",
-        "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
+        name: "Trip Captain",
+        inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
     },
     {
-        "name": "Accommodation",
-        "icon": "Accommodation",
-        "inc": "Accommodation on a quad-sharing basis(1N Pahalgam, 2N Srinagar, 1N Houseboat)"
+        name: "Accommodation",
+        inc: 'Accommodation on a quad-sharing basis(1N Pahalgam, 2N srinagar, 1N Houseboat)'
     },
     {
-        "name": "Meals",
-        "icon": "Meals",
-        "inc": "A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+        name: "Meals",
+        inc: 'A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
-        "name": "Traveler",
-        "icon": "Traveler",
-        "inc": "Everyday commute by a Non AC tempo traveler/Sedan/SUV. All inner line permits for the trip; driver night charges, toll tax, parking charges."
+        name: "Traveler",
+        inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
     },
     {
-        "name": "Shikara Ride",
-        "icon": "Shikara_Ride",
-        "inc": "Shikara Ride 1hr Complimentary"
-    }
-],
-exclusion: [{
-        "name": "Expenses",
-        "icon": "Personal_Expenses",
-        "inc": "All entry tickets/Guide services for, sightseeing, & Entry fee( pony ride, gondola ride, horse ride etc)"
+        name: "Shikara Ride",
+        inc: 'Shikara Ride 1hrs Complimentry'
+    },
+    ],
+    exclusion: [{
+        name: "Expenses",
+        inc: 'All entry tickets/Guide services for , sightseeing, & Entry fee( pony ride,gondola ride,horse ride etc)'
+    },
+    
+    {
+        name: "Transport",
+        inc: 'local taxi to be hired by the guest due to taxi union issue after tanmarg AT GULMARG & Aru Vally Betab Vally and Chandanwadi at Pahalgam &  Gagangir At sonmarg.'
     },
     {
-        "name": "Transport",
-        "icon": "Transport",
-        "inc": "Local taxi to be hired by the guest due to taxi union issue after Tanmarg AT GULMARG & Aru Valley Betab Valley and Chandanwadi at Pahalgam & Gagangir At Sonmarg."
+        name: "Meals",
+        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
     },
     {
-        "name": "Meals_Exclusion",
-        "icon": "Meals",
-        "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+        name: "Priority High",
+        inc: 'Anything not mentioned in the inclusion.'
     },
     {
-        "name": "Priority High",
-        "icon": "Priority_High",
-        "inc": "Anything not mentioned in the inclusion."
+        name: "Personal Expenses",
+        inc: 'Any personal expenses.'
     },
     {
-        "name": "Personal Expenses",
-        "icon": "Personal_Expenses",
-        "inc": "Any personal expenses."
+        name: "Natural Calamities",
+        inc: 'During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
+    },
+    ],
+    thingstotake: [{
+        name: "Shoes",
+        inc: 'trekking boots, flip-flops, and sneakers'
     },
     {
-        "name": "Natural Calamities",
-        "icon": "Natural_Calamities",
-        "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
-    }
-],
-thingstotake: [{
-        "name": "Shoes",
-        "icon": "Shoes",
-        "inc": "Trekking boots, flip-flops, and sneakers"
+        name: "Moisturizer",
+        inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
     },
     {
-        "name": "Moisturizer",
-        "icon": "Moisturizer",
-        "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+        name: "Hiking",
+        inc: 'Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves.'
     },
     {
-        "name": "Hiking",
-        "icon": "Hiking",
-        "inc": "Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves."
+        name: "Umbrella",
+        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
     },
     {
-        "name": "Umbrella",
-        "icon": "Umbrella",
-        "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        name: "Essentials",
+        inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
     },
     {
-        "name": "Essentials",
-        "icon": "Essentials",
-        "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+        name: "First Aid Kit",
+        inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
     },
-    {
-        "name": "First Aid Kit",
-        "icon": "First_Aid_Kit",
-        "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
-    }
-],
+    ],
     Genterms: [{
         key: "refundPolicy",
         description: "The booking amount is 100% refundable if a cancellation is made 21 days prior to the commencement date."

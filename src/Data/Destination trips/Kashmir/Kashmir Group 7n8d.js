@@ -1,4 +1,4 @@
-const Kashmir = {
+const Kashmir7n8d = {
     name: "Fitoor-E-Kashmir",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Kashmir/Destination_14.png",
@@ -13,34 +13,25 @@ const Kashmir = {
     However, the region has been a subject of dispute between India and Pakistan since the two countries gained independence in 1947. The conflict has had an impact on tourism in the region, with periodic periods of unrest and violence leading to travel advisories and a decline in visitor numbers. Despite this, the region remains a popular destination for those seeking natural beauty, adventure, and cultural experiences.
     `,
     note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
-    duration: "7N-8D",
-    Quadprice: "13499/-PP",
-    Tripleprice: "15499/PP",
-    Doubleprice: "16999/PP",
+    duration: "7N-7D",
+    Quadprice: "15999/-PP",
+    Tripleprice: "17999/PP",
+    Doubleprice: "18999/PP",
     Batches: [
-        {id: 1, date: 'Batch-1 (21st to 27th) Mar' },
-        {id: 2,date: 'Batch-2 (28th Mar to 3rd Apr)'},
-        {id: 3,date: 'Batch-3 (4th to 10th Apr)'},
-        {id: 4,date: 'Batch-4 (11th to 17th Apr)'},
-        {id: 5,date: 'Batch-5 (18th to 24th Apr)'},
-        {id: 6,date: 'Batch-6 (25th Apr to 1st May)'},
-        {id: 7, date: 'Batch-7 (2nd to 8th May)'},
-        {id: 8,date: 'Batch-8 (9th to 15th May)'},
-        {id: 9,date: 'Batch-9 (16th to 22nd May)'},
-        {id: 10,date: 'Batch-10 (23rd to 29th May)'},
-        {id: 11,date: 'Batch-11 (30th May to 5th Jun)'},
-        {id: 12,date: 'Batch-12 (6th to 12th Jun)'},
-        {id: 13,date: 'Batch-13 (13th to 19th Jun)'},
-        {id: 14,date: 'Batch-14 (20th to 26th Jun)'}
+        { 
+            id: 1, 
+            date: 'Costomize my trip' 
+        }
+
 
     ],
     
-    pickup: "Indore/Bhopal/Jammu/Delhi",
-    drop: "Indore/Bhopal/Jammu/Delhi",
+    pickup: "Indore/Bhopal/Delhi/Jammu",
+    drop: "Indore/Bhopal/Delhi/Jammu",
     it: [{
         Heading: "Departure from Indore",
         Schedule: [
-            { Scheduledetails: "Group meet up interaction and introduction" },
+            { Scheduledetails: "Departing from base locations" },
             { Scheduledetails: "Enjoy the traveling experience of an overday and overnight journey to katra/Jammu by train (Malwa exp)." },
             { Scheduledetails: "Train departure timings" },
             { Scheduledetails: "Indore: 12:05 PM" },
@@ -116,101 +107,109 @@ const Kashmir = {
             { Scheduledetails: "Bid goodbye to the mountains." },
             { Scheduledetails: "You will reach Katra at 5 am." },
             { Scheduledetails: "Drop off at your home by train (Overday-Overnight journey)." },
-            { Scheduledetails: "Return home with lots of memories and the flavors of Kashmir, as well as many unbreakable bonds with newfound friends." },
+            { Scheduledetails: "Return home with lots of memories and the flavors of Kashmir" },
             { Scheduledetails: "Now you can proudly call yourself a #traveltreker and join our India's fastest-growing community on Instagram/WhatsApp/Facebook. Keep traveling with us!" }
             
         ]
         
     },
     ],
-    inclusion: [{
-        "name": "Trip Captain",
-        "icon": "Trip_Captain",
-        "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
-    },
-    {
-        "name": "Accommodation",
-        "icon": "Accommodation",
-        "inc": "Accommodation on a quad-sharing basis(1N Pahalgam, 2N Srinagar, 1N Houseboat)"
-    },
-    {
-        "name": "Meals",
-        "icon": "Meals",
-        "inc": "A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
-    },
-    {
-        "name": "Traveler",
-        "icon": "Traveler",
-        "inc": "Everyday commute by a Non AC tempo traveler/Sedan/SUV. All inner line permits for the trip; driver night charges, toll tax, parking charges."
-    },
-    {
-        "name": "Shikara Ride",
-        "icon": "Shikara_Ride",
-        "inc": "Shikara Ride 1hr Complimentary"
-    }
-],
-exclusion: [{
-        "name": "Expenses",
-        "icon": "Personal_Expenses",
-        "inc": "All entry tickets/Guide services for, sightseeing, & Entry fee( pony ride, gondola ride, horse ride etc)"
-    },
-    {
-        "name": "Transport",
-        "icon": "Transport",
-        "inc": "Local taxi to be hired by the guest due to taxi union issue after Tanmarg AT GULMARG & Aru Valley Betab Valley and Chandanwadi at Pahalgam & Gagangir At Sonmarg."
-    },
-    {
-        "name": "Meals_Exclusion",
-        "icon": "Meals",
-        "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
-    },
-    {
-        "name": "Priority High",
-        "icon": "Priority_High",
-        "inc": "Anything not mentioned in the inclusion."
-    },
-    {
-        "name": "Personal Expenses",
-        "icon": "Personal_Expenses",
-        "inc": "Any personal expenses."
-    },
-    {
-        "name": "Natural Calamities",
-        "icon": "Natural_Calamities",
-        "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
-    }
-],
-thingstotake: [{
-        "name": "Shoes",
-        "icon": "Shoes",
-        "inc": "Trekking boots, flip-flops, and sneakers"
-    },
-    {
-        "name": "Moisturizer",
-        "icon": "Moisturizer",
-        "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
-    },
-    {
-        "name": "Hiking",
-        "icon": "Hiking",
-        "inc": "Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves."
-    },
-    {
-        "name": "Umbrella",
-        "icon": "Umbrella",
-        "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
-    },
-    {
-        "name": "Essentials",
-        "icon": "Essentials",
-        "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
-    },
-    {
-        "name": "First Aid Kit",
-        "icon": "First_Aid_Kit",
-        "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
-    }
-],
+    inclusion: [
+        {
+            "icon": "Trip_Captain",
+            "name": "Trip Captain",
+            "inc": "Virtual Trip Captain"
+        },
+        {
+            "icon": "Accommodation",
+            "name": "Accommodation",
+            "inc": "Accommodation on a quad-sharing basis(1N Pahalgam, 2N srinagar, 1N Houseboat)"
+        },
+        {
+            "icon": "Meals",
+            "name": "Meals",
+            "inc": "A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+        },
+        {
+            "icon": "Tickets",
+            "name": "Train",
+            "inc": "Train tickets (sleeper)"
+        },
+        {
+            "icon": "Traveler",
+            "name": "Traveler",
+            "inc": "Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+        },
+        {
+            "icon": "Shikara_Ride",
+            "name": "Shikara Ride",
+            "inc": "Shikara Ride 1hrs Complimentry"
+        }
+    ],
+exclusion: [
+        {
+            "icon": "Personal_Expenses",
+            "name": "Expenses",
+            "inc": "All entry tickets/Guide services for , sightseeing, & Entry fee( pony ride,gondola ride,horse ride etc)"
+        },
+        {
+            "icon": "Transport",
+            "name": "Transport",
+            "inc": "local taxi to be hired by the guest due to taxi union issue after tanmarg AT GULMARG & Aru Vally Betab Vally and Chandanwadi at Pahalgam &  Gagangir At sonmarg."
+        },
+        {
+            "icon": "Meals",
+            "name": "Meals",
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+        },
+        {
+            "icon": "Priority_High",
+            "name": "Priority High",
+            "inc": "Anything not mentioned in the inclusion."
+        },
+        {
+            "icon": "Personal_Expenses",
+            "name": "Personal Expenses",
+            "inc": "Any personal expenses."
+        },
+        {
+            "icon": "Natural_Calamities",
+            "name": "Natural Calamities",
+            "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+        }
+    ],
+    thingstotake: [
+        {
+            "icon": "Shoes",
+            "name": "Shoes",
+            "inc": "trekking boots, flip-flops, and sneakers"
+        },
+        {
+            "icon": "Moisturizer",
+            "name": "Moisturizer",
+            "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+        },
+        {
+            "icon": "Hiking",
+            "name": "Hiking",
+            "inc": "Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves."
+        },
+        {
+            "icon": "Umbrella",
+            "name": "Umbrella",
+            "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        },
+        {
+            "icon": "Essentials",
+            "name": "Essentials",
+            "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+        },
+        {
+            "icon": "First_Aid_Kit",
+            "name": "First Aid Kit",
+            "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+        }
+    ],
     Genterms: [{
         key: "refundPolicy",
         description: "The booking amount is 100% refundable if a cancellation is made 21 days prior to the commencement date."
@@ -354,4 +353,4 @@ thingstotake: [{
     ],
 };
 
-export { Kashmir };
+export { Kashmir7n8d };

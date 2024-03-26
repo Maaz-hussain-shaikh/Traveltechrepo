@@ -72,80 +72,96 @@ const Andaman = {
 
     },
     ],
-    inclusion: [{
-        name: "Trip Captain",
-        inc: 'Driver as cum Guide, & Tour Cordinator for all islands '
-    },
-    {
-        name: "Accommodation",
-        inc: 'Accommodation on Double basis(2N Port blair,1N Havelok 1N Neil)'
-    },
-    {
-        name: "Meals",
-        inc: 'A total of 3 meals (3 breakfasts only). Kindly note, considering the remoteness of the place, the supply of Meals might have limited varieties.'
-    },
-    {
-        name: "Traveler",
-        inc: 'Everyday commute by a Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
-    {
-        name: "Expenses",
-        inc: 'Ferry (Nautika/Makruzz/GreenOcean/Sealink) for Inter-Island Transfer, Entry Permits/Entry Tickets/Boat Tickets/Ferry Tickets Wherever Required.'
-    },
-
+    inclusion: [
+        {
+            "name": "Trip_Captain",
+            "icon": "Trip_Captain",
+            "inc": "Driver as cum Guide, & Tour Cordinator for all islands"
+        },
+        {
+            "name": "Accommodation",
+            "icon": "Accommodation",
+            "inc": "Accommodation on Double basis(2N Port blair,1N Havelok 1N Neil)"
+        },
+        {
+            "name": "Meals",
+            "icon": "Meals",
+            "inc": "A total of 3 meals (3 breakfasts only). Kindly note, considering the remoteness of the place, the supply of Meals might have limited varieties."
+        },
+        {
+            "name": "Traveler",
+            "icon": "Traveler",
+            "inc": "Everyday commute by a Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+        },
+        {
+            "name": "Ferry Tickets",
+            "icon": "Personal_Expenses",
+            "inc": "Ferry (Nautika/Makruzz/GreenOcean/Sealink) for Inter-Island Transfer, Entry Permits/Entry Tickets/Boat Tickets/Ferry Tickets Wherever Required."
+        }
     ],
     exclusion: [
-
-    {
-        name: "Transport",
-        inc: 'Usage of Vehicles other than the mentioned places in the itinerary.'
-    },
-    {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
-    },
-    {
-        name: "Honeymoon kit",
-        inc: 'Honeymoon Inclusions on an extra cost.& Gala Dinner Charges if applied by any resort/hotel, However, these charges are Mandatory'
-    },
-    {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
-    },
-    {
-        name: "Personal Expenses",
-        inc: 'Any personal expenses.'
-    },
-    {
-        name: "Natural Calamities",
-        inc: 'Expenses incurred due to bad weather, Flight or ferry cancellation, & political unrest. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
-    },
-    
+        {
+            "name": "Transport",
+            "icon": "Transport",
+            "inc": "Usage of Vehicles other than the mentioned"
+        },
+        {
+            "name": "Meals",
+            "icon": "Meals",
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+        },
+        {
+            "name": "Honeymoon kit",
+            "icon": "Honeymoon_Kit",
+            "inc": "Honeymoon Inclusions on an extra cost.& Gala Dinner Charges if applied by any resort/hotel, However, these charges are Mandatory"
+        },
+        {
+            "name": "Priority_High",
+            "icon": "Priority_High",
+            "inc": "Anything not mentioned in the inclusion."
+        },
+        {
+            "name": "Personal_Expenses",
+            "icon": "Personal_Expenses",
+            "inc": "Any personal expenses."
+        },
+        {
+            "name": "Natural_Calamities",
+            "icon": "Natural_Calamities",
+            "inc": "Expenses incurred due to bad weather, Flight or ferry cancellation, & political unrest. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+        }
     ],
-    thingstotake: [{
-        name: "Shoes",
-        inc: 'flip-flops, and sneakers'
-    },
-    {
-        name: "Moisturizer",
-        inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
-    },
-    {
-        name: "Hiking",
-        inc: 'Raincoat, Loose Shirt/T-shirt, Shorts. thin Clothes.'
-    },
-    {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
-    },
-    {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
-    },
-    {
-        name: "First Aid Kit",
-        inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
-    },
+    thingstotake: [
+        {
+            "name": "Shoes",
+            "icon": "Shoes",
+            "inc": "flip-flops, and sneakers"
+        },
+        {
+            "name": "Moisturizer",
+            "icon": "Moisturizer",
+            "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+        },
+        {
+            "name": "Hiking",
+            "icon": "Hiking",
+            "inc": "Raincoat, Loose Shirt/T-shirt, Shorts. thin Clothes."
+        },
+        {
+            "name": "Umbrella",
+            "icon": "Umbrella",
+            "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        },
+        {
+            "name": "Essentials",
+            "icon": "Essentials",
+            "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+        },
+        {
+            "name": "First_Aid_Kit",
+            "icon": "First_Aid_Kit",
+            "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+        }
     ],
     Genterms: [{
         key: "refundPolicy",

@@ -99,68 +99,78 @@ const Ladakh6daystrip = {
         ],
     
     
-    inclusion: [{
-        name: "Trip Captain",
-        inc: 'Driver as cum guide And Virtual trip captain'
-    },
-    {
-        name: "Accommodation",
-        inc: 'Accommodation on a quad-sharing basis.(3N leh, 1N pangong Lake, 1N Nubra Valley)'
-    },
-    {
-        name: "Meals",
-        inc: 'A total of 10 meals (5 breakfasts and 5 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
-    },
-    {
-        name: "Traveler",
-        inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
-
+        inclusion: [{
+            "name": "Trip Captain",
+            "icon": "Trip_Captain",
+            "inc": "Driver as cum guide And Virtual trip captain"
+        },
+        {
+            "name": "Accommodation",
+            "icon": "Accommodation",
+            "inc": "Accommodation on a quad-sharing basis.(3N leh, 1N pangong Lake, 1N Nubra Valley)"
+        },
+        {
+            "name": "Meals",
+            "icon": "Meals",
+            "inc": "A total of 10 meals (5 breakfasts and 5 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+        },
+        {
+            "name": "Traveler",
+            "icon": "Traveler",
+            "inc": "Everyday commute by a Non AC tempo traveler/Sedan/SUV. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+        }
     ],
-    exclusion: [
-   
-    {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
-    },
-   
-    {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
-    },
-    {
-        name: "Personal Expenses",
-        inc: 'Any personal expenses.'
-    },
-    {
-        name: "Natural Calamities",
-        inc: 'During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
-    },
+    exclusion: [{
+            "name": "Meals",
+            "icon": "Meals",
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+        },
+        {
+            "name": "Priority High",
+            "icon": "Priority_High",
+            "inc": "Anything not mentioned in the inclusion."
+        },
+        {
+            "name": "Personal Expenses",
+            "icon": "Personal_Expenses",
+            "inc": "Any personal expenses."
+        },
+        {
+            "name": "Natural Calamities",
+            "icon": "Natural_Calamities",
+            "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+        }
     ],
     thingstotake: [{
-        name: "Shoes",
-        inc: 'trekking boots, flip-flops, and sneakers'
-    },
-    {
-        name: "Moisturizer",
-        inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
-    },
-    {
-        name: "Hiking",
-        inc: 'Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves.'
-    },
-    {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
-    },
-    {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
-    },
-    {
-        name: "First Aid Kit",
-        inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
-    },
+            "name": "Shoes",
+            "icon": "Shoes",
+            "inc": "Trekking boots, flip-flops, and sneakers"
+        },
+        {
+            "name": "Moisturizer",
+            "icon": "Moisturizer",
+            "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+        },
+        {
+            "name": "Hiking",
+            "icon": "Hiking",
+            "inc": "Raincoat, poncho, thermal inners, full-sleeves shirts, trekking pants, fleece jackets, woollen gloves."
+        },
+        {
+            "name": "Umbrella",
+            "icon": "Umbrella",
+            "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        },
+        {
+            "name": "Essentials",
+            "icon": "Essentials",
+            "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+        },
+        {
+            "name": "First Aid Kit",
+            "icon": "First_Aid_Kit",
+            "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+        }
     ],
     Genterms: [{
         key: "refundPolicy",

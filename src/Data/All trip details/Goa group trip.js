@@ -22,8 +22,8 @@ const Goagroup = {
     {id: 3,date: 'Batch-3 (12th to 17th Apr)'},
     {id: 4,date: 'Batch-4 (26th to 1st May)'},
     ],
-    pickup: "Bhopal/Ratlam",
-    drop: "Bhopal",
+    pickup: "Bhopal/Ratlam/Indore",
+    drop: "Bhopal/Ratlam/Indore",
     it: [{
         Heading: "Departure to Goa",
         Schedule: [
@@ -103,78 +103,93 @@ const Goagroup = {
 
     ],
     inclusion: [{
-        name: "Trip Captain",
-        inc: 'Experienced trip captain(Only if 12+ Members in group)'
+        "name": "Trip Captain",
+        "icon": "Trip_Captain",
+        "inc": "Experienced trip captain (Only if 12+ Members in group)"
     },
     {
-        name: "Accommodation",
-        inc: '3 Nights Accommodation on sharing basis'
+        "name": "Accommodation",
+        "icon": "Accommodation",
+        "inc": "3 Nights Accommodation on sharing basis"
     },
     {
-        name: "Meals",
-        inc: 'A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
+        "name": "Meals",
+        "icon": "Meals",
+        "inc": "A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
     },
     {
-        name: "Traveler",
-        inc: 'Everyday commute by a Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
-
-    ],
-    exclusion: [{
-        name: "Expenses",
-        inc: 'All entry tickets/Guide services for , sightseeing, & Entry fee( Waterports,Fort Tickets, etc)'
-    },
-
-    {
-        name: "Transport",
-        inc: 'Taxi or traveler timing will be 10:00 AM - 7:00 AM'
+        "name": "Traveler",
+        "icon": "Traveler",
+        "inc": "Everyday commute by a AC tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+    }
+],
+exclusion: [{
+        "name": "Personal Expenses",
+        "icon": "Personal_Expenses",
+        "inc": "All entry tickets/Guide services for, sightseeing, & Entry fee( Waterports, Fort Tickets, etc)"
     },
     {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
+        "name": "Transport",
+        "icon": "Transport",
+        "inc": "Taxi or traveler timing will be 10:00 AM - 7:00 AM"
     },
     {
-        name: "Honeymoon kit",
-        inc: 'Honeymoon kit (bed decoration with candle light dinner) on extra cost.'
+        "name": "Meals",
+        "icon": "Meals",
+        "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
     },
     {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
+        "name": "Honeymoon kit",
+        "icon": "Honeymoon_Kit",
+        "inc": "Honeymoon kit (bed decoration with candle light dinner) on extra cost."
     },
     {
-        name: "Personal Expenses",
-        inc: 'Any personal expenses.'
+        "name": "Priority High",
+        "icon": "Priority_High",
+        "inc": "Anything not mentioned in the inclusion."
     },
     {
-        name: "Natural Calamities",
-        inc: 'During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
-    },
-    ],
-    thingstotake: [{
-        name: "Shoes",
-        inc: 'flip-flops, and sneakers'
+        "name": "Personal Expenses",
+        "icon": "Personal_Expenses",
+        "inc": "Any personal expenses."
     },
     {
-        name: "Moisturizer",
-        inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
+        "name": "Natural Calamities",
+        "icon": "Natural_Calamities",
+        "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+    }
+],
+thingstotake: [{
+        "name": "Shoes",
+        "icon": "Shoes",
+        "inc": "flip-flops, and sneakers"
     },
     {
-        name: "Hiking",
-        inc: 'Raincoat, Loose Shirt/T-shirt, Shorts. thin Clothes.'
+        "name": "Moisturizer",
+        "icon": "Moisturizer",
+        "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
     },
     {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
+        "name": "Hiking",
+        "icon": "Hiking",
+        "inc": "Raincoat, Loose Shirt/T-shirt, Shorts. thin Clothes."
     },
     {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
+        "name": "Umbrella",
+        "icon": "Umbrella",
+        "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
     },
     {
-        name: "First Aid Kit",
-        inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
+        "name": "Essentials",
+        "icon": "Essentials",
+        "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
     },
-    ],
+    {
+        "name": "First Aid Kit",
+        "icon": "First_Aid_Kit",
+        "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+    }
+],
     Genterms: [{
         key: "refundPolicy",
         description: "The booking amount is 100% refundable if a cancellation is made 21 days prior to the commencement date."

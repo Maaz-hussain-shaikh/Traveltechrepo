@@ -10,10 +10,9 @@ const  Kashmir_trips = {
         {
             name: "Fitoor-e-Kashmir | Tudip garden special  ",
             tag:"Best Saller",
-        
-            days:"4N-5D",
+            days:"7N-7D",
             imgurl: "/images/tripcard/Destinationimgs/Kashmir/Kashmirtrip.png",
-            btn: "/Details/Kashmir",
+            btn: "/Details/Kashmir Personal 7n8d",
             Price: "12499",
     
         },
@@ -22,7 +21,7 @@ const  Kashmir_trips = {
             tag:"Customized",           
             days:"4N-5D",
             imgurl: "/images/tripcard/Destinationimgs/Kashmir/Kashmirtrip.png",
-            btn: "/Details/Kashmir",
+            btn: "/Details/Kashmir Personal 4n5d",
             Price: "12499",
     
         },

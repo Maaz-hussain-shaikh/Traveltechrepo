@@ -128,96 +128,119 @@ const Manali =
     },
     ],
     inclusion: [{
+        icon: "Trip_Captain",
         name: "Trip Captain",
         inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
     },
     {
+        icon: "Accommodation",
         name: "Accommodation",
         inc: '3 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
     },
     {
+        icon: "Meals",
         name: "Meals",
         inc: 'A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
+        icon: "Traveler",
         name: "Traveler",
         inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
     },
     ],
     exclusion: [
         {
+         
+            icon: "Tickets",
             name: "Tickets",
             inc: "Monument entry tickets and expenses on any activities ( riverrafting,paragliding, snow games) which are not mentioned in the itinerary."
         },
         {
+            icon: "Natural_Calamities",
             name: "Natural Calamities",
             inc: `If Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of small 4x4. Either wait till clearing or Pay for the extra service.or Any cost arising due to natural calamities.`
         },
 
         {
+            icon: "Room_Heater",
             name: "Room Heater",
             inc: "Room heater charges are extra and it's not included in any of our packages. If you need one you can directly contact Hotel reception."
         },
         {
+            icon: "Meals",
             name: "Meals",
             inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
         },
         {
+            icon: "Priority_High",
             name: "Priority High",
             inc: 'Anything not mentioned in the inclusion.'
         },
         {
+            icon: "Rohtang_pass",
             name: "Rohtang pass",
             inc: 'Rohtang pass is subject to availability If it is open then it will be available at an extra cost (ie 800 per head)'
         },
         {
+            icon: "Tax",
             name: "Tax",
             inc: '5% Tax'
         },
         {
+            icon: "Warning",
             name: "Warning",
             inc: 'NOTE-We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",'
         },
 
         {
+            icon: "Personal_Expenses",
             name: "Personal Expenses",
             inc: 'Any personal expenses.'
         },
 
     ],
     thingstotake: [{
+        icon: "Shoes",
         name: "Shoes",
         inc: 'A good pair of hiking shoes.'
     },
     {
+        icon: "Moisturizer",
         name: "Moisturizer",
         inc: 'Sunscreen or moisturizer, personal meds, and toiletries.'
     },
     {
+        icon: "Hiking",
         name: "Hiking",
         inc: '2 pairs of socks and gloves, fleece, thermal pants, and t-shirts.'
     },
     {
+        icon: "Umbrella",
         name: "Umbrella",
         inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask and an Umbrella.'
     },
     {
+        icon: "Essentials",
         name: "Essentials",
         inc: 'Power bank/Charger, camera, torch, selfie stick.'
     },
     {
+        icon: "First_Aid_Kit",
         name: "First Aid Kit",
         inc: 'First Aid Kit, mask, and sanitizer.'
     },
     {
+        icon: "Reusable_Water_bottle",
         name: "Reusable Water bottle",
         inc: 'Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination.'
     },
     {
+        icon: "Sim_Card",
         name: "Sim Card",
         inc: 'There wil be only jio and Bsnl Sim will be work in Forest area'
     },
     {
+        icon: "Spare_Plastic_Bags",
         name: "Spare Plastic Bags",
         inc: 'Useful for separating dirty or wet clothes from the rest of your belongings.'
     },

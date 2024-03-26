@@ -85,68 +85,84 @@ const Udaipur = {
         },
     ],
     inclusion: [  {
+        icon:"Trip_Captain",
         name: "Trip Captain",
         inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
     },
         {
+            icon:"Accommodation",
             name: "Accommodation",
             inc: 'Accommodation on a quad-sharing basis'
         },
         {
+            icon:"Meals",
             name: "Meals",
             inc: 'A total of 4 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
         },
         {
+            icon:"Traveler",
             name: "Traveler",
             inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
         },
     ],
     exclusion: [{
-            name: "Expenses",
-            inc: 'Any personal expenses.'
-        },
-        {
-            name: "Transport",
-            inc: "Any entry tickets, sightseeing (ex-City Palace, Karnimata Temple, and others)."
-        },
-        {
-            name: "Meals",
-            inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
-        },
-        {
-            name: "Priority High",
-            inc: 'Anything not mentioned in the inclusion.'
-        },
-        {
+        icon:"Personal_Expenses",
             name: "Personal Expenses",
             inc: 'Any personal expenses.'
         },
         {
+            icon:"Transport",
+            name: "Transport",
+            inc: "Any entry tickets, sightseeing (ex-City Palace, Karnimata Temple, and others)."
+        },
+        {
+            icon:"Meals",
+            name: "Meals",
+            inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
+        },
+        {
+            icon:"Priority_High",
+            name: "Priority High",
+            inc: 'Anything not mentioned in the inclusion.'
+        },
+        {
+            icon:"Personal_Expenses",
+            name: "Personal Expenses",
+            inc: 'Any personal expenses.'
+        },
+        {
+            icon:"Natural_Calamities",
             name: "Natural Calamities",
             inc: 'Any cost arising due to natural calamities.'
         },
     ],
     thingstotake: [{
+        icon:"Shoes",
             name: "Shoes",
             inc: 'A good pair of hiking shoes.'
         },
         {
+            icon:"Moisturizer",
             name: "Moisturizer",
             inc: 'Sunscreen or moisturizer, personal meds, and toiletries.'
         },
         {
+            icon:"Hiking",
             name: "Hiking",
             inc: 'Raincoat, poncho, and windcheater jackets.'
         },
         {
+            icon:"Umbrella",
             name: "Umbrella",
             inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
         },
         {
+            icon:"Essentials",
             name: "Essentials",
             inc: 'Power bank/Charger, camera, torch, selfie stick.'
         },
         {
+            icon:"First_Aid_Kit",
             name: "First Aid Kit",
             inc: 'First Aid Kit, mask, and sanitizer.'
         },

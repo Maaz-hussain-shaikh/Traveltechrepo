@@ -64,78 +64,96 @@ const Lonavalakhandala = {
     },
 
     ],
-    inclusion: [{
-        name: "Trip Captain",
-        inc: 'Experienced trip captain(Only if 12+ Members in group)'
-    },
-    {
-        name: "Accommodation",
-        inc: 'One night Accommodation on sharing basis'
-    },
-    {
-        name: "Meals",
-        inc: 'A total of 4 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
-    },
-    {
-        name: "Traveler",
-        inc: 'Everyday commute by a Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
-
+    inclusion: [
+        {
+            "icon": "Trip_Captain",
+            "name": "Trip Captain",
+            "inc": "Experienced trip captain(Only if 12+ Members in group)"
+        },
+        {
+            "icon": "Accommodation",
+            "name": "Accommodation",
+            "inc": "One night Accommodation on sharing basis"
+        },
+        {
+            "icon": "Meals",
+            "name": "Meals",
+            "inc": "A total of 4 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+        },
+        {
+            "icon": "Traveler",
+            "name": "Traveler",
+            "inc": "Everyday commute by a Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+        }
     ],
-    exclusion: [{
-        name: "Expenses",
-        inc: 'All entry tickets/Guide services for , sightseeing, & Entry fee( Waterports,Fort Tickets, etc)'
-    },
-
-    {
-        name: "Transport",
-        inc: 'Taxi or traveler timing will be 10:00 AM - 7:00 AM'
-    },
-    {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
-    },
-    {
-        name: "Honeymoon kit",
-        inc: 'Honeymoon kit (bed decoration with candle light dinner) on extra cost.'
-    },
-    {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
-    },
-    {
-        name: "Personal Expenses",
-        inc: 'Any personal expenses.'
-    },
-    {
-        name: "Natural Calamities",
-        inc: 'During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service'
-    },
+    exclusion: [
+        {
+            "icon": "Expenses",
+            "name": "Expenses",
+            "inc": "All entry tickets/Guide services for , sightseeing, & Entry fee( Waterports,Fort Tickets, etc)"
+        },
+        {
+            "icon": "Transport",
+            "name": "Transport",
+            "inc": "Taxi or traveler timing will be 10:00 AM - 7:00 AM"
+        },
+        {
+            "icon": "Meals_Exclusion",
+            "name": "Meals",
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+        },
+        {
+            "icon": "Honeymoon_kit",
+            "name": "Honeymoon kit",
+            "inc": "Honeymoon kit (bed decoration with candle light dinner) on extra cost."
+        },
+        {
+            "icon": "Priority_High",
+            "name": "Priority High",
+            "inc": "Anything not mentioned in the inclusion."
+        },
+        {
+            "icon": "Personal_Expenses",
+            "name": "Personal Expenses",
+            "inc": "Any personal expenses."
+        },
+        {
+            "icon": "Natural_Calamities",
+            "name": "Natural Calamities",
+            "inc": "During heavy snowfall season Tempo Traveller is unable to move due to Snowfall, Landslide, etc. then Traveltech will not bear the extra charges of a small 4x4. Either wait till clearing or Pay for the extra service"
+        }
     ],
-    thingstotake: [{
-        name: "Shoes",
-        inc: 'flip-flops, and sneakers'
-    },
-    {
-        name: "Moisturizer",
-        inc: 'Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion.'
-    },
-    {
-        name: "Hiking",
-        inc: 'Raincoat, Loose Shirt/T-shirt, Shorts. thin Clothes.'
-    },
-    {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
-    },
-    {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick and Sufficient cash.'
-    },
-    {
-        name: "First Aid Kit",
-        inc: ' Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache'
-    },
+    thingstotake: [
+        {
+            "icon": "Shoes",
+            "name": "Shoes",
+            "inc": "flip-flops, and sneakers"
+        },
+        {
+            "icon": "Moisturizer",
+            "name": "Moisturizer",
+            "inc": "Wet napkins, toothbrush and toothpaste, hand sanitizer, shower gel, moisturizer, lip balm, sunscreen lotion."
+        },
+        {
+            "icon": "Hiking",
+            "name": "Hiking",
+            "inc": "Raincoat, Loose Shirt/T-shirt, Shorts. thin Clothes."
+        },
+        {
+            "icon": "Umbrella",
+            "name": "Umbrella",
+            "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        },
+        {
+            "icon": "Essentials",
+            "name": "Essentials",
+            "inc": "Power bank/Charger, camera, torch, selfie stick and Sufficient cash."
+        },
+        {
+            "icon": "First_Aid_Kit",
+            "name": "First Aid Kit",
+            "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+        }
     ],
     Genterms: [{
         key: "refundPolicy",

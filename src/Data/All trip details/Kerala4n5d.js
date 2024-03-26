@@ -91,84 +91,99 @@ const Kerala = {
         ]
     },
     ],
-    inclusion: [
-        {
-        name: "Trip Captain",
-        inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
+   inclusion: [{
+        "name": "Trip Captain",
+        "icon": "Trip_Captain",
+        "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
     },
     {
-        name: "Accommodation",
-        inc: '4 Night stay Accommodation 3 star Resort/Hotel'
+        "name": "Accommodation",
+        "icon": "Accommodation",
+        "inc": "4 Night stay Accommodation 3 star Resort/Hotel"
     },
     {
-        name: "Meals",
-        inc: 'A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
+        "name": "Meals",
+        "icon": "Meals",
+        "inc": "A total of 8 meals (4 breakfasts and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
     },
     {
-        name: "Traveler",
-        inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
-    ],
-    exclusion: [{
-        name: "Expenses",
-        inc: 'Any personal expenses'
-    },
-    {
-        name: "Transport",
-        inc: "Any Flight/train Tickets Charges Transport to Kochi before the trip and from Airport after the trip."
-    },
-   
-    {
-        name: "Meals",
-        inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
+        "name": "Traveler",
+        "icon": "Traveler",
+        "inc": "Everyday commute by a Non AC tempo traveler/Sedan/SUV. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+    }
+],
+exclusion: [{
+        "name": "Expenses",
+        "icon": "Personal_Expenses",
+        "inc": "Any personal expenses"
     },
     {
-        name: "Priority High",
-        inc: 'Anything not mentioned in the inclusion.'
+        "name": "Transport",
+        "icon": "Transport",
+        "inc": "Any Flight/train Tickets Charges Transport to Kochi before the trip and from Airport after the trip."
     },
     {
-        name: "Tickets",
-        inc: 'Entry fee or ticket to any historical monument, landmark, or sightseeing places, etc. is not included in the package (Elephant ride,shikara ride,Gypsy safari Etc)'
+        "name": "Meals",
+        "icon": "Meals",
+        "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
     },
     {
-        name: "Natural Calamities",
-        inc: 'Any cost arising due to natural calamities.'
-    },
-    ],
-    thingstotake: [{
-        name: "Shoes",
-        inc: 'A good pair of hiking shoes.'
+        "name": "Priority High",
+        "icon": "Priority_High",
+        "inc": "Anything not mentioned in the inclusion."
     },
     {
-        name: "Moisturizer",
-        inc: 'Sunscreen or moisturizer, personal meds, and toiletries.'
+        "name": "Tickets",
+        "icon": "Tickets",
+        "inc": "Entry fee or ticket to any historical monument, landmark, or sightseeing places, etc. is not included in the package (Elephant ride,shikara ride,Gypsy safari Etc)"
     },
     {
-        name: "Hiking",
-        inc: 'Raincoat, swimming Costume and jackets.'
+        "name": "Natural Calamities",
+        "icon": "Natural_Calamities",
+        "inc": "Any cost arising due to natural calamities."
+    }
+],
+thingstotake: [{
+        "name": "Shoes",
+        "icon": "Shoes",
+        "inc": "A good pair of hiking shoes."
     },
     {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
+        "name": "Moisturizer",
+        "icon": "Moisturizer",
+        "inc": "Sunscreen or moisturizer, personal meds, and toiletries."
     },
     {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick.'
+        "name": "Hiking",
+        "icon": "Hiking",
+        "inc": "Raincoat, swimming Costume and jackets."
     },
     {
-        name: "First Aid Kit",
-        inc: 'First Aid Kit, mask, and sanitizer.'
+        "name": "Umbrella",
+        "icon": "Umbrella",
+        "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
     },
     {
-        name: "Reusable Water bottle",
-        inc: 'Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination.'
+        "name": "Essentials",
+        "icon": "Essentials",
+        "inc": "Power bank/Charger, camera, torch, selfie stick."
     },
-
     {
-        name: "Spare Plastic Bags",
-        inc: 'Useful for separating dirty or wet clothes from the rest of your belongings.'
+        "name": "First Aid Kit",
+        "icon": "First_Aid_Kit",
+        "inc": "First Aid Kit, mask, and sanitizer."
     },
-    ],
+    {
+        "name": "Reusable_Water_bottle",
+        "icon": "Reusable_Water_bottle",
+        "inc": "Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination."
+    },
+    {
+        "name": "Spare_Plastic_Bags",
+        "icon": "Spare_Plastic_Bags",
+        "inc": "Useful for separating dirty or wet clothes from the rest of your belongings."
+    }
+],
     Genterms: [{
         key: "refundPolicy",
         description: "If cancellations are made 30 days before the start date of the trip, 50% of total tour cost will be charged as cancellation fees." },

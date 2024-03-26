@@ -111,98 +111,121 @@ const JaipurRanthambore = {
 
     },
     ],
-    inclusion: [{
-        name: "Trip Captain",
-        inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
-    },
-    {
-        name: "Accommodation",
-        inc: '2 night stay 3 star Hotel with One overnight journey'
-    },
-    {
-        name: "Meals",
-        inc: 'A total of 4 meals (2 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
-    },
-    {
-        name: "Gypsy",
-        inc: 'gypsy/Canter tickets & all forest permits.  '
-    },
-
-    {
-        name: "Traveler",
-        inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
-    },
+    inclusion: [
+        {
+            "icon": "Trip_Captain",
+            "name": "Trip Captain",
+            "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
+        },
+        {
+            "icon": "Accommodation",
+            "name": "Accommodation",
+            "inc": "Accommodation 3 star Hotel with One overnight journey"
+        },
+        {
+            "icon": "Meals",
+            "name": "Meals",
+            "inc": "A total of 4 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties."
+        },
+        {
+            "icon": "Gypsy",
+            "name": "Gypsy",
+            "inc": "Gypsy Safari and camel safari at sam sand dunes"
+        },
+        {
+            "icon": "Traveler",
+            "name": "Traveler",
+            "inc": "Everyday commute by a Non Ac tempo traveler/Sedan/SUV. all inner line permits for the trip; driver night charges, toll tax, parking charges."
+        }
     ],
     exclusion: [
         {
-            name: "Tickets",
-            inc: "All Entry Tickets SIGHTSEEING (EX-Amer Fort,Hawa mahal jantar mantar etc )"
+            "icon": "Tickets",
+            "name": "Tickets",
+            "inc": "All Entry Tickets SIGHTSEEING (EX-Mehrangarh fort, umaid bhavan palace, Jaisalmer fort etc )"
         },
         {
-            name: "Expenses",
-            inc: 'Any personal expenses & Guide charges.'
+            "icon": "Personal_Expenses",
+            "name": "Expenses",
+            "inc": "Any personal expenses & Guide charges."
         },
         {
-            name: "Transport",
-            inc: "Local vehicle charges may apply if unforeseen circumstances arise due to heavy crowd or if gypsy/Canter are sold out."
+            "icon": "Transport",
+            "name": "Transport",
+            "inc": "Local vehicle charges & (Tuk-Tuk) at jaisalmer fort"
         },
         {
-            name: "Meals",
-            inc: 'Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway.'
+            "icon": "Meals",
+            "name": "Meals",
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
         },
         {
-            name: "Priority High",
-            inc: 'Anything not mentioned in the inclusion.'
+            "icon": "Priority_High",
+            "name": "Priority High",
+            "inc": "Anything not mentioned in the inclusion."
         },
         {
-            name: "Tax",
-            inc: '5% Tax'
+            "icon": "Tax",
+            "name": "Tax",
+            "inc": "5% Tax"
         },
         {
-            name: "Personal Expenses",
-            inc: 'Any personal expenses.'
+            "icon": "Personal_Expenses",
+            "name": "Personal Expenses",
+            "inc": "Any personal expenses."
         },
         {
-            name: "Natural Calamities",
-            inc: 'Any cost arising due to natural calamities.'
-        },
+            "icon": "Natural_Calamities",
+            "name": "Natural Calamities",
+            "inc": "Any cost arising due to natural calamities."
+        }
     ],
-    thingstotake: [{
-        name: "Shoes",
-        inc: 'A good pair of hiking shoes.'
-    },
-    {
-        name: "Moisturizer",
-        inc: 'Sunscreen or moisturizer, personal meds, and toiletries.'
-    },
-    {
-        name: "Hiking",
-        inc: 'LIght Bagpack'
-    },
-    {
-        name: "Umbrella",
-        inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
-    },
-    {
-        name: "Essentials",
-        inc: 'Power bank/Charger, camera, torch, selfie stick.'
-    },
-    {
-        name: "First Aid Kit",
-        inc: 'First Aid Kit, mask, and sanitizer.'
-    },
-    {
-        name: "Reusable Water bottle",
-        inc: 'Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination.'
-    },
-    {
-        name: "Sim Card",
-        inc: 'There wil be only jio and Bsnl Sim will be work in Forest area'
-    },
-    {
-        name: "Spare Plastic Bags",
-        inc: 'Useful for separating dirty or wet clothes from the rest of your belongings.'
-    },
+    thingstotake: [
+        {
+            "icon": "Shoes",
+            "name": "Shoes",
+            "inc": "A good pair of hiking shoes."
+        },
+        {
+            "icon": "Moisturizer",
+            "name": "Moisturizer",
+            "inc": "Sunscreen or moisturizer, personal meds, and toiletries."
+        },
+        {
+            "icon": "Hiking",
+            "name": "Hiking",
+            "inc": "Raincoat, swimming Costume and jackets."
+        },
+        {
+            "icon": "Umbrella",
+            "name": "Umbrella",
+            "inc": "Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella."
+        },
+        {
+            "icon": "Essentials",
+            "name": "Essentials",
+            "inc": "Power bank/Charger, camera, torch, selfie stick."
+        },
+        {
+            "icon": "First_Aid_Kit",
+            "name": "First Aid Kit",
+            "inc": "First Aid Kit, mask, and sanitizer."
+        },
+        {
+            "icon": "Reusable_Water_bottle",
+            "name": "Reusable Water bottle",
+            "inc": "Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination."
+        },
+        {
+            "icon": "Sim_Card",
+            "name": "Sim Card",
+            "inc": "There wil be only jio and Bsnl Sim will be work in Forest area"
+        },
+        {
+            "icon": "Spare_Plastic_Bags",
+            "name": "Spare Plastic Bags",
+            "inc": "Useful for separating dirty or wet clothes from the rest of your belongings."
+        }
     ],
     Genterms: [{
         key: "refundPolicy",
