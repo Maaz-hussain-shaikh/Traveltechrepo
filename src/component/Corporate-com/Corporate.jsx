@@ -11,7 +11,6 @@ const Corporate = () => {
 upshow(!show)
 txtshow("less")
 if(txt==="less"){
-
   window.scrollTo(600, 600); 
 }
   }

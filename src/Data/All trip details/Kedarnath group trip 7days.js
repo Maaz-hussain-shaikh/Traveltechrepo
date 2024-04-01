@@ -23,8 +23,8 @@ const Kedarnath = {
         }
 
     ],
-    pickup: "Indore",
-    drop: "Indore",
+    pickup: "Indore/Bhopal/Delhi",
+    drop: "Indore/Bhopal/Delhi",
     it: [{
         Heading: "Starting of spiritual journey",
         Schedule: [
