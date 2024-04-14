@@ -11,7 +11,7 @@ export default function Tripcard({ title, data }) {
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     initialSlide: 0,
     responsive: [
       {
