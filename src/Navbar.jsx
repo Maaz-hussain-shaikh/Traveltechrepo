@@ -33,8 +33,6 @@ const tripdata = [{
 
 
 const Navbar = () => {
-    
-    const [logo] = useState("images/traveltech logo.png")
     const [showtrip, upshowtrip] = useState(false);   
     const [mobileOff, update] = useState(true);
     const Navigate = useNavigate();
@@ -67,7 +65,7 @@ const Navbar = () => {
     return (
         <>
             <header className="header sticky">
-                <Link to="/" className="logo text-sm"> <img src={logo} alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
+                <Link to="/" className="logo text-sm"> <img src="/images/traveltech logo.png" alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
                 <nav className="navbar">
                     <div id="nav-close" className="fas fa-times"></div>
                     {<Packnav name="Packages" url={tripdata} />}
@@ -89,7 +87,7 @@ const Navbar = () => {
                 <div className="fixed inset-0 bar-index" />
                 <div className="fixed inset-y-0 right-0 bar-index w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <img src="images\traveltech logo.png" alt="main logo" style={{ maxWidth: "55px" }} />
+                        <img src="/images/traveltech logo.png" alt="main logo" style={{ maxWidth: "55px" }} />
                         <button
                             type="button"
                             className="-m-2.5 rounded-md p-2.5 text-gray-700"

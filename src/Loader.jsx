@@ -5,7 +5,7 @@ const Loader = () => {
     <>
       <div className="loader-container ">
       <img
-        src="images\animation logo.gif"
+        src="/images/animation logo.gif"
         alt="Centered GIF"
         className="loader-image"
       />
