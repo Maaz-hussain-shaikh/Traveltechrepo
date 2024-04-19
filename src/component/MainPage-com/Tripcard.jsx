@@ -8,11 +8,16 @@ export default function Tripcard({ title, data }) {
   const settings = {
     dots: false,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 5000,
-    initialSlide: 0,
+    
+    swipeToSlide: true,
+    afterChange: function(index) {
+      console.log(
+        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+      );},
     responsive: [
       {
         breakpoint: 1024,

@@ -1,4 +1,4 @@
-const Kerala = {
+const Kerala4n5d = {
     name: `Kerala"The God's Own Country"`,
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Kerala/Destination_8.png",
@@ -325,4 +325,4 @@ thingstotake: [{
     ],
 };
 
-export { Kerala};
+export default Kerala4n5d;

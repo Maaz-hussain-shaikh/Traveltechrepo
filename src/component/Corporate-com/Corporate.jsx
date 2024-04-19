@@ -170,35 +170,35 @@ if(txt==="less"){
           <div className="grid grid-cols-4 grid-rows-3 gap-1 sm:rounded-lg overflow-hidden w-full h-full">
             <div className="w-full h-full row-span-2 col-span-2  hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="images\staticimg\bonefire.jpg"
+                src="/images/staticimg/bonefire.jpg"
                 alt="bone fire"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="images\staticimg\pachmarhigroup.jpg"
+                src="/images/staticimg/pachmarhigroup.jpg"
                 alt="pic" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="images\staticimg\person logo.jpg"
+                src="/images/staticimg/person logo.jpg"
                 alt="pic" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="images\staticimg\pachmarhigroup.jpg"
+                src="/images/staticimg/pachmarhigroup.jpg"
                 alt="pic" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75 cursor-zoom-in fade-expand-appear-done fade-expand-enter-done">
               <img
-                src="images\staticimg\Love-min.jpg"
+                src="/images/staticimg/Love-min.jpg"
                 alt="Love-min" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />

@@ -1,10 +1,10 @@
 const Meghalaya = {
     name: "Meghalaya",
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Meghalaya/Destination_1.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Meghalaya/Destination_3.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Meghalaya/Destination_2.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Meghalaya/Destination_4.png",
     }],
     brief: `
     Sikkim and Darjeeling beckon with their stunning landscapes, providing a perfect getaway. Bordered by Bhutan, Nepal, and Tibet, these captivating regions boast lush green hills, cascading waterfalls, and serene tea estates.

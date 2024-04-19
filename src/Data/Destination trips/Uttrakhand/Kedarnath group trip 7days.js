@@ -12,7 +12,7 @@ const Kedarnath = {
     
     Book the Kedarnath trek package with TravelTech to enjoy facilities like professional guides and well-planned itineraries. Beyond the challenging trek, this journey also connects trekkers to the temple's profound significance in Indian mythology. So, unleash your inner adventurer with TravelTech and create lasting memories during the Kedarnath trek."
     `,
-    duration: "4N-5D",
+    duration: "6N-7D",
     Quadprice: "10999/-PP",
     Tripleprice: "12499/PP",
     Doubleprice: "13999/PP",
