@@ -80,6 +80,19 @@ const Cardfirst = {
         Price: "7999",
 
     },
+    "Kedarnath": {
+        imgurl: "/images/tripcard/Grouptrip/Kedarnath.png",
+        iturl: "Details/Kedarnath",
+        Price: "10999",
+
+    },
+    "Rishikesh ": {
+        imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
+        iturl: "Details/Rishikesh Haridwar",
+        Price: "7499",
+
+    },
+    
     "Kashmir": {
         imgurl: "images/tripcard/Grouptrip/Kashmir.png",
         iturl: "Details/Kashmir",
@@ -90,6 +103,18 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
         iturl: "Details/Pachmarhi",
         Price: "4999",
+
+    },
+    "Goa": {
+        imgurl: "images/tripcard/Grouptrip/goa.png",
+        iturl: "Details/Goa",
+        Price: "8499",
+
+    },
+    "Kerala": {
+        imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
+        iturl: "Details/Kerala 4n5d",
+        Price: "13499",
 
     },
     "Udaipur": {
@@ -111,14 +136,7 @@ const Cardfirst = {
         Price: "5999",
 
     },
-    "Goa": {
-        imgurl: "images/tripcard/Grouptrip/goa.png",
-        iturl: "Details/Goa",
-        Price: "8499",
-
-    },
-
-
+    
 
 }
 

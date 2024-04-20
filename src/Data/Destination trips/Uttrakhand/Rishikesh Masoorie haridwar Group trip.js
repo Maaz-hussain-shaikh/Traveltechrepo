@@ -16,7 +16,7 @@ const Rishikeshharidwar =
     Tripleprice: "8999/PP",
     Doubleprice: "9499/PP",
     Batches: [
-      [
+      
             { id: 1, date: 'Batch-1 (2nd May- 6th May)' },
             { id: 2, date: 'Batch-2 (9th May- 13th May)' },
             { id: 3, date: 'Batch-3 (16th May- 20th May)' },
@@ -25,7 +25,7 @@ const Rishikeshharidwar =
             { id: 6, date: 'Batch-6 (6th Jun- 10th Jun)' },
             { id: 7, date: 'Batch-7 (13th Jun- 17th Jun)' },
             { id: 8, date: 'Batch-8 (20th Jun- 24th Jun)' }
-        ]
+        
         
 ],
     pickup: "Indore/Bhopal/Delhi",
@@ -85,7 +85,7 @@ const Rishikeshharidwar =
     inclusion: [{
         icon: "Trip_Captain",
         name: "Trip Captain",
-        inc: 'Virtual Trip captain'
+        inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
     },
     {
         icon: "Accommodation",
@@ -95,7 +95,7 @@ const Rishikeshharidwar =
     {
         icon: "Meals",
         name: "Meals",
-        inc: 'A total of  10 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
+        inc: 'A total of  4 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
         icon: "Traveler",

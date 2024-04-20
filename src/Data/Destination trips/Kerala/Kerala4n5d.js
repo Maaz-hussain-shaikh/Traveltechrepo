@@ -16,8 +16,20 @@ const Kerala4n5d = {
     Batches: [
         { 
             id: 1, 
-            date: 'Costomize my trip' 
-        }
+            date: 'Batch-1 (13th) May' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (27th) May' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (10th) June' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (24th) June' 
+        },
 
     ],
     pickup: "Kochi",

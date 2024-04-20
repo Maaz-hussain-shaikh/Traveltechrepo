@@ -24,8 +24,24 @@ const Meghalaya = {
     Batches: [
         { 
             id: 1, 
-            date: 'Costomize my trip' 
-        }
+            date: 'Batch-1 (9th) May' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (23rd) May' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (30th) May' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (13th) June' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-5 (27th) June' 
+        },
 
     ],
     pickup: "Guwahati",

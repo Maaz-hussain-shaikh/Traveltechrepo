@@ -8,11 +8,6 @@ export default function Tripcard({ title, data }) {
   const settings = {
     dots: false,
     slidesToShow: 4,
-    
-    autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 5000,
-    
     swipeToSlide: true,
     afterChange: function(index) {
       console.log(

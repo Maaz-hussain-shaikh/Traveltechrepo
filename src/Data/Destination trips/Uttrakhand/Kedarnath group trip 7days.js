@@ -17,13 +17,13 @@ const Kedarnath = {
     Tripleprice: "12499/PP",
     Doubleprice: "13999/PP",
     Batches: [
-        {id: 1,date: 'Batch-8 (9th to 15th May)'},
-        {id: 2,date: 'Batch-9 (16th to 22nd May)'},
-        {id: 3,date: 'Batch-10 (23rd to 29th May)'},
-        {id: 4,date: 'Batch-11 (30th May to 5th Jun)'},
-        {id: 5,date: 'Batch-12 (6th to 12th Jun)'},
-        {id: 6,date: 'Batch-13 (13th to 19th Jun)'},
-        {id: 7,date: 'Batch-14 (20th to 26th Jun)'}
+        {id: 1,date: 'Batch-1 (9th to 15th May)'},
+        {id: 2,date: 'Batch-2 (16th to 22nd May)'},
+        {id: 3,date: 'Batch-3 (23rd to 29th May)'},
+        {id: 4,date: 'Batch-4 (30th May to 5th Jun)'},
+        {id: 5,date: 'Batch-5 (6th to 12th Jun)'},
+        {id: 6,date: 'Batch-6 (13th to 19th Jun)'},
+        {id: 7,date: 'Batch-7 (20th to 26th Jun)'}
     ],
     pickup: "Indore/Bhopal/Delhi",
     drop: "Indore/Bhopal/Delhi",
