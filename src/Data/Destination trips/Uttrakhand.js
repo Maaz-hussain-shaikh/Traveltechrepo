@@ -8,7 +8,7 @@ const  Uttrakhand = {
     trips:
     [
         {
-            name: "4 Days Munnar Alleppey Tour Package | Free Athirappilly Waterfalls ticket",
+            name: "Kedarnath A spiritual trip | 6 Night 7 Day",
             tag:"Best Saller",
             days:"6N-7D",
             imgurl: "/images/tripcard/Destinationimgs/Kedarnath/Destination_1.png",
