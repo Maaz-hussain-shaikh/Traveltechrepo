@@ -73,7 +73,7 @@ const Header = () => {
 
                     <div className="flex items-baseline ">
                       <i className="fa-solid fa-person-walking-luggage  font-black text-white mr-1 "></i>
-                      <span className=" font-bold font-black text-white">100k+
+                      <span className=" font-bold font-black text-white">10k+
                       </span>
                     </div>
                     <span className="text-white text-sm  font-semibold ">User</span>

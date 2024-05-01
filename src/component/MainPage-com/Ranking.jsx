@@ -11,7 +11,7 @@ const Ranking = () => {
               <i className="fa-solid fa-person-walking-luggage text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
                 <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white font-bold">75+</span>
               </div>
-              <span className="text-white sm:text-lg font-semibold mt-4">Hostels &amp; Homes</span>
+              <span className="text-white sm:text-lg font-semibold mt-4">Trusted Vendors</span>
             </div>
             <div className="flex flex-col items-center">
               <div className="flex items-baseline">
@@ -23,7 +23,7 @@ const Ranking = () => {
             <div className="flex flex-col items-center mt-8 sm:mt-0">
               <div className="flex items-baseline">
               <i className="fa-solid fa-person-walking-luggage text-3xl ml-2 sm:ml-4 sm:text-3xl font-black text-white"></i>
-                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-bold font-black text-white">100<span className="text-2xl sm:text-4xl">k+</span>
+                <span className="text-3xl ml-2 sm:ml-4 sm:text-3xl font-bold font-black text-white">10<span className="text-2xl sm:text-4xl">k+</span>
                 </span>
               </div>
               <span className="text-white sm:text-lg font-semibold mt-3">Travellers Hosted</span>
