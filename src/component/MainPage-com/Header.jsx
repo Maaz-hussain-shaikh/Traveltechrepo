@@ -87,13 +87,7 @@ const Header = () => {
                       </span>
                     </div>
                     <span className="text-white text-sm font-semibold ">Destination</span>
-                  </div>
-
-
-
-
-
-                 
+                  </div>                 
 
                 </label>
                 <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-2 border-b-2 border-r-2">

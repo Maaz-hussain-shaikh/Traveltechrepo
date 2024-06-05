@@ -15,62 +15,62 @@ const Pachmarhi = {
     Tripleprice: "5499/PP",
     Doubleprice: "5999/PP",
     Batches: [
-    { 
-        id: 1, 
-        date: 'Batch-1 (22nd to 25th) Mar' 
-    },
-    { 
-        id: 2, 
-        date: 'Batch-2 (29th Mar to 1st Apr)' 
-    },
-    { 
-        id: 3, 
-        date: 'Batch-3 (5th to 8th Apr)' 
-    },
-    { 
-        id: 4, 
-        date: 'Batch-4 (12th to 15th Apr)' 
-    },
-    { 
-        id: 5, 
-        date: 'Batch-5 (19th to 22nd Apr)' 
-    },
-    { 
-        id: 6, 
-        date: 'Batch-6 (26th to 29th Apr)' 
-    },
-    { 
-        id: 7, 
-        date: 'Batch-7 (3rd to 6th May)' 
-    },
-    { 
-        id: 8, 
-        date: 'Batch-8 (10th to 13th May)' 
-    },
-    { 
-        id: 9, 
-        date: 'Batch-9 (17th to 20th May)' 
-    },
-    { 
-        id: 10, 
-        date: 'Batch-10 (24th to 27th May)' 
-    },
-    { 
-        id: 11, 
-        date: 'Batch-11 (31st May to 3rd Jun)' 
-    },
-    { 
-        id: 12, 
-        date: 'Batch-12 (7th to 10th Jun)' 
-    },
-    { 
-        id: 13, 
-        date: 'Batch-13 (14th to 17th Jun)' 
-    },
-    { 
-        id: 14, 
-        date: 'Batch-14 (21st to 24th Jun)' 
-    }
+        { 
+            id: 1, 
+            date: 'Batch-1 (31st May to 3rd Jun)' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (7th to 10th Jun)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (14th to 17th Jun)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (21st to 24th Jun)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (28th Jun to 1st Jul)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (5th to 8th Jul)' 
+        },
+        { 
+            id: 7, 
+            date: 'Batch-7 (12th to 15th Jul)' 
+        },
+        { 
+            id: 8, 
+            date: 'Batch-8 (19th to 22nd Jul)' 
+        },
+        { 
+            id: 9, 
+            date: 'Batch-9 (26th to 29th Jul)' 
+        },
+        { 
+            id: 10, 
+            date: 'Batch-10 (2nd to 5th Aug)' 
+        },
+        { 
+            id: 11, 
+            date: 'Batch-11 (9th to 12th Aug)' 
+        },
+        { 
+            id: 12, 
+            date: 'Batch-12 (16th to 19th Aug)' 
+        },
+        { 
+            id: 13, 
+            date: 'Batch-13 (23rd to 26th Aug)' 
+        },
+        { 
+            id: 14, 
+            date: 'Batch-14 (30th Aug to 2nd Sep)' 
+        }
     ],
     pickup: "Indore/Bhopal/Pipariya",
     drop: "Indore/Bhopal/Pipariya",

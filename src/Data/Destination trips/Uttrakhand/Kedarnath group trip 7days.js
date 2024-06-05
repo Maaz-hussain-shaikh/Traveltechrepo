@@ -38,7 +38,7 @@ const Kedarnath = {
     {
         Heading: "Rishikesh Adventure & Sightseeing",
         Schedule: [
-            { Scheduledetails: "Early morning drive to Rishikesh." },
+            { Scheduledetails: "In evening drive to Rishikesh." },
             { Scheduledetails: "Experience thrilling rafting with rapids and cliff jumping(At Own Cost)." },
             { Scheduledetails: "Explore Laxman Jhula and Ram Jhula." },
             { Scheduledetails: "Witness the serene Ganga Aarti in the evening." },
