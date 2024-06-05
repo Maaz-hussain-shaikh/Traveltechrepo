@@ -26,6 +26,7 @@ import Kerala4n5d from "./Destination trips/Kerala/Kerala4n5d"
 import { Kedarnath } from "./Destination trips/Uttrakhand/Kedarnath group trip 7days"
 import Uttrakhand from "./Destination trips/Uttrakhand"
 import Rishikeshharidwar from "./Destination trips/Uttrakhand/Rishikesh Masoorie haridwar Group trip"
+import { Ladakh13daystrip } from "./All trip details/Leg Gorup"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -57,7 +58,7 @@ const Maindetailsdata = {
 
     // ==============================================ladakh=================================    
     "leh_6day": { info: Ladakh6daystrip },
-
+    "leh_13day": { info:Ladakh13daystrip },
     // =============================================maharashtra===============================    
     "Goa": { info: Goagroup },
     // =========================================================Kerala=======================
@@ -78,6 +79,12 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
         Price: "7999",
+
+    },
+    "Ladakh": {
+        imgurl: "images/tripcard/Destinationimgs/Maincard/Destination_2.png",
+        iturl: "Details/leh_13day",
+        Price: "23999",
 
     },
     "Kedarnath": {
