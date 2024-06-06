@@ -1,5 +1,5 @@
 const Ladakh13daystrip = {
-    name: "Ladakh (Leh-Leh)",
+    name: "Ladakh Adventure with Himachal Expedition",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_2.png",
         imgurl2: "/images/tripcard/Destinationimgs/Leh/Destination_4.png",
@@ -8,15 +8,17 @@ const Ladakh13daystrip = {
         
         
     }],
-    brief: `Nestled in the remote Himalayas of northern India, Ladakh beckons with its awe-inspiring landscapes, offering a perfect setting for a Adventures getaway. Surrounded by towering peaks, turquoise lakes, and ancient monasteries, this mystical region captivates with its rugged beauty and serene ambiance.
-    
+    brief: `Nestled in the remote Himalayas of northern India, Ladakh beckons with its awe-inspiring landscapes, offering a perfect setting for an adventurous getaway. Surrounded by towering peaks, turquoise lakes, and ancient monasteries, this mystical region captivates with its rugged beauty and serene ambiance.
+
     Embark on a journey to explore Ladakh's iconic attractions, where romance thrives amidst the breathtaking vistas of Pangong Lake, Nubra Valley, and Magnetic Hill. Take leisurely walks hand in hand amidst the tranquil surroundings, or embark on adventurous treks to remote mountain villages, creating unforgettable moments together.
     
     For adrenaline-seeking couples, Ladakh offers a plethora of outdoor activities to enjoy together. Test your limits with thrilling experiences like river rafting in the Zanskar River, mountain biking along scenic trails, or embarking on a challenging trek to the stunning Tso Moriri Lake.
     
     Indulge in Ladakh's rich culinary heritage, savoring traditional Ladakhi delicacies like Thukpa, Momos, and Apricot Jam, infused with flavors that reflect the region's cultural diversity and heritage.
     
-    Despite its remote location and rugged terrain, Ladakh remains a haven for lovers, offering a sanctuary of natural beauty, adventure, and cultural immersion. Let your love soar amidst the grandeur of Ladakh's landscapes, forging memories that will last a lifetime`,
+    Despite its remote location and rugged terrain, Ladakh remains a haven for lovers, offering a sanctuary of natural beauty, adventure, and cultural immersion. Let your love soar amidst the grandeur of Ladakh's landscapes, forging memories that will last a lifetime.
+    
+    Join us on an exhilarating journey with fellow travelers as we explore the captivating beauty of Ladakh, alongside the enchanting destinations of Manali, Kasol, and Manikaran. Together, we'll uncover the hidden gems of the Himalayas, sharing unforgettable adventures and creating lifelong bonds.`,
     duration: "11N-12D",
     note:"",
     Quadprice: "23999/-PP",
@@ -28,8 +30,8 @@ const Ladakh13daystrip = {
         
 
     ],
-    pickup: "Leh",
-    drop: "Leh",
+    pickup: "Delhi/Indore/bhopal/Maharastra",
+    drop: "Delhi/Indore/bhopal/Maharastra",
        it: [
         {
             Heading: "Your City to Delhi (Overnight)",
@@ -70,7 +72,7 @@ const Ladakh13daystrip = {
             ]
         },
         {
-            Heading: "Transfer to Leh",
+            Heading: "Transfer to Leh via  Baralacha La and Tanglang La ",
             Schedule: [
                 { Scheduledetails: "After breakfast, continue your journey to Leh - The Land Of High Passes!" },
                 { Scheduledetails: "Travel through the scenic passes of Baralacha La (Altitude - 4890m) and Tanglang La (Altitude - 5328m)." },
@@ -148,7 +150,7 @@ const Ladakh13daystrip = {
         inclusion: [{
             name: "Trip Captain",
             icon: "Trip_Captain",
-            inc: "Driver as cum guide And Virtual trip captain"
+            inc: "Experienced Trip Captain (Only IF 12+ Members In A group)"
         },
         {
             name: "Accommodation",
@@ -190,7 +192,7 @@ const Ladakh13daystrip = {
     thingstotake: [{
             name: "Shoes",
             icon: "Shoes",
-            inc: "Trekking boots, flip-flops, and sneakers"
+            inc: "Above-the-ankle waterproof and breathable hiking boots with good grip,Flip flops/sandals"
         },
         {
             name: "Moisturizer",
@@ -215,7 +217,7 @@ const Ladakh13daystrip = {
         {
             name: "First Aid Kit",
             icon: "First_Aid_Kit",
-            inc: "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
+            inc: "One strip of Diamox ,Glucose powder, Medicines for headaches, diarrhoea, motion and altitude sickness,Dettol,Bandages,Cotton Band-aids,medicines for cold"
         }
     ],
     Genterms: [{
