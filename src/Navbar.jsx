@@ -24,7 +24,7 @@ const tripdata = [{
     url: "Details/Goa"
 },{
     name: 'Ladakh',
-    url: "Details/leh_6day"
+    url: "Details/leh_13day"
 },{
     name: 'Kerala',
     url: "Details/Kerala"
@@ -68,7 +68,7 @@ const Navbar = () => {
                 <Link to="/" className="logo text-sm"> <img src="/images/traveltech logo.png" alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
                 <nav className="navbar">
                     <div id="nav-close" className="fas fa-times"></div>
-                    {<Packnav name="Packages" url={tripdata} />}
+                    {<Packnav name="Group Trip" url={tripdata} />}
                     {<Navlinks name='Corporate Tours' url='/Corporate' icon="fa-solid fa-laptop" />}
                     {<Navlinks name='About us' url='/About' icon="fa-solid fa-paperclip" />}
                     {<Dropnav name='Community' />}

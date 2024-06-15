@@ -14,6 +14,7 @@ const Mainpage = () => {
   return (
     <>
       <Header/>
+      <Adsection imgsrc="images/Leh-ad.png" /> 
       <Tripbutton/>
       <Destinationcards/> 
       <Adsection imgsrc="images/honyemoonad.png" />     

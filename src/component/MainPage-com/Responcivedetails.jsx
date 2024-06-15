@@ -30,17 +30,17 @@ const Responcivedetails = (props) => {
     <div className='flex flex-col fixed bottom-0 z-30 w-full left-0 sm:hidden'>
       <section className={`bg-light rounded-t-lg border-t p-3 border-accent ${isOpen ? '' : 'hidden'} fade-y-enter-done`} style={{ maxHeight: "calc(-12rem + 100vh)" }}>
         <div className="flex flex-col w-full ">
-          <iframe height="215" className='rounded-lg mb-2' src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe height="215" className='rounded-lg mb-3' src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 
-          <div className="flex items-center justify-between w-full relative">
-            <h2 className="font-bold text-xl sm:text-2xl flex">
-              Book <span className="text-orange-600"> Trip</span>
+          <div className="flex items-center justify-between w-full  relative">
+            <h2 className="focus:outline-none text-center py-2 px-2 m-auto text-sm font-medium tracking-wide bg-orange  rounded-lg">
+             
               <select
-                className="w-28 ml-4 bg-white border border-gray-400 hover:border-gray-500 px-2 rounded text-sm"
+                className="w-30 ml-2 bg-orange  hover:border-gray-500 px-2 rounded text-sm text-white text-center"
                 onChange={handleChange}
                 value={batch}
               >
-                <option value="Upcoming Batch">Upcoming Batch</option>
+                <option value="Upcoming Batch">Click here for Upcoming Batches</option>
                 {props.Batches.map(trip => (
                   <option key={trip.id} value={trip.date}>
                     {trip.date}
@@ -49,14 +49,14 @@ const Responcivedetails = (props) => {
               </select>
             </h2>
             <div className="flex items-center space-x-1">
-              <button className="flex items-center bg-accent text-text p-3 text-sm rounded-lg leading-none border hover:text-accent hover:bg-text active:bg-dark focus:outline-none transition ease-in-out duration-100 " onClick={toggleDropdown}>
+              <button className="flex items-center bg-accent text-text py-2.5 px-2.5 text-sm rounded-lg leading-none border hover:text-accent hover:bg-text active:bg-dark focus:outline-none transition ease-in-out duration-100 " onClick={toggleDropdown}>
                 <i className="fa-solid fa-xmark"></i>
               </button>
             </div>
           </div>
           <div>
             <div className="flex flex-col w-full pb-2">
-              <div className="mt-4">
+              <div className="mt-3">
                 <div className="flex items-center space-x-2">
                   <i className="fa-solid fa-circle-dot"></i>
                   <span className="font-medium">{props.pickup}</span>
@@ -71,9 +71,9 @@ const Responcivedetails = (props) => {
                   <i className="fa-solid fa-circle-dot"></i>
                   <span className="font-medium">{props.drop}</span>
                 </div>
-                <span className="inline-flex items-center rounded-md bg-accent bg-gray-100 px-2 mt-4 py-1 mr-1 text-xs font-medium text-orange-600 ring-1 ring-inset ring-orange-600/20" onClick={() => setSharingAndPrice("Double", props.Doubleprice)}><i className="fa-solid fa-user-group"></i> Double</span>
-                <span className="inline-flex items-center rounded-md bg-accent bg-gray-100 px-2 py-1 text-xs mr-1 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={() => setSharingAndPrice("Triple", props.Tripleprice)}><i className="fa-solid fa-users"></i> Triple</span>
-                <span className="inline-flex items-center rounded-md bg-accent bg-gray-100 px-2 py-1 text-xs mr-1 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={() => setSharingAndPrice("Quad", props.Quadprice)}><i className="fa-solid fa-user-plus"></i> Quad</span>
+                <span className="inline-flex items-center rounded-md bg-accent bg-gray-100 px-3 mt-4 py-2 mr-2 text-sm font-medium text-orange-600 ring-1 ring-inset ring-orange-600/20" onClick={() => setSharingAndPrice("Double", props.Doubleprice)}><i className="fa-solid fa-user-group mr-1"></i> Double</span>
+                <span className="inline-flex items-center rounded-md bg-accent bg-gray-100 px-3 py-2 text-sm mr-2 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={() => setSharingAndPrice("Triple", props.Tripleprice)}><i className="fa-solid fa-users mr-1"></i> Triple</span>
+                <span className="inline-flex items-center rounded-md bg-accent bg-gray-100 px-3 py-2 text-sm mr-2 font-medium text-orange-600 ring-1 ring-inset ring-yellow-600/20" onClick={() => setSharingAndPrice("Quad", props.Quadprice)}><i className="fa-solid fa-user-plus mr-1"></i> Quad</span>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ const Responcivedetails = (props) => {
           <div className="flex flex-col text-text">
             <div className="flex items-center space-x-2">
               <i className="fa-solid fa-users-line"></i>
-              <span className="font-medium text-sm">On {sharing} sharing basis</span>
+              <span className="font-medium text-sm">On {sharing} sharing basis </span>
             </div>
             <span className="font-bold"><strong className="text-orange">₹ {price}</strong></span>
           </div>
