@@ -2,8 +2,8 @@ const Rishikeshharidwar =
 {
     name: "Rishikesh-Haridwar with Masoorie",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Kedarnath/Destination_1.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Kedarnath/Destination_2.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Kedarnath/Destination_2.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Kedarnath/Destination_5.png",
         imgurl3: "/images/tripcard/Destinationimgs/Kedarnath/Destination_3.png",
         imgurl4: "/images/tripcard/Destinationimgs/Kedarnath/Destination_4.png",
     }],
@@ -16,15 +16,30 @@ const Rishikeshharidwar =
     Tripleprice: "8999/PP",
     Doubleprice: "9499/PP",
     Batches: [
-      
-            { id: 1, date: 'Batch-1 (2nd May- 6th May)' },
-            { id: 2, date: 'Batch-2 (9th May- 13th May)' },
-            { id: 3, date: 'Batch-3 (16th May- 20th May)' },
-            { id: 4, date: 'Batch-4 (23rd May- 27th May)' },
-            { id: 5, date: 'Batch-5 (30th May- 3rd Jun)' },
-            { id: 6, date: 'Batch-6 (6th Jun- 10th Jun)' },
-            { id: 7, date: 'Batch-7 (13th Jun- 17th Jun)' },
-            { id: 8, date: 'Batch-8 (20th Jun- 24th Jun)' }
+        { 
+            id: 1, 
+            date: 'Batch-1 (20th Jun - 24th Jun)' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (27th Jun - 1st Jul)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (4th Jul - 8th Jul)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (11th Jul - 15th Jul)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (18th Jul - 22nd Jul)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (25th Jul - 29th Jul)' 
+        }
         
         
 ],

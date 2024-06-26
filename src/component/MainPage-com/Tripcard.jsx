@@ -9,7 +9,9 @@ export default function Tripcard({ title, data }) {
     dots: false,
     slidesToShow: 4,
     swipeToSlide: true,
-    
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,

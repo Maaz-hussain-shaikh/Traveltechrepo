@@ -3,7 +3,7 @@ const Manali =
     name: "Manali-Kasol-lahulvally",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_2.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_14.png",
         imgurl3: "/images/tripcard/Destinationimgs/Manali/Destination_1.png",
         imgurl4: "/images/tripcard/Destinationimgs/Manali/Destination_4.png",
     }],

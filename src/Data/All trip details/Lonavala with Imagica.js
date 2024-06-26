@@ -1,19 +1,84 @@
 const Lonavalakhandala = {
     name: "Lonavala With khandala",
     imgurl: [{
-        imgurl1: "images/tripcard/5.png",
-        imgurl2: "images/tripcard/5.png",
-        imgurl3: "images/tripcard/5.png",
-        imgurl4: "images/tripcard/5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Lonavala/Destination_4.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Lonavala/Destination_2.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Lonavala/Destination_1.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Lonavala/Destination_3.png",
+       
     }],
     brief: ` lonavala is located in the state of maharastra. The name Lonavla is derived from the Sanskrit lonavli, which refers to the many caves like Karla Caves, Often called the 'Jewel of Sahyadri' and the 'City of Caves', this hill station boasts of a spectacular setting that includes lush green valleys, stunning waterfalls, serene lakes and remarkable caves. The myriad places to visit in Lonavala that include historical sites, natural wonders, religious attractions, etc
     Lonavala is about 636 km from indore (mp) which is Approximatly Covered in (14-16 hrs) and It is known for its production of the hard candy chikki.which offered dramatic views of the valley, and hills adorned with A series of waterfalls.
     places to visit- Pawna Lake, Rajmachi point &, Lohagad Fort, Bhushi Dam, Lonavala Lake, Imagica Adlabs, Celebrity Wax Museum, Rajmachi Fort point, pawna lake, Karla Caves, Trail and many more tourist attractions  
     `,
-    duration: "3N-2D",
-    price: "5499/-PP",
-    pickup: "Indore/Mumbai",
-    drop: "Indore/Mumbai",
+    duration: "3N-4D",
+    note:"",
+    Quadprice: "5499/-PP",
+    Tripleprice: "5999/-PP",
+    Doubleprice: "6499/-PP",
+    Batches: [
+        { 
+            id: 1, 
+            date: 'Batch-1 (31st May to 3rd Jun)' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (7th to 10th Jun)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (14th to 17th Jun)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (21st to 24th Jun)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (28th Jun to 1st Jul)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (5th to 8th Jul)' 
+        },
+        { 
+            id: 7, 
+            date: 'Batch-7 (12th to 15th Jul)' 
+        },
+        { 
+            id: 8, 
+            date: 'Batch-8 (19th to 22nd Jul)' 
+        },
+        { 
+            id: 9, 
+            date: 'Batch-9 (26th to 29th Jul)' 
+        },
+        { 
+            id: 10, 
+            date: 'Batch-10 (2nd to 5th Aug)' 
+        },
+        { 
+            id: 11, 
+            date: 'Batch-11 (9th to 12th Aug)' 
+        },
+        { 
+            id: 12, 
+            date: 'Batch-12 (16th to 19th Aug)' 
+        },
+        { 
+            id: 13, 
+            date: 'Batch-13 (23rd to 26th Aug)' 
+        },
+        { 
+            id: 14, 
+            date: 'Batch-14 (30th Aug to 2nd Sep)' 
+        }
+        
+        
+
+    ],
+    pickup: "Indore/Ratlam/Maharastra",
+    drop: "Indore/Ratlam/Maharastra",
     it: [{
         Heading: "Departure to Lonavala",
         Schedule: [
@@ -101,11 +166,6 @@ const Lonavalakhandala = {
             "icon": "Meals_Exclusion",
             "name": "Meals",
             "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
-        },
-        {
-            "icon": "Honeymoon_kit",
-            "name": "Honeymoon kit",
-            "inc": "Honeymoon kit (bed decoration with candle light dinner) on extra cost."
         },
         {
             "icon": "Priority_High",

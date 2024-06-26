@@ -27,6 +27,8 @@ import { Kedarnath } from "./Destination trips/Uttrakhand/Kedarnath group trip 7
 import Uttrakhand from "./Destination trips/Uttrakhand"
 import Rishikeshharidwar from "./Destination trips/Uttrakhand/Rishikesh Masoorie haridwar Group trip"
 import { Ladakh13daystrip } from "./All trip details/Leg Gorup"
+import { Lonavalakhandala } from "./All trip details/Lonavala with Imagica"
+import { Kanakisli } from "./All trip details/Kanahkisli"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -70,11 +72,40 @@ const Maindetailsdata = {
     "Kedarnath": { info: Kedarnath },
     "Rishikesh Haridwar": { info: Rishikeshharidwar },
     "Uttrakhand": { more: Uttrakhand },
-
+    //======================================Lonavala ======================================
+    "Lonavala": { info: Lonavalakhandala },
+    // =============================Kanakisli=================================
+    "Kanahkisli": { info: Kanakisli },
 }
 
 // =========================================================sliding frist card =================================
 const Cardfirst = {
+    "Pachmarhi": {
+        imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
+        iturl: "Details/Pachmarhi",
+        Price: "4999",
+
+    },
+    "Kanah Kisli": {
+        imgurl: "images/tripcard/Grouptrip/Kanha.png",
+        iturl: "Details/Kanahkisli",
+        Price: "5499",
+
+    },
+    "Lonavala Khandala": {
+        imgurl: "images/tripcard/Grouptrip/Lonavala.png",
+        iturl: "Details/Lonavala",
+        Price: "5499",
+
+
+    },
+    "Udaipur": {
+        imgurl: "images/tripcard/Grouptrip/Udaipur.png",
+        iturl: "Details/Udaipur",
+        Price: "4299",
+
+
+    },
     "Manali": {
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
@@ -106,12 +137,7 @@ const Cardfirst = {
         Price: "13499",
 
     },
-    "Pachmarhi": {
-        imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
-        iturl: "Details/Pachmarhi",
-        Price: "4999",
-
-    },
+    
     "Goa": {
         imgurl: "images/tripcard/Grouptrip/goa.png",
         iturl: "Details/Goa",
@@ -124,13 +150,7 @@ const Cardfirst = {
         Price: "13499",
 
     },
-    "Udaipur": {
-        imgurl: "images/tripcard/Grouptrip/Udaipur.png",
-        iturl: "Details/Udaipur",
-        Price: "4499",
-
-
-    },
+  
     "Jaipur Ranthambore": {
         imgurl: "images/tripcard/Grouptrip/Jaipur.png",
         iturl: "Details/Jaipur Ranthambore",
