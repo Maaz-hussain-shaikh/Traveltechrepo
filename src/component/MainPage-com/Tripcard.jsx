@@ -8,10 +8,11 @@ export default function Tripcard({ title, data }) {
   const settings = {
     dots: false,
     slidesToShow: 4,
+    infinite: false, 
     swipeToSlide: true,
-    autoplay: true,
-    speed: 1000,
-    
+    speed: 500,
+   
+    centerPadding: "0px",
     responsive: [
       {
         breakpoint: 1024,
