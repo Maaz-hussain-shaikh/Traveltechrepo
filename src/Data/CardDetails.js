@@ -86,7 +86,7 @@ const Cardfirst = {
         Price: "4999",
 
     },
-    "Kanah Kisli": {
+    "Kanha Kisli": {
         imgurl: "images/tripcard/Grouptrip/Kanha.png",
         iturl: "Details/Kanahkisli",
         Price: "5499",

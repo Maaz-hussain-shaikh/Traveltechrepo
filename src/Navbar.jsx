@@ -6,10 +6,16 @@ import Packnav from "./Packnav";
 const tripdata = [{
     name: 'Pachmarhi',
     url: "Details/Pachmarhi"
+},{
+    name: 'Kanha Kisli',
+    url: "Details/Kanahkisli"
 },
 {
     name: 'Udaipur',
     url: "Details/Udaipur"
+},{
+    name: 'Lonavala Khandala',
+    url: "Details/Lonavala"
 },
 {
     name: 'Manali',
