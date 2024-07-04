@@ -15,7 +15,13 @@
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
+.slick-slide {
+  touch-action: pan-y;
+}
 
+.slick-list {
+  -webkit-overflow-scrolling: touch;
+}
 
 /* CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important */
 

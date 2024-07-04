@@ -8,11 +8,10 @@ export default function Tripcard({ title, data }) {
   const settings = {
     dots: false,
     slidesToShow: 4,
-    infinite: false, 
+    infinite: true, // Allow the slider to loop continuously
     swipeToSlide: true,
     speed: 500,
-   
-    centerPadding: "0px",
+    centerMode: false, 
     responsive: [
       {
         breakpoint: 1024,
@@ -38,7 +37,10 @@ export default function Tripcard({ title, data }) {
           slidesToScroll: 2
         }
       }
-    ]
+    ],
+     touchThreshold: 5, // Adjust the sensitivity of swipe action
+    swipe: true,
+    touchMove: true
   };
 
   return (
