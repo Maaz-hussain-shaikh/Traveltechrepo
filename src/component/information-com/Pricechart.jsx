@@ -90,9 +90,9 @@ const Pricechart = (props) => {
             </div>
           </div>
           <div className="flex flex-col w-full p-4 mt-2">
-            <span className="text-lg font-bold">Imoportant Note -</span><p>{props.note}</p>
+            <span className="text-lg font-bold">Important Note -</span><p>{props.note}</p>
             <button className="flex items-center justify-start rounded-lg font-medium leading-none bg-black active:border-orange text-white hover:text-orange-600 hover:bg-white active:bg-gray-200 active:text-orange-600 py-4 px-6 text-lg border focus:outline-none transition ease-in-out duration-100 disabled:cursor-not-allowed disabled:bg-accent disabled:text-subtitle mt-4" type="button">
-              <span className="flex-1 whitespace-no-wrap">Download Itenary</span>
+              <span className="flex-1 whitespace-no-wrap">Download itinerary</span>
             </button>
             <button className="flex items-center justify-start rounded-lg font-medium leading-none active:border-orange   hover:bg-orange  active:text-white border border-orange py-4 px-6 text-lg border focus:outline-none transition ease-in-out duration-100 disabled:cursor-not-allowed disabled:bg-accent disabled:text-subtitle mt-4" type="button">
               <span className="flex-1 whitespace-no-wrap">Whatsapp Us</span>

@@ -72,7 +72,7 @@ const Footer = () => {
                     <div className="jGTbPl">187 Swastik Nagar ujjain road, Dewas, madhya pradesh-455001</div></div>
                 <div className="beCaIP">
                     <a href="mailto:traveltech1111@gmail.com" className="kSOouz">traveltech1111@gmail.com</a>
-                    <a href="tel:8871658568" className="kSOouz">+91 8871658568</a>
+                    <a href="tel:7566788885" className="kSOouz">+91 7566788885</a>
                     <a href="/" className="kSOouz">www.traveltech.com</a>
                 </div>
             </div>

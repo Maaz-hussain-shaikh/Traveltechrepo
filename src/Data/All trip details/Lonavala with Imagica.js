@@ -1,10 +1,10 @@
-const Lonavalakhandala = {
+const Lonavalakhandalaimagica = {
     name: "Lonavala With khandala",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Lonavala/Destination_4.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Lonavala/Destination_2.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Lonavala/Destination_7.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Lonavala/Destination_5.png",
         imgurl3: "/images/tripcard/Destinationimgs/Lonavala/Destination_1.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Lonavala/Destination_3.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Lonavala/Destination_6.png",
        
     }],
     brief: ` lonavala is located in the state of maharastra. The name Lonavla is derived from the Sanskrit lonavli, which refers to the many caves like Karla Caves, Often called the 'Jewel of Sahyadri' and the 'City of Caves', this hill station boasts of a spectacular setting that includes lush green valleys, stunning waterfalls, serene lakes and remarkable caves. The myriad places to visit in Lonavala that include historical sites, natural wonders, religious attractions, etc
@@ -88,12 +88,21 @@ const Lonavalakhandala = {
 { Scheduledetails: "Train departures: 4:30 PM from Indore railway station, 4:55 PM from Dewas railway station, and 7:45 PM from Ratlam railway station." },
 { Scheduledetails: "We will reach Lonavala at 7:45 AM (Train No. 22944)." }
         ]
+    },{
+        Heading: "Lonavla Imagica",
+        Schedule: [
+            { Scheduledetails: "Arrive in Lonavla in the morning." },
+            { Scheduledetails: "check in at the hotel (Early check on subject to availblity )." },
+            { Scheduledetails: "Get ready for full of fun-filled adventures in imagica the ultimate entertainment destination" },
+            { Scheduledetails: "Enjoy standard Amusment park/Water park" },
+            { Scheduledetails: "Return to the hotel for dinner and overnight stay." }
+            
+        ]
     },
     {
         Heading: "Lonavla Exploration",
         Schedule: [
-            { Scheduledetails: "Arrive in Lonavla in the morning." },
-            { Scheduledetails: "Enjoy a delicious breakfast and check in at the hotel." },
+            { Scheduledetails: "Enjoy a your delicious breakfast " },
             { Scheduledetails: "Visit Lonavala Lake, Lions Point, Tiger's Point, and Bushi Dam." },
             { Scheduledetails: "Relax at the hotel." },
             { Scheduledetails: "Witness the sunset at Khandala Sunset Point, Waghjai Mandir, Rajmachi Point (Monkey Point), and Kune Waterfall." },
@@ -155,17 +164,13 @@ const Lonavalakhandala = {
         {
             "icon": "Expenses",
             "name": "Expenses",
-            "inc": "All entry tickets/Guide services for , sightseeing, & Entry fee( Waterports,Fort Tickets, etc)"
+            "inc": "All entry tickets/Guide services for , sightseeing, & Entry fee( Imagica Amusement/Waterpark,Fort Tickets, etc)"
         },
-        {
-            "icon": "Transport",
-            "name": "Transport",
-            "inc": "Taxi or traveler timing will be 10:00 AM - 7:00 AM"
-        },
+
         {
             "icon": "Meals_Exclusion",
             "name": "Meals",
-            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
+            "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway/Train."
         },
         {
             "icon": "Priority_High",
@@ -368,4 +373,4 @@ const Lonavalakhandala = {
     ],
 };
 
-export {Lonavalakhandala};
+export {Lonavalakhandalaimagica};

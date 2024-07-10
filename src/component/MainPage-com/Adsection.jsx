@@ -14,7 +14,7 @@ const Adsection = (props) => {
     return (
         <>
             <div className="idQJkO">
-                <Link target="_blank" className="bXBxlH" style={imgstyle} to="/international-trips/bhutan-tour-packages"></Link></div>
+                <Link  className="bXBxlH" style={imgstyle} to={props.path}></Link></div>
         </>
     )
 }

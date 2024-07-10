@@ -10,8 +10,6 @@ import { Meghalaya } from "./All trip details/Meghalaya"
 import { Ladakh6daystrip } from "./All trip details/Leh to Leh 5d"
 import { Goagroup } from "./All trip details/Goa group trip"
 import { Jodhpur } from "./All trip details/Jodhpur Jaisalmer"
-
-
 import { Kashmir7n8d } from "./Destination trips/Kashmir/Kashmir Group 7n8d"
 import { Kashmir4n5d } from "./Destination trips/Kashmir/Kashmir Personalise Srinagar to Srinagar"
 import Himachal from "./Destination trips/Himachal"
@@ -27,8 +25,9 @@ import { Kedarnath } from "./Destination trips/Uttrakhand/Kedarnath group trip 7
 import Uttrakhand from "./Destination trips/Uttrakhand"
 import Rishikeshharidwar from "./Destination trips/Uttrakhand/Rishikesh Masoorie haridwar Group trip"
 import { Ladakh13daystrip } from "./All trip details/Leg Gorup"
-import { Lonavalakhandala } from "./All trip details/Lonavala with Imagica"
+import { Lonavalakhandala } from "./All trip details/Lonavala with Khandala"
 import { Kanakisli } from "./All trip details/Kanahkisli"
+import { Lonavalakhandalaimagica } from "./All trip details/Lonavala with Imagica"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -74,6 +73,7 @@ const Maindetailsdata = {
     "Uttrakhand": { more: Uttrakhand },
     //======================================Lonavala ======================================
     "Lonavala": { info: Lonavalakhandala },
+    "Lonavalaimagica": {info: Lonavalakhandalaimagica},
     // =============================Kanakisli=================================
     "Kanahkisli": { info: Kanakisli },
 }
@@ -95,6 +95,13 @@ const Cardfirst = {
     "Lonavala Khandala": {
         imgurl: "images/tripcard/Grouptrip/Lonavala.png",
         iturl: "Details/Lonavala",
+        Price: "5499",
+
+
+    },
+    "Lonavala With imagica": {
+        imgurl: "images/tripcard/Grouptrip/Lonavala.png",
+        iturl: "Details/Lonavalaimagica",
         Price: "5499",
 
 
@@ -247,7 +254,7 @@ const Honymooncards = {
     },
     "Kerala": {
         imgurl: "/images/tripcard/Honymoontrip/Kerala.png",
-        iturl: "Details/Kerala",
+        iturl: "Destinations/Kerala",
         Price: "16499",
 
     },

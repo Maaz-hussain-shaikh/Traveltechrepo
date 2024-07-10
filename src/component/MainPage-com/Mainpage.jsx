@@ -14,10 +14,10 @@ const Mainpage = () => {
   return (
     <>
       <Header/>
-      <Adsection imgsrc="images/Leh-ad.png" /> 
+      <Adsection imgsrc="images/Leh-ad.png" path="Details/leh_13day"/> 
       <Tripbutton/>
       <Destinationcards/> 
-      <Adsection imgsrc="images/honyemoonad.png" />     
+      <Adsection imgsrc="images/honyemoonad.png" path="/" />     
       <Honeymoon/>      
       <About/>
       <Youtube/>

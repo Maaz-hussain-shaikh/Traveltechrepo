@@ -33,7 +33,7 @@ const tripdata = [{
     url: "Details/leh_13day"
 },{
     name: 'Kerala',
-    url: "Details/Kerala"
+    url: "Details/Kerala 4n5d"
 },
 ]
 

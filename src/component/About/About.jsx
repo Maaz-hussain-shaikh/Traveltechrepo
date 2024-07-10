@@ -26,7 +26,7 @@ const About = () => {
             <h2 className="text-xl  font-bold text-gray-900 sm:text-3xl"> Work<span className="text-orange-600"> | </span>Travel<span className="text-orange-600"> | </span>Repeat </h2>
             <p className="mt-4 text-gray-600 text-sm sm:text-lg">We at Traveltech are Unleash Your Wanderlust with Central India's Buzziest travel community that provides end-to-end travel packages in India  We design the best travel itineraries that encourage group traveling for like-minded people. Our services include road trips, trekking expeditions, corporate trips, and customized tour packages. On our trips, we ensure hassle-free traveling, top-notch accommodation, and guided sightseeing that too in a budget that won’t burn a hole in your pocket. Just give us your dates and be ready to experience like Never before
 
-              We are excited to announce that we've successfully served over 2 million travelers and achieved remarkable growth, tripling our size in 2022. Our commitment to sustainable and organic expansion has enabled us to address exciting challenges in travel technology for the modern traveler.</p>
+              We are excited to announce that we've successfully served over 100000+ travelers and achieved remarkable growth, tripling our size in 2022. Our commitment to sustainable and organic expansion has enabled us to address exciting challenges in travel technology for the modern traveler.</p>
           </div>
 
         </section>
