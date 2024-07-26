@@ -3,10 +3,17 @@ import Whoweare from './Whoweare'
 import Unique from './Unique'
 import Team from './Team'
 import Worrior from '../MainPage-com/Worrior'
+import { Helmet } from 'react-helmet'
 
 const About = () => {
   return (
     <>
+    <Helmet>
+    <title>About Us - Traveltech </title>
+        <meta name="description" content="Discover Traveltech, the leading travel community in Central India. We offer end-to-end travel packages, road trips, trekking expeditions, and more, focusing on sustainable and organic growth." />
+        <meta name="keywords" content="Traveltech, travel community, India travel packages, road trips, trekking expeditions, corporate trips, sustainable travel, customized travel packages" />
+        <link rel="canonical" href="https://travelltech.com/About" />
+    </Helmet>
       <section className="max-w-screen-xl w-full mx-auto">
 
 

@@ -1,12 +1,11 @@
-const Udaipur = {
-    name: "Udaipur & Bahubali hills",
+const UdaipurMauntabu = {
+    name: "Udaipur & Maunt-abu",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Udaipur/Destination_19.png",
         imgurl2: "/images/tripcard/Destinationimgs/Udaipur/Destination_12.png",
         imgurl3: "/images/tripcard/Destinationimgs/Udaipur/Destination_3.png",
         imgurl4: "/images/tripcard/Destinationimgs/Udaipur/Destination_4.png",
         
-
     }],
     brief: "Hello travelers, explore the crafted elegance and grandeur of Rajasthan with this 4-day tour package of Safar-e-Rajasthan. This trip offers a beautiful and romantic experience with a royal ambiance. Udaipur is the beautiful city of Mewar, Rajasthan, and a royal tourist destination for travelers who love history, culture, architecture, and adventure. In this exclusive panorama of Udaipur trip, we will explore the royal heritage at the City Palace, chase the sunset at Fateh Sagar Lake, witness the beauty of Lake Pichola, visit Saheliyo ki Bari, Dudh Talai, Gangaur Ghat, Udaipur market, enjoy speed boating, visit Jagdish Temple, Moti Magri, Sajjangarh Fort, Bahubali Hills, Badi Lake, etc.",
    
@@ -16,7 +15,6 @@ const Udaipur = {
     Tripleprice: "4799/PP",
     Doubleprice: "5399/PP",
     Batches: [
-       
         { 
             id: 1, 
             date: 'Batch-1 (5th to 8th Jul)' 
@@ -74,7 +72,7 @@ const Udaipur = {
             Schedule: [
                 { Scheduledetails: "Reach Udaipur in the early morning, witness the sunrise at Fatehsagar Lake." },
                 { Scheduledetails: "Complete check-in process, get fresh & Up. (Early check-in will be subject to availability) Enjoy your breakfast and then get a brief about your trip." },
-                { Scheduledetails: "We will start sightseeing of Badi Lake, Bahubali Hills, Shilpgram, Sajjangarh Fort, etc." },
+                { Scheduledetails: "Transfer to maunt-abu then explore dilwara temple or grushikhar point(optional) Arbuda devi temple, nakki lake and local market etc." },
                 { Scheduledetails: "Take a delicious dinner and overnight stay at the hotel." },
             ]
         },
@@ -125,7 +123,7 @@ const Udaipur = {
         {
             icon:"Transport",
             name: "Transport",
-            inc: "Any entry tickets, sightseeing (ex-City Palace, Karnimata Temple, and others)."
+            inc: "Any entry tickets (ex-City Palace, Karnimata Temple, and others) local taxi for gurushikhar point will hired by guest if time and wether permits."
         },
         {
             icon:"Meals",
@@ -318,8 +316,7 @@ const Udaipur = {
     {
         question: "Can the trip be customised?",
         answer: "Yes this itinarary can be customise but Cost maybe Vary, Just Drop Hello with your Queries At our Whatsapp"
-    },
-    ],
+    },],
 };
 
-export { Udaipur };
+export { UdaipurMauntabu };

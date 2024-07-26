@@ -34,7 +34,7 @@ Image:"/images/staticimg/Symbiosis.png",
 
 "Symbiosis University":{
 tripname:"Trip to Udaipur & Mount-abu",
-location:"Rajisthan",
+location:"Rajasthan",
 People:"30+ Peoples",
 discription:"In the bustling halls of sage University, where the air was thick with excitement and the promise of new experiences, a group of students found themselves dreaming of adventure. They longed for a journey that would take them beyond the confines of textbooks and lecture halls, to places where memories were made and friendships were forged.", 
 Image:"/images/staticimg/sageun.png",  

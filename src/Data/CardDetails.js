@@ -28,6 +28,7 @@ import { Ladakh13daystrip } from "./All trip details/Leg Gorup"
 import { Lonavalakhandala } from "./All trip details/Lonavala with Khandala"
 import { Kanakisli } from "./All trip details/Kanahkisli"
 import { Lonavalakhandalaimagica } from "./All trip details/Lonavala with Imagica"
+import { UdaipurMauntabu } from "./All trip details/UdaipurMauntabu"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -46,9 +47,10 @@ const Maindetailsdata = {
     //  =================================================Pachmarhi===============================   
     "Pachmarhi": { info: Pachmarhi },
 
-    //  ====================================================rajishtan======================================   
+    //  ====================================================rajashtan======================================   
     "Udaipur": { info: Udaipur },
-    "Jaipur Ranthambore": { info: JaipurRanthambore },
+    "Udaipurmauntabu": { info: UdaipurMauntabu},
+    "Jaipur Ranthambore": { info: JaipurRanthambore }, 
     "Jodhpur Jaisalmer": { info: Jodhpur },
     // =====================================================andaman==========================    
     "Andaman": { info: Andaman, more: Kashmir_trips },
@@ -99,6 +101,13 @@ const Cardfirst = {
 
 
     },
+    "Udaipur Maunt abu": {
+        imgurl: "images/tripcard/Grouptrip/Udaipur.png",
+        iturl: "Details/Udaipurmauntabu",
+        Price: "4299",
+
+
+    },
     "Lonavala With imagica": {
         imgurl: "images/tripcard/Grouptrip/Lonavala.png",
         iturl: "Details/Lonavalaimagica",
@@ -113,6 +122,7 @@ const Cardfirst = {
 
 
     },
+    
     "Manali": {
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
