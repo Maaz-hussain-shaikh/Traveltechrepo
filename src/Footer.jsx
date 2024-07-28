@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Footer = () => {
-    const phoneNumber = '8871658568';
+    const phoneNumber = '7566788885';
     const message = 'Hey Travel tech I want to Schedule my Trip'; 
   
     // Encode phone number and message for URL
@@ -73,7 +73,7 @@ const Footer = () => {
                 <div className="beCaIP">
                     <a href="mailto:traveltech1111@gmail.com" className="kSOouz">traveltech1111@gmail.com</a>
                     <a href="tel:7566788885" className="kSOouz">+91 7566788885</a>
-                    <a href="/" className="kSOouz">www.traveltech.com</a>
+                    <a href="https://travelltech.com" className="kSOouz">www.travelltech.com</a>
                 </div>
             </div>
 

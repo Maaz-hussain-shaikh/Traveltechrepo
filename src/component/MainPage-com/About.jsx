@@ -21,6 +21,8 @@ const About = () => {
               <span className="uppercase tracking-wide font-semibold  text-gray-700 sm:text-lg">Discover the Magic: </span>
               <h2 className="text-2xl sm:text-3xl font-bold">Join Our Vibrant <span className="text-orange-600">Community!</span></h2>
               <p className="mt-2 sm:text-lg">Welcome to the heart of Travel tech. Our community is where adventure begins and friendships flourish. Whether you're a solo traveler or part of a group, our trips offer the perfect blend of luxury and affordability. Connect with fellow adventurers, enjoy fantastic group experiences, and empower local artists to shine. Safety is our priority, ensuring peace of mind for all travelers, including solo and female explorers. Join us on a journey of discovery and create memories that last a lifetime.</p>
+
+              
               <button className="bg-orange text-white font-semibold px-4 py-3 sm:text-xl sm:px-6 sm:py-4 rounded-lg w-content mt-8">
                 Join Us!
               </button>

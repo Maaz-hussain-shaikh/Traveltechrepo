@@ -14,62 +14,27 @@ const Pachmarhi = {
     Quadprice: "4999/-PP",
     Tripleprice: "5499/PP",
     Doubleprice: "5999/PP",
+  
     Batches: [
         { 
             id: 1, 
-            date: 'Batch-1 (31st May to 3rd Jun)' 
+            date: 'Batch-1 (2nd to 5th Aug)' 
         },
         { 
             id: 2, 
-            date: 'Batch-2 (7th to 10th Jun)' 
+            date: 'Batch-2 (14th to 17th Aug)' 
         },
         { 
             id: 3, 
-            date: 'Batch-3 (14th to 17th Jun)' 
+            date: 'Batch-3 (16th to 19th Aug)' 
         },
         { 
             id: 4, 
-            date: 'Batch-4 (21st to 24th Jun)' 
+            date: 'Batch-4 (23rd to 26th Aug)' 
         },
         { 
             id: 5, 
-            date: 'Batch-5 (28th Jun to 1st Jul)' 
-        },
-        { 
-            id: 6, 
-            date: 'Batch-6 (5th to 8th Jul)' 
-        },
-        { 
-            id: 7, 
-            date: 'Batch-7 (12th to 15th Jul)' 
-        },
-        { 
-            id: 8, 
-            date: 'Batch-8 (19th to 22nd Jul)' 
-        },
-        { 
-            id: 9, 
-            date: 'Batch-9 (26th to 29th Jul)' 
-        },
-        { 
-            id: 10, 
-            date: 'Batch-10 (2nd to 5th Aug)' 
-        },
-        { 
-            id: 11, 
-            date: 'Batch-11 (9th to 12th Aug)' 
-        },
-        { 
-            id: 12, 
-            date: 'Batch-12 (16th to 19th Aug)' 
-        },
-        { 
-            id: 13, 
-            date: 'Batch-13 (23rd to 26th Aug)' 
-        },
-        { 
-            id: 14, 
-            date: 'Batch-14 (30th Aug to 2nd Sep)' 
+            date: 'Batch-5 (30th Aug to 2nd Sep)' 
         }
     ],
     pickup: "Indore/Bhopal/Pipariya",

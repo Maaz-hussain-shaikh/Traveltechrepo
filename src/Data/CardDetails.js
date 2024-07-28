@@ -29,6 +29,9 @@ import { Lonavalakhandala } from "./All trip details/Lonavala with Khandala"
 import { Kanakisli } from "./All trip details/Kanahkisli"
 import { Lonavalakhandalaimagica } from "./All trip details/Lonavala with Imagica"
 import { UdaipurMauntabu } from "./All trip details/UdaipurMauntabu"
+import Ooty from "./All trip details/Ooty"
+import Ayodhya from "./All trip details/Ayodhya"
+import Rameshwaram from "./All trip details/Rameshwaram"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -78,6 +81,12 @@ const Maindetailsdata = {
     "Lonavalaimagica": {info: Lonavalakhandalaimagica},
     // =============================Kanakisli=================================
     "Kanahkisli": { info: Kanakisli },
+    // ========================================Ooty=============================
+    "Ooty4n5d": { info: Ooty},
+    // =========================================Ayodhya=====================================
+    "Ayodhya": { info: Ayodhya},
+     // =========================================Rameshwaram=====================================
+     "Rameshwaram": {info: Rameshwaram},
 }
 
 // =========================================================sliding frist card =================================
@@ -88,22 +97,24 @@ const Cardfirst = {
         Price: "4999",
 
     },
-    "Kanha Kisli": {
-        imgurl: "images/tripcard/Grouptrip/Kanha.png",
-        iturl: "Details/Kanahkisli",
-        Price: "5499",
+    "Goa": {
+        imgurl: "images/tripcard/Grouptrip/goa.png",
+        iturl: "Details/Goa",
+        Price: "8499",
 
     },
+    
     "Lonavala Khandala": {
-        imgurl: "images/tripcard/Grouptrip/Lonavala.png",
+        imgurl: "/images/tripcard/Grouptrip/Lonavala_Khandala.png",
         iturl: "Details/Lonavala",
         Price: "5499",
 
 
     },
-    "Udaipur Maunt abu": {
+   
+   "Udaipur": {
         imgurl: "images/tripcard/Grouptrip/Udaipur.png",
-        iturl: "Details/Udaipurmauntabu",
+        iturl: "Details/Udaipur",
         Price: "4299",
 
 
@@ -115,14 +126,20 @@ const Cardfirst = {
 
 
     },
-    "Udaipur": {
-        imgurl: "images/tripcard/Grouptrip/Udaipur.png",
-        iturl: "Details/Udaipur",
+    "Udaipur Maunt abu": {
+        imgurl: "images/tripcard/Grouptrip/Udaipur_maunt-abu.png",
+        iturl: "Details/Udaipurmauntabu",
         Price: "4299",
 
 
     },
     
+    "Kanha Kisli": {
+        imgurl: "images/tripcard/Grouptrip/Kanha.png",
+        iturl: "Details/Kanahkisli",
+        Price: "5499",
+
+    },       
     "Manali": {
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
@@ -155,12 +172,7 @@ const Cardfirst = {
 
     },
     
-    "Goa": {
-        imgurl: "images/tripcard/Grouptrip/goa.png",
-        iturl: "Details/Goa",
-        Price: "8499",
-
-    },
+    
     "Kerala": {
         imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
         iturl: "Details/Kerala 4n5d",
@@ -225,8 +237,24 @@ const destinationard = {
         href: "/Details/Goa",
 
     },
+    "Ayodhya and Kashi": {
+        url: "images/tripcard/Grouptrip/Ayodhya.png",
+        href: "Details/Ayodhya",
+       
 
+    },
+    "Rameshwaram": {
+        url: "images/tripcard/Grouptrip/Rameshwaram.png",
+        href: "Details/Rameshwaram",
+        
 
+    },
+"Ooty": {
+        url: "images/tripcard/Grouptrip/Ooty.png",
+        href: "Details/Ooty4n5d",
+       
+
+    },
 
 
 }
@@ -284,6 +312,12 @@ const Honymooncards = {
         imgurl: "/images/tripcard/Honymoontrip/Rajisthan.png",
         iturl: "Details/Rajasthan",
         Price: "5499",
+
+    },
+    "Ooty": {
+        imgurl: "images/tripcard/Grouptrip/Ooty.png",
+        iturl: "Details/Ooty4n5d",
+        Price: "4999",
 
     },
 }
