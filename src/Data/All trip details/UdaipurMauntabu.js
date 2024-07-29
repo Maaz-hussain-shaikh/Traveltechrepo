@@ -17,41 +17,24 @@ const UdaipurMauntabu = {
     Batches: [
         { 
             id: 1, 
-            date: 'Batch-1 (5th to 8th Jul)' 
+            date: 'Batch-1 (2nd to 5th Aug)' 
         },
         { 
             id: 2, 
-            date: 'Batch-2 (12th to 15th Jul)' 
+            date: 'Batch-2 (15th to 18th Aug)' 
         },
         { 
             id: 3, 
-            date: 'Batch-3 (19th to 22nd Jul)' 
+            date: 'Batch-3 (16th to 19th Aug)' 
         },
         { 
             id: 4, 
-            date: 'Batch-4 (26th to 29th Jul)' 
+            date: 'Batch-4 (23rd to 26th Aug)' 
         },
         { 
             id: 5, 
-            date: 'Batch-5 (2nd to 5th Aug)' 
-        },
-        { 
-            id: 6, 
-            date: 'Batch-6 (9th to 12th Aug)' 
-        },
-        { 
-            id: 7, 
-            date: 'Batch-7 (16th to 19th Aug)' 
-        },
-        { 
-            id: 8, 
-            date: 'Batch-8 (23rd to 26th Aug)' 
-        },
-        { 
-            id: 9, 
-            date: 'Batch-9 (30th Aug to 2nd Sep)' 
+            date: 'Batch-5 (30th Aug to 2nd Sep)' 
         }
-        
 
     ],
     pickup: "Indore/Ratlam/Udaipur/Delhi",

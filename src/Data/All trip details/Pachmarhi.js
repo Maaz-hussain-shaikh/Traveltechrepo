@@ -22,7 +22,7 @@ const Pachmarhi = {
         },
         { 
             id: 2, 
-            date: 'Batch-2 (14th to 17th Aug)' 
+            date: 'Batch-2 (15th to 18th Aug)' 
         },
         { 
             id: 3, 

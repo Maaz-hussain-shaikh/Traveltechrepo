@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Triphistory from './Triphistory'
 import Review from '../MainPage-com/Review'
 import Qualitycorporate from './Qualitycorporate'
-
+import { Helmet } from 'react-helmet';
 
 const Corporate = () => {
   const [show,upshow]=useState(false)
@@ -17,6 +17,13 @@ if(txt==="less"){
   return (
     <>
 
+<Helmet>
+    <title>About Traveltech</title>
+        <meta name="description" content="Discover Traveltech, your trusted partner for travel packages, road trips, trekking expeditions, and more across India." />
+        <meta name="keywords" content="travel packages,Pachmarhi,Kerala,goa,kashmir package,Udaipur,Manali,Ladakh,Group trip,bike trip,honeymoon trip,family trip,friends,makemytrip,Adventure,fun,indore trip, road trips, trekking expeditions, corporate trips, sustainable travel" />
+        <link rel="canonical" href="https://travelltech.com/Corporate" />
+   
+    </Helmet>
       <section className="max-w-screen-xl w-full mx-auto">
         <div className="flex flex-wrap sm:flex-no-wrap">
           <div className="w-full sm:w-2/3 ">

@@ -16,31 +16,7 @@ const Rishikeshharidwar =
     Tripleprice: "8999/PP",
     Doubleprice: "9499/PP",
     Batches: [
-        { 
-            id: 1, 
-            date: 'Batch-1 (20th Jun - 24th Jun)' 
-        },
-        { 
-            id: 2, 
-            date: 'Batch-2 (27th Jun - 1st Jul)' 
-        },
-        { 
-            id: 3, 
-            date: 'Batch-3 (4th Jul - 8th Jul)' 
-        },
-        { 
-            id: 4, 
-            date: 'Batch-4 (11th Jul - 15th Jul)' 
-        },
-        { 
-            id: 5, 
-            date: 'Batch-5 (18th Jul - 22nd Jul)' 
-        },
-        { 
-            id: 6, 
-            date: 'Batch-6 (25th Jul - 29th Jul)' 
-        }
-        
+        { id: 1, date: 'Customize My Trip' },
         
 ],
     pickup: "Indore/Bhopal/Delhi",

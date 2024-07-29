@@ -18,20 +18,7 @@ const Kashmir = {
     Tripleprice: "15499/PP",
     Doubleprice: "16999/PP",
     Batches: [
-        {id: 1, date: 'Batch-1 (21st to 27th) Mar' },
-        {id: 2,date: 'Batch-2 (28th Mar to 3rd Apr)'},
-        {id: 3,date: 'Batch-3 (4th to 10th Apr)'},
-        {id: 4,date: 'Batch-4 (11th to 17th Apr)'},
-        {id: 5,date: 'Batch-5 (18th to 24th Apr)'},
-        {id: 6,date: 'Batch-6 (25th Apr to 1st May)'},
-        {id: 7, date: 'Batch-7 (2nd to 8th May)'},
-        {id: 8,date: 'Batch-8 (9th to 15th May)'},
-        {id: 9,date: 'Batch-9 (16th to 22nd May)'},
-        {id: 10,date: 'Batch-10 (23rd to 29th May)'},
-        {id: 11,date: 'Batch-11 (30th May to 5th Jun)'},
-        {id: 12,date: 'Batch-12 (6th to 12th Jun)'},
-        {id: 13,date: 'Batch-13 (13th to 19th Jun)'},
-        {id: 14,date: 'Batch-14 (20th to 26th Jun)'}
+        { id: 1, date: 'Customize My Trip' },
 
     ],
     
