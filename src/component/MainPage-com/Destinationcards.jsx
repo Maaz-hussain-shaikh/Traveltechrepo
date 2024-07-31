@@ -20,10 +20,10 @@ const Destinationcards = () => {
           <div className="tour-enquiry-content">
             <div className="enquiry-content">
               <div className="font-bold text-lg ">
-                <span>Unlock up to <span className="text-orange-600">to 50% Off -</span> Excusive Discounts for larger groups  </span>
+                <span>Unlock up to <span className="text-orange-600">to 50% Off -</span> Exclusive Discounts for larger groups  </span>
                 
               </div>
-              <p>We create unforgetable adventure,Customised for your Group trip</p>
+              <p>We create unforgettable adventure,Customised for your Group trip</p>
             </div>
           </div>
           

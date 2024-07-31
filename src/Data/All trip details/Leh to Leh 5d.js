@@ -25,7 +25,11 @@ const Ladakh6daystrip = {
     Batches: [
         { 
             id: 1, 
-            date: 'Costomize my trip' 
+            date: 'Batch-1 (13th to 24th sep)' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (11th to 22th Oct)' 
         }
 
     ],

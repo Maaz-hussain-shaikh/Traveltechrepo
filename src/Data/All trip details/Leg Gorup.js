@@ -25,8 +25,14 @@ const Ladakh13daystrip = {
     Tripleprice: "27999/-PP",
     Doubleprice: "29999/-PP",
     Batches: [
-        {id: 1,date: 'Batch-1 (26st june to 7th july)'},
-        {id: 2,date: 'Batch-2 (3rd july to 14th july)'},
+        { 
+            id: 1, 
+            date: 'Batch-1 (13th to 24th sep)' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (11th to 22th Oct)' 
+        }
         
 
     ],

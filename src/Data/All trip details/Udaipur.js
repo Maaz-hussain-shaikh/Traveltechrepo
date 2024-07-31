@@ -49,7 +49,7 @@ const Udaipur = {
                 { Scheduledetails: "Train departure timings (Friday evening):" },
                 { Scheduledetails: "Indore: 5:40 PM" },
                 { Scheduledetails: "Ujjain: 7:20 PM" },
-                { Scheduledetails: "Udaipur: 4:30 PM" },
+                { Scheduledetails: "Udaipur: 4:30 AM" },
             ]
         },
         {

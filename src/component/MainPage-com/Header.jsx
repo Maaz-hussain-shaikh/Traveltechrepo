@@ -101,7 +101,7 @@ const Header = () => {
                   <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
                 </label>
                 <label className="p-3 w-full sm:w-auto flex items-center justify-between cursor-pointer row-start-3 border-r-2">
-                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700" onClick={() => handleTabChange('Honymoon')}>Honymoon Trips</span>
+                  <span className="font-semibold text-sm sm:text-base uppercase tracking-wide flex-shrink-1 text-gray-700" onClick={() => handleTabChange('Honymoon')}>Honeymoon Trips</span>
                   <input type="radio" name="tab" className="hidden" value="homes" checked={selectedTab === 'homes'}  />
                   <span className="flex items-center justify-center w-4 h-4 p-1 border border-gray-400 rounded-full"></span>
                 </label>

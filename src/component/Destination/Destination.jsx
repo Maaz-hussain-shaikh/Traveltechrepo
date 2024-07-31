@@ -1,10 +1,10 @@
 import { React, useEffect, useState } from 'react'
-import { Honymooncards, Maindetailsdata } from '../../Data/CardDetails'
+import { Maindetailsdata } from '../../Data/CardDetails'
 import Destinationtrips from './Destinationtrips'
 import { useParams } from 'react-router-dom'
 import Loader from '../../Loader'
 import Headersec from './Headersec'
-import Honeymoon from '../MainPage-com/Honeymoon'
+
 
 const Destination = () => {
   const { name } = useParams();
@@ -51,7 +51,7 @@ const Destination = () => {
               </div>
 
 
-              <Honeymoon title="Trending Trips" data={Honymooncards} />
+             
 
             </section>
           </>

@@ -168,11 +168,7 @@ const Ayodhya =
         name: "Reusable Water bottle",
         inc: 'Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination.'
     },
-    {
-        icon: "Sim_Card",
-        name: "Sim Card",
-        inc: 'There wil be only jio and Bsnl Sim will be work in Forest area'
-    },
+    
     {
         icon: "Spare_Plastic_Bags",
         name: "Spare Plastic Bags",
