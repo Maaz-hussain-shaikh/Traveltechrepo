@@ -1,5 +1,5 @@
 const UdaipurMauntabu = {
-    name: "Udaipur & Maunt-abu",
+    name: "Udaipur & Mount-abu",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Udaipur/Destination_19.png",
         imgurl2: "/images/tripcard/Destinationimgs/Udaipur/Destination_12.png",
@@ -55,7 +55,7 @@ const UdaipurMauntabu = {
             Schedule: [
                 { Scheduledetails: "Reach Udaipur in the early morning, witness the sunrise at Fatehsagar Lake." },
                 { Scheduledetails: "Complete check-in process, get fresh & Up. (Early check-in will be subject to availability) Enjoy your breakfast and then get a brief about your trip." },
-                { Scheduledetails: "Transfer to maunt-abu then explore dilwara temple or grushikhar point(optional) Arbuda devi temple, nakki lake and local market etc." },
+                { Scheduledetails: "Transfer to mount-abu then explore dilwara temple or grushikhar point(optional) Arbuda devi temple, nakki lake and local market etc." },
                 { Scheduledetails: "Take a delicious dinner and overnight stay at the hotel." },
             ]
         },

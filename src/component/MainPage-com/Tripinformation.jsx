@@ -22,7 +22,7 @@ const Tripinformation = (props) => {
               <div className="grid grid-cols-4 grid-rows-3 gap-1 sm:rounded-lg overflow-hidden w-full h-full">
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
-                    src={imgurl[0].imgurl1} alt="hh"
+                    src={imgurl[0].imgurl1} alt={name}
                     className="object-cover object-center w-full h-full"
                     loading='lazy'
                   />
@@ -30,21 +30,21 @@ const Tripinformation = (props) => {
                 <div className="w-full h-full row-span-3 col-span-3  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl2}
-                    alt="Destination" loading='lazy'
+                    alt={name} loading='lazy'
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl3}
-                    alt="Destination" loading='lazy'
+                    alt={name} loading='lazy'
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                   <img
                     src={imgurl[0].imgurl4}
-                    alt="destination" loading='lazy'
+                    alt={name} loading='lazy'
                     className="object-cover object-center w-full h-full"
                   />
                 </div>
@@ -58,14 +58,14 @@ const Tripinformation = (props) => {
             <section className="relative w-full h-full shadow-md ">
               <div className="grid grid-cols-2 grid-rows-2 gap-1 sm:rounded-lg overflow-hidden w-full h-full" >
                 <div className="w-full h-full row-span-1 col-span-2  fade-expand-appear-done fade-expand-enter-done">
-                  <img src={imgurl[0].imgurl1} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
-                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl1} alt={name} loading='lazy' className="object-cover object-center w-full h-full" /></div><div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
+                  <img src={imgurl[0].imgurl2} alt={name} loading='lazy' className="object-cover object-center w-full h-full" />
 
                 </div>
                 <div className="w-full h-full row-span-1 col-span-1  fade-expand-appear-done fade-expand-enter-done">
                  
-                  <img src={imgurl[0].imgurl3} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" />
-                  <img src={imgurl[0].imgurl2} alt="destination" loading='lazy' className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl3} alt={name} loading='lazy' className="object-cover object-center w-full h-full" />
+                  <img src={imgurl[0].imgurl2} alt={name} loading='lazy' className="object-cover object-center w-full h-full" />
                 </div>
               </div>
             </section>

@@ -30,7 +30,7 @@ if(txt==="less"){
             <img
               src="images\staticimg\page5.jpg"
               className=" rounded-lg"
-              alt="cop"
+              alt="Corporate Trips"
             />
           </div>
           <div className="flex flex-col w-full p-4 bg-gray-100 rounded-lg shadow-md sm:w-1/3 h-content">

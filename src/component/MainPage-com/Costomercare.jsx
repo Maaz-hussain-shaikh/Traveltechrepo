@@ -20,7 +20,7 @@ function Costomercare() {
                   <div className="col-5 col-md-5 col-lg-6 h-md-100 text-center m-auto">
                     <div className="w-full">
                       <div className='careImg '>
-                        <img alt="" src="images\Firstpageimgs\Costomer care.png" />
+                        <img alt="Travel Tech India" src="images\Firstpageimgs\Costomer care.png" />
                       </div>
                     </div>
                   </div>

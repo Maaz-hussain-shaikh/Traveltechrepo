@@ -126,7 +126,7 @@ const Cardfirst = {
 
 
     },
-    "Udaipur Maunt abu": {
+    "Udaipur Mount abu": {
         imgurl: "images/tripcard/Grouptrip/Udaipur_maunt-abu.png",
         iturl: "Details/Udaipurmauntabu",
         Price: "4299",

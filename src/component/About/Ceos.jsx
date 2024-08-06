@@ -33,7 +33,7 @@ const Ceos = () => {
                         <div className="rounded-lg text-center lg:flex lg:flex-col lg:justify-center lg:py-16">
                             <div className="mx-auto max-w-xs">
 
-                                <img src={currenname.url} className="h-full mt-4 w-full object-cover rounded-lg object-center" alt="CEO" />
+                                <img src={currenname.url} className="h-full mt-4 w-full object-cover rounded-lg object-center" alt="CEO of Travel Tech Dewas" />
                                 <div className="mt-2 flex items-center justify-center space-x-3 text-base">
                                     <div className="mt-2 flex items-center justify-center space-x-3 text-base">
                                         <div className="font-semibold text-gray-900">{currenname.name}</div>
@@ -55,7 +55,7 @@ const Ceos = () => {
                             <li onMouseEnter={() => handleHover('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO",Salman)}
                                 onClick={() => handleClick('images/CEOsimg/Ceo.png', 'Salman Shaikh', "Founder & CEO",Salman)}>
                                 <div className="flex flex-col items-center justify-center">
-                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Ceo.png" alt="Ceo" />
+                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Ceo.png" alt="Mr. Salman CEO Of travel tech" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Salman Shaikh</h3>
                                         <p className="text-sm font-semibold leading-6 text-orange-600">Founder & CEO</p>
@@ -75,7 +75,7 @@ const Ceos = () => {
                             <li onMouseEnter={() => handleHover('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO ",Maaz)}
                                 onClick={() => handleClick('images/CEOsimg/Cto.png', 'Maaz Hussain', "CTO ",Maaz)}>
                                 <div className="flex flex-col items-center justify-center">
-                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Cto.png" alt="" />
+                                    <img className="h-10 w-10 rounded-full" src="images/CEOsimg/Cto.png" alt="Mr. Maaz Hussain CTO of Travel Tech Dewas" />
                                     <div className="mt-2 text-center">
                                         <h3 className="text-base font-semibold leading-7 text-sm tracking-tight text-gray-900">Maaz Hussain </h3>
                                         <p className="text-sm font-semibold leading-6 text-orange-600">CTO</p>
@@ -90,20 +90,7 @@ const Ceos = () => {
                     </div>
                 </div>
             </div>
-            {/* 
-            <ul className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
-                            
-                            <li >
-                                <div className="flex items-center gap-x-6">
-                                    <img className="h-16 w-16 rounded-full" src={currentimg} alt="" />
-                                    <div>
-                                        <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">person.name</h3>
-                                        <p className="text-sm font-semibold leading-6 text-orange-600">person.role</p>
-                                    </div>
-                                </div>
-                            </li>
-                      
-                    </ul> */}
+           
         </>
     )
 }

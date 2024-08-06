@@ -41,35 +41,35 @@ const About = () => {
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75">
               <img
                 src="images/staticimg/staticimg1.jpg"
-                alt="big group1" loading="lazy"
+                alt="Group trip" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75">
               <img
                 src="images/staticimg/Kasmir1-min.jpg"
-                alt="About" loading="lazy"
+                alt="Fun trip" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-1 col-span-1 hover:opacity-75">
               <img
                 src="images/staticimg/swagimg.jpg"
-                alt="About" loading="lazy"
+                alt="stranger Group" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75">
               <img
                 src="images/staticimg/Kashmirgroup-min.jpg"
-                alt="About" loading="lazy"
+                alt="Travel Tech India" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
             <div className="w-full h-full row-span-2 col-span-2 hover:opacity-75">
               <img
                 src="images/staticimg/Groupg.jpg"
-                alt="About" loading="lazy"
+                alt="College trip" loading="lazy"
                 className="object-cover object-center w-full h-full rounded-lg"
               />
             </div>
