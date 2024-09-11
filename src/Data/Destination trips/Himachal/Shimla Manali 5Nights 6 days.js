@@ -1,6 +1,6 @@
 const Shimlamanali5n6d =
 {
-    name: "Unfogettable Shimla Manali Honeymoon |  Honeymoon Special",
+    name: "Unfogettable Shimla Manali Honeymoon Special",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
         imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_2.png",
@@ -25,7 +25,7 @@ const Shimlamanali5n6d =
    
         "it": [
             {
-                "Heading": "Day 1: Delhi to Shimla and Local Sightseeing",
+                "Heading": "Delhi to Shimla and Local Sightseeing",
                 "Schedule": [
                     { "Scheduledetails": "Depart from Delhi to Shimla." },
                     { "Scheduledetails": "Upon arrival, check-in at the hotel." },
@@ -34,7 +34,7 @@ const Shimlamanali5n6d =
                 ]
             },
             {
-                "Heading": "Day 2: Kufri Sightseeing and Overnight Stay",
+                "Heading": "Kufri Sightseeing and Overnight Stay",
                 "Schedule": [
                     { "Scheduledetails": "After breakfast, proceed to Kufri." },
                     { "Scheduledetails": "Enjoy activities like horse riding, yak riding, and visit Kufri Fun World." },
@@ -43,7 +43,7 @@ const Shimlamanali5n6d =
                 ]
             },
             {
-                "Heading": "Day 3: Transfer to Manali via Kullu",
+                "Heading": "Transfer to Manali via Kullu",
                 "Schedule": [
                     { "Scheduledetails": "Check-out from the hotel after breakfast and depart for Manali." },
                     { "Scheduledetails": "En-route visit Kullu, Enjoy paragliding & Riverrafting  and explore its attractions." },
@@ -52,7 +52,7 @@ const Shimlamanali5n6d =
                 ]
             },
             {
-                "Heading": "Day 4: Solang Valley and Atal Tunnel Sightseeing",
+                "Heading": "Solang Valley and Atal Tunnel Sightseeing",
                 "Schedule": [
                     { "Scheduledetails": "After breakfast, head to Solang Valley for adventure activities like paragliding and zorbing." },
                     { "Scheduledetails": "Visit the Atal Tunnel and marvel at its engineering brilliance." },
@@ -61,7 +61,7 @@ const Shimlamanali5n6d =
                 ]
             },
             {
-                "Heading": "Day 5: Manali Local Sightseeing and Transfer to Kasol",
+                "Heading": "Manali Local Sightseeing and Transfer to Kasol",
                 "Schedule": [
                     { "Scheduledetails": "Explore local attractions in Manali such as Hadimba Devi Temple, Manu Temple, and Vashisht Temple." },
                     { "Scheduledetails": "Depart for Kasol in the evening." },
@@ -70,7 +70,7 @@ const Shimlamanali5n6d =
                 ]
             },
             {
-                "Heading": "Day 6: Manikaran & Kasol Sightseeing and Overnight Journey to Delhi",
+                "Heading": "Manikaran & Kasol Sightseeing and Overnight Journey to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "After breakfast, visit Manikaran Sahib Gurudwara and take a dip in the hot springs." },
                     { "Scheduledetails": "Explore Kasol and enjoy the scenic beauty of Parvati Valley." },
@@ -79,7 +79,7 @@ const Shimlamanali5n6d =
                 ]
             },
             {
-                "Heading": "Day 7: Drop to Delhi in the Morning",
+                "Heading": "Drop to Delhi in the Morning",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Delhi in the morning." },
                     { "Scheduledetails": "Drop-off at the designated location in Delhi." },
@@ -114,11 +114,7 @@ const Shimlamanali5n6d =
         name: "Volvo Tickets",
         inc: 'Tickets In Semi-Sleeper Luxury Volvo Bus'
     },
-    {
-        icon: "Honeymoon kit",
-        name: "Honeymoon kit",
-        inc: 'Candle Light Dinner with Bed-Decoration'
-    },
+   
     ],
     exclusion: [
         {

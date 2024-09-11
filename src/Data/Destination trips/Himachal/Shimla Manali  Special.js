@@ -22,14 +22,14 @@ const Shimlamanalispecial =
 
         "it": [
             {
-                "Heading": "Day 1: Delhi to Manali",
+                "Heading": "Delhi to Manali",
                 "Schedule": [
                     { "Scheduledetails": "Meet our representative at a designated spot in Delhi for a smooth transfer to Manali." },
                     { "Scheduledetails": "Enjoy the scenic views during the overnight journey to the majestic Himalayas." }
                 ]
             },
             {
-                "Heading": "Day 2: Sightseeing at Manali",
+                "Heading": "Sightseeing at Manali",
                 "Schedule": [
                     { "Scheduledetails": "Upon arrival, check-in at the hotel and relax." },
                     { "Scheduledetails": "Visit Hadimba Devi Temple, Manu Temple, Vashisht Temple, and the Tibetan Monastery." },
@@ -38,7 +38,7 @@ const Shimlamanalispecial =
                 ]
             },
             {
-                "Heading": "Day 3: Excursion to Solang Valley",
+                "Heading": "Excursion to Solang Valley",
                 "Schedule": [
                     { "Scheduledetails": "After breakfast, head to Solang Valley for adventure activities like snowboarding and paragliding." },
                     { "Scheduledetails": "Enjoy the scenic beauty of the valley and engage in thrilling adventures." },
@@ -46,7 +46,7 @@ const Shimlamanalispecial =
                 ]
             },
             {
-                "Heading": "Day 4: Excursion to Kullu & Transfer to Shimla",
+                "Heading": "Excursion to Kullu & Transfer to Shimla",
                 "Schedule": [
                     { "Scheduledetails": "Travel to Kullu, visit the Shawl Factory and Rabbit Farm." },
                     { "Scheduledetails": "Enjoy riverrafting Paragliding activities" },
@@ -54,7 +54,7 @@ const Shimlamanalispecial =
                 ]
             },
             {
-                "Heading": "Day 5: Shimla and Kufri Sightseeing",
+                "Heading": "Shimla and Kufri Sightseeing",
                 "Schedule": [
                     { "Scheduledetails": "Explore Kufri, enjoy pony and yak rides, and visit the Himalayan National Park." },
                     { "Scheduledetails": "Visit the Indian Institute of Advanced Studies, Jakhoo Temple, and stroll along The Mall Road." },
@@ -62,7 +62,7 @@ const Shimlamanalispecial =
                 ]
             },
             {
-                "Heading": "Day 6: Drop to Delhi",
+                "Heading": "Drop to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Delhi and conclude the trip with cherished memories." }
                 ]
@@ -94,11 +94,7 @@ const Shimlamanalispecial =
         name: "Volvo Tickets",
         inc: 'Tickets In Semi-Sleeper Luxury Volvo Bus'
     },
-    {
-        icon: "Honeymoon kit",
-        name: "Honeymoon kit",
-        inc: 'Candle Light Dinner with Bed-Decoration'
-    },
+   
     ],
     exclusion: [
         {

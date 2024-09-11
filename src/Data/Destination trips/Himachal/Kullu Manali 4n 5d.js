@@ -1,6 +1,6 @@
 const Kullumanali4n5d =
 {
-    name: "Unfogettable Shimla Manali Honeymoon |  Honeymoon Special",
+    name: "Kullu Manali Honeymoon Special",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
         imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_2.png",
@@ -25,14 +25,14 @@ const Kullumanali4n5d =
    
         "it": [
             {
-                "Heading": "Day 1: Delhi to Manali",
+                "Heading": "Delhi to Manali",
                 "Schedule": [
                     { "Scheduledetails": "Meet our representative in Delhi and transfer to Manali." },
                     { "Scheduledetails": "Enjoy the scenic overnight journey to the majestic Himalayas." }
                 ]
             },
             {
-                "Heading": "Day 2: Sightseeing at Manali",
+                "Heading": "Sightseeing at Manali",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Manali and check-in at the hotel." },
                     { "Scheduledetails": "Visit Hadimba Devi Temple, Manu Temple, Vashisht Temple, and the Tibetan Monastery." },
@@ -41,7 +41,7 @@ const Kullumanali4n5d =
                 ]
             },
             {
-                "Heading": "Day 3: Excursion to Solang Valley",
+                "Heading": "Excursion to Solang Valley",
                 "Schedule": [
                     { "Scheduledetails": "After breakfast, head to Solang Valley for adventure activities like snowboarding and paragliding." },
                     { "Scheduledetails": "Enjoy the picturesque valley and thrilling adventures." },
@@ -49,7 +49,7 @@ const Kullumanali4n5d =
                 ]
             },
             {
-                "Heading": "Day 4: Excursion to Manikaran & Kasol | Departure to Delhi",
+                "Heading": "Enjoy river rafting in | Departure to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "Travel to Kullu and visit the Shawl Factory and Rabbit farm." },
                     { "Scheduledetails": "Enjoy riverrafting paragliding activities." },
@@ -58,7 +58,7 @@ const Kullumanali4n5d =
                 ]
             },
             {
-                "Heading": "Day 5: Drop to Delhi",
+                "Heading": "Drop to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Delhi and conclude the trip with memories of the Himalayan adventure." }
                 ]
@@ -90,11 +90,7 @@ const Kullumanali4n5d =
         name: "Volvo Tickets",
         inc: 'Tickets In Semi-Sleeper Luxury Volvo Bus'
     },
-    {
-        icon: "Honeymoon kit",
-        name: "Honeymoon kit",
-        inc: 'Candle Light Dinner with Bed-Decoration'
-    },
+   
     ],
     exclusion: [
         {

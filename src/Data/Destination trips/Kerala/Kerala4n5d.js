@@ -73,7 +73,7 @@ const Kerala4n5d = {
         ]
     },
     {
-        Heading: "arrivAl at your destination",
+        Heading: "Arrival at your destination",
         Schedule: [
         
                 { Scheduledetails: "Wake up to the breathtaking view of serene lakes, canals, and lagoons lining the coast of the Arabian Sea." },

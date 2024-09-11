@@ -40,18 +40,18 @@ const  Himachal = {
             days:"6N-7D",
             imgurl: "/images/tripcard/Destinationimgs/Manali/Destination_10.png",
             btn: "/Details/Shimla manali kasol",
-            Price: "18499",
+            Price: "15499",
     
         },
-        {
-            name: "Shimla Manali with Dalhusie And Amritsar",
-            tag:"Customized",           
-            days:"6N-7D",
-            imgurl: "/images/tripcard/Destinationimgs/Manali/Destination_9.png",
-            btn: "/Details/Shimla manali dalhusie",
-            Price: "18499",
+        // {
+        //     name: "Shimla Manali with Dalhusie And Amritsar",
+        //     tag:"Customized",           
+        //     days:"7N-8D",
+        //     imgurl: "/images/tripcard/Destinationimgs/Manali/Destination_9.png",
+        //     btn: "/Details/Shimla manali dalhusie",
+        //     Price: "13499",
     
-        },
+        // },
         
         
        

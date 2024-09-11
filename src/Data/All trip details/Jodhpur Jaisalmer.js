@@ -22,29 +22,44 @@ const Jodhpur = {
     Batches: [
         { 
             id: 1, 
-            date: 'Batch-1 (21st to 24th) Mar' 
+            date: 'Batch-1 (14th to 17th) sept' 
         },
         { 
             id: 2, 
-            date: 'Batch-2 (28th to 31st Mar)' 
+            date: 'Batch-2 (26th to 19th) sept' 
         },
         { 
             id: 3, 
-            date: 'Batch-3 (4th to 7th Apr)' 
+            date: 'Batch-3 (10th to 13th) Oct' 
         },
         { 
             id: 4, 
-            date: 'Batch-4 (11th to 14th Apr)' 
+            date: 'Batch-4 (24th to 27th) Oct' 
         },
         { 
             id: 5, 
-            date: 'Batch-5 (18th to 21st Apr)' 
+            date: 'Batch-5 (1st to 4th) Nov' 
         },
         { 
             id: 6, 
-            date: 'Batch-6 (25th to 28th Apr)' 
+            date: 'Batch-6 (14th to 17th) Nov' 
         },
-        
+        { 
+            id: 7, 
+            date: 'Batch-7 (28th to 1st) Nov' 
+        },
+        { 
+            id: 8, 
+            date: 'Batch-8 (12th to 15th) Dec' 
+        },
+        { 
+            id: 9, 
+            date: 'Batch-9 (21st to 24th) Dec' 
+        },
+        { 
+            id: 10, 
+            date: 'Batch-10 (30th to 2nd) Dec' 
+        },
 
     ],
     pickup: "Indore/Ratlam/Jodhpur",
@@ -172,18 +187,14 @@ const Jodhpur = {
         {
             "icon": "Shoes",
             "name": "Shoes",
-            "inc": "A good pair of hiking shoes."
+            "inc": "A good pair of shoes."
         },
         {
             "icon": "Moisturizer",
             "name": "Moisturizer",
             "inc": "Sunscreen or moisturizer, personal meds, and toiletries."
         },
-        {
-            "icon": "Hiking",
-            "name": "Hiking",
-            "inc": "Raincoat, swimming Costume and jackets."
-        },
+        
         {
             "icon": "Umbrella",
             "name": "Umbrella",
@@ -204,11 +215,7 @@ const Jodhpur = {
             "name": "Reusable Water bottle",
             "inc": "Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination."
         },
-        {
-            "icon": "Sim_Card",
-            "name": "Sim Card",
-            "inc": "There wil be only jio and Bsnl Sim will be work in Forest area"
-        },
+        
         {
             "icon": "Spare_Plastic_Bags",
             "name": "Spare Plastic Bags",

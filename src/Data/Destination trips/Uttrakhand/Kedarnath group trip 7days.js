@@ -41,9 +41,8 @@ const Kedarnath = {
         ]
     },
     {
-        Heading: "Haridwar to Guptkashi/Sitapur",
+        Heading: "Rishikesh to Guptkashi/Sitapur",
         Schedule: [
-            { Scheduledetails: "Arrive in Haridwar in the morning and rest for a while." },
             { Scheduledetails: "At around 8:00 AM, proceed towards Guptkashi." },
             { Scheduledetails: "Make a short stopover at Devprayag to witness the Holy Sangam of Bhagirathi and Alaknanda." },
             { Scheduledetails: "Continue the journey to Guptkashi, enjoying the beautiful landscapes along the way." },
@@ -60,14 +59,11 @@ const Kedarnath = {
             { Scheduledetails: "Start the trek to Kedarnath from Gaurikund." },
             { Scheduledetails: "Optionally, avail ponies or palanquins for a more comfortable journey (own expense)." },
             { Scheduledetails: "Trek through the beautiful valley and alongside the river stream." },
-            { Scheduledetails: "Take a lunch break along the way and continue the journey." },
             { Scheduledetails: "Witness the majestic Kedarnath Temple nestled amidst the mountains." },
             { Scheduledetails: "Experience the serene atmosphere with the sound of ringing bells and prayers." },
             { Scheduledetails: "Overnight stay in Kedarnath (Camps/Hotel)." },
             { Scheduledetails: "Trekking Route: If you opt for trekking to Kedarnath, our traveler/cab will drop you off at Sonprayag (PARKING). From there, you'll need to arrange for a local jeep to transport you to Gaurikund, the starting point for your 14 km trek to Kedarnath Ji. The same procedure applies for your return journey (at your own expense),"},
             { Scheduledetails: "Upon reaching Kedarnath, only bucket of warm water will be provided, as there are no functioning geysers available. Accommodation at Kedarnath will be shared, with communal washrooms available, and sleeping bags provided for camp or hotel stays." }
-
-
 
         ]
 
@@ -81,10 +77,7 @@ const Kedarnath = {
             { Scheduledetails: "Once in Gaurikund, proceed to Sonprayag by government taxi." },
             { Scheduledetails: "Arrive at Sonprayag, where you'll proceed to Guptkashi/Rampur. A 1 km walk may be required at Sonprayag as no private vehicles are allowed after a certain point." },
             { Scheduledetails: "Begin the return journey to Haridwar by overnight travel." }
-            
-
-
-        ]
+          ]
 
     },
     {
@@ -94,12 +87,8 @@ const Kedarnath = {
             { Scheduledetails: "Enjoy breakfast (at your own cost) and fuel up for the day." },
             { Scheduledetails: "Embark on a sightseeing tour of Haridwar, exploring its spiritual landmarks and cultural attractions." },
             { Scheduledetails: "Immerse yourself in the divine atmosphere and witness the Ganga Aarti." },
-            { Scheduledetails: "In the afternoon, begin the return journey to Delhi." },
-            { Scheduledetails: "Reach your sweet home with lots of beautiful memories and an amazing experience of your spiritual journey." }
-            
-
-
-        ]
+            { Scheduledetails: "In the afternoon, begin the return journey to Delhi. in evening drop to Delhi" },
+ ]
 
     },
     {
@@ -114,11 +103,7 @@ const Kedarnath = {
             { Scheduledetails: "Join India's fastest-growing community on Instagram, WhatsApp, and Facebook," },
             { Scheduledetails: "Keep exploring the world with us," },
             { Scheduledetails: "For our motto is simple: 'Work, Travel, Repeat.'" }
-            
-            
-
-
-        ]
+      ]
 
     },
 
@@ -127,7 +112,7 @@ const Kedarnath = {
         {
             "name": "Trip_Captain",
             "icon": "Trip_Captain",
-            "inc": "Driver as cum guide And Virtual trip captain"
+           "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
         },
         {
             "name": "Accommodation",

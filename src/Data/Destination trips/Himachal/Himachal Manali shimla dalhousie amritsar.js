@@ -28,7 +28,7 @@ const Shimlamanalidalhusie =
 
         "it": [
             {
-                "Heading": "Day 1: Delhi to Shimla",
+                "Heading": "Delhi to Shimla",
                 "Schedule": [
                     { "Scheduledetails": "Depart from Delhi in the morning." },
                     { "Scheduledetails": "Breakfast on the way (not included)." },
@@ -38,7 +38,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 2: Shimla Sightseeing and Transfer to Kasol",
+                "Heading": "Shimla Sightseeing and Transfer to Kasol",
                 "Schedule": [
                     { "Scheduledetails": "Breakfast at the hotel (included)." },
                     { "Scheduledetails": "Full day sightseeing in Shimla." },
@@ -49,7 +49,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 3: Kasol and Manikaran Sightseeing",
+                "Heading": "Kasol and Manikaran Sightseeing",
                 "Schedule": [
                     { "Scheduledetails": "Breakfast at the hotel (included)." },
                     { "Scheduledetails": "Day trip to Kasol and Manikaran." },
@@ -59,7 +59,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 4: Solang Valley, Atal Tunnel, etc.",
+                "Heading": "Solang Valley, Atal Tunnel, etc.",
                 "Schedule": [
                     { "Scheduledetails": "Breakfast at the hotel (included)." },
                     { "Scheduledetails": "Visit Solang Valley and Atal Tunnel." },
@@ -68,7 +68,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 5: Kullu, River Rafting, and Overnight to Dalhousie",
+                "Heading": "Kullu, River Rafting, and Overnight to Dalhousie",
                 "Schedule": [
                     { "Scheduledetails": "Breakfast at the hotel (included)." },
                     { "Scheduledetails": "Enjoy river rafting and paragliding in Kullu. Visit Vaishno Devi temple." },
@@ -77,7 +77,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 6: Dalhousie, Khajjiar Sightseeing",
+                "Heading": "Dalhousie, Khajjiar Sightseeing",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Dalhousie in the morning." },
                     { "Scheduledetails": "Enroute Breakfast (not included)." },
@@ -88,7 +88,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 7: Amritsar Sightseeing and Overnight Journey to Delhi",
+                "Heading": "Amritsar Sightseeing and Overnight Journey to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "Breakfast at the hotel in Dalhousie (included)." },
                     { "Scheduledetails": "Visit the Golden Temple, Vagha Border and other attractions in Amritsar." },
@@ -97,7 +97,7 @@ const Shimlamanalidalhusie =
                 ]
             },
             {
-                "Heading": "Day 8: Drop to Delhi",
+                "Heading": "Drop to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Delhi in the morning." },
                     { "Scheduledetails": "Drop-off at your preferred location in Delhi." }
