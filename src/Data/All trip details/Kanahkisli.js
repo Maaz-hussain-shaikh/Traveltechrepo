@@ -18,10 +18,93 @@ const Kanakisli = {
     Doubleprice: "6499/PP",
     Batches: [
         { 
-            id: 1, 
-            date: 'Batch-1 (21st to 24th) Mar' 
+            id: 1,  
+            date: 'Batch-1 (18th to 21st Oct)'  
         },
-       
+        { 
+            id: 2,  
+            date: 'Batch-2 (25th to 28th Oct)'  
+        },
+        { 
+            id: 3,  
+            date: 'Batch-3 (1st to 4th Nov)'  
+        },
+        { 
+            id: 4,  
+            date: 'Batch-4 (8th to 11th Nov)'  
+        },
+        { 
+            id: 5,  
+            date: 'Batch-5 (15th to 18th Nov)'  
+        },
+        { 
+            id: 6,  
+            date: 'Batch-6 (22nd to 25th Nov)'  
+        },
+        { 
+            id: 7,  
+            date: 'Batch-7 (29th Nov to 2nd Dec)'  
+        },
+        { 
+            id: 8,  
+            date: 'Batch-8 (6th to 9th Dec)'  
+        },
+        { 
+            id: 9,  
+            date: 'Batch-9 (13th to 16th Dec)'  
+        },
+        { 
+            id: 10,  
+            date: 'Batch-10 (20th to 23rd Dec)'  
+        },
+        { 
+            id: 11,  
+            date: 'Batch-11 (27th to 30th Dec)'  
+        },
+        { 
+            id: 12,  
+            date: 'Batch-12 (3rd to 6th Jan)'  
+        },
+        { 
+            id: 13,  
+            date: 'Batch-13 (10th to 13th Jan)'  
+        },
+        { 
+            id: 14,  
+            date: 'Batch-14 (17th to 20th Jan)'  
+        },
+        { 
+            id: 15,  
+            date: 'Batch-15 (24th to 27th Jan)'  
+        },
+        { 
+            id: 16,  
+            date: 'Batch-16 (31st Jan to 3rd Feb)'  
+        },
+        { 
+            id: 17,  
+            date: 'Batch-17 (7th to 10th Feb)'  
+        },
+        { 
+            id: 18,  
+            date: 'Batch-18 (14th to 17th Feb)'  
+        },
+        { 
+            id: 19,  
+            date: 'Batch-19 (21st to 24th Feb)'  
+        },
+        { 
+            id: 20,  
+            date: 'Batch-20 (28th Feb to 2nd Mar)'  
+        },
+        { 
+            id: 21,  
+            date: 'Batch-21 (7th to 10th Mar)'  
+        },
+        { 
+            id: 22,  
+            date: 'Batch-22 (14th to 17th Mar)'  
+        },
 
     ],
     pickup: "Indore/Ratlam/Bhopal",

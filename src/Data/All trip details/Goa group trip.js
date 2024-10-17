@@ -17,97 +17,39 @@ const Goagroup = {
     Tripleprice: "9499/PP",
     Doubleprice: "9999/PP",
     Batches: [ 
-    { 
+    
+
+{ 
     id: 1, 
-    date: 'Batch-1 (26th Jul to 1st Aug)' 
+    date: 'Batch-1 (8th Nov to 14th Nov)' 
 },
 { 
     id: 2, 
-    date: 'Batch-2 (2nd Aug to 8th Aug)' 
+    date: 'Batch-2 (15th Nov to 21st Nov)' 
 },
 { 
     id: 3, 
-    date: 'Batch-3 (9th Aug to 15th Aug)' 
+    date: 'Batch-3 (22nd Nov to 28th Nov)' 
 },
 { 
     id: 4, 
-    date: 'Batch-4 (16th Aug to 22nd Aug)' 
+    date: 'Batch-4 (29th Nov to 5th Dec)' 
 },
 { 
     id: 5, 
-    date: 'Batch-5 (23rd Aug to 29th Aug)' 
+    date: 'Batch-5 (6th Dec to 12th Dec)' 
 },
 { 
     id: 6, 
-    date: 'Batch-6 (30th Aug to 5th Sep)' 
+    date: 'Batch-6 (13th Dec to 19th Dec)' 
 },
 { 
     id: 7, 
-    date: 'Batch-7 (6th Sep to 12th Sep)' 
+    date: 'Batch-7 (20th Dec to 26th Dec)' 
 },
 { 
     id: 8, 
-    date: 'Batch-8 (13th Sep to 19th Sep)' 
-},
-{ 
-    id: 9, 
-    date: 'Batch-9 (20th Sep to 26th Sep)' 
-},
-{ 
-    id: 10, 
-    date: 'Batch-10 (27th Sep to 3rd Oct)' 
-},
-{ 
-    id: 11, 
-    date: 'Batch-11 (4th Oct to 10th Oct)' 
-},
-{ 
-    id: 12, 
-    date: 'Batch-12 (11th Oct to 17th Oct)' 
-},
-{ 
-    id: 13, 
-    date: 'Batch-13 (18th Oct to 24th Oct)' 
-},
-{ 
-    id: 14, 
-    date: 'Batch-14 (25th Oct to 31st Oct)' 
-},
-{ 
-    id: 15, 
-    date: 'Batch-15 (1st Nov to 7th Nov)' 
-},
-{ 
-    id: 16, 
-    date: 'Batch-16 (8th Nov to 14th Nov)' 
-},
-{ 
-    id: 17, 
-    date: 'Batch-17 (15th Nov to 21st Nov)' 
-},
-{ 
-    id: 18, 
-    date: 'Batch-18 (22nd Nov to 28th Nov)' 
-},
-{ 
-    id: 19, 
-    date: 'Batch-19 (29th Nov to 5th Dec)' 
-},
-{ 
-    id: 20, 
-    date: 'Batch-20 (6th Dec to 12th Dec)' 
-},
-{ 
-    id: 21, 
-    date: 'Batch-21 (13th Dec to 19th Dec)' 
-},
-{ 
-    id: 22, 
-    date: 'Batch-22 (20th Dec to 26th Dec)' 
-},
-{ 
-    id: 23, 
-    date: 'Batch-23 (27th Dec to 2nd Jan)' 
+    date: 'Batch-8 (27th Dec to 2nd Jan)' 
 }
     ],
     pickup: "Bhopal/Ratlam/Indore",

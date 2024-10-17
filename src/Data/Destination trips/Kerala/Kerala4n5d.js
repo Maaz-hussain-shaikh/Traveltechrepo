@@ -14,7 +14,30 @@ const Kerala4n5d = {
     Tripleprice: "14999/PP",
     Doubleprice: "16499/PP",
     Batches: [
-        { id: 1, date: 'Customize My Trip' },
+        { 
+            id: 1, 
+            date: 'Batch-1 (8th Nov to 12th Nov)' 
+        },
+        { 
+            id: 2, 
+            date: 'Batch-2 (22th Nov to 26st Nov)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-3 (6th to 10th Dec)' 
+        },
+        { 
+            id: 4, 
+            date: 'Batch-4 (13th to 17th Dec)' 
+        },
+        { 
+            id: 5, 
+            date: 'Batch-5 (20th to 24th Dec)' 
+        },
+        { 
+            id: 6, 
+            date: 'Batch-6 (27th to 31th Dec)' 
+        },
     ],
     pickup: "Kochi",
     drop: "Kochi",

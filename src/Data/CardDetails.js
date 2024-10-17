@@ -32,11 +32,13 @@ import { UdaipurMauntabu } from "./All trip details/UdaipurMauntabu"
 import Ooty from "./All trip details/Ooty"
 import Ayodhya from "./All trip details/Ayodhya"
 import Rameshwaram from "./All trip details/Rameshwaram"
+import Manali4n5d from "./Destination trips/Himachal/Manali4n5d"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
     // ===========================================Himachal================================
-    "Manali": { info: Manali },
+    "Manali": { info: Manali },     
+    "Manali with Kullu": { info: Manali4n5d },
     "Kullu manali": { info: Kullumanali4n5d },
     "Shimla manali special": { info: Shimlamanalispecial },
     "Shimla manali 5night": { info: Shimlamanali5n6d },
@@ -96,6 +98,37 @@ const Cardfirst = {
         iturl: "Details/Pachmarhi",
         Price: "4999",
 
+    }, 
+    "Manali with Kullu": {
+        imgurl: "images/tripcard/Grouptrip/Kullumanali.png",
+        iturl: "Details/Manali with Kullu",
+        Price: "5999",
+
+    },      
+    "Manali": {
+        imgurl: "images/tripcard/Grouptrip/Manali.png",
+        iturl: "Details/Manali",
+        Price: "7999",
+
+    },
+    
+    "Kashmir": {
+        imgurl: "images/tripcard/Grouptrip/Kashmir.png",
+        iturl: "Details/Kashmir",
+        Price: "13499",
+
+    },
+    "Rishikesh ": {
+        imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
+        iturl: "Details/Rishikesh Haridwar",
+        Price: "7499",
+
+    },
+    "Kerala": {
+        imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
+        iturl: "Details/Kerala 4n5d",
+        Price: "13499",
+
     },
     "Goa": {
         imgurl: "images/tripcard/Grouptrip/goa.png",
@@ -105,7 +138,7 @@ const Cardfirst = {
     },
     
     "Lonavala Khandala": {
-        imgurl: "/images/tripcard/Grouptrip/Lonavala_Khandala.png",
+        imgurl: "/images/tripcard/Grouptrip/Lonavala.png",
         iturl: "Details/Lonavala",
         Price: "5499",
 
@@ -120,7 +153,7 @@ const Cardfirst = {
 
     },
     "Lonavala With imagica": {
-        imgurl: "images/tripcard/Grouptrip/Lonavala.png",
+        imgurl: "/images/tripcard/Grouptrip/Lonavala_Khandala.png",
         iturl: "Details/Lonavalaimagica",
         Price: "5499",
 
@@ -139,12 +172,6 @@ const Cardfirst = {
         iturl: "Details/Kanahkisli",
         Price: "5499",
 
-    },       
-    "Manali": {
-        imgurl: "images/tripcard/Grouptrip/Manali.png",
-        iturl: "Details/Manali",
-        Price: "7999",
-
     },
     "Ladakh": {
         imgurl: "images/tripcard/Destinationimgs/Maincard/Destination_2.png",
@@ -156,27 +183,6 @@ const Cardfirst = {
         imgurl: "/images/tripcard/Grouptrip/Kedarnath.png",
         iturl: "Details/Kedarnath",
         Price: "10999",
-
-    },
-    "Rishikesh ": {
-        imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
-        iturl: "Details/Rishikesh Haridwar",
-        Price: "7499",
-
-    },
-    
-    "Kashmir": {
-        imgurl: "images/tripcard/Grouptrip/Kashmir.png",
-        iturl: "Details/Kashmir",
-        Price: "13499",
-
-    },
-    
-    
-    "Kerala": {
-        imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
-        iturl: "Details/Kerala 4n5d",
-        Price: "13499",
 
     },
   

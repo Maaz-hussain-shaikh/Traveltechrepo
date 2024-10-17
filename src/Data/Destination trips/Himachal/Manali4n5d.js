@@ -1,4 +1,4 @@
-const Manali =
+const Manali4n5d =
 {
     name: "Manali-Kasol-lahulvally",
     imgurl: [{
@@ -9,10 +9,10 @@ const Manali =
     }],
     brief: `Explore Romantic Himachal with TravelTech! Embark on a journey of love and adventure amidst the enchanting landscapes of Himachal Pradesh. Immerse yourself in the serene beauty of snow-capped mountains,lush deodar forests, and blooming wildflowers,while the Beas River flows gently by. Experience the charm of the pretty hill-station of Manali as you stroll along the iconic Mall Road, with the majestic Mall Road Manali in the backdrop and breathtaking views of the valley ahead.Marvel at the beauty of Solang Valley and indulge in a tour of the historic Viceregal Lodge, as you uncover the hidden gems of this picturesque region. Discover the unexplored beauty of Manali's treehouses, offering panoramic views of the lush green jungles and towering mountains from a lofty altitude of 10,500 ft. Let the tranquility of the surroundings and the floating clouds outside your treehouse enhance your romantic getaway. Travel to Manali through winding mountain roads, with awe-inspiring snowy peaks towering in the distance, creating a mesmerizing backdrop for your journey. Explore the wonders of Sissu Atal Tunnel and embark on the Chalal trek with Kasol and Manikaran, where you can soak in the natural beauty and spiritual vibes of these enchanting destinations. End your day with riverside camping fun, where you can unwind by the river and enjoy the serene ambiance under the starlit sky. Ignite the spark of romance as you immerse yourselves in the spiritual essence of Manali, where love resonates in every corner, making it the perfect destination for celebrating your milestones with your soulmate. Travel with TravelTech, your trusted companion in organizing over 1000 trips for various groups, including strangers and corporates. Let us make your romantic getaway an unforgettable experience!`,
     note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
-    duration: "6N-7D",
-    Quadprice: "7999/-PP",
-    Tripleprice: "8999/PP",
-    Doubleprice: "9499/PP",
+    duration: "4N-5D",
+    Quadprice: "5999/-PP",
+    Tripleprice: "6999/PP",
+    Doubleprice: "7499/PP",
     Batches: [        
         { 
             id: 1, 
@@ -161,8 +161,8 @@ const Manali =
         
 
     ],
-    pickup: "Indore/Bhopal/Maharastra/Delhi",
-    drop: "Indore/Bhopal/Maharastra/Delhi",
+    pickup: "Delhi",
+    drop: "Delhi",
     it: [{
         Heading: "departure from base locations",
         Schedule: [
@@ -222,41 +222,20 @@ const Manali =
 
     },
     {
-        Heading: "Excursion to Kasol | River rafting at Kullu",
+        Heading: "Excursion to Kullu | River rafting at Kullu ",
         Schedule: [
             { Scheduledetails: "The day starts early as you wake up and just after breakfast, start traveling towards the beautiful town of Kullu." },
             { Scheduledetails: "Spend some time in the beautiful Kullu Valley, Enjoy adventurous memories and rafting through the icy waters and Paragliding Through Sky Touching Mountains." },
-            { Scheduledetails: "Visit the Kullu Shawl Factory and the Rabbit farm, and make a special visit to Vaishnodevi Temple. Later, head towards Kasol." },
-            { Scheduledetails: "While traveling to Camp Side, pass through the mystic town of Kasol, popularly known as the “Mini Israel of India”, and spend your time there." },
-            { Scheduledetails: "In the evening, complete the check-in process and be ready for a bonfire & music night at camps along with delicious dinner." },
-            { Scheduledetails: "Overnight stay at camps." }
-        ]
-
-    },
-    {
-        Heading: "Take a Holy Dip in the Hot Sulphur Springs in manikaran| Departure",
-        Schedule: [
-
-            { Scheduledetails: "After an early morning breakfast, check out from the hotel and head towards Manikaran." },
-            { Scheduledetails: "Manikaran is an important site for Sikhs and is famous for the Manikaran Sahib Gurudwara and the hot water springs." },
-            { Scheduledetails: "Refresh yourself as you take a dip in the hot spring that is believed to have many medicinal benefits and will rejuvenate your body and soul." },
-            { Scheduledetails: "After refreshing your soul, start trekking to Chalal village/trek (only if time and Weather permits)." },
-            { Scheduledetails: "After this religious day, proceed to Delhi for an overnight journey." }
-
-        ]
-    },
-    {
-        Heading: "good bye to the mountains | reach home",
-        Schedule: [
+            { Scheduledetails: "Visit the Kullu Shawl Factory and the Rabbit farm, and make a special visit to Vaishnodevi Temple." },       
+            { Scheduledetails: "After this religious day, proceed to Delhi for an overnight journey." },
             { Scheduledetails: "Farewell to the Mountains" },
-            { Scheduledetails: "Travelers from Indore, Bhopal, Ahmedabad, Maharashtra, Jaipur will depart from their destinations by train at the given timings, led by Trip Captains." },
-            { Scheduledetails: "Return home with cherished memories flavored with the essence of Himachal and unbreakable bonds with strangers and friends." },
             { Scheduledetails: "Embrace the title of #Traveltrekker and join India's fastest-growing community on Instagram, WhatsApp, and Facebook." },
             { Scheduledetails: "Keep traveling with us, following our motto: 'Work-Travel-Repeat'." }
         ]
 
-
     },
+   
+   
     ],
     inclusion: [{
         icon: "Trip_Captain",
@@ -266,12 +245,12 @@ const Manali =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: '3 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
+        inc: '2 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
     },
     {
         icon: "Meals",
         name: "Meals",
-        inc: 'A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
+        inc: 'A total of 4 meals (2 breakfasts and 2 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
         icon: "Traveler",
@@ -519,4 +498,4 @@ const Manali =
     },
     ],
 }
-export default Manali
+export default Manali4n5d

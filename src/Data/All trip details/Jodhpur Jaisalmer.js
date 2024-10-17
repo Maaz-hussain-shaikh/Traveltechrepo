@@ -20,47 +20,87 @@ const Jodhpur = {
     Tripleprice: "6999/PP",
     Doubleprice: "7499/PP",
     Batches: [
+        
         { 
             id: 1, 
-            date: 'Batch-1 (14th to 17th) sept' 
+            date: 'Batch-1 (14th to 17th Nov)' 
         },
         { 
             id: 2, 
-            date: 'Batch-2 (26th to 19th) sept' 
+            date: 'Batch-2 (21st to 24th Nov)' 
         },
         { 
             id: 3, 
-            date: 'Batch-3 (10th to 13th) Oct' 
+            date: 'Batch-3 (28th Nov to 1st Dec)' 
         },
         { 
             id: 4, 
-            date: 'Batch-4 (24th to 27th) Oct' 
+            date: 'Batch-4 (5th to 8th Dec)' 
         },
         { 
             id: 5, 
-            date: 'Batch-5 (1st to 4th) Nov' 
+            date: 'Batch-5 (12th to 15th Dec)' 
         },
         { 
             id: 6, 
-            date: 'Batch-6 (14th to 17th) Nov' 
+            date: 'Batch-6 (19th to 22nd Dec)' 
         },
         { 
             id: 7, 
-            date: 'Batch-7 (28th to 1st) Nov' 
+            date: 'Batch-7 (30th Dec to 2nd Jan)' 
         },
         { 
             id: 8, 
-            date: 'Batch-8 (12th to 15th) Dec' 
+            date: 'Batch-8 (2nd to 5th Jan)' 
         },
         { 
             id: 9, 
-            date: 'Batch-9 (21st to 24th) Dec' 
+            date: 'Batch-9 (9th to 12th Jan)' 
         },
         { 
             id: 10, 
-            date: 'Batch-10 (30th to 2nd) Dec' 
+            date: 'Batch-10 (16th to 19th Jan)' 
         },
-
+        { 
+            id: 11, 
+            date: 'Batch-11 (23rd to 26th Jan)' 
+        },
+        { 
+            id: 12, 
+            date: 'Batch-12 (30th Jan to 2nd Feb)' 
+        },
+        { 
+            id: 13, 
+            date: 'Batch-13 (6th to 9th Feb)' 
+        },
+        { 
+            id: 14, 
+            date: 'Batch-14 (13th to 16th Feb)' 
+        },
+        { 
+            id: 15, 
+            date: 'Batch-15 (20th to 23rd Feb)' 
+        },
+        { 
+            id: 16, 
+            date: 'Batch-16 (27th Feb to 1st Mar)' 
+        },
+        { 
+            id: 17, 
+            date: 'Batch-17 (5th to 8th Mar)' 
+        },
+        { 
+            id: 18, 
+            date: 'Batch-18 (12th to 15th Mar)' 
+        },
+        { 
+            id: 19, 
+            date: 'Batch-19 (19th to 22nd Mar)' 
+        },
+        { 
+            id: 20, 
+            date: 'Batch-20 (26th to 29th Mar)' 
+        }
     ],
     pickup: "Indore/Ratlam/Jodhpur",
     drop: "Indore/Ratlam/Jodhpur",

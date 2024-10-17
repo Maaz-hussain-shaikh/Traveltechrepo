@@ -18,8 +18,38 @@ const Kashmir = {
     Tripleprice: "15499/PP",
     Doubleprice: "16999/PP",
     Batches: [
-        { id: 1, date: 'Customize My Trip' },
-
+        { 
+            id: 1,  
+            date: 'Batch-1 (1st to 8th Nov)'  
+        },
+        { 
+            id: 2,  
+            date: 'Batch-2 (15th to 22nd Nov)'  
+        },
+        { 
+            id: 3,  
+            date: 'Batch-3 (6th to 13th Dec)'  
+        },
+        { 
+            id: 4,  
+            date: 'Batch-4 (27th to 3rd Jan)'  
+        },
+        { 
+            id: 5,  
+            date: 'Batch-5 (10th to 17th Jan)'  
+        },
+        { 
+            id: 6,  
+            date: 'Batch-6 (24th to 31st Jan)'  
+        },
+        { 
+            id: 7,  
+            date: 'Batch-7 (14th to 21st Fab)'  
+        },
+        { 
+            id: 8,  
+            date: 'Batch-8 (28th to 7th Mar)'  
+        }
     ],
     
     pickup: "Indore/Bhopal/Jammu/Delhi",
