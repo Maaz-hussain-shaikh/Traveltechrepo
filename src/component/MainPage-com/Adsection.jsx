@@ -10,7 +10,6 @@ const Adsection = (props) => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
     };
-
     return (
         <>
             <div className="idQJkO">

@@ -33,12 +33,14 @@ import Ooty from "./All trip details/Ooty"
 import Ayodhya from "./All trip details/Ayodhya"
 import Rameshwaram from "./All trip details/Rameshwaram"
 import Manali4n5d from "./Destination trips/Himachal/Manali4n5d"
+import ManaliFromDelhi from "./Destination trips/Himachal/Manali Delhi"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
     // ===========================================Himachal================================
     "Manali": { info: Manali },     
     "Manali with Kullu": { info: Manali4n5d },
+    "DelhiManali": { info: ManaliFromDelhi },
     "Kullu manali": { info: Kullumanali4n5d },
     "Shimla manali special": { info: Shimlamanalispecial },
     "Shimla manali 5night": { info: Shimlamanali5n6d },
@@ -90,7 +92,6 @@ const Maindetailsdata = {
      // =========================================Rameshwaram=====================================
      "Rameshwaram": {info: Rameshwaram},
 }
-
 // =========================================================sliding frist card =================================
 const Cardfirst = {
     "Pachmarhi": {
@@ -118,12 +119,7 @@ const Cardfirst = {
         Price: "13499",
 
     },
-    "Rishikesh ": {
-        imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
-        iturl: "Details/Rishikesh Haridwar",
-        Price: "7499",
-
-    },
+   
     "Kerala": {
         imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
         iturl: "Details/Kerala 4n5d",
@@ -134,7 +130,6 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/goa.png",
         iturl: "Details/Goa",
         Price: "8499",
-
     },
     
     "Lonavala Khandala": {
@@ -171,6 +166,12 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Kanha.png",
         iturl: "Details/Kanahkisli",
         Price: "5499",
+
+    },
+    "Rishikesh ": {
+        imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
+        iturl: "Details/Rishikesh Haridwar",
+        Price: "7499",
 
     },
     "Ladakh": {

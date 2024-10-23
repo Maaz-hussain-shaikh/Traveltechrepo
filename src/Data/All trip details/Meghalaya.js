@@ -7,15 +7,7 @@ const Meghalaya = {
         imgurl4: "/images/tripcard/Destinationimgs/Meghalaya/Destination_4.png",
     }],
     brief: `
-    Sikkim and Darjeeling beckon with their stunning landscapes, providing a perfect getaway. Bordered by Bhutan, Nepal, and Tibet, these captivating regions boast lush green hills, cascading waterfalls, and serene tea estates.
-
-    Embark on a romantic journey to the iconic destinations of Sikkim and Darjeeling, where love thrives amidst the enchanting attractions of Tsomgo Lake, Nathula Pass, and Tiger Hill. Take a leisurely stroll hand in hand through the charming streets of Darjeeling and witness the mesmerizing sunrise over the Himalayas.
-    
-    For adventurous couples, Sikkim and Darjeeling offer a plethora of thrilling activities amidst their majestic mountains. Trek through picturesque trails, conquer lofty peaks with mountaineering expeditions, and share exhilarating moments in the lap of nature's grandeur.
-    
-    Indulge your taste buds in the delectable cuisine of Sikkim and Darjeeling, a delightful blend of Tibetan, Nepali, and Indian flavors. Sample dishes like Momos, Thukpa, and Darjeeling tea, igniting a symphony of flavors that reflect the region's rich culinary heritage.
-    
-    Despite occasional challenges arising from geographical constraints, Sikkim and Darjeeling remain serene havens for lovers, offering a sanctuary of natural beauty, adventure, and cultural immersion. Let love blossom amidst the splendor of Sikkim and Darjeeling's landscapes, creating cherished memories that will last a lifetime.
+   Set off on an exciting "Mystical Meghalaya Tour" and discover the enchanting beauty of India’s northeast with your group. Known for its breathtaking landscapes, Meghalaya offers a perfect mix of adventure and nature. Explore Shillong’s charming lakes and waterfalls, trek through the living root bridges in Cherrapunji, and visit the mesmerizing caves in Mawsmai. Don’t miss the crystal-clear waters of Dawki River, where boat rides offer a magical experience. From lush green hills to vibrant local culture, Meghalaya promises a thrilling and unforgettable group adventure amidst nature’s finest wonders.
     `,
     duration: "5N-6D",
     Quadprice: "16499/-PP",
