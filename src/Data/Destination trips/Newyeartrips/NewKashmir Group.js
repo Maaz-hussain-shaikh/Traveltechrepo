@@ -2,9 +2,9 @@ const NewKashmir = {
     name: "Fitoor-E-Kashmir",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Kashmir/Destination_14.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Kashmir/Kashmirtrip.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Kashmir/12.png",
         imgurl3: "/images/tripcard/Destinationimgs/Kashmir/Destination_6.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Kashmir/Destination_7.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Kashmir/13.png",
        
     }],
     brief: `Kashmir is a region located in the northernmost part of the Indian subcontinent, bordered by Pakistan, India, and China. The region is known for its stunning natural beauty, including snow-capped mountains, sparkling lakes, lush valleys, and rolling meadows.

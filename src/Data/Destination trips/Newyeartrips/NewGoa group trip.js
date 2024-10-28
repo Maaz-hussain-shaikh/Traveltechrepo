@@ -1,10 +1,10 @@
 const NewGoagroup = {
     name: "The Queen of beaches Goa",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Goa/Destination_5.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Goa/18.png",
         imgurl2: "/images/tripcard/Destinationimgs/Goa/Destination_10.png",
-        imgurl3: "/images/tripcard/Destinationimgs/Goa/Destination_9.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Goa/Destination_11.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Goa/20.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Goa/19.png",
         
 
     }],

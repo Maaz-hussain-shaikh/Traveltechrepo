@@ -1,10 +1,10 @@
 const NewJodhpur = {
     name: "Jodhpur & Jaisalmer",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/jaisalmer/Destination_11.png",
-        imgurl2: "/images/tripcard/Destinationimgs/jaisalmer/Destination_12.png",
+        imgurl1: "/images/tripcard/Destinationimgs/jaisalmer/10.png",
+        imgurl2: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
         imgurl3: "/images/tripcard/Destinationimgs/jaisalmer/Destination_13.png",
-        imgurl4: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
+        imgurl4: "/images/tripcard/Destinationimgs/jaisalmer/11.png",
        
         
     }],

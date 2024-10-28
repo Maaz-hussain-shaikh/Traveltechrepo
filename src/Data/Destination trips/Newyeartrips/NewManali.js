@@ -2,10 +2,10 @@ const NewManali =
 {
     name: "Manali-Kasol-lahulvally",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_14.png",
-        imgurl3: "/images/tripcard/Destinationimgs/Manali/Destination_1.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Manali/Destination_4.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Manali/3.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Manali/1.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Manali/2.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Manali/4.png",
     }],
     brief: `Explore Romantic Himachal with TravelTech! Embark on a journey of love and adventure amidst the enchanting landscapes of Himachal Pradesh. Immerse yourself in the serene beauty of snow-capped mountains,lush deodar forests, and blooming wildflowers,while the Beas River flows gently by. Experience the charm of the pretty hill-station of Manali as you stroll along the iconic Mall Road, with the majestic Mall Road Manali in the backdrop and breathtaking views of the valley ahead.Marvel at the beauty of Solang Valley and indulge in a tour of the historic Viceregal Lodge, as you uncover the hidden gems of this picturesque region. Discover the unexplored beauty of Manali's treehouses, offering panoramic views of the lush green jungles and towering mountains from a lofty altitude of 10,500 ft. Let the tranquility of the surroundings and the floating clouds outside your treehouse enhance your romantic getaway. Travel to Manali through winding mountain roads, with awe-inspiring snowy peaks towering in the distance, creating a mesmerizing backdrop for your journey. Explore the wonders of Sissu Atal Tunnel and embark on the Chalal trek with Kasol and Manikaran, where you can soak in the natural beauty and spiritual vibes of these enchanting destinations. End your day with riverside camping fun, where you can unwind by the river and enjoy the serene ambiance under the starlit sky. Ignite the spark of romance as you immerse yourselves in the spiritual essence of Manali, where love resonates in every corner, making it the perfect destination for celebrating your milestones with your soulmate. Travel with TravelTech, your trusted companion in organizing over 1000 trips for various groups, including strangers and corporates. Let us make your romantic getaway an unforgettable experience!`,
     note: "",

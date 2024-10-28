@@ -2,9 +2,9 @@ const NewUdaipur = {
     name: "Udaipur & Bahubali hills",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Udaipur/Destination_19.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Udaipur/Destination_12.png",
-        imgurl3: "/images/tripcard/Destinationimgs/Udaipur/Destination_3.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Udaipur/Destination_4.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Udaipur/15.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Udaipur/Destination_4.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Udaipur/17.png",
         
 
     }],
