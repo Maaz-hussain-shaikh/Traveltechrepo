@@ -10,18 +10,7 @@ const Himachal = [
         season:"Dec - Jan",
         Discount: "9999",}
        
-    }, {
-        Data : {lable:"Null", 
-            name:"Spiti The White Wonder",
-        to:"Delhi To Delhi",
-        Days:"5N/6D",
-        imgurl: "/images/tripcard/Newyear/Spitinew.png",
-        iturl: "/Details/Newyearspiti",
-        Price: "8999",
-        season:"Dec - Jan",
-        Discount: "9999",}
-       
-    },
+    }, 
     {
         Data : {lable:"Null", 
             name:"Fitoor-e-Kashmir",

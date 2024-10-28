@@ -7,25 +7,12 @@ const Maincom = () => {
   
   return (
     <>
-      <div className="max-w-screen-xl w-full mx-auto mttop h-[60vh]">
-        <div className="relative w-full h-full">
-          <div className="grid grid-cols-4 grid-rows-3 gap-1 rounded-lg overflow-hidden w-full h-full">
-            <div className="w-full h-full row-span-3 col-span-6 fade-expand-appear-done fade-expand-enter-done">
-              <img
-                src="/images/tripcard/Newyear/NewYear Poster.svg"
-                alt="Travel Tech India"
-                className="object-cover object-center w-full h-full rounded-b-lg shadow-md sm:rounded-t-lg"
-                fetchpriority="high"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+     <Adsection imgsrc="/images/tripcard/Newyear/NewYear Poster.png" mobsrc="/images/tripcard/Newyear/NewYear Poster.png" path="/X-mas"/> 
 
       <div className="jCihag">
         <div className="kwYMGm ">
 
-          <div className=" "><h2 className="dlvSJV text-2xl font-black  font-bold text-center sm:text-4xl">Discover the <span className="text-orange-600">Trendiest</span> Travel Spots</h2></div>
+          <div className=" "><h2 className=" text-red-600  font-bold text-center sm:text-3xl text-2xl">X-mas & New Year Trips</h2></div>
 
         </div>
 
@@ -44,8 +31,6 @@ const Maincom = () => {
         </div>
        
       </div>
-     
-      <Adsection imgsrc="/images/tripcard/Newyear/NewYear Poster.png" mobsrc="/images/tripcard/New year/Untitled design (1).png" path="Details/leh_13day"/> 
     </>
   )
 }
