@@ -9,6 +9,7 @@ import Loader from './Loader';
 import { Route, Routes } from 'react-router-dom';
 import Footer from './Footer';
 import Mainpage from './component/MainPage-com/Mainpage';
+import Maincom from './Newyear/Maincom';
 const Franchise = lazy(() => import('./component/Farnchise-com/Franchise'));
 const About = lazy(() => import('./component/About/About'));
 const Community = lazy(() => import('./component/Community/Community'));
@@ -26,6 +27,7 @@ function App() {
    <Routes>
         <Route exact path='/' element={<Mainpage/>} />
         <Route exact path='/Corporate' element={<Corporate/>} />
+        <Route exact path='/X-mas' element={<Maincom/>} />
         <Route exact path='/About' element={<About/>} />
         <Route exact path='/Community' element={<Community/>} />
         <Route exact path='/Franchise' element={<Franchise/>} />

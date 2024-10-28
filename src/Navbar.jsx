@@ -74,11 +74,12 @@ const Navbar = () => {
                 <Link to="/" className="logo text-sm"> <img src="/images/traveltech logo.png" alt="main logo" fetchpriority="high" style={{ maxWidth: "50px", marginRight: "12px" }} /> Traveltech </Link>
                 <nav className="navbar">
                     <div id="nav-close" className="fas fa-times"></div>
+                    {<Navlinks name='X-mas & New year' url='/X-mas' icon="fa-solid fa-sleigh" />}
                     {<Packnav name="Group Trip" url={tripdata} />}
                     {<Navlinks name='Corporate Tours' url='/Corporate' icon="fa-solid fa-laptop" />}
                     {<Navlinks name='About us' url='/About' icon="fa-solid fa-paperclip" />}
                     {<Dropnav name='Community' />}
-                    {<Navlinks name='Franchise' url='/Franchise' icon="fa-solid fa-briefcase" />}
+                    {/* {<Navlinks name='Franchise' url='/Franchise' icon="fa-solid fa-briefcase" />} */}
                     {<Navlinks name='Travel Essentials' url='/Travelshop' icon="fa-solid fa-bag-shopping" />}
                 </nav>
                 <div className="hidden-bar" onClick={() => { update(!mobileOff) }}>

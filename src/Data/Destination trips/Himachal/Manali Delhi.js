@@ -1,6 +1,6 @@
 const ManaliFromDelhi =
 {
-    name: "Manali-Kasol-lahulvally",
+    name: "Manali-Kasol-Lahaul valley",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
         imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_14.png",

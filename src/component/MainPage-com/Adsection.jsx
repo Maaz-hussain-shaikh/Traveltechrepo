@@ -2,18 +2,33 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Adsection = (props) => {
-    let link = props.imgsrc;
-    let imglink = `url(${link})`
-    const imgstyle = {
-        backgroundImage: imglink,
-        backgroundPosition: "center center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-    };
+   
+   
     return (
         <>
-            <div className="idQJkO">
-                <Link  className="bXBxlH" style={imgstyle} to={props.path}></Link></div>
+            <div className="jCihag">
+                <Link className="bXBxlH"  to={props.path}>
+                <div className="lg:col-span-4 col-span-2">
+          <div className="mt-[0.3rem]">
+            {/* Image for mobile */}
+            <img
+              className="w-full rounded-xl mobile"
+              src={props.mobsrc}
+              alt="Bonfire Mobile"
+            />
+
+            {/* Image for desktop */}
+            <img
+              className="w-full rounded-xl mob-hide"
+              src={props.imgsrc}
+              alt="Bonfire Desktop"
+            />
+          </div>
+        </div></Link></div>
+
+
+            
+
         </>
     )
 }

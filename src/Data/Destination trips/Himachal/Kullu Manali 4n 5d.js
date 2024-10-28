@@ -1,4 +1,4 @@
-const Kullumanali4n5d =
+const NewKullumanali4n5d =
 {
     name: "Kullu Manali Honeymoon Special",
     imgurl: [{
@@ -329,4 +329,4 @@ const Kullumanali4n5d =
     },
     ],
 }
-export default Kullumanali4n5d
+export default NewKullumanali4n5d

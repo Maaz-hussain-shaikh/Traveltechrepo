@@ -34,6 +34,13 @@ import Ayodhya from "./All trip details/Ayodhya"
 import Rameshwaram from "./All trip details/Rameshwaram"
 import Manali4n5d from "./Destination trips/Himachal/Manali4n5d"
 import ManaliFromDelhi from "./Destination trips/Himachal/Manali Delhi"
+import NewManali from "./Destination trips/Newyeartrips/NewManali"
+import { NewGoagroup } from "./Destination trips/Newyeartrips/NewGoa group trip"
+import { NewKashmir } from "./Destination trips/Newyeartrips/NewKashmir Group"
+import { NewJodhpur } from "./Destination trips/Newyeartrips/NewJodhpur Jaisalmer"
+import { NewPachmarhi } from "./Destination trips/Newyeartrips/NewPachmarhi"
+import { NewUdaipur } from "./Destination trips/Newyeartrips/NewUdaipur"
+import NewSpiti from "./Destination trips/Newyeartrips/NewSpiti"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -53,7 +60,6 @@ const Maindetailsdata = {
     "Kashmir Personal 4n5d": { info: Kashmir4n5d },
     //  =================================================Pachmarhi===============================   
     "Pachmarhi": { info: Pachmarhi },
-
     //  ====================================================rajashtan======================================   
     "Udaipur": { info: Udaipur },
     "Udaipurmauntabu": { info: UdaipurMauntabu},
@@ -91,6 +97,15 @@ const Maindetailsdata = {
     "Ayodhya": { info: Ayodhya},
      // =========================================Rameshwaram=====================================
      "Rameshwaram": {info: Rameshwaram},
+
+    // ===============================================New year itineary=================
+"Newyearmanali": {info: NewManali},
+"NewyearGoa": {info: NewGoagroup},
+"NewyearKashmir": {info: NewKashmir},
+"NewyearJaisalmer": {info: NewJodhpur},
+"Newyearpachmarhi":{info: NewPachmarhi},
+"NewUdaipur":{info: NewUdaipur},
+"Newyearspiti":{info : NewSpiti}
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
@@ -98,18 +113,18 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
         iturl: "Details/Pachmarhi",
         Price: "4999",
+        discount: "5999",
+        day:"3N/2Day",
+        Season: "Dec-Jun",
 
-    }, 
-    "Manali with Kullu": {
-        imgurl: "images/tripcard/Grouptrip/Kullumanali.png",
-        iturl: "Details/Manali with Kullu",
-        Price: "5999",
-
-    },      
+    }   ,   
     "Manali": {
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
         Price: "7999",
+        discount: "9999",
+        day:"6N/7D",
+        Season: "Dec-June",
 
     },
     
@@ -117,6 +132,9 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Kashmir.png",
         iturl: "Details/Kashmir",
         Price: "13499",
+        discount: "15499",
+        day:"7N/8D",
+        Season: "Dec-June",
 
     },
    
@@ -124,19 +142,26 @@ const Cardfirst = {
         imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
         iturl: "Details/Kerala 4n5d",
         Price: "13499",
-
+        discount: "15499",
+        day:"4N/5D",
+        Season: "Dec-Jun",
     },
     "Goa": {
         imgurl: "images/tripcard/Grouptrip/goa.png",
         iturl: "Details/Goa",
         Price: "8499",
+        discount: "9999",
+        day:"5N/6D",
+        Season: "Dec-jun",
     },
     
     "Lonavala Khandala": {
         imgurl: "/images/tripcard/Grouptrip/Lonavala.png",
         iturl: "Details/Lonavala",
         Price: "5499",
-
+        discount: "6999",
+        day:"3N/2D",
+        Season: "Dec-jun",
 
     },
    
@@ -144,6 +169,9 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Udaipur.png",
         iturl: "Details/Udaipur",
         Price: "4299",
+        discount: "6999",
+        day:"3N/2D",
+        Season: "Dec-Jun",
 
 
     },
@@ -151,14 +179,18 @@ const Cardfirst = {
         imgurl: "/images/tripcard/Grouptrip/Lonavala_Khandala.png",
         iturl: "Details/Lonavalaimagica",
         Price: "5499",
-
+        discount: "6999",
+        day:"4N/5D",
+        Season: "Dec-Jun",
 
     },
     "Udaipur Mount abu": {
         imgurl: "images/tripcard/Grouptrip/Udaipur_maunt-abu.png",
         iturl: "Details/Udaipurmauntabu",
         Price: "4299",
-
+        discount: "4999",
+        day:"3N/2D",
+        Season: "Dec-Jun",
 
     },
     
@@ -166,46 +198,75 @@ const Cardfirst = {
         imgurl: "images/tripcard/Grouptrip/Kanha.png",
         iturl: "Details/Kanahkisli",
         Price: "5499",
+        discount: "6499",
+        day:"3N/2D",
+        Season: "Dec-jun",
 
     },
     "Rishikesh ": {
         imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
         iturl: "Details/Rishikesh Haridwar",
         Price: "7499",
+        discount: "8499",
+        day:"4N/5D",
+        Season: "Dec-jun",
 
     },
     "Ladakh": {
         imgurl: "images/tripcard/Destinationimgs/Maincard/Destination_2.png",
         iturl: "Details/leh_13day",
         Price: "23999",
-
+        discount: "26999",
+        day:"11N/12D",
+        Season: "Dec-May",
     },
     "Kedarnath": {
         imgurl: "/images/tripcard/Grouptrip/Kedarnath.png",
         iturl: "Details/Kedarnath",
         Price: "10999",
-
+        discount: "5999",
+        day:"6N/7D",
+        Season: "Oct-Nov",
     },
   
     "Jaipur Ranthambore": {
         imgurl: "images/tripcard/Grouptrip/Jaipur.png",
         iturl: "Details/Jaipur Ranthambore",
         Price: "5499",
+        discount: "6499",
+        day:"3N/2D",
+        Season: "Dec-Jun",
 
     },
     "Jodhpur jaisalmer": {
         imgurl: "images/tripcard/Grouptrip/jaisalmer.png",
         iturl: "Details/Jodhpur Jaisalmer",
         Price: "5999",
+        discount: "5999",
+        day:"3N/4D",
+        Season: "Dec-Jun",
 
     },
     
+    "Manali with Kullu": {
+        imgurl: "images/tripcard/Grouptrip/Kullumanali.png",
+        iturl: "Details/Manali with Kullu",
+        Price: "6999",
+        discount: "5999",
+        day:"4N/5D",
+        Season: "Dec-Jun",
+    },
 
 }
 
 // ======================================destination cards========================================
 
 const destinationard = {
+    "New Year": {
+        url: "images/tripcard/Newyear/Chrismasnew.png",
+        href: "/X-mas",
+
+    },
     "Kashmir": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_7.png",
         href: "/Destinations/Kashmir",
@@ -271,49 +332,68 @@ const Honymooncards = {
         imgurl: "/images/tripcard/Honymoontrip/Andaman.png",
         iturl: "/Details/Andaman",
         Price: "22499",
+        discount: "24999",
+        day:"4N/5D",
+        Season: "",
     },
 
     "Sikkim": {
         imgurl: "/images/tripcard/Honymoontrip/Darjeeling.png",
         iturl: "Details/Sikkim darjeeling",
         Price: "19999",
-
+        discount: "21999",
+        day:"4N/5D",
+        Season: "",
     },
     "Goa": {
         imgurl: "/images/tripcard/Honymoontrip/Goa.png",
         iturl: "Details/Goa",
         Price: "9999",
-
+        discount: "11999",
+        day:"5N/6D",
+        Season: "",
     },
     "Himachal": {
         imgurl: "/images/tripcard/Honymoontrip/Himachal.png",
         iturl: "Details/Manali",
         Price: "9499",
+        discount: "10000",
+        day:"6N/7D",
+        Season: "",
 
     },
     "Kashmir": {
         imgurl: "/images/tripcard/Honymoontrip/Kashmir.png",
         iturl: "Details/Kashmir",
         Price: "16999",
+        discount: "18999",
+        day:"7N/8D",
+        Season: "",
 
     },
     "Kerala": {
         imgurl: "/images/tripcard/Honymoontrip/Kerala.png",
         iturl: "Destinations/Kerala",
         Price: "16499",
-
+        discount: "18499",
+        day:"4N/5D",
+        Season: "",
     },
     "Maldives": {
         imgurl: "/images/tripcard/Honymoontrip/Maldives.png",
         iturl: "Details/Maldives",
         Price: "24999",
-
+        discount: "28000",
+        day:"--",
+        Season: "",
     },
     "Meghalaya": {
         imgurl: "/images/tripcard/Honymoontrip/Meghalaya.png",
         iturl: "Details/Meghalaya",
         Price: "18999",
-
+        discount: "21499",
+        day:"5N/6D",
+        Season: "Dec-Dec",
     },
     "Rajasthan": {
         imgurl: "/images/tripcard/Honymoontrip/Rajisthan.png",
@@ -324,7 +404,10 @@ const Honymooncards = {
     "Ooty": {
         imgurl: "images/tripcard/Grouptrip/Ooty.png",
         iturl: "Details/Ooty4n5d",
-        Price: "4999",
+        Price: "12499",
+        discount: "15000",
+        day:"4N/5D",
+        Season: "",
 
     },
 }
