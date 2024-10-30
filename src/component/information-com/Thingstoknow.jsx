@@ -55,6 +55,8 @@ const largestArray = findLargestLengthArray(arrays);
     Shikara_Ride:()=><i className="fa-solid fa-sailboat"></i>,
     Tickets:()=><i className="fa-solid fa-ticket"></i>,
     Personal_Expenses:()=><i className="fa-solid fa-hand-holding-dollar"></i>,
+    Cake:()=><i className="fa-solid fa-cake-candles"></i>,
+    Music:()=><i className="fa-solid fa-music"></i>
   };
 
   const exclusionIcons = {

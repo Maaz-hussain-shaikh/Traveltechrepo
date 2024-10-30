@@ -1,6 +1,6 @@
-const NewManali =
+const Newhimachal =
 {
-    name: "Manali-Kasol-lahaul valley",
+    name: "Backpacking Himachal",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Manali/3.png",
         imgurl2: "/images/tripcard/Destinationimgs/Manali/1.png",
@@ -9,14 +9,14 @@ const NewManali =
     }],
     brief: `Explore Romantic Himachal with TravelTech! Embark on a journey of love and adventure amidst the enchanting landscapes of Himachal Pradesh. Immerse yourself in the serene beauty of snow-capped mountains,lush deodar forests, and blooming wildflowers,while the Beas River flows gently by. Experience the charm of the pretty hill-station of Manali as you stroll along the iconic Mall Road, with the majestic Mall Road Manali in the backdrop and breathtaking views of the valley ahead.Marvel at the beauty of Solang Valley and indulge in a tour of the historic Viceregal Lodge, as you uncover the hidden gems of this picturesque region. Discover the unexplored beauty of Manali's treehouses, offering panoramic views of the lush green jungles and towering mountains from a lofty altitude of 10,500 ft. Let the tranquility of the surroundings and the floating clouds outside your treehouse enhance your romantic getaway. Travel to Manali through winding mountain roads, with awe-inspiring snowy peaks towering in the distance, creating a mesmerizing backdrop for your journey. Explore the wonders of Sissu Atal Tunnel and embark on the Chalal trek with Kasol and Manikaran, where you can soak in the natural beauty and spiritual vibes of these enchanting destinations. End your day with riverside camping fun, where you can unwind by the river and enjoy the serene ambiance under the starlit sky. Ignite the spark of romance as you immerse yourselves in the spiritual essence of Manali, where love resonates in every corner, making it the perfect destination for celebrating your milestones with your soulmate. Travel with TravelTech, your trusted companion in organizing over 1000 trips for various groups, including strangers and corporates. Let us make your romantic getaway an unforgettable experience!`,
     note: "",
-    duration: "5N-6D",
-    Quadprice: "7999/-PP",
-    Tripleprice: "8999/PP",
-    Doubleprice: "9999/PP",
-    off:"Flat 20% Off in BTS",
-    DiscountQuadprice: "8999/-",
-    DiscountTripleprice: "9999/-",
-    DiscountDoubleprice: "10999/-",
+    duration: "8N-9D",
+    Quadprice: "Coming soon",
+    Tripleprice: "Coming soon",
+    Doubleprice: "Coming soon",
+    off:"Coming soon",
+    DiscountQuadprice: "Coming soon/-",
+    DiscountTripleprice: "Coming soon/-",
+    DiscountDoubleprice: "Coming soon/-",
     Batches: [        
        
         { 
@@ -37,88 +37,87 @@ const NewManali =
     pickup: "Delhi",
     drop: "Delhi",
     it: [
-    {
-        Heading: "Departure to manali",
-        Schedule: [
-
-           
-            { Scheduledetails: "Reach the location coordinated by the team captain at sharp 6:00 PM." },
-            { Scheduledetails: "Meet and greet the representative " },
-
-        ],
-
-    },
-    {
-        Heading: "Sightseeing at Manali| Explore local beauty",
-        Schedule: [
-
-
-
-            { Scheduledetails: "Upon arrival in Manali, you will be transferred to your pre-booked hotel." },
-            { Scheduledetails: "Complete the check-in formalities and take some time to relax." },
-            { Scheduledetails: "Your first stop will be the mystical Hadimba Devi Temple, often referred to as the heart of Manali, nestled amidst the beautiful Deodar trees. Afterward, visit the Manu Temple and Van Vihar." },
-            { Scheduledetails: "Later in the evening, you have the freedom to explore the Mall Road, where you can visit some of the best cafes in Manali or enjoy a shopping spree. While at Mall Road, we will also visit the Tibetan Monastery and Van Vihar." },
-            { Scheduledetails: "In the evening,return to the hotel to enjoy a bonfire and other group bonding activities, followed by a delicious dinner." },
-            { Scheduledetails: "Overnight stay in Manali." }
-
-
-
-        ]
-    },
-    {
-        Heading: "Excursion to Solang Valley | A Paradise for Adventure Enthusiasts",
-        Schedule: [
-
-            { Scheduledetails: "Wake up and treat your taste buds with a yummy breakfast." },
-            { Scheduledetails: "Today you will be heading out for your Solang Valley tour, sometimes also called “Snow Valley”, which is a haven for adventure enthusiasts and nature lovers." },
-            { Scheduledetails: "Proceed for an excursion to the picturesque Solang Valley, known for hosting various winter adventure sports and admired for its beauty." },
-            { Scheduledetails: "This mesmerizing snow valley offers adventure activities such as snowboarding, snow fight, paragliding, and zorbing for you to try your hands on." },
-            { Scheduledetails: "Then start an excursion to Lahul Valley and visit the white Sissu/Khoksar via Atal Tunnel." },
-            { Scheduledetails: "Visit Vashisht Temple to feel the spiritual aura in the hot warm water spring." },
-            { Scheduledetails: "After a day full of thrill and excitement, return to the hotel for a hearty dinner. Overnight stay in Manali." }
-
-
-
-        ]
-
-
-    },
-    {
-        Heading: "Excursion to Kasol | River rafting at Kullu",
-        Schedule: [
-            { Scheduledetails: "The day starts early as you wake up and just after breakfast, start traveling towards the beautiful town of Kullu." },
-            { Scheduledetails: "Spend some time in the beautiful Kullu Valley, Enjoy adventurous memories and rafting through the icy waters and Paragliding Through Sky Touching Mountains." },
-            { Scheduledetails: "Visit the Kullu Shawl Factory and the Rabbit farm, and make a special visit to Vaishnodevi Temple. Later, head towards Kasol." },
-            { Scheduledetails: "While traveling to Camp Side, pass through the mystic town of Kasol, popularly known as the “Mini Israel of India”, and spend your time there." },
-            { Scheduledetails: "In the evening, complete the check-in process and be ready for a bonfire & music night at camps along with delicious dinner." },
-            { Scheduledetails: "Overnight stay at camps." }
-        ]
-
-    },
-    {
-        Heading: "Take a Holy Dip in the Hot Sulphur Springs in manikaran| Departure",
-        Schedule: [
-
-            { Scheduledetails: "After an early morning breakfast, check out from the hotel and head towards Manikaran." },
-            { Scheduledetails: "Manikaran is an important site for Sikhs and is famous for the Manikaran Sahib Gurudwara and the hot water springs." },
-            { Scheduledetails: "Refresh yourself as you take a dip in the hot spring that is believed to have many medicinal benefits and will rejuvenate your body and soul." },
-            { Scheduledetails: "After refreshing your soul, start trekking to Chalal village/trek (only if time and Weather permits)." },
-            { Scheduledetails: "After this religious day, proceed to Delhi for an overnight journey." }
-
-        ]
-    },
-    {
-        Heading: "good bye to the mountains | reach home",
-        Schedule: [
-            { Scheduledetails: "Farewell to the Mountains" },
-            { Scheduledetails: "Travelers from Indore, Bhopal, Ahmedabad, Maharashtra, Jaipur will depart from their destinations by train at the given timings, led by Trip Captains." },
-            { Scheduledetails: "Return home with cherished memories flavored with the essence of Himachal and unbreakable bonds with strangers and friends." },
-            { Scheduledetails: "Embrace the title of #Traveltrekker and join India's fastest-growing community on Instagram, WhatsApp, and Facebook." },
-            { Scheduledetails: "Keep traveling with us, following our motto: 'Work-Travel-Repeat'." }
-        ]
-
-
-    },
+        {
+            "Heading": "Departure from Indore/Delhi to Chandigarh | Kick off your adventure!",
+            "Schedule": [
+                { Scheduledetails: "Begin your journey from Indore/Delhi and travel to Chandigarh, known for its remarkable urban planning and vibrant city life." },
+                { Scheduledetails: "Overnight journey to Chandigarh." }
+            ]
+        },
+        {
+            "Heading": "Chandigarh to Shimla | Welcome to Shimla!",
+            "Schedule": [
+                { Scheduledetails: "The group assembles at the Railway station at 5 AM." },
+                { Scheduledetails: "Meet the team captains, group interaction and introduction." },
+                { Scheduledetails: "Proceed to Shimla, the scenic capital of Himachal Pradesh." },
+                { Scheduledetails: "Upon arrival, check in to your hotel and relax." },
+                { Scheduledetails: "Spend the evening strolling along the Mall Road with its local shops, cafes, and colonial architecture." },
+                { Scheduledetails: "Dinner and overnight stay at a cozy hotel in Shimla." }
+            ]
+        },
+        {
+            "Heading": "Shimla to Kasol via Kullu | Adventure Awaits!",
+            "Schedule": [
+                { Scheduledetails: "After breakfast, check out and drive toward Kasol, passing through the scenic Kullu Valley." },
+                { Scheduledetails: "Enjoy thrilling river rafting on the Beas River and paragliding in Kullu." },
+                { Scheduledetails: "Arrive in Kasol and settle in at the campsite." },
+                { Scheduledetails: "Enjoy a bonfire and DJ night as the night falls." },
+                { Scheduledetails: "Overnight stay in a tent at the Kasol campsite under a starlit sky." }
+            ]
+        },
+        {
+            "Heading": "Kasol - Manikaran - Manali | A Day of Exploration!",
+            "Schedule": [
+                { Scheduledetails: "Post breakfast, visit Manikaran Gurudwara, known for its natural hot springs and spirituality." },
+                { Scheduledetails: "Spend some time at the Kasol market exploring local crafts and cafes." },
+                { Scheduledetails: "Drive to Manali and check in to your hotel." },
+                { Scheduledetails: "Overnight stay at a comfortable hotel in Manali." }
+            ]
+        },
+        {
+            "Heading": "Solang Valley, Atal Tunnel & Sissu Excursion | Nature's Paradise!",
+            "Schedule": [
+                { Scheduledetails: "Begin your day with breakfast and a short drive to Solang Valley for activities like skiing, zip line, and snowboarding (seasonal)." },
+                { Scheduledetails: "Travel through the Atal Tunnel to reach Sissu in Lahaul Valley (weather permitting) and explore the scenic village." },
+                { Scheduledetails: "Return to Manali in the evening, then depart for an overnight journey to Dalhousie." }
+            ]
+        },
+        {
+            "Heading": "Dalhousie Exploration | Discover Dalhousie!",
+            "Schedule": [
+                { Scheduledetails: "Arrive in Dalhousie in the morning and check in to your hotel." },
+                { Scheduledetails: "Explore Dalhousie with its pine forests, colonial-style architecture, and peaceful ambience." },
+                { Scheduledetails: "Visit Gandhi Chowk and the Panchpula waterfalls." },
+                { Scheduledetails: "Overnight stay at a lovely hotel in Dalhousie." }
+            ]
+        },
+        {
+            "Heading": "Khajjiar & Dharamshala | Mini Switzerland Awaits!",
+            "Schedule": [
+                { Scheduledetails: "After breakfast, travel to Khajjiar, known as the 'Mini Switzerland of India' with its green meadows and deodar forests." },
+                { Scheduledetails: "Explore Khajjiar Lake and the Khajji Nag Temple." },
+                { Scheduledetails: "After lunch, proceed to Dharamshala and check in at a hotel in McLeodganj." },
+                { Scheduledetails: "Spend the evening exploring McLeodganj, including the Dalai Lama Temple Complex and local markets." },
+                { Scheduledetails: "Overnight stay at a hotel in McLeodganj." }
+            ]
+        },
+        {
+            "Heading": "Dharamshala to Amritsar | Cultural Immersion!",
+            "Schedule": [
+                { Scheduledetails: "After breakfast, check out and proceed to Amritsar." },
+                { Scheduledetails: "In the afternoon, witness the Wagah Border Ceremony, showcasing Indo-Pak cultural exchange." },
+                { Scheduledetails: "Visit the iconic Golden Temple and experience its peaceful ambience." },
+                { Scheduledetails: "Start your overnight journey back to Indore/Delhi." }
+            ]
+        },
+        {
+            "Heading": "Arrival in Indore/Delhi | Home Sweet Home!",
+            "Schedule": [
+                { Scheduledetails: "Arrive back in Indore/Delhi." },
+                { Scheduledetails: "Trip ends with memories to cherish forever, joining the #Traveltrekker community." },
+                { Scheduledetails: "Keep Traveling with the motto: 'Work-Travel-Repeat'." }
+            ]
+        }
     ],
     inclusion: [{
         icon: "Trip_Captain",
@@ -134,7 +133,7 @@ const NewManali =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: '(2N) Hotel in Manali (1N) Camps In kasol with Two overnight journey.'
+        inc: '3 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
     },
     {
         icon: "Meals",
@@ -142,21 +141,10 @@ const NewManali =
         inc: 'A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
-        icon: "Music",
-        name: "Music & Bonfire",
-        inc: 'Music Night & Bonfire at kasol '},
-        {
-            icon: "Cake",
-            name: "Complimentry Cake",
-            inc: 'Complimentry cake cutting for X-mas & New year eve'}, 
-
-       
-          {
         icon: "Traveler",
         name: "Traveler",
         inc: 'Everyday commute by a Non Ac tempo traveler/Sedan/Suv. all inner line permits for the trip; driver night charges, toll tax, parking charges.'
     },
-
     ],
     exclusion: [
         {
@@ -398,4 +386,4 @@ const NewManali =
     },
     ],
 }
-export default NewManali
+export default Newhimachal

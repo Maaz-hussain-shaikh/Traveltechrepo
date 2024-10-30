@@ -8,19 +8,26 @@ const Pricechart = (props) => {
     upbatch(val)
   }
   const [price, setprice] = useState(props.Quadprice);
+  const [Discountprice, setDiscountprice] = useState(props.DiscountQuadprice);
   const [sharing, setsharing] = useState("Quad");
   const setfunc = (sharing) => {
     if (sharing === "Triple") {
       let price = props.Tripleprice
+      let Discount = props.DiscountTripleprice
+      setDiscountprice(Discount)
       setprice(price)
       setsharing("Triple")
     } else if (sharing === "Double") {
       let price = props.Doubleprice
       setprice(price)
+      let Discount = props.DiscountDoubleprice
+      setDiscountprice(Discount)
       setsharing("Double")
     } else {
       let price = props.Quadprice
       setprice(price)
+      let Discount = props.DiscountQuadprice
+      setDiscountprice(Discount)
       setsharing("Quad")
     }
   }
@@ -36,18 +43,20 @@ const Pricechart = (props) => {
         <iframe height="215" src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe><br />
         <div className="sticky flex flex-col w-full" style={{ top: "16px" }}>
 
+        <div className="absolute left-0 lg:top-4 2xl:top-6"><p className="rounded-r-[1.25rem] bg-white py-[0.125rem] pr-5 pl-3 text-red-800 font-bold">{props.percentage}</p></div>
           <div className="flex flex-col w-full p-4 bg-gray-200 rounded-lg">
 
             <div className="flex items-center justify-between relative w-full">
 
-              <h2 className="font-bold text-xl sm:text-2xl flex ">Book <span className="text-orange-600"> Trip</span>
+              <h2 className="font-bold text-xl sm:text-2xl flex mt-4">Book <span className="text-orange-600"> Trip</span>
               </h2>
             </div>
+            
             <div className="">
               <div className="flex flex-col w-full">
                 <span className="text-xl font-medium">
 
-                  <span className="text-3xl font-bold ">₹ {price}</span>
+                  <span className="text-3xl font-bold ">₹ {price} <span className="text-p-xs text-sm text-black-600 line-through font-normal">{Discountprice}</span></span>
 
                 </span>
                 <span className="  text-sm mr-2 font-medium text-orange-600 ">On {sharing} sharing basis</span>

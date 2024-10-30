@@ -14,9 +14,13 @@ const NewKashmir = {
     `,
     note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "7N-8D",
-    Quadprice: "15499/-PP",
-    Tripleprice: "17499/PP",
-    Doubleprice: "19499/PP",
+    Quadprice: "14799/-PP",
+    Tripleprice: "16799/PP",
+    Doubleprice: "18999/PP",
+    off:"Flat 20% Off in BTS",
+    DiscountQuadprice: "18499/-",
+    DiscountTripleprice: "20999/-",
+    DiscountDoubleprice: "23699/-",
     Batches: [
         { 
             id: 1,  

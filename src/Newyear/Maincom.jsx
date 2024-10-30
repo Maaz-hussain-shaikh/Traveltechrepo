@@ -18,16 +18,11 @@ const Maincom = () => {
 
        
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:gap-10 mx-auto mt-8">
-      
-          {Himachal.map((elem,index)=>{
-            return(<>
-            <div  key={index}>
-            <Newcards Data={Himachal[index].Data} />
+          {Himachal.map((elem, index) => (
+            <div key={index}>
+              <Newcards Data={elem.Data} />
             </div>
-            
-          </>)
-          })}
-          
+          ))}
         </div>
        
       </div>

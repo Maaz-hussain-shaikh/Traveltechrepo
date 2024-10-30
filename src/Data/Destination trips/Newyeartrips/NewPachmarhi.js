@@ -11,10 +11,13 @@ const NewPachmarhi = {
     duration: "3N-4D",
     note:"Pool party and Gypsy will be subject to availability.",
     
-    Quadprice: "5499-PP",
-    Tripleprice: "5999/PP",
-    Doubleprice: "6499/PP",
-  
+    Quadprice: "4499-PP",
+    Tripleprice: "4999/PP",
+    Doubleprice: "5499/PP",
+    off:"Flat 25% Off in BTS",
+    DiscountQuadprice: "5999/-",
+    DiscountTripleprice: "6499/-",
+    DiscountDoubleprice: "6999/-",
     Batches: [
         
         { 

@@ -2,17 +2,21 @@ const NewSpiti =
 {
     name: "Spiti The White Wonder",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Manali/Destination_7.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Manali/Destination_14.png",
-        imgurl3: "/images/tripcard/Destinationimgs/Manali/Destination_1.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Manali/Destination_4.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Spiti/5.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Spiti/8.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Spiti/7.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Spiti/6.png",
     }],
     brief: `Embark on the "Majestic Spiti Valley Adventure" with your group and explore the raw, untouched beauty of the Himalayas. Known as the "Middle Land," Spiti Valley offers a perfect blend of thrill and tranquility. Journey through dramatic landscapes, ancient monasteries like Key Monastery, and traditional villages that seem frozen in time. Marvel at the stunning turquoise waters of Chandratal Lake, hike through high-altitude deserts, and experience stargazing like never before under crystal-clear night skies. With rugged terrain and breathtaking views, this group adventure to Spiti Valley promises an unforgettable experience for nature lovers and thrill-seekers alike.`,
     note: "",
-    duration: "5N-6D",
-    Quadprice: "8999/-PP",
-    Tripleprice: "9999/PP",
-    Doubleprice: "10999/PP",
+    duration: "8N-9D",
+    Quadprice: "19499/-PP",
+    Tripleprice: "19499/PP",
+    Doubleprice: "22999/PP",
+    off:"Flat 25% Off in BTS",
+    DiscountQuadprice: "24499/-",
+    DiscountTripleprice: "24499/-",
+    DiscountDoubleprice: "28149/-",
     Batches: [        
        
         { 
@@ -33,102 +37,79 @@ const NewSpiti =
     pickup: "Delhi",
     drop: "Delhi",
     it: [
-    {
-        Heading: "Arrival in Shimla",
-        Schedule: [
-
-           
-            { Scheduledetails: "Begin your trip by arriving at Chandigarh Junction at 05:00 AM. After your early morning arrival, you will be greeted and transferred to Shimla, a scenic drive of 115 km that takes around 4 hours" },
-            { Scheduledetails: "Upon reaching Shimla, you'll have the opportunity to explore the vibrant Mall Road, lined with charming shops and cafes. " },
-            { Scheduledetails: "Don't miss the chance to visit the iconic Christ Church, a beautiful example of colonial architecture, and the historic Viceregal Lodge, also known as Rashtrapati Niwas" },
-            { Scheduledetails: "If you're interested, you can also visit Jakhu Temple (at your own expense)  located on a hilltop, offering panoramic views of the surroundings." },
-            { Scheduledetails: "The day ends with a delightful dinner and a comfortable overnight stay in Shimla. " },
-
-        ],
-
-    },
-    {
-        Heading: "Shimla to Manali| Explore local beauty",
-        Schedule: [
-
-
-
-            { Scheduledetails: "After a wholesome breakfast, check out from your hotel and embark on a picturesque journey to Manali, a distance of approximately 250 km that takes 7-8 hours." },
-            { Scheduledetails: "Upon your arrival in Manali, take a leisurely evening stroll along the bustling Mall Road. Here, you can shop for souvenirs and immerse yourself in the local atmosphere." },
-            { Scheduledetails: "Enjoy the charm of Manali's local markets and treat yourself to the scenic beauty of the surrounding mountains." },
-            { Scheduledetails: "Later, relish a delicious dinner and spend the night in your hotel in Manali." },
-            
-
-
-
-        ]
-    },
-    {
-        Heading: "Atal Tunnel and Solang Valley",
-        Schedule: [
-
-            { Scheduledetails: "Start your day with a hearty breakfast and head to the Atal Tunnel, a remarkable feat of engineering that connects Manali to the Lahaul-Spiti Valley. Explore the tunnel's marvels if it is open for visitors." },
-            { Scheduledetails: "Next, venture into the picturesque Solang Valley, where you can indulge in various adventure activities such as paragliding and ziplining." },
-            { Scheduledetails: "Next, venture into the picturesque Solang Valley, where you can indulge in various adventure activities such as paragliding and ziplining." },
-            
-        ]
-
-
-    },
-    {
-        Heading: "Manali Local Sightseeing",
-        Schedule: [
-            { Scheduledetails: "After breakfast, visit the famous Hidimba Temple, a wooden temple dedicated to Goddess Hadimba, nestled amidst deodar forests." },
-            { Scheduledetails: "Continue your exploration with a visit to the Vashisht Temple, renowned for its hot springs, providing a perfect opportunity for relaxation." },
-            { Scheduledetails: "As part of your package, enjoy an exhilarating rafting experience, adding an adventurous touch to your day." },
-            { Scheduledetails: "Later, enjoy a delectable dinner and spend a restful night in Manali." },
-            
-        ]
-
-    },
-    {
-        Heading: "Kasol Exploration",
-        Schedule: [
-
-            { Scheduledetails: "Check out from your hotel after breakfast and proceed to Kasol in the scenic Parvati Valley." },
-            { Scheduledetails: "Explore the vibrant local markets, relax in cozy cafes, and visit the serene Manikaran Gurudwara with its hot springs." },
-            { Scheduledetails: "As the day winds down, embark on an overnight journey to Dharamshala, allowing you to travel comfortably and make the most of your time." },
-            
-        ]
-    },
-    {
-        Heading: "Dharamshala Sightseeing",
-        Schedule: [
-            { Scheduledetails: "Upon your arrival in Dharamshala, check in at your hotel and freshen up. Explore McLeod Ganj, a bustling area known for its Tibetan culture." },
-            { Scheduledetails: "Wander through the Tibetan market, browse unique handicrafts, and visit local monasteries to immerse yourself in the rich heritage of the region." },
-            { Scheduledetails: "Additionally, don't miss the chance to visit the scenic Cricket Stadium, offering panoramic views of the mountains." },
-            { Scheduledetails: "Conclude the day with a delectable dinner and a peaceful overnight stay in McLeod Ganj." },
-            
-        ]
-    },
-    {
-        Heading: "Dalhousie Exploration",
-        Schedule: [
-            { Scheduledetails: "After a satisfying breakfast, check out from your hotel and proceed to Dalhousie." },
-            { Scheduledetails: "Explore the enchanting Khajjiar, often referred to as Mini Switzerland, with its lush green meadows and panoramic views." },
-            { Scheduledetails: "Take a leisurely stroll around Subhash Chowk and Gandhi Chowk, absorbing the local ambiance and indulging in delicious local delicacies at Mall Road." },
-            { Scheduledetails: "Enjoy a comfortable overnight stay in Dalhousie, surrounded by the serene beauty of the hills." },
-            
-        ]
-
-
-    },
-    {
-        Heading: "Wagah Border and Golden Temple",
-        Schedule: [
-            { Scheduledetails: "On your final day, after breakfast and check-out, travel to Amritsar, a journey of approximately 4-5 hours." },
-            { Scheduledetails: "Experience the vibrant energy of the Wagah Border Ceremony, a patriotic spectacle that showcases the camaraderie and rivalry between India and Pakistan." },
-            { Scheduledetails: "Later, visit the iconic Golden Temple, a spiritual oasis that radiates peace and tranquility." },
-            { Scheduledetails: "Explore the temple complex until 11:45 PM, allowing you to witness its serene ambiance in the evening." },
-            { Scheduledetails: "Your memorable journey concludes with a drop-off at the railway station." },
-            
-        ]
-    },
+        {
+            "Heading": "Day 0: Overnight Journey from Delhi to Shimla | Kick-off Your Adventure!",
+            "Schedule": [
+                { Scheduledetails: "Depart from Delhi in the late evening for an overnight journey." },
+                { Scheduledetails: "Arrive in Shimla by morning, ready for an adventurous start." }
+            ]
+        },
+        {
+            "Heading": "Day 1: Shimla to Sangla - New Year’s Eve Celebration",
+            "Schedule": [
+                { Scheduledetails: "Start early from Shimla and travel through the mountains toward Sangla in Kinnaur Valley." },
+                { Scheduledetails: "Arrive in Sangla by afternoon, relax, and acclimate to the altitude." },
+                { Scheduledetails: "Celebrate New Year’s Eve with a special dinner and an overnight stay in Sangla." }
+            ]
+        },
+        {
+            "Heading": "Day 2: Entering Spiti Valley - Sangla to Tabo via Nako and Ka Loops",
+            "Schedule": [
+                { Scheduledetails: "Continue from Sangla into Spiti Valley through the Sumdo Border." },
+                { Scheduledetails: "Visit the serene, frozen Nako Lake nestled in the Himalayas." },
+                { Scheduledetails: "Experience the thrilling Ka Loops as you venture further into Spiti Valley." },
+                { Scheduledetails: "Arrive in Tabo by evening for an overnight stay in a cozy homestay." }
+            ]
+        },
+        {
+            "Heading": "Day 3: Monasteries & Frozen Waterfalls - Tabo to Kaza via Dhankar Monastery",
+            "Schedule": [
+                { Scheduledetails: "Visit Tabo Monastery, known for its ancient murals and statues." },
+                { Scheduledetails: "Continue to Dhankar Monastery with views of the frozen Spiti-Pin River confluence." },
+                { Scheduledetails: "Discover Lingti Waterfall, a stunning icy marvel." },
+                { Scheduledetails: "Arrive in Kaza for a comfortable evening and overnight stay." }
+            ]
+        },
+        {
+            "Heading": "Day 4: Key Monastery, Chicham Bridge & Kibber",
+            "Schedule": [
+                { Scheduledetails: "Explore Key Monastery, a grand Tibetan structure with panoramic valley views." },
+                { Scheduledetails: "Visit Chicham Bridge, Asia’s highest suspension bridge, for breathtaking sights." },
+                { Scheduledetails: "Head to Kibber Village, known for its high-altitude beauty." },
+                { Scheduledetails: "Return to Kaza for an overnight stay." }
+            ]
+        },
+        {
+            "Heading": "Day 5: High-Altitude Villages - Langza, Komik, and Hikkim",
+            "Schedule": [
+                { Scheduledetails: "Visit Langza, known as the “fossil village” with its iconic Buddha statue." },
+                { Scheduledetails: "Stop at Hikkim to visit the world’s highest post office." },
+                { Scheduledetails: "Explore Komik, the highest motorable village in Asia." },
+                { Scheduledetails: "Overnight stay in Kaza." }
+            ]
+        },
+        {
+            "Heading": "Day 6: Journey Back - Kaza to Kalpa",
+            "Schedule": [
+                { Scheduledetails: "Begin the return journey from Kaza to Kalpa." },
+                { Scheduledetails: "Stop at Lingti Falls to witness a stunning frozen waterfall." },
+                { Scheduledetails: "Arrive in Kalpa by evening for dinner and an overnight stay." }
+            ]
+        },
+        {
+            "Heading": "Day 7: Kalpa to Shimla & Overnight Journey to Delhi",
+            "Schedule": [
+                { Scheduledetails: "After breakfast, set off from Kalpa toward Shimla." },
+                { Scheduledetails: "Stop at the Rock Tunnel, the Gateway to Kinnaur, for photo opportunities." },
+                { Scheduledetails: "Reach Shimla in the evening and board an overnight bus to Delhi." }
+            ]
+        },
+        {
+            "Heading": "Day 8: Arrival in Delhi",
+            "Schedule": [
+                { Scheduledetails: "Arrive in Delhi by 8:00 AM, concluding an unforgettable journey through Spiti Valley." }
+            ]
+        }
     ],
     inclusion: [{
         icon: "Trip_Captain",

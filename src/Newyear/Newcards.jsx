@@ -19,7 +19,11 @@ const Newcards = (props) => {
                   />
 
                   
-                  <div className="absolute left-0 top-0 h-full w-full rounded-[.5rem] bg-gradient-to-t from-black/90 via-black/0"></div>
+                  <div className="absolute left-0 top-0 h-full w-full rounded-[.5rem] bg-gradient-to-t from-black/90 via-black/0">
+                  {lable==="Null"?<></>:<>
+                    <div className="absolute left-0 top-4 text-sm"><p className="rounded-r-[1.25rem] bg-white py-[0.125rem] pr-5 pl-3 text-red-800 font-bold">{lable}</p></div>
+                  </>}</div>
+                  
                   
                   <div className="absolute bottom-3 left-2 right-2 w-[calc(100%-1rem)] text-white">
                     <h2 className="line-clamp-2 text-[.75rem] font-semibold leading-4">{name}</h2>
@@ -66,7 +70,7 @@ const Newcards = (props) => {
                   />
                   <div className="absolute left-0 top-0 h-full w-full rounded-[0.75rem] bg-gradient-to-t from-black to-black/0"></div>
                   {lable==="Null"?<></>:<>
-                    <div className="absolute left-0 lg:top-4 2xl:top-6"><p className="rounded-r-[1.25rem] bg-white py-[0.125rem] pr-5 pl-3 text-red-800">{lable}</p></div>
+                    <div className="absolute left-0 lg:top-4 2xl:top-6"><p className="rounded-r-[1.25rem] bg-white py-[0.125rem] pr-5 pl-3 text-red-800 font-bold">{lable}</p></div>
                   </>}
                   
                   <div className="absolute bottom-0 left-0 right-0 w-full p-2">

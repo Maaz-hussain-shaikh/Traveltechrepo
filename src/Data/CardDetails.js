@@ -41,6 +41,8 @@ import { NewJodhpur } from "./Destination trips/Newyeartrips/NewJodhpur Jaisalme
 import { NewPachmarhi } from "./Destination trips/Newyeartrips/NewPachmarhi"
 import { NewUdaipur } from "./Destination trips/Newyeartrips/NewUdaipur"
 import NewSpiti from "./Destination trips/Newyeartrips/NewSpiti"
+import NewUttrakhand from "./Destination trips/Newyeartrips/NewUttrakhand"
+import Newhimachal from "./Destination trips/Newyeartrips/Newhimachal"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -105,7 +107,9 @@ const Maindetailsdata = {
 "NewyearJaisalmer": {info: NewJodhpur},
 "Newyearpachmarhi":{info: NewPachmarhi},
 "NewUdaipur":{info: NewUdaipur},
-"Newyearspiti":{info : NewSpiti}
+"Newyearspiti":{info : NewSpiti},
+"NewyearUttrakhand":{info: NewUttrakhand },
+"NewyearHimachal":{info: Newhimachal }
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {

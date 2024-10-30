@@ -122,6 +122,7 @@ const Tripcard = ({ data }) => {
                                   <p>{tripData.day}</p>
                                   <p>{tripData.Season}</p>
                                 </div>
+                                
                                 <p className="text-p-sm 2xl:text-p-lg">₹ {tripData.Price}</p>
                               </div>
                             </div>

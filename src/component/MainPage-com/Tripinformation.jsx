@@ -13,7 +13,7 @@ import Responcivedetails from './Responcivedetails'
 const Tripinformation = (props) => {
 
 
-  const { name, Batches, note, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl } = props.Data;
+  const { name, Batches, note, brief, duration, Quadprice, Doubleprice, Tripleprice, pickup, drop, it, inclusion, exclusion, thingstotake, Booking, Cancellation, Genterms, FAQ, imgurl,DiscountQuadprice, DiscountDoubleprice, DiscountTripleprice,off } = props.Data;
   return (
     <>
 
@@ -111,10 +111,10 @@ const Tripinformation = (props) => {
 
                 </div>
               </div>
-              <Pricechart note={note} Batches={Batches} nameoftrip={name} Quadprice={Quadprice} Tripleprice={Tripleprice} Doubleprice={Doubleprice} duration={duration} pickup={pickup} drop={drop} />
-              <Responcivedetails Batches={Batches} Quadprice={Quadprice} nameoftrip={name} Tripleprice={Tripleprice} Doubleprice={Doubleprice} duration={duration} pickup={pickup} drop={drop} />
+              <Pricechart note={note} Batches={Batches} nameoftrip={name} Quadprice={Quadprice} Tripleprice={Tripleprice} Doubleprice={Doubleprice} DiscountQuadprice={DiscountQuadprice} DiscountTripleprice={DiscountTripleprice} DiscountDoubleprice={DiscountDoubleprice} duration={duration} pickup={pickup} drop={drop} percentage={off} />
+              <Responcivedetails Batches={Batches} Quadprice={Quadprice} nameoftrip={name} Tripleprice={Tripleprice} Doubleprice={Doubleprice} DiscountQuadprice={DiscountQuadprice} DiscountTripleprice={DiscountTripleprice} DiscountDoubleprice={DiscountDoubleprice} duration={duration} pickup={pickup} drop={drop} percentage={off} />
             </div>
-
+                  
 
           </div>
          

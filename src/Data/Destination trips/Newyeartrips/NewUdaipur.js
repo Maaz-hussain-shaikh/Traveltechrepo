@@ -15,6 +15,10 @@ const NewUdaipur = {
     Quadprice: "5499/-PP",
     Tripleprice: "5999/PP",
     Doubleprice: "6499/PP",
+    off:"Flat 25% Off in BTS",
+    DiscountQuadprice: "5999/-",
+    DiscountTripleprice: "6499/-",
+    DiscountDoubleprice: "6999/-",
     Batches: [
        
          
