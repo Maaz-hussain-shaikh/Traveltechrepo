@@ -16,6 +16,7 @@ const Goagroup = {
     Quadprice: "8499/-PP",
     Tripleprice: "9499/PP",
     Doubleprice: "9999/PP",
+     off:"Flat 850/- Off On BTS",
     Batches: [ 
     
 

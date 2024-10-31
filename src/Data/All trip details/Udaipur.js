@@ -15,6 +15,7 @@ const Udaipur = {
     Quadprice: "4299/-PP",
     Tripleprice: "4799/PP",
     Doubleprice: "5399/PP",
+    off:"Flat 500/- Off On BTS",
     Batches: [
        
         { 

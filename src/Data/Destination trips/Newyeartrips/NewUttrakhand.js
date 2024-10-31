@@ -1,11 +1,11 @@
 const NewUttrakhand =
 {
-    name: "Uttraknad Explorer Edition",
+    name: "Uttarakhand Explorer Edition",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Manali/3.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Manali/1.png",
-        imgurl3: "/images/tripcard/Destinationimgs/Manali/2.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Manali/4.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Uttarakhand/23.png",
+        imgurl2: "/images/tripcard/Destinationimgs/Uttarakhand/24.png",
+        imgurl3: "/images/tripcard/Destinationimgs/Uttarakhand/25.png",
+        imgurl4: "/images/tripcard/Destinationimgs/Uttarakhand/26.png",
     }],
     brief: `Join us on the "Uttarakhand Adventure" and dive into the mesmerizing beauty of India’s Dev Bhoomi, or “Land of the Gods.” Perfect for group explorers, Uttarakhand offers a blend of adventure and spirituality. Trek through the scenic trails of Rishikesh, raft in the thrilling rapids of the Ganges, and soak in the peaceful vibes at the banks of Haridwar. Discover the snow-clad peaks of Auli, the lush landscapes of Nainital, and the divine beauty of Kedarnath and Badrinath. From tranquil lakes to towering mountains, this group trip to Uttarakhand is an unforgettable journey through nature’s wonders and sacred sites.`,
     note: "",
@@ -69,7 +69,7 @@ const NewUttrakhand =
                 { Scheduledetails: "Trek to the highest Shiva temple at 12,106 feet." },
                 { Scheduledetails: "Optional trek to Chandrashila Summit for stunning views." },
                 { Scheduledetails: "Packed lunch during the trek." },
-                { Scheduledetails: "Return to campsite for snacks and dinner." },
+                { Scheduledetails: "Return to campsite for snacks and dinner.& Later indulge in New year X-mas celebration with bonfire with music night under the starlit sky" },
                 { Scheduledetails: "Note: Chandrashila trek is weather-dependent." },
                 { Scheduledetails: "Highlight: Visiting Tungnath Temple and Chandrashila." }
             ]
@@ -108,6 +108,10 @@ const NewUttrakhand =
         inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
     },
     {
+        icon: "Music",
+        name: "Music & Bonfire",
+        inc: 'Music Night & Bonfire '},
+    {
          
         icon: "Tickets",
         name: "River rafting",
@@ -116,12 +120,12 @@ const NewUttrakhand =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: '3 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
+        inc: '4 night stay at Hotel/Camps'
     },
     {
         icon: "Meals",
         name: "Meals",
-        inc: 'A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
+        inc: 'A total of 9 meals (4 breakfasts 1 Lunch and 4 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
         icon: "Traveler",
@@ -157,11 +161,7 @@ const NewUttrakhand =
             name: "Priority High",
             inc: 'Anything not mentioned in the inclusion.'
         },
-        {
-            icon: "Rohtang_pass",
-            name: "Rohtang pass",
-            inc: 'Rohtang pass is subject to availability If it is open then it will be available at an extra cost (ie 800 per head)'
-        },
+        
         {
             icon: "Tax",
             name: "Tax",

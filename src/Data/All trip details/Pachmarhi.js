@@ -10,7 +10,7 @@ const Pachmarhi = {
     brief: `Embark on an enchanting group trip to Pachmarhi, lovingly known as The "Queen of Satpura", with Travel Tech as your trusted companion. This picturesque destination, nestled within the Satpura Range in central India, promises a breathtaking journey through lush forests, serene waterfalls, and awe-inspiring viewpoints. We take care of all the details, ensuring a seamless and enjoyable experience for you and your fellow travellers. The adventure begins with a lively pool party with DJ at our resort, setting the tone for relaxation and camaraderie. A gypsy safari into the wilds of Satpura offers thrilling encounters with diverse wildlife and the region's natural beauty. As the sun sets, our music night under the starlit sky provides the perfect backdrop for dancing, live performances of group members, group games, and creating cherished memories. Throughout your stay, you'll have the chance to partake in a variety of activities, from nature walks to sightseeing excursions, visiting iconic spots like Bee Fall, Dhoopgarh, Jata Shankar, and the beautiful trek of Chouragarh Mahadev. Let us lead you on this captivating journey to Pachmarhi, where The "Queen of Satpura" is ready to steal your heart, and you can focus on making unforgettable memories.`,
     duration: "3N-4D",
     note:"Pool party and Gypsy will be subject to availability.",
-    
+    off:"Flat 500/- Off On BTS",
     Quadprice: "4999/-PP",
     Tripleprice: "5499/PP",
     Doubleprice: "5999/PP",

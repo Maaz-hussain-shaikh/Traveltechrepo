@@ -17,6 +17,7 @@ const Kashmir = {
     Quadprice: "13499/-PP",
     Tripleprice: "15499/PP",
     Doubleprice: "16999/PP",
+    off:"Flat 1000/- Off On BTS",
     Batches: [
         { 
             id: 1,  

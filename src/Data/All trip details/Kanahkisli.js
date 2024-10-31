@@ -16,6 +16,7 @@ const Kanakisli = {
     Quadprice: "5499/-PP",
     Tripleprice: "5999/PP",
     Doubleprice: "6499/PP",
+    off:"Flat 500/- Off On BTS",
     Batches: [
         { 
             id: 1,  

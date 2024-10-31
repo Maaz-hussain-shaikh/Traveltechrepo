@@ -22,6 +22,7 @@ const JaipurRanthambore = {
     Quadprice: "5499/-PP",
     Tripleprice: "6499/PP",
     Doubleprice: "6999/PP",
+    off:"Flat 500/- Off On BTS",
     Batches: [
         { 
             id: 1,  

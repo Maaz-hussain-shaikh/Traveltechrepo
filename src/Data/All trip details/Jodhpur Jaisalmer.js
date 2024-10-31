@@ -19,6 +19,7 @@ const Jodhpur = {
     Quadprice: "5999/-PP",
     Tripleprice: "6999/PP",
     Doubleprice: "7499/PP",
+    off:"Flat 600/- Off On BTS",
     Batches: [
         
         { 

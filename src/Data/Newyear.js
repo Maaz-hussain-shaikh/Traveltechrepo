@@ -95,7 +95,7 @@ const Himachal = [
            
         },{
             Data : {lable:"Flat 15% Off in BTS", 
-                name:"Uttraknad Explorer Edition",
+                name:"Uttarakhand Explorer Edition",
             to:"Indore to Indore",
             Days:"6N/7D",
             imgurl: "/images/tripcard/Newyear/Utrakhandnew.png",
