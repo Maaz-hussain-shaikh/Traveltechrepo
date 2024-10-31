@@ -35,20 +35,20 @@ const NewUdaipur = {
             Heading: "Departure from Indore",
             Schedule: [
                 { Scheduledetails: "Group meet up interaction and introduction" },
-                { Scheduledetails: "Enjoy the traveling experience of an overnight journey to Udaipur by train (19315-Veer-Bhumi Exp)." },
-                { Scheduledetails: "Train departure timings (Friday evening):" },
-                { Scheduledetails: "Indore: 5:40 PM" },
-                { Scheduledetails: "Ujjain: 7:20 PM" },
-                { Scheduledetails: "Udaipur: 4:30 AM" },
+                { Scheduledetails: "As the sun sets, an air of excitement fills the air as our travel odyssey begins. Meet your fellow adventurers and embark on a journey to Udaipur." },
+            { Scheduledetails: "Bid adieu to your familiar surroundings as we hit the road for the overnight journey." },
+            { Scheduledetails: "Indore: 10:00 PM (Reddision Square)" },
+            { Scheduledetails: "Ujjain: 12:00 AM " },
+            { Scheduledetails: "Ratlam : 2:30 AM " },
             ]
         },
         {
             Heading: "Feel the offbeat beauty of the City of Venice",
             Schedule: [
-                { Scheduledetails: "Reach Udaipur in the early morning, witness the sunrise at Fatehsagar Lake." },
+                { Scheduledetails: "Reach Udaipur in the early morning, ." },
                 { Scheduledetails: "Complete check-in process, get fresh & Up. (Early check-in will be subject to availability) Enjoy your breakfast and then get a brief about your trip." },
-                { Scheduledetails: "We will start sightseeing of Badi Lake, Bahubali Hills, Shilpgram, Sajjangarh Fort, etc." },
-                { Scheduledetails: "Take a delicious dinner and overnight stay at the hotel." },
+                { Scheduledetails: "We will start sightseeing of Badi Lake, Bahubali Hills,Saheliyo ki Bari, Shilpgram, Sajjangarh Fort, then witness the Sunset at Fatehsagar Lake etc." },
+                { Scheduledetails: "Take a delicious dinner Enjoy NY-EVE Music night then overnight stay at the hotel." },
             ]
         },
         {
@@ -56,7 +56,7 @@ const NewUdaipur = {
             Schedule: [
                 { Scheduledetails: "Wake up early morning, have a healthy breakfast and check-out from the hotel." },
                 { Scheduledetails: "Get ready to soak in the beauty of places and explore other places." },
-                { Scheduledetails: "Explore Saheliyo ki Bari, City Palace, Jagdish Temple, local market, Dudh Talai, Karni Mata Temple, Lake Pichola, etc." },
+                { Scheduledetails: "Explore , City Palace, Jagdish Temple, local market, Gangour Ghat, Dudh Talai, Karni Mata Temple, Lake Pichola, etc." },
                 { Scheduledetails: "Take a delicious dinner and overnight journey to Indore." },
             ]
         },
@@ -77,7 +77,7 @@ const NewUdaipur = {
         {
             icon:"Accommodation",
             name: "Accommodation",
-            inc: 'Accommodation on a quad-sharing basis'
+            inc: '3 star Accomodation'
         },
         {
             icon:"Meals",

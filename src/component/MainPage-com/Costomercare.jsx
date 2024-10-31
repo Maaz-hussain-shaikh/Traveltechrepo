@@ -1,6 +1,6 @@
 import React from 'react';
 function Costomercare() {
-   const phoneNumber = '75667888885';
+   const phoneNumber = '7566788885';
     const message = 'Hey Travel tech I want to Schedule my Trip'; 
   
     // Encode phone number and message for URL

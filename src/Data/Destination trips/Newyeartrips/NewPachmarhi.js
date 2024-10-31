@@ -5,7 +5,6 @@ const NewPachmarhi = {
         imgurl2: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_18.png",
         imgurl3: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_7.png",
         imgurl4: "/images/tripcard/Destinationimgs/Pachmarhi/Destination_3.png",
-        
     }],
     brief: `Embark on an enchanting group trip to Pachmarhi, lovingly known as The "Queen of Satpura", with Travel Tech as your trusted companion. This picturesque destination, nestled within the Satpura Range in central India, promises a breathtaking journey through lush forests, serene waterfalls, and awe-inspiring viewpoints. We take care of all the details, ensuring a seamless and enjoyable experience for you and your fellow travellers. The adventure begins with a lively pool party with DJ at our resort, setting the tone for relaxation and camaraderie. A gypsy safari into the wilds of Satpura offers thrilling encounters with diverse wildlife and the region's natural beauty. As the sun sets, our music night under the starlit sky provides the perfect backdrop for dancing, live performances of group members, group games, and creating cherished memories. Throughout your stay, you'll have the chance to partake in a variety of activities, from nature walks to sightseeing excursions, visiting iconic spots like Bee Fall, Dhoopgarh, Jata Shankar, and the beautiful trek of Chouragarh Mahadev. Let us lead you on this captivating journey to Pachmarhi, where The "Queen of Satpura" is ready to steal your heart, and you can focus on making unforgettable memories.`,
     duration: "3N-4D",
@@ -44,17 +43,17 @@ const NewPachmarhi = {
         Heading: "Arrival at Pachmarhi | Satpura exploration ",
         Schedule: [
             { Scheduledetails: `Wake up to a new day of adventure in the "Queen of Satpura".` },
-            { Scheduledetails: `Enjoy a hearty breakfast to fuel up for the day ahead.Enjoy pool party"` },
-            { Scheduledetails: `Complete Check-in Process (early check-in will be subject to availability) and Get ready for sightseeing"` },
-            { Scheduledetails: "Embark on a thrilling trek to Choragarh Mahadev(Optional Only if time permits), Bada Mahadev, and Gupt Mahadev followed by visits to Green Valley and Pachmarhi Lake." },
+            { Scheduledetails: `Enjoy a hearty breakfast to fuel up for the day ahead` },
+            { Scheduledetails: `Complete Check-in Process and Get ready for sightseeing"` },
+            { Scheduledetails: "Embark on a thrilling trek to Choragarh Mahadev(Optional Only if time permits), Bada Mahadev, and Gupt Mahadev followed by visits to Green Valley ,Handi kho and lots of adventure at Pachmarhi Lake." },
             { Scheduledetails: "Take a delicious dinner and overnight stay at the hotel." },
             { Scheduledetails: "Note: All sightseeing activities are subject to availability. Travel Tech is not responsible for any points left out due to reasons such as time constraints, mechanical issues, weather conditions, or group coordination" },
-            { Scheduledetails: " Later, indulge in a music night and group activities at the resort." }
+            { Scheduledetails: " Later, indulge in a music night,Cake cutting, New year celebration and  group activities at the camp site." }
         ],
 
     },
     {
-        Heading: "adventure continues | Gyspsy safari | waterfall | sunset point",
+        Heading: "Adventure continues | Gyspsy safari | waterfall | sunset point",
         Schedule: [
             { Scheduledetails: "Start your day with a wakeup call.Enjoy your breakfast checkout from the resort then get briefed about your Trip." },
             { Scheduledetails: "A day is with full of advanture with gypsy ride. Get ready to soak in the beauty of places and explore other places." },
@@ -63,7 +62,7 @@ const NewPachmarhi = {
         ]
     },
     {
-        Heading: "arrival at your home with lots of memories with strangers",
+        Heading: "Arrival at your home with lots of memories with strangers",
         Schedule: [
             { Scheduledetails: "Drop in bhopal at 2:00 AM and indore at 6:30 AM " },
             { Scheduledetails: `Trip ends here but memories will last forever. And you can call yourself a #Traveltrekker and now part of Central India's fastest-growing and coolest community. We hope you will join us in upcoming fun-filled trips.` },
@@ -78,9 +77,17 @@ const NewPachmarhi = {
         "inc": "Experienced Trip Captain (Only IF 12+ Members In A group)"
     },
     {
+        icon: "Cake",
+        name: "Complimentry Cake",
+        inc: 'Complimentry cake cutting for X-mas & New year eve'},
+        {
+            icon: "Music",
+            name: "Music & Bonfire",
+            inc: 'Music Night & Bonfire at kasol '},
+    {
         "name": "Accommodation",
         "icon": "Accommodation",
-        "inc": "1 Night stay Accommodation 3 star Resort/Hotel With 2 Overnight journey"
+        "inc": "1 Night stay in Dome Camps With 2 Overnight journey"
     },
     {
         "name": "Meals",

@@ -150,11 +150,6 @@ exclusion: [{
         "inc": "Any kind of food items or beverages that are not included in the package, like alcoholic drinks, mineral water, refreshments/lunches on the highway."
     },
     {
-        "name": "Honeymoon kit",
-        "icon": "Honeymoon_Kit",
-        "inc": "Honeymoon kit (bed decoration with candle light dinner) on extra cost."
-    },
-    {
         "name": "Priority High",
         "icon": "Priority_High",
         "inc": "Anything not mentioned in the inclusion."

@@ -186,11 +186,7 @@ const NewManali =
             name: "Priority High",
             inc: 'Anything not mentioned in the inclusion.'
         },
-        {
-            icon: "Rohtang_pass",
-            name: "Rohtang pass",
-            inc: 'Rohtang pass is subject to availability If it is open then it will be available at an extra cost (ie 800 per head)'
-        },
+        
         {
             icon: "Tax",
             name: "Tax",
@@ -244,11 +240,7 @@ const NewManali =
         name: "Reusable Water bottle",
         inc: 'Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination.'
     },
-    {
-        icon: "Sim_Card",
-        name: "Sim Card",
-        inc: 'There wil be only jio and Bsnl Sim will be work in Forest area'
-    },
+   
     {
         icon: "Spare_Plastic_Bags",
         name: "Spare Plastic Bags",

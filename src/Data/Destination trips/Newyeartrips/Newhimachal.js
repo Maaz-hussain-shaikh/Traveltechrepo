@@ -59,18 +59,21 @@ const Newhimachal =
             "Heading": "Shimla to Kasol via Kullu | Adventure Awaits!",
             "Schedule": [
                 { Scheduledetails: "After breakfast, check out and drive toward Kasol, passing through the scenic Kullu Valley." },
-                { Scheduledetails: "Enjoy thrilling river rafting on the Beas River and paragliding in Kullu." },
-                { Scheduledetails: "Arrive in Kasol and settle in at the campsite." },
+                { Scheduledetails: "Spend some time at the Kasol market exploring local crafts and cafes." },
+                { Scheduledetails: "visit Manikaran Gurudwara, known for its natural hot springs and spirituality." },
                 { Scheduledetails: "Enjoy a bonfire and DJ night as the night falls." },
-                { Scheduledetails: "Overnight stay in a tent at the Kasol campsite under a starlit sky." }
+                { Scheduledetails: "Overnight stay at Kasol/Manali under a starlit sky." }
             ]
         },
         {
             "Heading": "Kasol - Manikaran - Manali | A Day of Exploration!",
             "Schedule": [
-                { Scheduledetails: "Post breakfast, visit Manikaran Gurudwara, known for its natural hot springs and spirituality." },
-                { Scheduledetails: "Spend some time at the Kasol market exploring local crafts and cafes." },
-                { Scheduledetails: "Drive to Manali and check in to your hotel." },
+                { Scheduledetails: "The day starts early as you wake up and just after breakfast, start traveling towards the beautiful town of Kullu." },
+            { Scheduledetails: "Spend some time in the beautiful Kullu Valley, Enjoy adventurous memories and rafting through the icy waters and Paragliding Through Sky Touching Mountains." },
+            { Scheduledetails: "Visit the Kullu Shawl Factory and the Rabbit farm, and make a special visit to Vaishnodevi Temple." },               
+                
+                { Scheduledetails: "Drive to Manali and enjoy delicious dinner" },
+                { Scheduledetails: "Later, indulge in a music night,Cake cutting, New year celebration and  group activities at the Hotel." },
                 { Scheduledetails: "Overnight stay at a comfortable hotel in Manali." }
             ]
         },
@@ -123,7 +126,14 @@ const Newhimachal =
         icon: "Trip_Captain",
         name: "Trip Captain",
         inc: 'Experienced Trip Captain (Only IF 12+ Members In A group)'
-    },
+    },{
+        icon: "Cake",
+        name: "Complimentry Cake",
+        inc: 'Complimentry cake cutting for X-mas & New year eve'},
+        {
+            icon: "Music",
+            name: "Music & Bonfire",
+            inc: 'Music Night & Bonfire at kasol '},
     {
          
         icon: "Tickets",
@@ -133,12 +143,12 @@ const Newhimachal =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: '3 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
+        inc: 'Accommodation on Sharing basis as per the itinerary (Hotel/Camps with trusted venders)'
     },
     {
         icon: "Meals",
         name: "Meals",
-        inc: 'A total of 6 meals (3 breakfasts and 3 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
+        inc: 'A total of 10 meals (5 breakfasts and 5 dinners). Kindly note, considering the remoteness of the place, the supply of breakfast and dinner might have limited varieties.'
     },
     {
         icon: "Traveler",

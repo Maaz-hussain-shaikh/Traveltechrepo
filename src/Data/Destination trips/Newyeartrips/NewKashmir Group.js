@@ -58,7 +58,7 @@ const NewKashmir = {
             { Scheduledetails: "You will then proceed towards Pahalgam, also known as the Valley of Shepherds." },
             { Scheduledetails: "Explore the beautiful Aru Valley. Aru Valley is a small village famous for its scenic beauty and offers various adventure activities." },
             { Scheduledetails: "Proceed towards one of the most popular tourist destinations, the Betaab Valley, which offers stunning views of the Lidder River surrounded by heavenly natural charm." },
-            { Scheduledetails: "Further, you will be visiting Chandanwari, famous for its snow bridge and the starting point of the holy Amarnath Yatra." },
+            { Scheduledetails: "Further, you will be visiting Chandanwari, famous for its snow bridge and the starting point of the holy Amarnath Yatra. Or we will start hike to the mini switzerland baisaran valley trek" },
             { Scheduledetails: "After a day full of beautiful sightseeing and thrilling adventures, overnight stay at the hotel in Srinagar. (Local taxi will be hired by the guest)" }
 
         ]

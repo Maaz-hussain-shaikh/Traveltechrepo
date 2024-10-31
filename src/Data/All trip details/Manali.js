@@ -13,7 +13,7 @@ const Manali =
     Quadprice: "7499/-",
     Tripleprice: "8499/-",
     Doubleprice: "8999/-",
-    off:"20",
+    off:"",
     DiscountQuadprice: "7999/-",
     DiscountTripleprice: "8999/-",
     DiscountDoubleprice: "9499/-",
@@ -168,7 +168,7 @@ const Manali =
     pickup: "Indore/Bhopal/Maharastra/Delhi",
     drop: "Indore/Bhopal/Maharastra/Delhi",
     it: [{
-        Heading: "departure from base locations",
+        Heading: "Departure from base locations",
         Schedule: [
 
             { Scheduledetails: "Meet and greet the representative at the pre-decided location." },
@@ -180,7 +180,7 @@ const Manali =
 
     },
     {
-        Heading: "self explore delhi & departure to manali",
+        Heading: "Self explore delhi & departure to manali",
         Schedule: [
 
             { Scheduledetails: "Reach Delhi in the morning and explore the capital of India." },
@@ -250,7 +250,7 @@ const Manali =
         ]
     },
     {
-        Heading: "good bye to the mountains | reach home",
+        Heading: "Good bye to the mountains | reach home",
         Schedule: [
             { Scheduledetails: "Farewell to the Mountains" },
             { Scheduledetails: "Travelers from Indore, Bhopal, Ahmedabad, Maharashtra, Jaipur will depart from their destinations by train at the given timings, led by Trip Captains." },

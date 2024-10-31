@@ -38,22 +38,25 @@ const NewSpiti =
     drop: "Delhi",
     it: [
         {
-            "Heading": "Day 0: Overnight Journey from Delhi to Shimla | Kick-off Your Adventure!",
+            "Heading": "Overnight Journey from Delhi to Shimla | Kick-off Your Adventure!",
             "Schedule": [
-                { Scheduledetails: "Depart from Delhi in the late evening for an overnight journey." },
-                { Scheduledetails: "Arrive in Shimla by morning, ready for an adventurous start." }
+                { Scheduledetails: "The group assembles at the pick-up point (Majnu ka tila)" },
+                { Scheduledetails: "we'll meet the team captain and small trip briefing session will be conducted" },
+                { Scheduledetails: "Depart from Delhi in the late evening for an overnight journey by bus" },
+               
             ]
         },
         {
-            "Heading": "Day 1: Shimla to Sangla - New Year’s Eve Celebration",
+            "Heading": "Shimla to Sangla - New Year’s Eve Celebration",
             "Schedule": [
-                { Scheduledetails: "Start early from Shimla and travel through the mountains toward Sangla in Kinnaur Valley." },
+                { Scheduledetails: "Arrive in Shimla by morning, ready for an adventurous start." },
+                { Scheduledetails: "Start early from Shimla and travel through the mountains toward Sangla in Kinnaur Valley by traveller" },
                 { Scheduledetails: "Arrive in Sangla by afternoon, relax, and acclimate to the altitude." },
                 { Scheduledetails: "Celebrate New Year’s Eve with a special dinner and an overnight stay in Sangla." }
             ]
         },
         {
-            "Heading": "Day 2: Entering Spiti Valley - Sangla to Tabo via Nako and Ka Loops",
+            "Heading": "Entering Spiti Valley - Sangla to Tabo via Nako and Ka Loops",
             "Schedule": [
                 { Scheduledetails: "Continue from Sangla into Spiti Valley through the Sumdo Border." },
                 { Scheduledetails: "Visit the serene, frozen Nako Lake nestled in the Himalayas." },
@@ -62,7 +65,7 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Day 3: Monasteries & Frozen Waterfalls - Tabo to Kaza via Dhankar Monastery",
+            "Heading": "Monasteries & Frozen Waterfalls - Tabo to Kaza via Dhankar Monastery",
             "Schedule": [
                 { Scheduledetails: "Visit Tabo Monastery, known for its ancient murals and statues." },
                 { Scheduledetails: "Continue to Dhankar Monastery with views of the frozen Spiti-Pin River confluence." },
@@ -71,7 +74,7 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Day 4: Key Monastery, Chicham Bridge & Kibber",
+            "Heading": "Key Monastery, Chicham Bridge & Kibber",
             "Schedule": [
                 { Scheduledetails: "Explore Key Monastery, a grand Tibetan structure with panoramic valley views." },
                 { Scheduledetails: "Visit Chicham Bridge, Asia’s highest suspension bridge, for breathtaking sights." },
@@ -80,7 +83,7 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Day 5: High-Altitude Villages - Langza, Komik, and Hikkim",
+            "Heading": "High-Altitude Villages - Langza, Komik, and Hikkim",
             "Schedule": [
                 { Scheduledetails: "Visit Langza, known as the “fossil village” with its iconic Buddha statue." },
                 { Scheduledetails: "Stop at Hikkim to visit the world’s highest post office." },
@@ -89,7 +92,7 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Day 6: Journey Back - Kaza to Kalpa",
+            "Heading": "Journey Back - Kaza to Kalpa",
             "Schedule": [
                 { Scheduledetails: "Begin the return journey from Kaza to Kalpa." },
                 { Scheduledetails: "Stop at Lingti Falls to witness a stunning frozen waterfall." },
@@ -97,7 +100,7 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Day 7: Kalpa to Shimla & Overnight Journey to Delhi",
+            "Heading": "Kalpa to Shimla & Overnight Journey to Delhi",
             "Schedule": [
                 { Scheduledetails: "After breakfast, set off from Kalpa toward Shimla." },
                 { Scheduledetails: "Stop at the Rock Tunnel, the Gateway to Kinnaur, for photo opportunities." },
@@ -105,7 +108,7 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Day 8: Arrival in Delhi",
+            "Heading": "Arrival in Delhi",
             "Schedule": [
                 { Scheduledetails: "Arrive in Delhi by 8:00 AM, concluding an unforgettable journey through Spiti Valley." }
             ]
@@ -119,12 +122,12 @@ const NewSpiti =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: '3 night stay 3 star Hotel with Two overnight journey. (Delhi to Delhi)'
+        inc: 'Accommodation on Sharing basis as per the itinerary (Hotel/Homestays with trusted venders)'
     },
     {
         icon: "Meals",
         name: "Meals",
-        inc: '6 Breakfasts, 0 Lunches and 6 Dinners are included in this package which will be a Veg/Non-Veg Meal as per location.'
+        inc: '6 Breakfasts, and 6 Dinners are included in this package which will be a Veg/Non-Veg Meal as per location.'
     },
     {
         icon: "Traveler",
@@ -137,8 +140,7 @@ const NewSpiti =
          
             icon: "Tickets",
             name: "Tickets",
-            inc: "Monument entry tickets and expenses on any activities ( riverrafting,paragliding, snow games) which are not mentioned in the itinerary."
-        },
+            inc: "Monument entry tickets and expenses on any activitie" },
         {
             icon: "Natural_Calamities",
             name: "Natural Calamities",
@@ -160,22 +162,12 @@ const NewSpiti =
             name: "Priority High",
             inc: 'Anything not mentioned in the inclusion.'
         },
-        {
-            icon: "Rohtang_pass",
-            name: "Rohtang pass",
-            inc: 'Rohtang pass is subject to availability If it is open then it will be available at an extra cost (ie 800 per head)'
-        },
+       
         {
             icon: "Tax",
             name: "Tax",
             inc: '5% Tax'
         },
-        {
-            icon: "Warning",
-            name: "Warning",
-            inc: 'NOTE-We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",'
-        },
-
         {
             icon: "Personal_Expenses",
             name: "Personal Expenses",
@@ -218,11 +210,7 @@ const NewSpiti =
         name: "Reusable Water bottle",
         inc: 'Stay hydrated during your trek by carrying a reusable water bottle. Consider a bottle with a built-in filter if you are unsure about the water quality at your destination.'
     },
-    {
-        icon: "Sim_Card",
-        name: "Sim Card",
-        inc: 'There wil be only jio and Bsnl Sim will be work in Forest area'
-    },
+    
     {
         icon: "Spare_Plastic_Bags",
         name: "Spare Plastic Bags",
