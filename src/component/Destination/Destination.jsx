@@ -42,7 +42,7 @@ const Destination = () => {
             <div className="jCihag">
         <div className="kwYMGm ">
 
-          <div className=" "><h2 className=" text-red-600  font-bold text-center sm:text-3xl text-2xl">X-mas & New Year Trips</h2></div>
+          <div className=" "><h2 className=" text-red-600  font-bold text-center sm:text-3xl text-2xl">Explore all Package</h2></div>
 
         </div>
 
