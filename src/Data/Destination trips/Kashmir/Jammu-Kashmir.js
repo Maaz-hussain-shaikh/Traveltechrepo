@@ -1,4 +1,4 @@
-const Kashmir = {
+const  JammuKashmir = {
     name: "Fitoor-E-Kashmir",
     imgurl: [{
         imgurl1: "/images/tripcard/Destinationimgs/Kashmir/Destination_14.png",
@@ -12,17 +12,17 @@ const Kashmir = {
     Kashmir is also a popular destination for adventure seekers, with opportunities for hiking, trekking, skiing, and mountaineering in the surrounding mountains. The region's cuisine is a blend of Indian, Persian, and Central Asian influences, featuring dishes like Rogan Gosh, Gushtaba, and Kashmiri Pulao.
     However, the region has been a subject of dispute between India and Pakistan since the two countries gained independence in 1947. The conflict has had an impact on tourism in the region, with periodic periods of unrest and violence leading to travel advisories and a decline in visitor numbers. Despite this, the region remains a popular destination for those seeking natural beauty, adventure, and cultural experiences.
     `,
-    note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
-    duration: "7N-8D",
-    Quadprice: "12999/-",
-    Tripleprice: "13999/-",
-    Doubleprice: "15499/-",
+    note: "",
+    duration: "5N-6D",
+    Quadprice: "11499/-",
+    Tripleprice: "12499/-",
+    Doubleprice: "13999/-",
     off:"Flat 20% Off in BTS",
     DiscountQuadprice: "16499/-",
     DiscountTripleprice: "17699/-",
     DiscountDoubleprice: "19999/-",
     Batches: [
-        { 
+        {
             id: 1,  
             date: 'Batch-1 (1st to 8th Nov)'  
         },
@@ -58,23 +58,14 @@ const Kashmir = {
 
     ],
     
-    pickup: "Indore/Bhopal/Jammu/Delhi",
-    drop: "Indore/Bhopal/Jammu/Delhi",
-    it: [{
-        Heading: "Departure from Indore",
+    pickup: "Jammu",
+    drop: "Jammu",
+    it: [
+    {
+        Heading: "Goup meet up and Jammu to PAHALGAM transfer",
         Schedule: [
             { Scheduledetails: "Group meet up interaction and introduction" },
-            { Scheduledetails: "Enjoy the traveling experience of an overday and overnight journey to katra/Jammu by train (Malwa exp)." },
-            { Scheduledetails: "Train departure timings" },
-            { Scheduledetails: "Indore: 12:05 PM" },
-            { Scheduledetails: "Bhoapl: 5:20 PM" },
-            { Scheduledetails: "Delhi: 4:15 AM" },
-        ]
-    },
-    {
-        Heading: "Jammu to PAHALGAM transfer",
-        Schedule: [
-            { Scheduledetails: "Reach Jammu in the morning and transfer to Pahalgam (5-6 hrs). You'll be transferred to your hotel with care and convenience, complete the check-in process, and relax in the hotel." },
+            { Scheduledetails: "Then we transfer to Pahalgam (5-6 hrs). You'll be transferred to your hotel with care and convenience, complete the check-in process, and relax in the hotel." },
             { Scheduledetails: "If time allows during the journey, we may make a stop to explore nearby attractions." },
             { Scheduledetails: "Have a delicious dinner and overnight stay at the hotel." }
 
@@ -134,7 +125,7 @@ const Kashmir = {
         
     },
     {
-        Heading: "bye bye to the mountains",
+        Heading: "Bye bye to the mountains",
         Schedule: [
             { Scheduledetails: "Bid goodbye to the mountains." },
             { Scheduledetails: "You will reach Katra at 5 am." },
@@ -361,4 +352,4 @@ const Kashmir = {
     ],
 };
 
-export { Kashmir };
+export { JammuKashmir };

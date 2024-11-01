@@ -43,6 +43,7 @@ import { NewUdaipur } from "./Destination trips/Newyeartrips/NewUdaipur"
 import NewSpiti from "./Destination trips/Newyeartrips/NewSpiti"
 import NewUttrakhand from "./Destination trips/Newyeartrips/NewUttrakhand"
 import Newhimachal from "./Destination trips/Newyeartrips/Newhimachal"
+import { JammuKashmir } from "./Destination trips/Kashmir/Jammu-Kashmir"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -58,6 +59,7 @@ const Maindetailsdata = {
     "Himachal": { more: Himachal },
     //  ==================================================Kashmir=================================   
     "Kashmir": { info: Kashmir, more: Kashmir_trips },
+    "JammuKashmir": {info: JammuKashmir},
     "Kashmir Personal 7n8d": { info: Kashmir7n8d },
     "Kashmir Personal 4n5d": { info: Kashmir4n5d },
     //  =================================================Pachmarhi===============================   
@@ -132,7 +134,7 @@ const Cardfirst = {
 
     },
     
-    "Kashmir": {lable:"Flat 1000/- Off ",
+    "Kashmir": {lable:"Flat 500/- Off ",
         imgurl: "images/tripcard/Grouptrip/Kashmir.png",
         iturl: "Details/Kashmir",
         Price: "13499",

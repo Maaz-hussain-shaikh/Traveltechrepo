@@ -9,20 +9,22 @@ const  Uttrakhand = {
     [
         {
             name: "Kedarnath A spiritual trip | 6 Night 7 Day",
-            tag:"Best Saller",
-            days:"6N-7D",
+            lable:"Best Saller",
+            Days:"6N-7D",
             imgurl: "/images/tripcard/Destinationimgs/Kedarnath/Destination_1.png",
-            btn: "/Details/Kedarnath",
+            iturl: "/Details/Kedarnath",
             Price: "10999",
+            to:"Delhi to Delhi"
     
         },
         {
             name: "Rishikesh-Haridwar with Masoorie | 4 night 5 Day",
-            tag:"Best Saller",
-            days:"4N-5D",
+            lable:"Best Saller",
+            Days:"4N-5D",
             imgurl: "/images/tripcard/Destinationimgs/Kedarnath/Destination_3.png",
-            btn: "/Details/Rishikesh Haridwar",
+            iturl: "/Details/Rishikesh Haridwar",
             Price: "7999",
+            to:"Delhi to Delhi"
     
         },
        
