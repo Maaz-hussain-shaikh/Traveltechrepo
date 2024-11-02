@@ -113,6 +113,7 @@ const Navbar = () => {
                     <div className="mt-6 flow-root">
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
+                                {<NavlinksBar name='X-mas & New Year' url='/X-mas' icon="fa-solid fa-sleigh" />}
                                 <li className="flex flex-col text-dark  cursor-pointer" onClick={() => { upshowtrip(!showtrip) }}>
                                     <div className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                     >

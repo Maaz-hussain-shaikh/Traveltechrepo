@@ -11,6 +11,7 @@ const Himachal = [
         Discount: "9999",}
        
     }, 
+   
     {
             Data : {lable:"Flat 15% Off in BTS", 
                 name:"Spiti The White Wonder",
