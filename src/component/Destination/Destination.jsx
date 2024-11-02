@@ -33,30 +33,30 @@ const Destination = () => {
                   className="object-cover object-center w-full sm:rounded-b-lg  shadow-md sm:rounded-t-lg h-108 sm:h-144 2xl:192 "
                 />
               </div>
-           
-             
-             
+
+
+
 
             </section>
 
             <div className="jCihag">
-        <div className="kwYMGm ">
+              <div className="kwYMGm ">
 
-          <div className=" "><h2 className=" text-red-600  font-bold text-center sm:text-3xl text-2xl">Explore all Package</h2></div>
+                <div className=" "><h2 className=" text-red-600  font-bold text-center sm:text-3xl text-2xl">Explore all Package</h2></div>
 
-        </div>
+              </div>
 
 
-        <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:gap-10 mx-auto mt-8">
-          {Maindetailsdata[selectedTrip].more.trips.map((elem, index) => (
-            <div key={index}>
-              <Newcards Data={Maindetailsdata[selectedTrip].more.trips[index]} />
+              <div className="grid lg:grid-cols-4 grid-cols-2 gap-4 lg:gap-10 mx-auto mt-8">
+                {Maindetailsdata[selectedTrip].more.trips.map((elem, index) => (
+                  <div key={index}>
+                    <Newcards Data={Maindetailsdata[selectedTrip].more.trips[index]} />
+                  </div>
+                ))}
+              </div>
+
             </div>
-          ))}
-        </div>
 
-      </div>
-             
           </>
 
         ) : (

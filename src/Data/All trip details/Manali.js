@@ -13,7 +13,7 @@ const Manali =
     Quadprice: "7299/-",
     Tripleprice: "8299/-",
     Doubleprice: "8799/-",
-    off:" Flat 700/- Off On BTS",
+    off:" Flat 700/- Off Till 10th Nov",
     DiscountQuadprice: "7999/-",
     DiscountTripleprice: "8999/-",
     DiscountDoubleprice: "9499/-",

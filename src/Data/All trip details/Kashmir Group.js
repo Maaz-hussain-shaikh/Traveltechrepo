@@ -14,10 +14,13 @@ const Kashmir = {
     `,
     note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "7N-8D",
-    Quadprice: "13499/-PP",
-    Tripleprice: "15499/PP",
-    Doubleprice: "16999/PP",
-    off:"Flat 1000/- Off On BTS",
+    Quadprice: "12999/-PP",
+    Tripleprice: "13999/PP",
+    Doubleprice: "15499/PP",
+    off:"Flat 500/- Off Till 10th Nov",
+    DiscountQuadprice: "13499/-",
+    DiscountTripleprice: "14499/-",
+    DiscountDoubleprice: "15999/-",
     Batches: [
         { 
             id: 1,  
@@ -53,8 +56,8 @@ const Kashmir = {
         }
     ],
     
-    pickup: "Indore/Bhopal/Jammu/Delhi",
-    drop: "Indore/Bhopal/Jammu/Delhi",
+    pickup: "Indore/Ahamdabad/Maharashtra",
+    drop: "Indore/Ahamdabad/Maharashtra",
     it: [{
         Heading: "Departure from Indore",
         Schedule: [

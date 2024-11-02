@@ -17,10 +17,20 @@ const Kashmir_trips = {
             Discount: "12499/-"
         },
         {
+            name: "Kashmir Group Trip | Free Shikara Ride",
+            lable: "Group trip",
+            Days: "7N-8D",
+            to: "Base Location ",
+            imgurl: "/images/tripcard/Destinationimgs/Kashmir/Destination_1.png",
+            iturl: "/Details/Kashmir",
+            Price: "12999",
+            Discount: "13499/-"
+        },
+        {
             name: "Fitoor-e-Kashmir | Tulip garden special  ",
-            lable: "Best Seller",
-            Days: "7N-7D",
-            to: "Delhi to Delhi",
+            lable: "Customized",
+            Days: "7N-8D",
+            to: "Base Location ",
             imgurl: "/images/tripcard/Destinationimgs/Kashmir/Kashmirtrip.png",
             iturl: "/Details/Kashmir Personal 7n8d",
             Price: "15999",
@@ -30,7 +40,7 @@ const Kashmir_trips = {
             name: "Kashmir Honyemoon Getaway | Free Shikara Ride",
             lable: "Customized",
             Days: "4N-5D",
-            to: "Delhi to Delhi",
+            to: "Srinagar to Srinagar",
             imgurl: "/images/tripcard/Destinationimgs/Kashmir/Destination_1.png",
             iturl: "/Details/Kashmir Personal 4n5d",
             Price: "13499",

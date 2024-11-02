@@ -12,11 +12,14 @@ const Goagroup = {
     `,
     note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
 
-    duration: "6N-6D",
-    Quadprice: "8499/-PP",
-    Tripleprice: "9499/PP",
-    Doubleprice: "9999/PP",
-     off:"Flat 850/- Off On BTS",
+    duration: "5N-6D",
+    Quadprice: "7649/-",
+    Tripleprice: "8649/-",
+    Doubleprice: "9149/-",
+     off:"Flat 850/- Off Till 10th Nov",
+     DiscountQuadprice: "8499/-",
+    DiscountTripleprice: "9499/-",
+    DiscountDoubleprice: "9999/-",
     Batches: [ 
     
 

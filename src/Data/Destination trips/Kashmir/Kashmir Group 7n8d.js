@@ -13,7 +13,7 @@ const Kashmir7n8d = {
     However, the region has been a subject of dispute between India and Pakistan since the two countries gained independence in 1947. The conflict has had an impact on tourism in the region, with periodic periods of unrest and violence leading to travel advisories and a decline in visitor numbers. Despite this, the region remains a popular destination for those seeking natural beauty, adventure, and cultural experiences.
     `,
     note: "We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
-    duration: "7N-7D",
+    duration: "7N-8D",
     Quadprice: "15999/-PP",
     Tripleprice: "17999/PP",
     Doubleprice: "18999/PP",
@@ -26,16 +26,16 @@ const Kashmir7n8d = {
 
     ],
     
-    pickup: "Indore/Bhopal/Delhi/Jammu",
-    drop: "Indore/Bhopal/Delhi/Jammu",
+    pickup: "Indore/Bhopal/Ahamdabad/Maharashtra",
+    drop: "Indore/Bhopal/Ahamdabad/Maharashtra",
     it: [{
-        Heading: "Departure from Indore",
+        Heading: "Departure from base locations",
         Schedule: [
             { Scheduledetails: "Departing from base locations" },
             { Scheduledetails: "Enjoy the traveling experience of an overday and overnight journey to katra/Jammu by train (Malwa exp)." },
             { Scheduledetails: "Train departure timings" },
             { Scheduledetails: "Indore: 12:05 PM" },
-            { Scheduledetails: "Bhoapl: 5:20 PM" },
+            { Scheduledetails: "Bhopal: 5:20 PM" },
             { Scheduledetails: "Delhi: 4:15 AM" },
         ]
     },
@@ -102,7 +102,7 @@ const Kashmir7n8d = {
         
     },
     {
-        Heading: "bye bye to the mountains",
+        Heading: "Bye bye to the mountains",
         Schedule: [
             { Scheduledetails: "Bid goodbye to the mountains." },
             { Scheduledetails: "You will reach Katra at 5 am." },
