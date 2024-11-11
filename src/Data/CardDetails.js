@@ -115,7 +115,7 @@ const Maindetailsdata = {
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
-    "Pachmarhi": {lable:"Flat 500/- Off ",
+    "Pachmarhi": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
         iturl: "Details/Pachmarhi",
         Price: "4999",
@@ -124,7 +124,7 @@ const Cardfirst = {
         Season: "Dec-Jun",
 
     }   ,   
-    "Manali": {lable:"Flat 700/- Off ",
+    "Manali": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
         Price: "7999",
@@ -134,7 +134,7 @@ const Cardfirst = {
 
     },
     
-    "Kashmir": {lable:"Flat 500/- Off ",
+    "Kashmir": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Kashmir.png",
         iturl: "Details/Kashmir",
         Price: "13499",
@@ -143,7 +143,7 @@ const Cardfirst = {
         Season: "Dec-June",
 
     },
-   "Goa": {lable:"Flat 850/- Off ",
+   "Goa": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/goa.png",
         iturl: "Details/Goa",
         Price: "8499",
@@ -151,7 +151,7 @@ const Cardfirst = {
         day:"5N/6D",
         Season: "Dec-jun",
     },
-    "Kerala": {lable:"Flat 1000/- Off ",
+    "Kerala": {lable:"Null",
         imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
         iturl: "Details/Kerala 4n5d",
         Price: "13499",
@@ -160,7 +160,7 @@ const Cardfirst = {
         Season: "Dec-Jun",
     },    
       
-   "Udaipur": {lable:"Flat 500/- Off ",
+   "Udaipur": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Udaipur.png",
         iturl: "Details/Udaipur",
         Price: "4299",
@@ -171,7 +171,7 @@ const Cardfirst = {
 
     },
     
-    "Udaipur Mount abu": {lable:"Flat 500/- Off ",
+    "Udaipur Mount abu": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Udaipur_maunt-abu.png",
         iturl: "Details/Udaipurmauntabu",
         Price: "4299",
@@ -181,7 +181,7 @@ const Cardfirst = {
 
     },
     
-    "Kanha Kisli": {lable:"Flat 500/- Off ",
+    "Kanha Kisli": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Kanha.png",
         iturl: "Details/Kanahkisli",
         Price: "5499",
@@ -190,7 +190,7 @@ const Cardfirst = {
         Season: "Dec-jun",
 
     },
-    "Rishikesh ": {lable:"Flat 700/- Off ",
+    "Rishikesh ": {lable:"Null",
         imgurl: "/images/tripcard/Grouptrip/Rishikesh.png",
         iturl: "Details/Rishikesh Haridwar",
         Price: "7499",
@@ -199,7 +199,7 @@ const Cardfirst = {
         Season: "Dec-jun",
 
     },
-    "Kedarnath": {lable:"Flat 500/- Off l",
+    "Kedarnath": {lable:"Null",
         imgurl: "/images/tripcard/Grouptrip/Kedarnath.png",
         iturl: "Details/Kedarnath",
         Price: "10999",
@@ -207,7 +207,7 @@ const Cardfirst = {
         day:"6N/7D",
         Season: "Oct-Nov",
     },
-    "Jaipur Ranthambore": {lable:"Flat 500/- Off ",
+    "Jaipur Ranthambore": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Jaipur.png",
         iturl: "Details/Jaipur Ranthambore",
         Price: "5499",
@@ -216,7 +216,7 @@ const Cardfirst = {
         Season: "Dec-Jun",
 
     },
-    "Jodhpur jaisalmer": {lable:"Flat 600/- Off ",
+    "Jodhpur jaisalmer": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/jaisalmer.png",
         iturl: "Details/Jodhpur Jaisalmer",
         Price: "5999",
@@ -225,7 +225,7 @@ const Cardfirst = {
         Season: "Dec-Jun",
 
     },
-    "Manali with Kullu": {lable:"Flat 500/- Off ",
+    "Manali with Kullu": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Kullumanali.png",
         iturl: "Details/Manali with Kullu",
         Price: "6999",
