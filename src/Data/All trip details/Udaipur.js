@@ -12,13 +12,13 @@ const Udaipur = {
    
     note: "",
     duration: "3N-2D",
-    Quadprice: "3699/-PP",
-    Tripleprice: "4299/PP",
-    Doubleprice: "4799/PP",
-    off:"Flat 500/- Off Till 10th Nov",
-    DiscountQuadprice: "4299/-",
-    DiscountTripleprice: "4799/-",
-    DiscountDoubleprice: "5399/-",
+    DiscountQuadprice: "5299/-PP",
+    DiscountTripleprice: "5799/PP",
+    DiscountDoubleprice: "6299/PP",
+    off:"",
+    Quadprice: "4299/-",
+    Tripleprice: "4799/-",
+    Doubleprice: "5399/-",
     Batches: [
        
         { 

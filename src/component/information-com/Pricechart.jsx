@@ -40,9 +40,9 @@ const Pricechart = (props) => {
   return (
     <>
       <div className="flex-col hidden w-full py-2 mt-4 sm:flex-grow sm:flex sm:mt-0">
-        {/* <iframe height="215" src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
+        <iframe height="215" src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         <div className='items-center'>
-        <img src="/images/Untitled design.svg" alt="Offer" fetchpriority="high" style={{ maxWidth: "400px",  }} />
+        
         </div>
         
 

@@ -19,10 +19,10 @@ const JaipurRanthambore = {
    
     note:"We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "3N-4D",
-    Quadprice: "5499/-PP",
-    Tripleprice: "6499/PP",
-    Doubleprice: "6999/PP",
-    off:"Flat 500/- Off On BTS",
+    Quadprice: "5999/-PP",
+    Tripleprice: "6999/PP",
+    Doubleprice: "7499/PP",
+    off:"",
     Batches: [
         { 
             id: 1,  

@@ -16,13 +16,13 @@ const Jodhpur = {
     `,
     note:"We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
     duration: "3N-4D",
-    Quadprice: "5399/-PP",
-    Tripleprice: "6399/PP",
-    Doubleprice: "6899/PP",
-    off:"Flat 600/- Off Till 10th Nov",
-    DiscountQuadprice: "5999/-",
-    DiscountTripleprice: "6999/-",
-    DiscountDoubleprice: "7499/-",
+    DiscountQuadprice: "7000/-PP",
+    DiscountTripleprice: "7399/PP",
+    DiscountDoubleprice: "7899/PP",
+    off:"",
+    Quadprice: "5999/-",
+    Tripleprice: "6999/-",
+    Doubleprice: "7499/-",
     Batches: [
         
         { 
