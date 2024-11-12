@@ -13,7 +13,7 @@ const Newhimachal =
     Quadprice: "14799",
     Tripleprice: "16999",
     Doubleprice: "19499",
-    off:"Flat 20% Off on BTS",
+    off:"",
     DiscountQuadprice: "18000/-",
     DiscountTripleprice: "19999/-",
     DiscountDoubleprice: "23399/-",

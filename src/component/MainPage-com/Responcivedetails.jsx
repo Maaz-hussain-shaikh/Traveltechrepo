@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom'
 const Responcivedetails = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [price, setPrice] = useState(props.Quadprice);
@@ -33,7 +33,10 @@ const Responcivedetails = (props) => {
       <section className={`bg-light rounded-t-lg border-t p-3 border-accent ${isOpen ? '' : 'hidden'} fade-y-enter-done`} style={{ maxHeight: "calc(-12rem + 100vh)" }}>
         <div className="flex flex-col w-full ">
           {/* <iframe height="215" className='rounded-lg mb-3' src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
-          <img src="/images/Untitled design.svg" alt="Offer" fetchpriority="high" style={{ maxWidth: "600px",  }} />
+          <Link to="/X-mas">
+          <img src="/images/X-mas & New year trips.png" alt="Offer" fetchpriority="high" style={{ maxWidth: "600px", marginBottom:"12px" }} />
+          </Link>
+          
           <div className="flex items-center justify-between w-full  relative">
             <h2 className="focus:outline-none text-center py-2 px-2 m-auto text-sm font-medium tracking-wide bg-orange  rounded-lg">
 

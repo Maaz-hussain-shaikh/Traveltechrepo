@@ -6,61 +6,61 @@ const Himachal = [
         Days:"5N/6D",
         imgurl: "/images/tripcard/Newyear/Manalinew.png",
         iturl: "/Details/Newyearmanali",
-        Price: "7999 20% OFF",
+        Price: "8999/-",
         season:"Dec - Jan",
         Discount: "9999",}
        
     }, 
    
     {
-            Data : {lable:"Flat 15% Off in BTS", 
+            Data : {lable:"Flat 15% Off", 
                 name:"Spiti The White Wonder",
             to:"Delhi To Delhi",
             Days:"8N/9D",
             imgurl: "/images/tripcard/Newyear/Spitinew.png",
             iturl: "/Details/Newyearspiti",
-            Price: "19499",
+            Price: "21499",
             season:"Dec - Jan",
             Discount: "24499",}
            
         },
     {
-        Data : {lable:"Flat 20% Off in BTS", 
+        Data : {lable:"Flat 20% Off ", 
             name:"Fitoor-e-Kashmir",
         to:"Indore to Indore",
         Days:"7N/8D",
         imgurl: "/images/tripcard/Newyear/kashmirnew.png",
         iturl: "/Details/NewyearKashmir",
-        Price: "14799",
+        Price: "15499/-",
         season:"Dec - Jan",
         Discount: "18499",} 
        
     },
     {
-        Data : {lable:"Flat 25% Off in BTS", 
+        Data : {lable:"Flat 25% Off ", 
             name:"The Queen of beaches Goa",
         to:"Indore to Indore",
         Days:"5N/6D",
         imgurl: "/images/tripcard/Newyear/goanew.png",
         iturl: "/Details/NewyearGoa",
-        Price: "10999",
+        Price: "11499/-",
         season:"Dec - Jan",
         Discount: "12999",}
        
     },{
-        Data : {lable:"Flat 25% Off in BTS", 
+        Data : {lable:"Flat 25% Off ", 
             name:"Jodhpur and Jaisalmer",
         to:"Indore to Indore",
         Days:"3N/4D",
         imgurl: "/images/tripcard/Newyear/jaisalmernew.png",
         iturl: "/Details/NewyearJaisalmer",
-        Price: "7499",
+        Price: "7999",
         season:"Dec - Jan",
         Discount: "9999",}
        
     },
     {
-        Data : {lable:"Flat 25% Off in BTS", 
+        Data : {lable:"Flat 25% Off ", 
             name:"Pachmarhi The Queen of satpura",
         to:"Indore to Indore",
         Days:"3N/2D",
@@ -72,13 +72,13 @@ const Himachal = [
        
     },
     {
-        Data : {lable:"Flat 25% Off in BTS", 
+        Data : {lable:"Flat 25% Off ", 
             name:"Udaipur & Bahubali hills",
         to:"Indore to Indore",
         Days:"3N/2D",
         imgurl: "/images/tripcard/Newyear/udaipurnew.png",
         iturl: "/Details/NewUdaipur",
-        Price: "4499",
+        Price: "5499",
         season:"Dec - Jan",
         Discount: "6000",}
            
@@ -95,7 +95,7 @@ const Himachal = [
             Discount: "Coming soon",}
            
         },{
-            Data : {lable:"Flat 15% Off in BTS", 
+            Data : {lable:"Flat 15% Off ", 
                 name:"Uttarakhand Explorer Edition",
             to:"Indore to Indore",
             Days:"6N/7D",

@@ -10,30 +10,34 @@ const NewManali =
     brief: `Explore Romantic Himachal with TravelTech! Embark on a journey of love and adventure amidst the enchanting landscapes of Himachal Pradesh. Immerse yourself in the serene beauty of snow-capped mountains,lush deodar forests, and blooming wildflowers,while the Beas River flows gently by. Experience the charm of the pretty hill-station of Manali as you stroll along the iconic Mall Road, with the majestic Mall Road Manali in the backdrop and breathtaking views of the valley ahead.Marvel at the beauty of Solang Valley and indulge in a tour of the historic Viceregal Lodge, as you uncover the hidden gems of this picturesque region. Discover the unexplored beauty of Manali's treehouses, offering panoramic views of the lush green jungles and towering mountains from a lofty altitude of 10,500 ft. Let the tranquility of the surroundings and the floating clouds outside your treehouse enhance your romantic getaway. Travel to Manali through winding mountain roads, with awe-inspiring snowy peaks towering in the distance, creating a mesmerizing backdrop for your journey. Explore the wonders of Sissu Atal Tunnel and embark on the Chalal trek with Kasol and Manikaran, where you can soak in the natural beauty and spiritual vibes of these enchanting destinations. End your day with riverside camping fun, where you can unwind by the river and enjoy the serene ambiance under the starlit sky. Ignite the spark of romance as you immerse yourselves in the spiritual essence of Manali, where love resonates in every corner, making it the perfect destination for celebrating your milestones with your soulmate. Travel with TravelTech, your trusted companion in organizing over 1000 trips for various groups, including strangers and corporates. Let us make your romantic getaway an unforgettable experience!`,
     note: "",
     duration: "5N-6D",
-    Quadprice: "7999/-PP",
+    Quadprice: "8999/-PP",
     Tripleprice: "8999/PP",
-    Doubleprice: "9999/PP",
-    off:"Flat 20% Off in BTS",
-    DiscountQuadprice: "8999/-",
-    DiscountTripleprice: "9999/-",
-    DiscountDoubleprice: "10999/-",
+    Doubleprice: "10999/PP",
+    off:"",
+    DiscountQuadprice: "9999/-",
+    DiscountTripleprice: "10999/-",
+    DiscountDoubleprice: "11999/-",
     Batches: [        
        
         { 
             id: 1, 
-            date: 'Batch-1 (21th to 26th Dec)' 
+            date: 'Batch-1 (21th Dec to 26th Dec)' 
         },
         { 
             id: 2, 
-            date: 'Batch-2 (28nd to 2th Jan)' 
+            date: 'Batch-2 (28th Dec to 2th Jan)' 
         },
         { 
             id: 3, 
-            date: 'Batch-3 (29nd to 3th Jan)' 
+            date: 'Batch-3 (29th Dec to 3rd Jan)' 
+        },
+        { 
+            id: 3, 
+            date: 'Batch-4 (30th Dec to 4th Jan)' 
         },
         
 
-    ],
+    ], 
     pickup: "Delhi",
     drop: "Delhi",
     it: [

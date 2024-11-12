@@ -13,12 +13,11 @@ const NewUttrakhand =
     Quadprice: "13999/-PP",
     Tripleprice: "14999",
     Doubleprice: "16999/-",
-    off:"Flat 15% Off in BTS",
+    off:"",
     DiscountQuadprice: "16499/-",
     DiscountTripleprice: "17699/-",
     DiscountDoubleprice: "19999/-",
-    Batches: [        
-       
+    Batches: [
         { 
             id: 1, 
             date: 'Batch-1 (20th Dec to 26th Dec)' 

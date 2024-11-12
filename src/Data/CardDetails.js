@@ -115,7 +115,7 @@ const Maindetailsdata = {
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
-    "Pachmarhi": {lable:"Null",
+    "Pachmarhi": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
         iturl: "Details/Pachmarhi",
         Price: "4999",
@@ -124,7 +124,7 @@ const Cardfirst = {
         Season: "Dec-Jun",
 
     }   ,   
-    "Manali": {lable:"Null",
+    "Manali": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
         Price: "7999",
@@ -134,7 +134,7 @@ const Cardfirst = {
 
     },
     
-    "Kashmir": {lable:"Null",
+    "Kashmir": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Kashmir.png",
         iturl: "Details/Kashmir",
         Price: "13499",
@@ -143,7 +143,7 @@ const Cardfirst = {
         Season: "Dec-June",
 
     },
-   "Goa": {lable:"Null",
+   "Goa": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/goa.png",
         iturl: "Details/Goa",
         Price: "8499",
@@ -151,7 +151,7 @@ const Cardfirst = {
         day:"5N/6D",
         Season: "Dec-jun",
     },
-    "Kerala": {lable:"Null",
+    "Kerala": {lable:"Best Seller",
         imgurl: "/images/tripcard/Grouptrip/Kerala.jpg",
         iturl: "Details/Kerala 4n5d",
         Price: "13499",

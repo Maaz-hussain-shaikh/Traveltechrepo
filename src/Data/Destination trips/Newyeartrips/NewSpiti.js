@@ -10,10 +10,10 @@ const NewSpiti =
     brief: `Embark on the "Majestic Spiti Valley Adventure" with your group and explore the raw, untouched beauty of the Himalayas. Known as the "Middle Land," Spiti Valley offers a perfect blend of thrill and tranquility. Journey through dramatic landscapes, ancient monasteries like Key Monastery, and traditional villages that seem frozen in time. Marvel at the stunning turquoise waters of Chandratal Lake, hike through high-altitude deserts, and experience stargazing like never before under crystal-clear night skies. With rugged terrain and breathtaking views, this group adventure to Spiti Valley promises an unforgettable experience for nature lovers and thrill-seekers alike.`,
     note: "",
     duration: "8N-9D",
-    Quadprice: "19499/-PP",
-    Tripleprice: "19499/PP",
-    Doubleprice: "22999/PP",
-    off:"Flat 25% Off in BTS",
+    Quadprice: "21499/-",
+    Tripleprice: "21499/-",
+    Doubleprice: "22499/-",
+    off:"",
     DiscountQuadprice: "24499/-",
     DiscountTripleprice: "24499/-",
     DiscountDoubleprice: "28149/-",
@@ -21,7 +21,7 @@ const NewSpiti =
        
         { 
             id: 1, 
-            date: 'Batch-1 (21th to 26th Dec)' 
+            date: 'Batch-1 (21th to 29th Dec)' 
         },
         { 
             id: 2, 
