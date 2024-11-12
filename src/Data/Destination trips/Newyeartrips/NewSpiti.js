@@ -8,7 +8,9 @@ const NewSpiti =
         imgurl4: "/images/tripcard/Destinationimgs/Spiti/6.png",
     }],
     brief: `Embark on the "Majestic Spiti Valley Adventure" with your group and explore the raw, untouched beauty of the Himalayas. Known as the "Middle Land," Spiti Valley offers a perfect blend of thrill and tranquility. Journey through dramatic landscapes, ancient monasteries like Key Monastery, and traditional villages that seem frozen in time. Marvel at the stunning turquoise waters of Chandratal Lake, hike through high-altitude deserts, and experience stargazing like never before under crystal-clear night skies. With rugged terrain and breathtaking views, this group adventure to Spiti Valley promises an unforgettable experience for nature lovers and thrill-seekers alike.`,
-    note: "",
+    note: ` • For travelers coming from outside Delhi, we recommend booking flights or trains arriving by 4 PM on the trip start date and departures after 2 PM to ensure a smooth journey.
+    • Itinerary adjustments may be needed due to weather, road conditions, or other factors, with your safety and comfort as our top priorities.
+    • Winter snowfall may limit access to places like Hikkim, Komik, and Langza. In such cases, alternative plans will ensure you still enjoy an amazing experience.`,
     duration: "8N-9D",
     Quadprice: "21499/-",
     Tripleprice: "21499/-",
@@ -47,72 +49,71 @@ const NewSpiti =
             ]
         },
         {
-            "Heading": "Shimla to Sangla - New Year’s Eve Celebration",
-            "Schedule": [
-                { Scheduledetails: "Arrive in Shimla by morning, ready for an adventurous start." },
-                { Scheduledetails: "Start early from Shimla and travel through the mountains toward Sangla in Kinnaur Valley by traveller" },
-                { Scheduledetails: "Arrive in Sangla by afternoon, relax, and acclimate to the altitude." },
-                { Scheduledetails: "Celebrate New Year’s Eve with a special dinner and an overnight stay in Sangla." }
+            "Heading": "Shimla to Sangla/Chitkul",
+            "Schedule": [ 
+                { Scheduledetails: "Depart from Shimla towards Sangla/Chitkul, known as the last village of India." },
+                { Scheduledetails: "Enjoy breathtaking views of mountains, valleys, and meadows along the way." },
+                { Scheduledetails: "Arrive in Chitkul and check into rooms or camps." },
+                { Scheduledetails: "Dinner and overnight stay in Chitkul." }
             ]
         },
         {
-            "Heading": "Entering Spiti Valley - Sangla to Tabo via Nako and Ka Loops",
+            "Heading": "Sangla/Chitkul to Tabo",
             "Schedule": [
-                { Scheduledetails: "Continue from Sangla into Spiti Valley through the Sumdo Border." },
-                { Scheduledetails: "Visit the serene, frozen Nako Lake nestled in the Himalayas." },
-                { Scheduledetails: "Experience the thrilling Ka Loops as you venture further into Spiti Valley." },
-                { Scheduledetails: "Arrive in Tabo by evening for an overnight stay in a cozy homestay." }
+                { Scheduledetails: "After breakfast, head towards Nako, famous for its Star Lake." },
+                { Scheduledetails: "Weather permitting, see views of Chitkul Peak along the way." },
+                { Scheduledetails: "Check-in at Nako, followed by dinner and an overnight stay." }
             ]
         },
         {
-            "Heading": "Monasteries & Frozen Waterfalls - Tabo to Kaza via Dhankar Monastery",
+            "Heading": "Nako to Kaza via Gue and Dhankar Monasteries",
             "Schedule": [
-                { Scheduledetails: "Visit Tabo Monastery, known for its ancient murals and statues." },
-                { Scheduledetails: "Continue to Dhankar Monastery with views of the frozen Spiti-Pin River confluence." },
-                { Scheduledetails: "Discover Lingti Waterfall, a stunning icy marvel." },
-                { Scheduledetails: "Arrive in Kaza for a comfortable evening and overnight stay." }
+                { Scheduledetails: "Depart early for Kaza, stopping at Nako Monastery and Malling Nala en route." },
+                { Scheduledetails: "Visit Gue Monastery to see the monk mummy." },
+                { Scheduledetails: "Continue to Dhankar Monastery, one of the oldest in Spiti." },
+                { Scheduledetails: "Check into a cozy hotel in Kaza, where dinner will be served." }
             ]
         },
         {
-            "Heading": "Key Monastery, Chicham Bridge & Kibber",
+            "Heading": "Kaza Sightseeing",
             "Schedule": [
-                { Scheduledetails: "Explore Key Monastery, a grand Tibetan structure with panoramic valley views." },
-                { Scheduledetails: "Visit Chicham Bridge, Asia’s highest suspension bridge, for breathtaking sights." },
-                { Scheduledetails: "Head to Kibber Village, known for its high-altitude beauty." },
-                { Scheduledetails: "Return to Kaza for an overnight stay." }
+                { Scheduledetails: "Begin the day with breakfast before setting out for a day of sightseeing." },
+                { Scheduledetails: "Visit Key Monastery, Chicham Bridge (Asia’s Highest Bridge), and Kibber Village, home to snow leopards." },
+                { Scheduledetails: "Explore Hikkim, with the world’s highest post office, Komic Village, and Langza Village with the Buddha statue." },
+                { Scheduledetails: "Return to Kaza for dinner and overnight stay." }
             ]
         },
         {
-            "Heading": "High-Altitude Villages - Langza, Komik, and Hikkim",
+            "Heading": "Kaza to Tabo via Pin Valley",
             "Schedule": [
-                { Scheduledetails: "Visit Langza, known as the “fossil village” with its iconic Buddha statue." },
-                { Scheduledetails: "Stop at Hikkim to visit the world’s highest post office." },
-                { Scheduledetails: "Explore Komik, the highest motorable village in Asia." },
-                { Scheduledetails: "Overnight stay in Kaza." }
+                { Scheduledetails: "Enjoy breakfast before setting off for Pin Valley, known for color-changing mountains." },
+                { Scheduledetails: "Arrive at Tabo Monastery by evening, known for its meditation caves." },
+                { Scheduledetails: "Check into accommodations in Tabo, followed by dinner and overnight stay." }
             ]
         },
         {
-            "Heading": "Journey Back - Kaza to Kalpa",
+            "Heading": "Tabo to Kalpa via Khab Sangam",
             "Schedule": [
-                { Scheduledetails: "Begin the return journey from Kaza to Kalpa." },
-                { Scheduledetails: "Stop at Lingti Falls to witness a stunning frozen waterfall." },
-                { Scheduledetails: "Arrive in Kalpa by evening for dinner and an overnight stay." }
+                { Scheduledetails: "Begin the day with breakfast before heading back to Kalpa." },
+                { Scheduledetails: "Enjoy views of Kinner Kailash and Suicide Point in Kalpa." },
+                { Scheduledetails: "Arrive in Kalpa by evening, staying near apple orchards with dinner provided." }
             ]
         },
         {
-            "Heading": "Kalpa to Shimla & Overnight Journey to Delhi",
+            "Heading": "Kalpa to Shimla | Overnight Bus to Delhi",
             "Schedule": [
-                { Scheduledetails: "After breakfast, set off from Kalpa toward Shimla." },
-                { Scheduledetails: "Stop at the Rock Tunnel, the Gateway to Kinnaur, for photo opportunities." },
-                { Scheduledetails: "Reach Shimla in the evening and board an overnight bus to Delhi." }
+                { Scheduledetails: "Enjoy breakfast before the drive back to Shimla." },
+                { Scheduledetails: "In the evening, board an overnight bus from Shimla to Delhi." }
             ]
         },
         {
-            "Heading": "Arrival in Delhi",
+            "Heading": "Delhi Arrival | Tour Ends",
             "Schedule": [
-                { Scheduledetails: "Arrive in Delhi by 8:00 AM, concluding an unforgettable journey through Spiti Valley." }
+                { Scheduledetails: "Arrive in Delhi early in the morning and bid farewell." },
+                { Scheduledetails: "End of the tour." }
             ]
-        }
+        },
+       
     ],
     inclusion: [{
         icon: "Trip_Captain",
@@ -122,7 +123,7 @@ const NewSpiti =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: 'Accommodation on Sharing basis as per the itinerary (Hotel/Homestays with trusted venders)'
+        inc: 'Accommodation of 6 night stay on Sharing basis as per the itinerary (1 night Chitkul, 1 Tabo , 1 Naku,2 night kaza,1 night Kalpa)'
     },
     {
         icon: "Meals",
