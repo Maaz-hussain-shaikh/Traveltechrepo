@@ -169,7 +169,10 @@ const ManaliFromDelhi =
         Schedule: [
             
             { Scheduledetails: "Reach the location coordinated by the team captain at sharp 6:00 PM." },
+            { Scheduledetails: "The group assembles at the pick-up point" },
             { Scheduledetails: "Meet and greet the representative " },
+                { Scheduledetails: "we'll meet the team captain and small trip briefing session will be conducted" },
+                { Scheduledetails: "Depart from Delhi in the late evening for an overnight journey" },
         ],
 
     },

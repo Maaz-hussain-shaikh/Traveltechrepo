@@ -1,7 +1,8 @@
 const Himachal = [
     {
-        Data : {lable:"Free river rafting", 
-            name:"Manali-Kasol-lahaul valley ",
+        Data : {
+        lable:"Free river rafting", 
+        name:"Manali-Kasol-lahaul valley ",
         to:"Delhi To Delhi",
         Days:"5N/6D",
         imgurl: "/images/tripcard/Newyear/Manalinew.png",

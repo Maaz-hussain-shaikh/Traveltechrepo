@@ -186,6 +186,9 @@ const Manali =
             { Scheduledetails: "Reach Delhi in the morning and explore the capital of India." },
             { Scheduledetails: "You can explore Lal Kila, India Gate, Qutub Minar, Humayun's Tomb, Lotus Temple, Jama Masjid, and do some shopping at Chandni Chowk/Sarojini Market, etc. (By Your Own)" },
             { Scheduledetails: "Then, reach the location coordinated by the team captain at sharp 6:00 PM." },
+            { Scheduledetails: "The group assembles at the pick-up point" },
+                { Scheduledetails: "we'll meet the team captain and small trip briefing session will be conducted" },
+                { Scheduledetails: "Depart from Delhi in the late evening for an overnight journey" },
 
         ],
 
