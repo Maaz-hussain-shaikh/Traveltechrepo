@@ -27,11 +27,11 @@ const NewSpiti =
         },
         { 
             id: 2, 
-            date: 'Batch-2 (28nd to 2th Jan)' 
+            date: 'Batch-2 (28nd to 5th Jan)' 
         },
         { 
             id: 3, 
-            date: 'Batch-3 (29nd to 3th Jan)' 
+            date: 'Batch-3 (29nd to 6th Jan)' 
         },
         
 

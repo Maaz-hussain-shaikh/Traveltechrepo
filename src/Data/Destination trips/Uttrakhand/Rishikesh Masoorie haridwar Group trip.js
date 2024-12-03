@@ -28,10 +28,9 @@ const Rishikeshharidwar =
             {
                 "Heading": "Journey from Indore to Delhi ",
                 "Schedule": [
-                    { "Scheduledetails": "Depart from Indore and travel to Delhi by road." },
+                    { "Scheduledetails": "Depart from Indore and travel to Delhi by train." },
                     { "Scheduledetails": "Enjoy the journey with scenic views along the way." },
-                    { "Scheduledetails": "Arrive in Delhi and check-in at your hotel." },
-                    { "Scheduledetails": "Overnight stay in Delhi." }
+                    { "Scheduledetails": "Overnight Journey" }
                 ]
             },
             {
@@ -54,18 +53,18 @@ const Rishikeshharidwar =
                 ]
             },
             {
-                "Heading": "Day 4:Mussoorie to Haridwar - Discover Serenity & Spirituality ",
+                "Heading": "Mussoorie to Haridwar - Discover Serenity & Spirituality ",
                 "Schedule": [
                     { "Scheduledetails": "After breakfast, proceed towards Haridwar with a stopover for sightseeing in Dehradun." },
                     { "Scheduledetails": "Visit attractions like Robber's Cave, Tapkeshwar Temple,(If Time Permits)" },
                     { "Scheduledetails": "Continue your journey to Haridwar and explore the holy city upon arrival." },
                     { "Scheduledetails": "In the evening, attend the Ganga Aarti at Har Ki Pauri." },
                     { "Scheduledetails": "Later, depart for Delhi in evening" },
-                    { "Scheduledetails": "Overnight journey to Indore." }
+                   
                 ]
             },
             {
-                "Heading": "Day 5: Drop to Indore/Bhopal",
+                "Heading": "Drop to Delhi",
                 "Schedule": [
                     { "Scheduledetails": "Arrive in Delhi in the morning and proceed for drop-off at the desired location in Indore or Bhopal." },
                     { "Scheduledetails": "Bid farewell to the beautiful memories of your trip." }
