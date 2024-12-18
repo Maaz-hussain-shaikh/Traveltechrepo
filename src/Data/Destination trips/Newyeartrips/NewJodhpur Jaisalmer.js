@@ -20,9 +20,9 @@ const NewJodhpur = {
     Tripleprice: "---",
     Doubleprice: "13999/-",
     off:"",
-    DiscountQuadprice: "10999/-",
+    DiscountQuadprice: "11999/-",
     DiscountTripleprice: "---",
-    DiscountDoubleprice: "14999/-",
+    DiscountDoubleprice: "15499/-",
     Batches: [
         { 
             id: 1, 
