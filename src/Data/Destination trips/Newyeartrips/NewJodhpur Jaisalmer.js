@@ -4,14 +4,12 @@ const NewJodhpur = {
         imgurl1: "/images/tripcard/Destinationimgs/jaisalmer/10.png",
         imgurl2: "/images/tripcard/Destinationimgs/jaisalmer/Destination_14.png",
         imgurl3: "/images/tripcard/Destinationimgs/jaisalmer/Destination_13.png",
-        imgurl4: "/images/tripcard/Destinationimgs/jaisalmer/11.png",
-       
-        
+        imgurl4: "/images/tripcard/Destinationimgs/jaisalmer/11.png",        
     }],
     brief: `Hello Travel Trekkers,Embark on a journey of crafted elegance and grandeur through the royal land of Rajasthan with our exclusive 5-day tour package - Safar-e-Rajasthan. This trip promises a beautiful and romantic experience infused with a royal ambiance.
 
     Jaisalmer, the jewel of Mewar, Rajasthan, awaits your exploration. It's a royal tourist destination renowned for its rich history, vibrant culture, and stunning architecture, perfectly blended with adventures awaiting to be discovered.During this panoramic Safar-e-Rajasthan trip, we will delve into the royal heritage at Mehrangarh Fort and Umaid Bhavan Palace, chase the mesmerizing sunset at Gadisar Lake, and behold the majestic fort view at Jaisalmer. Additionally, we'll visit Instagram-worthy spots like Patwo/Salim Singh Ki Haveli and explore the intriguing village of Kuldhara. 
-    
+
     The adventure continues with experiences such as desert safari, camel safari, bonfire music night, and much more! Don't miss out on this unforgettable journey. Book your spot now and indulge in the beauty and splendor of Rajasthan with us!
     `,
     note:"We Neither Guarantee The Confirmation Of Train Tickets In RAC Or WL Status Nor Initiate Any Refund If Got Stuck In The Same. Hence, We Won’t Entertain Any Kind Of Query Regarding The Same. If We Receive Any Calls For The Same We Have 100% Right To Cancel Your Booking Without Any Notice And No Refunds Will Be Initiated From Traveltech India",
@@ -39,7 +37,6 @@ const NewJodhpur = {
                 { Scheduledetails: "Departure for Jodhpur at 9 P.M. from base locations by Bus." },
                 { Scheduledetails: "Enjoy The over-Night journey of Jodhpur via Bus." },
                 
-             
             ],
                         
     },{

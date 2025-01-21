@@ -22,7 +22,7 @@ const Mainpage = () => {
     </Helmet>
     
       <Header/>
-      <Adsection imgsrc="images/Snow this year.png" mobsrc="images/Snow this year.png" path="/X-mas"/>
+     
       <Tripbutton/>
       <Destinationcards/> 
       <Adsection imgsrc="images/honyemoonad.png" mobsrc="images/honyemoonad.png" path="/" />     

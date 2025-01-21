@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+
 
 const Pricechart = (props) => {
   const [Batch, upbatch] = useState("Upcoming Batch")
@@ -40,10 +40,8 @@ const Pricechart = (props) => {
   return (
     <>
       <div className="flex-col hidden w-full py-2 mt-4 sm:flex-grow sm:flex sm:mt-0">
-        {/* <iframe height="215" src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
-        <Link to="/X-mas">
-        <img src="/images/X-mas & New year trips.png" alt="Offer" fetchpriority="high" style={{ maxWidth: "600px" }} />
-        </Link>
+        <iframe height="215" src="https://www.youtube.com/embed/hXAmW9SSR0U?si=vOPwFSCaDkRA_UY5" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+       
         
         <div className='items-center'>
         
