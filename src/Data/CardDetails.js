@@ -115,15 +115,15 @@ const Maindetailsdata = {
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
-    "Pachmarhi": {lable:"Best Seller",
-        imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
-        iturl: "Details/Pachmarhi",
-        Price: "4999",
-        discount: "5999",
-        day:"3N/2Day",
-        Season: "Dec-Jun",
+    "Pushkar": {lable:"Best Seller",
+        imgurl: "images/tripcard/Grouptrip/Pushkar.png",
+        iturl: "Details/pushkar",
+        Price: "5499",
+        discount: "6499",
+        day:"2N/3D",
+        Season: "Holi Special",
 
-    }   ,   
+    },
     "Manali": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
@@ -133,6 +133,25 @@ const Cardfirst = {
         Season: "Dec-June",
 
     },
+    "Spiti": {lable:"",
+        imgurl: "images/tripcard/Newyear/Spitinew.png",
+        iturl: "Details/Newyearspiti",
+        Price: "16999",
+        discount: "19000",
+        day:"8N/9D",
+        Season: "Holi Special",
+
+    },
+    "Pachmarhi": {lable:"Best Seller",
+        imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
+        iturl: "Details/Pachmarhi",
+        Price: "4999",
+        discount: "5999",
+        day:"3N/2Day",
+        Season: "Dec-Jun",
+
+    }   ,   
+   
     
     "Kashmir": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Kashmir.png",
@@ -246,9 +265,9 @@ const Cardfirst = {
 // ======================================destination cards========================================
 
 const destinationard = {
-    "New Year": {
-        url: "images/tripcard/Newyear/Chrismasnew.png",
-        href: "/X-mas",
+    "Pushker": {
+        url: "images/tripcard/Grouptrip/Pushkar.png",
+        href: "/Details/pushkar",
 
     },
     "Kashmir": {

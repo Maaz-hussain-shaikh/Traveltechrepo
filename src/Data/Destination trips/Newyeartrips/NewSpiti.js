@@ -12,9 +12,9 @@ const NewSpiti =
     • Itinerary adjustments may be needed due to weather, road conditions, or other factors, with your safety and comfort as our top priorities.
     • Winter snowfall may limit access to places like Hikkim, Komik, and Langza. In such cases, alternative plans will ensure you still enjoy an amazing experience.`,
     duration: "8N-9D",
-    Quadprice: "21499/-",
-    Tripleprice: "21499/-",
-    Doubleprice: "22499/-",
+    Quadprice: "16999/-",
+    Tripleprice: "16999/-",
+    Doubleprice: "19999/-",
     off:"",
     DiscountQuadprice: "24499/-",
     DiscountTripleprice: "24499/-",
@@ -23,15 +23,7 @@ const NewSpiti =
        
         { 
             id: 1, 
-            date: 'Batch-1 (21th to 29th Dec)' 
-        },
-        { 
-            id: 2, 
-            date: 'Batch-2 (28nd to 5th Jan)' 
-        },
-        { 
-            id: 3, 
-            date: 'Batch-3 (29nd to 6th Jan)' 
+            date: 'Batch-1 (14th to 22nd Fab)' 
         },
         
 
