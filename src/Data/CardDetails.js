@@ -44,6 +44,8 @@ import NewSpiti from "./Destination trips/Newyeartrips/NewSpiti"
 import NewUttrakhand from "./Destination trips/Newyeartrips/NewUttrakhand"
 import Newhimachal from "./Destination trips/Newyeartrips/Newhimachal"
 import { JammuKashmir } from "./Destination trips/Kashmir/Jammu-Kashmir"
+import { Vrindavan } from "./Destination trips/Newyeartrips/Vrindavan"
+import { Pushkar } from "./Destination trips/Newyeartrips/Pushkar"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -111,13 +113,15 @@ const Maindetailsdata = {
 "NewUdaipur":{info: NewUdaipur},
 "Newyearspiti":{info : NewSpiti},
 "NewyearUttrakhand":{info: NewUttrakhand },
-"NewyearHimachal":{info: Newhimachal }
+"NewyearHimachal":{info: Newhimachal },
+"Pushkar":{info: Pushkar },
+"Vrindavan":{info: Vrindavan}
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
     "Pushkar": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Pushkar.png",
-        iturl: "Details/pushkar",
+        iturl: "Details/Pushkar",
         Price: "5499",
         discount: "6499",
         day:"2N/3D",
@@ -267,7 +271,7 @@ const Cardfirst = {
 const destinationard = {
     "Pushker": {
         url: "images/tripcard/Grouptrip/Pushkar.png",
-        href: "/Details/pushkar",
+        href: "/Details/Pushkar",
 
     },
     "Kashmir": {

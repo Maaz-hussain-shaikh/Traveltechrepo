@@ -233,7 +233,7 @@ const Manali =
         Schedule: [
             { Scheduledetails: "The day starts early as you wake up and just after breakfast, start traveling towards the beautiful town of Kullu." },
             { Scheduledetails: "Spend some time in the beautiful Kullu Valley, Enjoy adventurous memories and rafting through the icy waters and Paragliding Through Sky Touching Mountains." },
-            { Scheduledetails: "Visit the Kullu Shawl Factory and the Rabbit farm, and make a special visit to Vaishnodevi Temple. Later, head towards Kasol." },
+            { Scheduledetails: "Visit the Kullu Shawl Factory, and make a special visit to Vaishnodevi Temple. Later, head towards Kasol." },
             { Scheduledetails: "While traveling to Camp Side, pass through the mystic town of Kasol, popularly known as the “Mini Israel of India”, and spend your time there." },
             { Scheduledetails: "In the evening, complete the check-in process and be ready for a bonfire & music night at camps along with delicious dinner." },
             { Scheduledetails: "Overnight stay at camps." }
