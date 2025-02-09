@@ -1,29 +1,29 @@
-const NewSpiti =
+const Sangla =
 {
-    name: "Spiti The White Wonder",
+    name: "Yeh Holi pahado wali In Sangla",
     imgurl: [{
-        imgurl1: "/images/tripcard/Destinationimgs/Spiti/5.png",
-        imgurl2: "/images/tripcard/Destinationimgs/Spiti/6.png",
-        imgurl3: "/images/tripcard/Destinationimgs/Spiti/7.png",
-        imgurl4: "/images/tripcard/Destinationimgs/Spiti/8.png",
+        imgurl1: "/images/tripcard/Destinationimgs/Sangla/Destination_3.jpg",
+        imgurl2: "/images/tripcard/Destinationimgs/Sangla/Destination_1.jpg",
+        imgurl3: "/images/tripcard/Destinationimgs/Sangla/Destination_2.jpg",
+        imgurl4: "/images/tripcard/Destinationimgs/Sangla/Destination_4.jpg",
     }],
-    brief: `Embark on the "Majestic Spiti Valley Adventure" with your group and explore the raw, untouched beauty of the Himalayas. Known as the "Middle Land," Spiti Valley offers a perfect blend of thrill and tranquility. Journey through dramatic landscapes, ancient monasteries like Key Monastery, and traditional villages that seem frozen in time. Marvel at the stunning turquoise waters of Chandratal Lake, hike through high-altitude deserts, and experience stargazing like never before under crystal-clear night skies. With rugged terrain and breathtaking views, this group adventure to Spiti Valley promises an unforgettable experience for nature lovers and thrill-seekers alike.`,
-    note: ` • For travelers coming from outside Delhi, we recommend booking flights or trains arriving by 4 PM on the trip start date and departures after 2 PM to ensure a smooth journey.
-    • Itinerary adjustments may be needed due to weather, road conditions, or other factors, with your safety and comfort as our top priorities.
-    • Winter snowfall may limit access to places like Hikkim, Komik, and Langza. In such cases, alternative plans will ensure you still enjoy an amazing experience.`,
-    duration: "8N-9D",
-    Quadprice: "16999/-",
-    Tripleprice: "16999/-",
-    Doubleprice: "19999/-",
+    brief: `Get ready for a once-in-a-lifetime Holi celebration in the breathtaking Sangla Valley! Nestled in the heart of Himachal, this isn’t just a festival—it’s a fusion of colors, culture, and pure Himalayan magic. Imagine celebrating Holi with the locals of Kinnaur, dancing to folk beats, and experiencing the unique traditions of the valley, all while being surrounded by snow-capped mountains and stunning landscapes! ❄️🌿 The best part? You won’t be alone! With TravelTech, you’ll be traveling with a group of awesome strangers who will soon become your crazy Holi squad! Whether it’s enjoying the traditional Faguli festival, grooving to the beats of Himachali dhol, or simply losing yourself in the vibrant colors of Sangla, every moment will be an adventure! 🚀💃 We’ve got it all sorted—hassle-free travel, cozy stays, and an unforgettable Holi experience! So grab your bags, embrace the spirit of the mountains, and get ready to celebrate Holi like never before!`,
+    note: ` • For travelers coming from outside Delhi, we recommend booking flights or trains arriving by 5 PM on the trip start date and departures after 9 PM to ensure a smooth journey.
+    • Itinerary adjustments may be needed de to weather, road conditions, or other factors, with your safety and comfort as our top priorities.
+    `,
+    duration: "4N-5D",
+    Quadprice: "13499/-",
+    Tripleprice: "13499/-",
+    Doubleprice: "14499/-",
     off:"",
-    DiscountQuadprice: "24499/-",
-    DiscountTripleprice: "24499/-",
-    DiscountDoubleprice: "28149/-",
+    DiscountQuadprice: "15499/-",
+    DiscountTripleprice: "15499/-",
+    DiscountDoubleprice: "16499/-",
     Batches: [        
        
         { 
             id: 1, 
-            date: 'Every Saturday' 
+            date: 'Batch-1 (11th to 15th Mar)' 
         },
         
 
@@ -34,74 +34,46 @@ const NewSpiti =
         {
             Heading: "Delhi to Shimla (Overnight Journey)",
             Schedule: [
-                { "Scheduledetails": "Pickup from Delhi and board the vehicle with your trip captain." },
-                { "Scheduledetails": "Engage in fun banter and group games during the overnight journey." }
+                { Scheduledetails: "Reach the location coordinated by the team captain at 6:00 PM." },
+                { Scheduledetails: "Group assembles at the pick-up point." },
+                { Scheduledetails: "Meet and greet the representative." },
+                { Scheduledetails: "Trip briefing session conducted by the team captain." },
+                { Scheduledetails: "Depart from Delhi and begin your overnight journey to the cool, scenic hills of Shimla." }
             ]
         },
         {
-            Heading: "Shimla to Kalpa via Narkanda & Rampur",
+            Heading: "Shimla to Sangla/Chitkul via Kinnaur Gate",
             Schedule: [
-                { "Scheduledetails": "Depart from Shimla in the morning." },
-                { "Scheduledetails": "Travel through scenic Narkanda and Rampur, admiring the Sutlej River en route to Karcham." },
-                { "Scheduledetails": "Arrive in Kalpa, check in at your hotel, and unwind with fellow travelers." }
+                { Scheduledetails: "Reach Shimla and transfer to Sangla/Chitkul." },
+                { Scheduledetails: "Enroute, visit the majestic Kinnaur Gate and enjoy panoramic mountain views." },
+                { Scheduledetails: "Overnight stay at a hotel in Sangla/Chitkul." }
             ]
         },
         {
-            Heading: "Kalpa to Nako",
+            Heading: "Sangla – Holi Celebration",
             Schedule: [
-                { "Scheduledetails": "Start your day with a hearty breakfast." },
-                { "Scheduledetails": "Journey towards Nako, stopping at Khab Sangam." },
-                { "Scheduledetails": "Visit Nako Monastery and the picturesque Nako Lake." },
-                { "Scheduledetails": "Check-in at Nako for an overnight stay, with local insights shared by the trip captain." }
+                { Scheduledetails: "Wake up early and enjoy a hearty breakfast." },
+                { Scheduledetails: "Join the vibrant Holi celebrations at Sangla – splash colors, enjoy local festivities, and experience the culture!" },
+                { Scheduledetails: "Overnight stay at a hotel in Sangla/Chitkul." }
             ]
         },
         {
-            Heading: "Nako to Kaza via GUE & Tabo Monasteries",
+            Heading: "Sangla/Chitkul to Kalpa via Reckong Peo Market",
             Schedule: [
-                { "Scheduledetails": "Wake up early and enjoy breakfast." },
-                { "Scheduledetails": "Visit the serene GUE Monastery for reflection and group photos." },
-                { "Scheduledetails": "Continue towards Kaza with a stop at the historic Tabo Monastery." },
-                { "Scheduledetails": "Arrive in Kaza, check in at your hotel/homestay, and share the day’s experiences." }
+                { Scheduledetails: "After breakfast, embark on your journey towards Kalpa." },
+                { Scheduledetails: "Stop at Reckong Peo Market to shop for local handicrafts and savor regional flavors." },
+                { Scheduledetails: "Arrive in Kalpa, check in to your hotel, and enjoy a delicious dinner." },
+                { Scheduledetails: "Overnight stay at a hotel in Kalpa." }
             ]
         },
         {
-            Heading: "Explore Spiti Valley & Kaza Highlights",
+            Heading: "Kalpa to Shimla & Return to Delhi",
             Schedule: [
-                { "Scheduledetails": "After breakfast, begin exploring the high-altitude Spiti Valley (4400m above sea level)." },
-                { "Scheduledetails": "Visit Hikkim, home to the world’s highest post office." },
-                { "Scheduledetails": "Discover Komik Gompa and Langza, followed by the Tibetan Buddhist Key Monastery." },
-                { "Scheduledetails": "Explore Kibber, a snow leopard hotspot, and visit Chicham Bridge." },
-                { "Scheduledetails": "Return to Kaza for a group dinner and fun trip recap." }
-            ]
-        },
-        {
-            Heading: "Kaza to Sangla",
-            Schedule: [
-                { "Scheduledetails": "Wake up early and enjoy breakfast." },
-                { "Scheduledetails": "Depart for Sangla, soaking in the dramatic landscapes en route." },
-                { "Scheduledetails": "Arrive in Sangla, check in at your accommodation, and join a group welcome session." }
-            ]
-        },
-        {
-            Heading: "Holi Celebration in Sangla",
-            Schedule: [
-                { "Scheduledetails": "Rise early, have breakfast, and gear up for a vibrant Holi celebration at the local Chowk." },
-                { "Scheduledetails": "Enjoy an all-day festival filled with color, music, and laughter!" },
-                { "Scheduledetails": "Cap off the day with a bonfire and DJ night at your camp." }
-            ]
-        },
-        {
-            Heading: "Sangla to Shimla (Return Journey)",
-            Schedule: [
-                { "Scheduledetails": "After breakfast, check out and begin the scenic return journey to Shimla." },
-                { "Scheduledetails": "Relax and enjoy travel time with fellow trekkers, sharing travel tales." }
-            ]
-        },
-        {
-            Heading: "Arrival in Delhi",
-            Schedule: [
-                { "Scheduledetails": "Arrive in Delhi by 10:00 AM, concluding an epic adventure." },
-                { "Scheduledetails": "Bid farewell to new friends with unforgettable memories." }
+                { Scheduledetails: "Enjoy breakfast and check out from the hotel in Kalpa." },
+                { Scheduledetails: "Begin your journey back towards Shimla." },
+                { Scheduledetails: "Enroute, visit the thrilling Suicide Point for stunning views." },
+                { Scheduledetails: "Arrive in Shimla and head to the Volvo stand for your overnight journey back to Delhi." },
+                { Scheduledetails: "Overnight journey to Delhi." }
             ]
         }
        
@@ -114,12 +86,12 @@ const NewSpiti =
     {
         icon: "Accommodation",
         name: "Accommodation",
-        inc: 'Accommodation of 6 night stay on Sharing basis as per the itinerary (1 night Chitkul, 1 Tabo , 1 Naku,2 night kaza,1 night Kalpa)'
+        inc: 'Accommodation of 2 night stay on Sharing basis as per the itinerary '
     },
     {
         icon: "Meals",
         name: "Meals",
-        inc: '6 Breakfasts, and 6 Dinners are included in this package which will be a Veg/Non-Veg Meal as per location.'
+        inc: '3 Breakfasts, and 3 Dinners are included in this package which will be a Veg/Non-Veg Meal as per location.'
     },
     {
         icon: "Traveler",
@@ -352,4 +324,4 @@ const NewSpiti =
     },
     ],
 }
-export default NewSpiti
+export default Sangla

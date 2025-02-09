@@ -46,6 +46,7 @@ import Newhimachal from "./Destination trips/Newyeartrips/Newhimachal"
 import { JammuKashmir } from "./Destination trips/Kashmir/Jammu-Kashmir"
 import { Vrindavan } from "./Destination trips/Newyeartrips/Vrindavan"
 import { Pushkar } from "./Destination trips/Newyeartrips/Pushkar"
+import Sangla from "./Destination trips/Newyeartrips/Sangla"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -115,16 +116,35 @@ const Maindetailsdata = {
 "NewyearUttrakhand":{info: NewUttrakhand },
 "NewyearHimachal":{info: Newhimachal },
 "Pushkar":{info: Pushkar },
+"Sangla":{info:Sangla },
 "Vrindavan":{info: Vrindavan}
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
     "Pushkar": {lable:"Best Seller",
-        imgurl: "images/tripcard/Grouptrip/Pushkar.png",
+        imgurl: "/images/tripcard/Newyear/38.png",
         iturl: "Details/Pushkar",
         Price: "5499",
         discount: "6499",
         day:"2N/3D",
+        Season: "Holi Special",
+
+    },
+    "Mathura Vrindavan": {lable:"",
+        imgurl: "/images/tripcard/Newyear/37.png",
+        iturl: "Details/Vrindavan",
+        Price: "8499",
+        discount: "9499",
+        day:"4N/5D",
+        Season: "Holi Special",
+
+    },
+    "Sangla Chitkul": {lable:"",
+        imgurl: "/images/tripcard/Newyear/36.png",
+        iturl: "Details/Sangla",
+        Price: "13499",
+        discount: "14499",
+        day:"4N/5D",
         Season: "Holi Special",
 
     },
@@ -271,7 +291,7 @@ const Cardfirst = {
 const destinationard = {
     "Pushker": {
         url: "images/tripcard/Grouptrip/Pushkar.png",
-        href: "/Details/Pushkar",
+        href: "/holitrips",
 
     },
     "Kashmir": {

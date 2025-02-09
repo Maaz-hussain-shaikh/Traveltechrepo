@@ -27,7 +27,7 @@ function App() {
    <Routes>
         <Route exact path='/' element={<Mainpage/>} />
         <Route exact path='/Corporate' element={<Corporate/>} />
-        <Route exact path='/X-mas' element={<Maincom/>} />
+        <Route exact path='/holitrips' element={<Maincom/>} />
         <Route exact path='/About' element={<About/>} />
         <Route exact path='/Community' element={<Community/>} />
         <Route exact path='/Franchise' element={<Franchise/>} />

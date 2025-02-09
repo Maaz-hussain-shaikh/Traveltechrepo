@@ -135,7 +135,7 @@ const Vrindavan = {
     thingstotake: [{
         icon:"Shoes",
             name: "Shoes",
-            inc: 'A good pair of hiking shoes.'
+            inc: 'A good pair of shoes.'
         },
         {
             icon:"Moisturizer",
@@ -143,14 +143,9 @@ const Vrindavan = {
             inc: 'Sunscreen or moisturizer, personal meds, and toiletries.'
         },
         {
-            icon:"Hiking",
-            name: "Hiking",
-            inc: 'Raincoat, poncho, and windcheater jackets.'
-        },
-        {
             icon:"Umbrella",
-            name: "Umbrella",
-            inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
+            name: "Accessories",
+            inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask.'
         },
         {
             icon:"Essentials",

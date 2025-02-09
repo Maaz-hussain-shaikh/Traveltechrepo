@@ -28,21 +28,21 @@ const Pushkar = {
         },
         
     ],
-    pickup: "Indore/Ratlam/Udaipur/Delhi",
-    drop: "Indore/Ratlam/Udaipur/Delhi",
+    pickup: "Indore/Ratlam/Delhi",
+    drop: "Indore/Ratlam/Delhi",
     it: 
          [
             {
-                Heading: "Departure from Indore & Arrival in Pushkar",
+                Heading: "Departure from Indore & Pushkar Sightseeing",
                 Schedule: [
                     { "Scheduledetails": "Departure from Indore at 4:30 AM." },
-                    { "Scheduledetails": "Arrival in Pushkar at 1:30 PM." },
-                    { "Scheduledetails": "Transfer to hotel, check-in, and get ready for sightseeing." },
-                    { "Scheduledetails": "Visit Brahma Temple, Savitri Mata Temple, Varaha Ghat, Pushkar Lake, Rangji Temple." },
+                    { "Scheduledetails": "Arrival in Ajmer at 1:30 PM." },
+                    { "Scheduledetails": "Transfer to hotel in pushkar, check-in, and get ready for sightseeing." },
+                    { "Scheduledetails": "Visit Brahma Temple, Varaha Ghat, Pushkar Lake, Rangji Temple." },
                     { "Scheduledetails": "Optional: Camel Desert Safari (at your own expense)." },
                     { "Scheduledetails": "Dinner at the hotel." },
                     { "Scheduledetails": "Explore the local market of Pushkar." },
-                    { "Scheduledetails": "Witness the beginning of Holi celebrations and Holika Dahan in local streets." },
+                    { "Scheduledetails": "Witness the beginning of Holi celebrations and Holika Dahan at Mela ground." },
                     { "Scheduledetails": "Experience the famous night events of Pushkar." },
                     { "Scheduledetails": "Note: All sightseeing will be covered by walking." }
                 ]
@@ -51,7 +51,7 @@ const Pushkar = {
                 Heading: "Holi Celebration in Pushkar",
                 Schedule: [
                     { "Scheduledetails": "Wake up early and have breakfast." },
-                    { "Scheduledetails": "Step out for Holi 2024 celebrations." },
+                    { "Scheduledetails": "Step out for Holi 2025 celebrations." },
                     { "Scheduledetails": "Experience 'Chhoti Holi' in Pushkar with your travel companions." },
                     { "Scheduledetails": "Immerse in the world's biggest color festival, enjoying the energy and excitement." },
                     { "Scheduledetails": "Spend the day grooving to music and the lively atmosphere." },
@@ -67,7 +67,7 @@ const Pushkar = {
                     { "Scheduledetails": "Proceed towards Indore via Ajmer." },
                     { "Scheduledetails": "Sightseeing in Ajmer: Visit Khwaja Sahab's Dargah and Ana Sagar Lake (boating if time permits)." },
                     { "Scheduledetails": "Continue the journey back to Indore." },
-                    { "Scheduledetails": "Expected arrival in Indore after 1:00 AM." },
+                    { "Scheduledetails": "Expected arrival in Indore after 1:00 PM." },
                     { "Scheduledetails": "Trip ends with colorful memories and an invitation to join future trips." },
                     { "Scheduledetails": "Motto: 'Work-Travel-Repeat'." }
                 ]
@@ -83,7 +83,7 @@ const Pushkar = {
         {
             icon:"Accommodation",
             name: "Accommodation",
-            inc: '3 star Accomodation'
+            inc: '3 star Accomodation with trusted partner'
         },
         {
             icon:"Meals",
@@ -126,21 +126,17 @@ const Pushkar = {
     thingstotake: [{
         icon:"Shoes",
             name: "Shoes",
-            inc: 'A good pair of hiking shoes.'
+            inc: 'A good pair of shoes.'
         },
         {
             icon:"Moisturizer",
             name: "Moisturizer",
             inc: 'Sunscreen or moisturizer, personal meds, and toiletries.'
         },
-        {
-            icon:"Hiking",
-            name: "Hiking",
-            inc: 'Raincoat, poncho, and windcheater jackets.'
-        },
+        
         {
             icon:"Umbrella",
-            name: "Umbrella",
+            name: "Accessories",
             inc: 'Caps/hats and a pair of sunglasses, towel, water bottle, and thermos flask, and an umbrella.'
         },
         {
