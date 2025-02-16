@@ -109,7 +109,7 @@ const Vrindavan = {
         {
             icon:"Transport",
             name: "Transport",
-            inc: "Any entry tickets, sightseeing (ex-City Palace, Karnimata Temple, and others)."
+            inc: "Monument entry tickets and expenses on any activitie and local cab"
         },
         {
             icon:"Meals",
