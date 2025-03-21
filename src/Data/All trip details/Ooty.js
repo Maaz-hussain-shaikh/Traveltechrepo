@@ -19,7 +19,7 @@ const Ooty = {
     pickup: "Bangalore",
     drop: "Bangalore",
     it: [ {
-        Heading: "Day 1: Bangalore to Mysore Sightseeing",
+        Heading: "Bangalore to Mysore Sightseeing",
         Schedule: [
             { "Scheduledetails": " Begin your journey with a pickup from Bangalore and travel to the historical city of Mysore." },
             { "Scheduledetails": " Upon arrival, embark on a sightseeing tour, visiting Mysore Palace, Chamundi Hill, and the vibrant Devaraja Market." },
@@ -28,7 +28,7 @@ const Ooty = {
         ]
     },
     {
-        Heading: "Day 2: Ooty Sightseeing",
+        Heading: "Ooty Sightseeing",
         Schedule: [
             { "Scheduledetails": " After breakfast, journey to the picturesque hill station of Ooty, known for its scenic beauty." },
             { "Scheduledetails": " Explore Ooty's attractions, including Ooty Lake, Botanical Gardens, Doddabetta Peak, and Rose Garden." },
@@ -38,7 +38,7 @@ const Ooty = {
         ]
     },
     {
-        Heading: "Day 3: Coonoor Sightseeing & Return to Ooty",
+        Heading: "Coonoor Sightseeing & Return to Ooty",
         Schedule: [
             { "Scheduledetails": " Head to Coonoor, a charming hill station near Ooty, known for its tea plantations and scenic landscapes." },
             { "Scheduledetails": " Visit Sim's Park, Lamb's Rock, Dolphin's Nose Viewpoint, and the enchanting tea gardens." },
@@ -48,7 +48,7 @@ const Ooty = {
         ]
     },
     {
-        Heading: "Day 4: Departure from Ooty to Bangalore",
+        Heading: "Departure from Ooty to Bangalore",
         Schedule: [
             { "Scheduledetails": " After breakfast, bid farewell to Ooty and embark on your journey back to Bangalore." },
             { "Scheduledetails": " Enjoy the scenic drive through the Nilgiri Hills as you head towards Bangalore." },

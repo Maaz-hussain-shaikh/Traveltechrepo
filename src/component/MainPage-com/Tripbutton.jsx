@@ -14,7 +14,7 @@ function Tripbutton() {
 
       <div className="nearby-destinations__destinations-bar jCihag">
         <span className="nearby-destinations__destinations-bar-item rounded-lg" onClick={() => { update("Group Departures") }}>Group Departures</span>
-        <span className="nearby-destinations__destinations-bar-item rounded-lg" onClick={() => { update("Backpacking Trips"); locate("/holitrips")  }} >Holi Trips</span>
+        <span className="nearby-destinations__destinations-bar-item rounded-lg" onClick={() => { update("Backpacking Trips"); locate("/")  }} >Long Trips</span>
         <span className="nearby-destinations__destinations-bar-item rounded-lg" onClick={() => { update("Weekend Trips") }}>Weekend Trips</span>
       </div>
       

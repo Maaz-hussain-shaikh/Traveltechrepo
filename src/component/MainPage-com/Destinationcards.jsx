@@ -38,7 +38,7 @@ const Destinationcards = () => {
       <div className="jCihag">
         <div className="kwYMGm ">
 
-        <div className="DividerWithHeading_bannerSubHeading__YJQl7 false "><div className="DividerWithHeading_subheadingDivider__s7Yq5"></div><h2 className="dlvSJV text-2xl font-black  font-bold text-center sm:text-4xl">Discover the <span className="text-orange-600">Trendiest</span> Travel Spots</h2><div className="DividerWithHeading_subheadingDivider__s7Yq5 DividerWithHeading_subheadingDividerFlip__0r76_"></div></div>       
+        <div className="DividerWithHeading_bannerSubHeading__YJQl7 false "><h2 className="dlvSJV text-2xl font-black  font-bold text-center sm:text-4xl">Discover the <span className="text-orange-600">Trendiest</span> Travel Spots</h2></div>       
           
         </div>
 

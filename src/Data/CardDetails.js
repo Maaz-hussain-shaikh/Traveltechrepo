@@ -121,33 +121,7 @@ const Maindetailsdata = {
 }
 // =========================================================sliding frist card =================================
 const Cardfirst = {
-    "Pushkar": {lable:"Best Seller",
-        imgurl: "/images/tripcard/Newyear/38.png",
-        iturl: "Details/Pushkar",
-        Price: "5499",
-        discount: "6499",
-        day:"2N/3D",
-        Season: "Holi Special",
-
-    },
-    "Mathura Vrindavan": {lable:"",
-        imgurl: "/images/tripcard/Newyear/37.png",
-        iturl: "Details/Vrindavan",
-        Price: "8499",
-        discount: "9499",
-        day:"4N/5D",
-        Season: "Holi Special",
-
-    },
-    "Sangla Chitkul": {lable:"",
-        imgurl: "/images/tripcard/Newyear/36.png",
-        iturl: "Details/Sangla",
-        Price: "13499",
-        discount: "14499",
-        day:"4N/5D",
-        Season: "Holi Special",
-
-    },
+    
     "Manali": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Manali.png",
         iturl: "Details/Manali",
@@ -157,15 +131,7 @@ const Cardfirst = {
         Season: "Dec-June",
 
     },
-    "Spiti": {lable:"",
-        imgurl: "images/tripcard/Newyear/Spitinew.png",
-        iturl: "Details/Newyearspiti",
-        Price: "16999",
-        discount: "19000",
-        day:"8N/9D",
-        Season: "Holi Special",
-
-    },
+    
     "Pachmarhi": {lable:"Best Seller",
         imgurl: "images/tripcard/Grouptrip/Pachmarhi.png",
         iturl: "Details/Pachmarhi",
@@ -184,6 +150,22 @@ const Cardfirst = {
         discount: "15499",
         day:"7N/8D",
         Season: "Dec-June",
+
+    },
+    "Kedarnath": {lable:"Null",
+        imgurl: "/images/tripcard/Grouptrip/Kedarnath.png",
+        iturl: "Details/Kedarnath",
+        Price: "10999",
+        discount: "5999",
+        day:"6N/7D",
+        Season: "Oct-Nov",
+    },"Spiti": {lable:"",
+        imgurl: "images/tripcard/Newyear/Spitinew.png",
+        iturl: "Details/Newyearspiti",
+        Price: "16999",
+        discount: "19000",
+        day:"8N/9D",
+        Season: "Holi Special",
 
     },
    "Goa": {lable:"Best Seller",
@@ -242,14 +224,6 @@ const Cardfirst = {
         Season: "Dec-jun",
 
     },
-    "Kedarnath": {lable:"Null",
-        imgurl: "/images/tripcard/Grouptrip/Kedarnath.png",
-        iturl: "Details/Kedarnath",
-        Price: "10999",
-        discount: "5999",
-        day:"6N/7D",
-        Season: "Oct-Nov",
-    },
     "Jaipur Ranthambore": {lable:"Null",
         imgurl: "images/tripcard/Grouptrip/Jaipur.png",
         iturl: "Details/Jaipur Ranthambore",
@@ -289,11 +263,7 @@ const Cardfirst = {
 // ======================================destination cards========================================
 
 const destinationard = {
-    "Pushker": {
-        url: "images/tripcard/Grouptrip/Pushkar.png",
-        href: "/holitrips",
-
-    },
+   
     "Kashmir": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_7.png",
         href: "/Destinations/Kashmir",
@@ -539,3 +509,31 @@ export { Cardfirst, reviewdata, destinationard, Honymooncards, FAQ, Maindetailsd
 
 
 
+// event card list
+// "Pushkar": {lable:"Best Seller",
+//         imgurl: "/images/tripcard/Newyear/38.png",
+//         iturl: "Details/Pushkar",
+//         Price: "5499",
+//         discount: "6499",
+//         day:"2N/3D",
+//         Season: "Holi Special",
+
+//     },
+//     "Mathura Vrindavan": {lable:"",
+//         imgurl: "/images/tripcard/Newyear/37.png",
+//         iturl: "Details/Vrindavan",
+//         Price: "8499",
+//         discount: "9499",
+//         day:"4N/5D",
+//         Season: "Holi Special",
+
+//     },
+//     "Sangla Chitkul": {lable:"",
+//         imgurl: "/images/tripcard/Newyear/36.png",
+//         iturl: "Details/Sangla",
+//         Price: "13499",
+//         discount: "14499",
+//         day:"4N/5D",
+//         Season: "Holi Special",
+
+//     },

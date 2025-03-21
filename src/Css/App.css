@@ -15,6 +15,7 @@
   -webkit-transition: .2s linear;
   transition: .2s linear;
 }
+
 /* =================react silk ========================== */
 /* SliderComponent.css */
 .slick-slide {
@@ -61,7 +62,9 @@
 }
 
 /* CircularStd,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif !important */
-
+body {
+  overflow-x: hidden;
+}
 html {
   margin: 0 !important;
   padding: 0 !important;
