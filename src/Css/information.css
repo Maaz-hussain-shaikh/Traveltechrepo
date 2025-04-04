@@ -1,0 +1,77 @@
+/* lemon pie :- #FDE24D */
+
+.text-text {
+    --text-opacity: 1;
+    color: #4d585b;
+    color: rgba(77,88,91,var(--text-opacity));
+}
+@media (min-width: 640px){
+.sm\:h-144 {
+    height: 36rem;
+}}
+
+@media (min-width: 640px){
+.sm\:block {
+    display: block;
+}}
+@media (min-width: 640px){
+    .sm\:rounded-lg {
+        border-radius: 0.5rem;
+    }
+}
+.h-96 {
+    height: 80vh;
+}
+@media (min-width: 640px){
+    .sm\:rounded-lg {
+        border-radius: 0.5rem;
+    }
+}
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -1px rgba(0,0,0,.06);
+}
+
+.tracking-wide {
+    letter-spacing: .025em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.font-black {
+    font-weight: 700;
+}
+
+.bg-orange {
+    --bg-opacity: 1;
+    background-color: #f15824;
+    background-color: rgba(241,88,36,var(--bg-opacity));
+}
+
+
+*, :after, :before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e2e8f0;
+}
+
+
+.border-accent {
+    --border-opacity: 1;
+    border-color: #e8f0f2;
+    border-color: rgba(232,240,242,var(--border-opacity));
+}
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
