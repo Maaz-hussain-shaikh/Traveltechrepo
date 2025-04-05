@@ -174,10 +174,7 @@ const Kerala3n4d =
         inc: 'Useful for separating dirty or wet clothes from the rest of your belongings.'
     },
     ],
-    Genterms: [{
-        key: "refundPolicy",
-        description: "If cancellations are made 30 days before the start date of the trip, 50% of total tour cost will be charged as cancellation fees."
-    },
+    Genterms: [
     {
         key: "narcoticsPolicy",
         description: "Travel Tech and its organizers strictly prohibit the utilization of any narcotics and banned substances during the tours and will not be responsible for any adversities due to the same."

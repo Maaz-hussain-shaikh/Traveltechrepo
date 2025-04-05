@@ -3,7 +3,7 @@ const  Uttrakhand = {
     startingprice:"12999",
     Destinationname:"Uttrakhand",
     descount:"15999",
-    get:"30",
+    get:"Upto 30",
 
     trips:
     [{

@@ -160,10 +160,7 @@ const UdaipurMauntabu = {
             inc: 'First Aid Kit, mask, and sanitizer.'
         },
     ],
-    Genterms: [{
-            key: "refundPolicy",
-            description: "The booking amount is 100% refundable if a cancellation is made 21 days prior to the commencement date."
-        },
+    Genterms: [
         {
             key: "narcoticsPolicy",
             description: "Travel Tech and its organizers strictly prohibit the utilization of any narcotics and banned substances during the tours and will not be responsible for any adversities due to the same."

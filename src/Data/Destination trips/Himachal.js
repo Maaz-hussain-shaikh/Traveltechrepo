@@ -8,7 +8,7 @@ const  Himachal = {
     trips:
     [
         {
-            name: " Manali Group Trip with free river rafting",
+            name: " Manali Kasol Group Trip ",
             to:"Delhi To Delhi",
             lable:"Best Seller",
             Days:"5N-6D",
@@ -19,7 +19,7 @@ const  Himachal = {
     
         },
         {
-            name: " Manali Group Trip From Indore with free river rafting",
+            name: " Manali Group Trip From Indore ",
             to:"Indore To Indore",
             lable:"Best Seller",
             Days:"6N-7D",

@@ -95,7 +95,7 @@ const Pachmarhi = {
 
     },
     {
-        Heading: "adventure continues | Gyspsy safari | waterfall | sunset point",
+        Heading: "Adventure continues | Gyspsy safari | waterfall | sunset point",
         Schedule: [
             { Scheduledetails: "Start your day with a wakeup call.Enjoy your breakfast checkout from the resort then get briefed about your Trip." },
             { Scheduledetails: "A day is with full of advanture with gypsy ride. Get ready to soak in the beauty of places and explore other places." },
@@ -104,7 +104,7 @@ const Pachmarhi = {
         ]
     },
     {
-        Heading: "arrival at your home with lots of memories with strangers",
+        Heading: "Arrival at your home with lots of memories with strangers",
         Schedule: [
             { Scheduledetails: "Drop in bhopal at 2:00 AM and indore at 6:30 AM " },
             { Scheduledetails: `Trip ends here but memories will last forever. And you can call yourself a #Traveltrekker and now part of Central India's fastest-growing and coolest community. We hope you will join us in upcoming fun-filled trips.` },
@@ -121,7 +121,7 @@ const Pachmarhi = {
     {
         "name": "Accommodation",
         "icon": "Accommodation",
-        "inc": "1 Night stay Accommodation 3 star Resort/Hotel With 2 Overnight journey"
+        "inc": "1 Night Accommodation in Resort/Hotel With 2 Overnight journey"
     },
     {
         "name": "Meals",
@@ -216,10 +216,7 @@ thingstotake: [{
         "inc": "Useful for separating dirty or wet clothes from the rest of your belongings."
     }
 ],
-    Genterms: [{
-        key: "refundPolicy",
-        description: "If cancellations are made 30 days before the start date of the trip, 50% of total tour cost will be charged as cancellation fees."
-    },
+    Genterms: [
     {
         key: "narcoticsPolicy",
         description: "Travel Tech and its organizers strictly prohibit the utilization of any narcotics and banned substances during the tours and will not be responsible for any adversities due to the same."

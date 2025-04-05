@@ -49,6 +49,9 @@ import { Vrindavan } from "./Destination trips/Newyeartrips/Vrindavan"
 import { Pushkar } from "./Destination trips/Newyeartrips/Pushkar"
 import Sangla from "./Destination trips/Newyeartrips/Sangla"
 import { Chardham } from "./Destination trips/Uttrakhand/Chardham"
+import Rajisthan from "./Destination trips/Rajisthan"
+import Maharashtra from "./Destination trips/Maharashtra"
+import Ladakh from "./Destination trips/Ladakh"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
@@ -74,6 +77,7 @@ const Maindetailsdata = {
     "Udaipurmauntabu": { info: UdaipurMauntabu},
     "Jaipur Ranthambore": { info: JaipurRanthambore }, 
     "Jodhpur Jaisalmer": { info: Jodhpur },
+    "Rajisthan": { more: Rajisthan },
     // =====================================================andaman==========================    
     "Andaman": { info: Andaman, more: Kashmir_trips },
     // ======================================================sikkim=======================================
@@ -84,7 +88,8 @@ const Maindetailsdata = {
     // ==============================================ladakh=================================    
     "leh_6day": { info: Ladakh6daystrip },
     "leh_13day": { info:Ladakh13daystrip },
-    // =============================================maharashtra===============================    
+"Ladakh": { more:Ladakh },
+    // =============================================Goa===============================    
     "Goa": { info: Goagroup },
     // =========================================================Kerala=======================
     "Kerala": { more: Kerala },
@@ -97,9 +102,10 @@ const Maindetailsdata = {
     "Chardham": { info: Chardham },
     "Rishikesh Haridwar": { info: Rishikeshharidwar },
     "Uttrakhand": { more: Uttrakhand },
-    //======================================Lonavala ======================================
+    //======================================Maharashtra======================================
     "Lonavala": { info: Lonavalakhandala },
     "Lonavalaimagica": {info: Lonavalakhandalaimagica},
+    "Maharashtra": {more: Maharashtra},
     // =============================Kanakisli=================================
     "Kanahkisli": { info: Kanakisli },
     // ========================================Ooty=============================
@@ -290,7 +296,7 @@ const destinationard = {
     },
     "Ladakh": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_2.png",
-        href: "/Details/leh_6day",
+        href: "/Destinations/Ladakh",
 
     },
     "Uttrakhand": {
@@ -300,7 +306,7 @@ const destinationard = {
     },
     "Rajasthan": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_4.png",
-        href: "/Details/Jodhpur Jaisalmer"
+        href: "/Destinations/Rajisthan"
     },
     "Kerala": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_5.png",
@@ -311,9 +317,9 @@ const destinationard = {
         href: "/Details/Meghalaya",
 
     },
-    "Goa": {
+    "Maharashtra": {
         url: "images/tripcard/Destinationimgs/Maincard/Destination_9.png",
-        href: "/Details/Goa",
+        href: "/Destinations/Maharashtra",
 
     },
     "Ayodhya and Kashi": {

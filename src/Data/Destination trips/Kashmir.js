@@ -3,7 +3,7 @@ const Kashmir_trips = {
     startingprice: "13499",
     Destinationname: "Kashmir",
     descount: "13899",
-    get: "30",
+    get: "Upto 30",
 
     trips:
         [{

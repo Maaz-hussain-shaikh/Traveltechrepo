@@ -79,8 +79,10 @@ Join us and make your sacred journey truly divine! ✨🚩 #ChardhamYatra #Spiri
                 { Scheduledetails: "Early morning drive to Gaurikund, the base point for the Kedarnath trek." },
                 { Scheduledetails: "Start the trek to Kedarnath (on foot, pony, or doli)." },
                 { Scheduledetails: "Reach the sacred Kedarnath Temple and attend the evening Aarti." },
-                { Scheduledetails: "Stay in camps/guesthouses near the temple." },
-                { Scheduledetails: "Dinner & overnight stay in Kedarnath." }
+                { Scheduledetails: "Stay in camps/guesthouses." },
+                { Scheduledetails: "Dinner & overnight stay in Kedarnath." },
+                { Scheduledetails: "Trekking Route: If you opt for trekking to Kedarnath, our traveler/cab will drop you off at Sonprayag (PARKING). From there, you'll need to arrange for a local jeep to transport you to Gaurikund, the starting point for your 14 km trek to Kedarnath Ji. The same procedure applies for your return journey (at your own expense),"},
+            { Scheduledetails: "Upon reaching Kedarnath, only bucket of warm water will be provided, as there are no functioning geysers available. Accommodation at Kedarnath will be shared, with communal washrooms available, and sleeping bags provided for camp or hotel stays." }
             ]
         },
         {
@@ -207,10 +209,7 @@ Join us and make your sacred journey truly divine! ✨🚩 #ChardhamYatra #Spiri
             "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
         }
     ],
-    Genterms: [{
-        key: "refundPolicy",
-        description: "The booking amount is 100% refundable if a cancellation is made 21 days prior to the commencement date."
-    },
+    Genterms: [
     {
         key: "narcoticsPolicy",
         description: "Travel Tech and its organizers strictly prohibit the utilization of any narcotics and banned substances during the tours and will not be responsible for any adversities due to the same."

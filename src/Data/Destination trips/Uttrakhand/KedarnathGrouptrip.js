@@ -70,7 +70,7 @@ const KedarnathGroup = {
             Schedule: [
                 { Scheduledetails: "Stop at Devprayag to witness the sacred confluence of the Alaknanda & Bhagirathi Rivers, forming the holy Ganga." },
                 { Scheduledetails: "If time permits, visit the revered Dhari Devi Temple in Srinagar, Uttarakhand." },
-                { Scheduledetails: "Arrive in Guptakashi by late afternoon and check in at the campsite." },
+                { Scheduledetails: "Arrive in Guptakashi by late afternoon and check in at the Hotel." },
                 { Scheduledetails: "Relax and acclimatize after a long journey." },
                 { Scheduledetails: "Trip briefing for the next day’s Kedarnath trek." },
                 { Scheduledetails: "Dinner & overnight stay in Guptakashi." }
@@ -85,7 +85,9 @@ const KedarnathGroup = {
                 { Scheduledetails: "Begin the 22 km trek to Kedarnath Temple, a breathtaking journey through the Garhwal Himalayas (8-10 hours, depending on pace)." },
                 { Scheduledetails: "Arrive at Kedarnath Dham, check into a basic homestay (100m from the temple), and freshen up." },
                 { Scheduledetails: "Temple Darshan: Evening visit or early morning darshan (2-3 AM next day) based on health condition." },
-                { Scheduledetails: "Dinner & overnight stay at Kedarnath homestay (quad & penta sharing)." }
+                { Scheduledetails: "Dinner & overnight stay at Kedarnath homestay/Camps (quad & penta sharing)." },
+                { Scheduledetails: "Trekking Route: If you opt for trekking to Kedarnath, our traveler/cab will drop you off at Sonprayag (PARKING). From there, you'll need to arrange for a local jeep to transport you to Gaurikund, the starting point for your 14 km trek to Kedarnath Ji. The same procedure applies for your return journey (at your own expense),"},
+            { Scheduledetails: "Upon reaching Kedarnath, only bucket of warm water will be provided, as there are no functioning geysers available. Accommodation at Kedarnath will be shared, with communal washrooms available, and sleeping bags provided for camp or hotel stays." }
             ]
         },
         {
@@ -205,10 +207,7 @@ const KedarnathGroup = {
             "inc": "Band-aids, Bandages, Dettol, and medicines for dehydration, cold, and headache"
         }
     ],
-    Genterms: [{
-        key: "refundPolicy",
-        description: "The booking amount is 100% refundable if a cancellation is made 21 days prior to the commencement date."
-    },
+    Genterms: [
     {
         key: "narcoticsPolicy",
         description: "Travel Tech and its organizers strictly prohibit the utilization of any narcotics and banned substances during the tours and will not be responsible for any adversities due to the same."
