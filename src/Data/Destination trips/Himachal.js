@@ -69,15 +69,16 @@ const  Himachal = {
             to:"Delhi To Delhi",
             Discount: "17499/-"
         },
-        // {
-        //     name: "Shimla Manali with Dalhusie And Amritsar",
-        //     lable:"Customized",           
-        //     Days:"7N-8D",
-        //     imgurl: "/images/tripcard/Destinationimgs/Manali/Destination_9.png",
-        //     iturl: "/Details/Shimla manali dalhusie",
-        //     Price: "13499",
-    
-        // },
+        {
+            name: "Backpacking Himachal",
+            lable:"Customized",           
+            Days:"8N-9D",
+            imgurl: "/images/tripcard/Destinationimgs/Manali/29.png",
+            iturl: "/Details/Backpacking Himachal",
+            Price: "14799",
+            to:"Delhi To Delhi",
+            Discount: "17799/-"
+        },
         
         
        

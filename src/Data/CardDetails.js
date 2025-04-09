@@ -52,11 +52,14 @@ import { Chardham } from "./Destination trips/Uttrakhand/Chardham"
 import Rajisthan from "./Destination trips/Rajisthan"
 import Maharashtra from "./Destination trips/Maharashtra"
 import Ladakh from "./Destination trips/Ladakh"
+import HimachalBackpacking from "./Destination trips/Himachal/Backpacking"
+import { Dodham } from "./Destination trips/Uttrakhand/Dodham"
 // ================================================================Main details data===========================
 
 const Maindetailsdata = {
     // ===========================================Himachal================================
     "Manali": { info: Manali },     
+    "Backpacking Himachal": { info: HimachalBackpacking },
     "Manali with Kullu": { info: Manali4n5d },
     "DelhiManali": { info: ManaliFromDelhi },
     "Kullu manali": { info: Kullumanali4n5d },
@@ -100,6 +103,7 @@ const Maindetailsdata = {
     "Kedarnath": { info: Kedarnath },
     "KedarnathGroup": { info: KedarnathGroup },
     "Chardham": { info: Chardham },
+    "Dodham": { info: Dodham },
     "Rishikesh Haridwar": { info: Rishikeshharidwar },
     "Uttrakhand": { more: Uttrakhand },
     //======================================Maharashtra======================================
@@ -162,7 +166,7 @@ const Cardfirst = {
         Season: "Dec-June",
 
     },
-    "Chardham Yatra": {lable:"Null",
+    "Chardham Yatra": {lable:"Chardham",
         imgurl: "/images/tripcard/Grouptrip/Chardham.png",
         iturl: "Details/Chardham",
         Price: "20499",
@@ -185,7 +189,7 @@ const Cardfirst = {
         Price: "16999",
         discount: "19000",
         day:"8N/9D",
-        Season: "Holi Special",
+        Season: "Dec-jun",
 
     },
    "Goa": {lable:"Best Seller",
